@@ -1,0 +1,20 @@
+.footer {
+  margin-top: calc(var(--mantine-spacing-xl) * 2);
+  border-top: rem(1px) solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-5));
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--mantine-spacing-md) var(--mantine-spacing-md);
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    flex-direction: column;
+  }
+}
+
+.logo {
+    font-weight: bold;
+    color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
+}
