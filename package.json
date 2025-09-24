@@ -13,6 +13,7 @@
     "@mantine/form": "^8.3.2",
     "@mantine/hooks": "^8.3.2",
     "@tabler/icons-react": "^3.35.0",
+    "framer-motion": "^12.23.21",
     "gray-matter": "^4.0.3",
     "next": "15.5.4",
     "nodemailer": "^7.0.6",

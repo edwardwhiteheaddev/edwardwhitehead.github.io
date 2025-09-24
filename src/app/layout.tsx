@@ -5,6 +5,10 @@ import { theme } from "../theme";
 import type { Metadata } from 'next';
 import { AppShellWrapper } from "@/components/AppShellWrapper";
 import { Footer } from "@/components/Footer";
+import { Inter, Lora } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
+const lora = Lora({ subsets: ['latin'], variable: '--font-lora' });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://edwardwhitehead.github.io'),
@@ -29,7 +33,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.variable} ${lora.variable}`}>
       <head>
         <ColorSchemeScript />
         <link rel="shortcut icon" href="/favicon.ico" />
