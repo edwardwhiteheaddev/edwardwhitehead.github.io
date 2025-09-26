@@ -1,0 +1,73 @@
+.wrapper {
+    position: relative;
+    box-sizing: border-box;
+    background-color: var(--mantine-color-dark-8);
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.inner {
+    position: relative;
+    padding: 120px 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+    @media (max-width: 100em) {
+        padding: 80px 20px;
+    }
+}
+
+.title {
+    font-family: 'Sequel', Outfit, var(--mantine-font-family);
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 1.0;
+    margin: 0;
+    padding: 0;
+    color: var(--mantine-color-white);
+    letter-spacing: -0.02em;
+
+    @media (max-width: 48em) {
+        font-size: 56px;
+        line-height: 1.1;
+    }
+}
+
+.description {
+    margin-top: var(--mantine-spacing-xl);
+    font-size: 24px;
+
+    @media (max-width: 48em) {
+        font-size: 18px;
+    }
+}
+
+.controls {
+    margin-top: calc(var(--mantine-spacing-xl) * 2);
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: 48em) {
+        margin-top: var(--mantine-spacing-xl);
+    }
+}
+
+.control {
+    height: 54px;
+    padding-left: 38px;
+    padding-right: 38px;
+
+    @media (max-width: 768px) {
+        height: 54px;
+        padding-left: 18px;
+        padding-right: 18px;
+        flex: 1;
+    }
+}

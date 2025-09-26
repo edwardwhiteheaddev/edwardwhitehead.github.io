@@ -1,10 +1,14 @@
-import "@mantine/core/styles.css";
-import React from "react";
-import { MantineProvider, ColorSchemeScript } from "@mantine/core";
-import { theme } from "../theme";
-import type { Metadata } from 'next';
 import { AppShellWrapper } from "@/components/AppShellWrapper";
 import { Footer } from "@/components/Footer";
+import { ColorSchemeScript, MantineProvider } from "@mantine/core";
+import "@mantine/core/styles.css";
+import type { Metadata } from 'next';
+import { Inter, Lora } from 'next/font/google';
+import React from "react";
+import { theme } from "../theme";
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
+const lora = Lora({ subsets: ['latin'], variable: '--font-lora' });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://edwardwhitehead.github.io'),
@@ -15,11 +19,11 @@ export const metadata: Metadata = {
     description: "An experienced software developer focused on AI, web, mobile, and leadership.",
     url: 'https://edwardwhitehead.github.io',
     siteName: 'Edward Whitehead Portfolio',
-    images: [ { url: '/og-banner.png', width: 1200, height: 630, }, ],
+    images: [{ url: '/og-banner.png', width: 1200, height: 630, },],
     locale: 'en_US',
     type: 'website',
   },
-   twitter: {
+  twitter: {
     card: 'summary_large_image',
     title: 'Edward Whitehead | Seasoned Software Developer',
     description: 'An experienced software developer focused on AI, web, mobile, and leadership.',
@@ -29,7 +33,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.variable} ${lora.variable}`} suppressHydrationWarning>
       <head>
         <ColorSchemeScript />
         <link rel="shortcut icon" href="/favicon.ico" />

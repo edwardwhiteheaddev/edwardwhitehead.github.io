@@ -1,1 +1,17 @@
-/* No global styles are needed as Mantine handles this */
+/* Custom Fonts */
+@font-face {
+    font-family: 'Sequel';
+    src: url('../assets/fonts/Sequel.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Prevent horizontal overflow */
+html,
+body {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+/* No other global styles are needed as Mantine handles this */
