@@ -1,7 +1,9 @@
 'use client';
 
+import logo from '@/assets/logo.png';
 import { AppShell, Burger, Group, NavLink } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
+import Image from 'next/image';
 import Link from 'next/link';
 
 const links = [
@@ -28,38 +30,58 @@ export function AppShellWrapper({ children }: { children: React.ReactNode }) {
 
   return (
     <AppShell
-      header={{ height: 60 }}
+      header={{ height: '120px' }}
       navbar={{
         width: 300,
         breakpoint: 'sm',
-        collapsed: { mobile: !opened },
+        collapsed: { mobile: !opened, desktop: true }
       }}
-      padding="md"
+      styles={{ main: { backgroundColor: 'var(--mantine-color-dark-7)' } }}
     >
       <AppShell.Header>
-        <Group h="100%" px="md" justify="space-between">
+        <Group h="100%" px="md" justify="space-between" hiddenFrom="sm">
+          {/* Mobile layout - centered logo with burger */}
+          <div style={{ width: '40px' }}></div> {/* Spacer for symmetry */}
           <Link href="/" style={{ textDecoration: 'none', color: 'inherit', fontWeight: 'bold' }}>
-            Edward Whitehead
+            <Image
+              src={logo.src}
+              alt="Logo"
+              width={318.94}
+              height={40}
+              style={{ height: "auto" }}
+            />
           </Link>
-          <Group gap={5} visibleFrom="sm">
+          <Burger
+            opened={opened}
+            onClick={toggle}
+            size="sm"
+          />
+        </Group>
+
+        <Group h="100%" px="md" justify="space-between" visibleFrom="sm">
+          {/* Desktop layout - left-aligned logo with nav */}
+          <Link href="/" style={{ textDecoration: 'none', color: 'inherit', fontWeight: 'bold' }}>
+            <Image
+              src={logo.src}
+              alt="Logo"
+              width={318.94}
+              height={40}
+              style={{ height: "auto" }}
+            />
+          </Link>
+          <Group gap={5}>
             {links.map((link) => (
               <Link key={link.label} href={link.link} style={{ padding: '8px 12px', textDecoration: 'none', color: 'inherit', fontSize: '14px' }}>
                 {link.label}
               </Link>
             ))}
           </Group>
-          <Burger
-            opened={opened}
-            onClick={toggle}
-            hiddenFrom="sm"
-            size="sm"
-          />
         </Group>
       </AppShell.Header>
 
       <AppShell.Navbar p="md">{navLinks}</AppShell.Navbar>
 
-      <AppShell.Main>{children}</AppShell.Main>
+      <AppShell.Main style={{ width: '100%' }}>{children}</AppShell.Main>
     </AppShell>
   );
 }
