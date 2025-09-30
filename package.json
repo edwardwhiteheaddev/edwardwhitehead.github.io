@@ -14,6 +14,8 @@
     "@mantine/hooks": "^8.3.2",
     "@mantinex/dev-icons": "^2.0.0",
     "@tabler/icons-react": "^3.35.0",
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^5.3.3",
     "framer-motion": "^12.23.21",
     "gray-matter": "^4.0.3",
     "next": "15.5.4",
@@ -22,17 +24,23 @@
     "postcss-preset-mantine": "^1.18.0",
     "postcss-simple-vars": "^7.0.1",
     "react": "19.1.0",
+    "react-circular-progressbar": "^2.1.0",
     "react-dom": "19.1.0",
+    "react-scroll": "^1.9.3",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
-    "server-only": "^0.0.1"
+    "sass": "^1.93.2",
+    "server-only": "^0.0.1",
+    "typed.js": "^2.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/nodemailer": "^7.0.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/react-scroll": "^1.8.6",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
     "typescript": "^5"

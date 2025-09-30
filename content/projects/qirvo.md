@@ -5,6 +5,7 @@ category: 'AI & Web Development'
 image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
 date: 'August 2023'
 description: 'An AI-powered life dashboard designed to manage various aspects of life. It uses AI to deliver intelligent analysis of tasks, health, projects, and more.'
+url: 'https://github.com/Qirvo'
 ---
 
 ## Qirvo - AI Life Dashboard
@@ -18,20 +19,18 @@ To create a comprehensive digital assistant that learns from user behavior and p
 ## Core Features
 
 - **AI-Powered Analytics** for task prioritization
-- **Health Tracking Integration** with wearable devices
-- **Project Management** with intelligent scheduling
+- **Health Tracking** to improve health and mental fitness
+- **Project Management** with integration into GitHub projects
 - **Habit Tracking** and behavior analysis
 - **Personalized Recommendations** based on user patterns
 - **Natural Language Processing** for voice commands
 
 ## Technical Architecture
 
-- **Frontend**: React with TypeScript
-- **AI/ML**: Python with TensorFlow and scikit-learn
+- **Frontend**: Next.js & React with TypeScript
 - **Backend**: Node.js with Express
-- **Database**: PostgreSQL with vector storage for embeddings
-- **Real-time Processing**: Apache Kafka
-- **Cloud Services**: AWS with serverless functions
+- **Database**: MongoDB
+- **Cloud Services**: Vercel
 
 ## AI Capabilities
 

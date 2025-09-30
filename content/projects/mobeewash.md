@@ -2,12 +2,12 @@
 id: 1
 title: 'MobeeWash - Mobile Car Wash Platform'
 category: 'Mobile Development'
-image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
-date: 'September 2022'
+image: 'https://images.unsplash.com/photo-1607860108855-64acf2078ed9?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0w=720&q=80'
+date: 'Oct 2019 – Sep 2021'
 description: 'A mobile car wash booking application. I served as the Team Lead for this project at Bumblebee.'
 ---
 
-# MobeeWash - Mobile Car Wash Platform
+## MobeeWash - Mobile Car Wash Platform
 
 MobeeWash is a comprehensive mobile car wash booking application that revolutionized the car care industry by bringing professional car wash services directly to customers' locations.
 
@@ -22,15 +22,12 @@ As the Team Lead for this project at Bumblebee, I oversaw the development of a f
 - **Multiple service packages** and customization options
 - **Payment integration** with secure processing
 - **Rating and review system** for quality assurance
-- **GPS-based location services** for accurate pickup
 
 ## Technologies Used
 
-- **Mobile Development**: React Native
-- **Backend**: Node.js with Express
-- **Database**: MongoDB
-- **Real-time Communication**: Socket.io
-- **Payment Processing**: Stripe integration
+- **Mobile Development**: IONIC
+- **Backend**: .Net Restful API
+- **Database**: SQL
 - **Maps**: Google Maps API
 
 ## My Role

@@ -2,7 +2,7 @@
     position: relative;
     box-sizing: border-box;
     background-color: var(--mantine-color-dark-8);
-    width: 100vw;
+    width: 100%;
     margin-left: calc(-50vw + 50%);
     min-height: 100vh;
     display: flex;

@@ -1,14 +1,17 @@
-import { AppShellWrapper } from "@/components/AppShellWrapper";
-import { Footer } from "@/components/Footer";
-import { ColorSchemeScript, MantineProvider } from "@mantine/core";
+import { KyrosFooter } from '@/components/kyros/Footer';
+import { KyrosNavbar } from '@/components/kyros/Navbar';
+import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import "@mantine/core/styles.css";
+import 'aos/dist/aos.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import type { Metadata } from 'next';
-import { Inter, Lora } from 'next/font/google';
-import React from "react";
-import { theme } from "../theme";
+import { Roboto, Saira } from 'next/font/google';
+import React from 'react';
+import { theme } from '../theme';
+import './globals.scss';
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
-const lora = Lora({ subsets: ['latin'], variable: '--font-lora' });
+const saira = Saira({ subsets: ['latin'], variable: '--font-saira', weight: ['400', '500', '600', '700', '800'] });
+const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto', weight: ['300', '400', '500', '700'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://edwardwhitehead.github.io'),
@@ -33,7 +36,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${inter.variable} ${lora.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${saira.variable} ${roboto.variable}`} suppressHydrationWarning>
       <head>
         <ColorSchemeScript />
         <link rel="shortcut icon" href="/favicon.ico" />
@@ -41,11 +44,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
         />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
+        />
       </head>
       <body>
         <MantineProvider theme={theme}>
-          <AppShellWrapper>{children}</AppShellWrapper>
-          <Footer />
+          <KyrosNavbar />
+          <main style={{ minHeight: '100vh', paddingTop: '120px' }}>{children}</main>
+          <KyrosFooter />
         </MantineProvider>
       </body>
     </html>

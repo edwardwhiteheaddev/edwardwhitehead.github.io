@@ -1,24 +1,13 @@
+import { Project } from '@/schemas/Project';
 import { Button, Container, Paper, SimpleGrid, Text, Title } from '@mantine/core';
 import Link from 'next/link';
 import classes from './ProjectCardsSection.module.css';
 
-interface Project {
-    id: number;
-    title: string;
-    slug: string;
-    category: string;
-    image: string;
-    date: string;
-    description: string;
-    url?: string;
-}
-
 interface ProjectCardsProps {
-    title: string;
     projects: Project[];
 }
 
-export function ProjectCardsGrid({ title, projects }: ProjectCardsProps) {
+export function ProjectCardsGrid({ projects }: ProjectCardsProps) {
     const cards = projects.map((project) => (
         <Paper
             key={project.title}
@@ -56,8 +45,8 @@ export function ProjectCardsGrid({ title, projects }: ProjectCardsProps) {
 
     return (
         <div className={classes.wrapper}>
-            <Title ta="center" className={classes.title} mt="sm">
-                {title || 'FEATURED PROJECTS'}
+            <Title ta="center" className={classes.pageTitle} mt="sm">
+                FEATURED PROJECTS
             </Title>
             <Container py="xl">
                 <SimpleGrid cols={{ base: 1, sm: 2 }} spacing={{ base: 0, sm: 'md' }}>
