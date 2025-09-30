@@ -6,6 +6,12 @@ const nextConfig = {
   // Disable image optimization for static export
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+    ],
   },
 };
 

@@ -3,6 +3,7 @@
 import { Container, Group, ActionIcon, rem } from '@mantine/core';
 import { IconBrandGithub, IconBrandLinkedin } from '@tabler/icons-react';
 import classes from './Footer.module.css';
+import ScrollToTop from './ScrollToTop';
 
 export function Footer() {
   return (
@@ -32,6 +33,7 @@ export function Footer() {
           </ActionIcon>
         </Group>
       </Container>
+      <ScrollToTop />
     </div>
   );
 }

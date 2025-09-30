@@ -128,7 +128,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                     <Group>
                         <Button
                             component={Link}
-                            href="/projects"
+                            href="/#projects"
                             variant="filled"
                             size="lg"
                         >
@@ -137,12 +137,25 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
                         <Button
                             component={Link}
-                            href="/contact"
+                            href="/#contact"
                             variant="outline"
                             size="lg"
                         >
                             Get In Touch
                         </Button>
+
+                        {projectData.url && (
+                            <Button
+                                component={Link}
+                                href={projectData.url}
+                                variant="outline"
+                                size="lg"
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                GitHub Repository
+                            </Button>
+                        )}
                     </Group>
                 </Stack>
             </Container>
