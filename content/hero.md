@@ -4,10 +4,10 @@ title: "DOING"
 titleGradientText: "WHAT I LOVE,"
 titleEndText: "REMOTELY!"
 btnGradientIsEnabled: true
-btnGradientHref: "/projects"
+btnGradientHref: "/#projects"
 btnGradientText: "View My Work"
 btnDefaultIsEnabled: true
-btnDefaultHref: "/contact"
+btnDefaultHref: "/#contact"
 btnDefaultText: "Get In Touch"
 typedPhrases:
   - "Software Architect"
