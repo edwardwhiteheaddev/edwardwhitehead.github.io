@@ -1,8 +1,8 @@
 ---
 name: "Edward Whitehead"
-title: "DOING"
-titleGradientText: "WHAT I LOVE,"
-titleEndText: "REMOTELY!"
+title: "A SEASONED"
+titleGradientText: "SOFTWARE DEVELOPER,"
+titleEndText: "AND ENTREPRENEUR."
 btnGradientIsEnabled: true
 btnGradientHref: "/#projects"
 btnGradientText: "View My Work"
