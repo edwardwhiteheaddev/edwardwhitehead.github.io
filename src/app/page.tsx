@@ -167,11 +167,6 @@ export default async function HomePage() {
         locations={heroData.locations ?? []}
         buttons={normalizeButtons(heroData)}
       />
-      <AboutSection
-        title={aboutData.title}
-        contentHtml={aboutData.contentHtml}
-        skillProgress={aboutData.skillProgress ?? []}
-      />
       <SkillsSection
         title={skillsData.title}
         subtitle={skillsData.subtitle}
@@ -180,6 +175,11 @@ export default async function HomePage() {
       <ExperienceSection
         title={experienceData.title}
         experience={experienceData.jobs ?? []}
+      />
+      <AboutSection
+        title={aboutData.title}
+        contentHtml={aboutData.contentHtml}
+        skillProgress={aboutData.skillProgress ?? []}
       />
       <ProjectsSection title={projectsData.title} projects={projectsData.projects ?? []} />
       <ContactSection
