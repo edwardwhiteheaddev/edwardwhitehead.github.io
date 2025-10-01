@@ -171,6 +171,7 @@ export default async function HomePage() {
         title={skillsData.title}
         subtitle={skillsData.subtitle}
         skills={skillsData.skills ?? []}
+        contentHtml={skillsData.contentHtml}
       />
       <ExperienceSection
         title={experienceData.title}

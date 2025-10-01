@@ -471,6 +471,60 @@ section {
     margin: 0;
 }
 
+/* Skills Highlights */
+.kyros-skills-highlights {
+    margin-top: 4rem;
+}
+
+.kyros-skills-highlights__content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.kyros-skills-highlights__content ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.kyros-skills-highlights__content li {
+    background: var(--kyros-panel);
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid var(--kyros-border);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kyros-skills-highlights__content li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
+}
+
+.kyros-skills-highlights__content strong {
+    color: var(--kyros-primary);
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.kyros-skills-highlights__content li::before {
+    content: none;
+}
+
+@media (max-width: 768px) {
+    .kyros-skills-highlights__content ul {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .kyros-skills-highlights__content li {
+        padding: 20px;
+    }
+}
+
 /* Resume */
 .kyros-resume {
     display: grid;
