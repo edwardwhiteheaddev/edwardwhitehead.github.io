@@ -73,7 +73,7 @@ export function KyrosNavbar() {
                     <span>
                         <a href="tel:+27617609568">+27 61-760-9568</a> |{' '}
                         <a href="mailto:ed.surreal@gmail.com">ed.surreal@gmail.com</a> |{' '}
-                        <Link href="https://www.linkedin.com/in/edward-whitehead-927b6214b/" target="_blank" rel="noopener noreferrer">LinkedIn</Link> |{' '}
+                        <Link href="https://www.linkedin.com/in/edwardwhiteheaddev/" target="_blank" rel="noopener noreferrer">LinkedIn</Link> |{' '}
                         <Link href="https://github.com/ultracoolbru" target="_blank" rel="noopener noreferrer">GitHub</Link></span>
                 </div>
                 <div className="kyros-navbar__inner">

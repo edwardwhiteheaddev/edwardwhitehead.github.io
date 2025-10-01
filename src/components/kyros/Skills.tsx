@@ -12,9 +12,10 @@ export interface SkillsSectionProps {
     title: string;
     subtitle?: string;
     skills: SkillCategory[];
+    contentHtml?: string;
 }
 
-export function SkillsSection({ title, subtitle, skills }: SkillsSectionProps) {
+export function SkillsSection({ title, subtitle, skills, contentHtml }: SkillsSectionProps) {
     useEffect(() => {
         Aos.init({ easing: 'ease-out-cubic', once: true, offset: 50 });
     }, []);
@@ -40,6 +41,19 @@ export function SkillsSection({ title, subtitle, skills }: SkillsSectionProps) {
                         </div>
                     ))}
                 </div>
+
+                {contentHtml && (
+                    <div className="kyros-skills-highlights" data-aos="fade-up" data-aos-delay={(skills.length * 100) + 100}>
+                        <div className="section-heading">
+                            <h3>Key Highlights</h3>
+                            <div className="divider" />
+                        </div>
+                        <div
+                            className="kyros-skills-highlights__content"
+                            dangerouslySetInnerHTML={{ __html: contentHtml }}
+                        />
+                    </div>
+                )}
             </div>
         </section>
     );
