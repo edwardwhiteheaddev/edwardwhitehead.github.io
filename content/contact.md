@@ -1,7 +1,7 @@
 ---
 title: 'Let’s Build Something Together'
 subtitle: 'Available for remote engagements across time zones.'
-email: 'chatwithme@edwardwhitehead.dev'
+email: 'ed.surreal@gmail.com'
 phone: '+27 61-760-9568'
 location: 'Based Remotely'
 socials:

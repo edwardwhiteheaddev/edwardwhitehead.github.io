@@ -292,25 +292,19 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 👨‍💻 About the Developer
 
 **Edward Whitehead** is a seasoned software developer and entrepreneur with 20+ years of experience building scalable solutions. Specializing in:
 
 - 🏗️ **Full-Stack Development** (React, Next.js, .NET, Mobile)
 - 🤖 **AI & Machine Learning** Integration
-- ☁️ **Cloud Architecture** (Azure, AWS)
+- ☁️ **Cloud Architecture** (Azure, GCP, Firebase)
 - 🚀 **Startup Development** & Product Management
 
 ### 📫 Get In Touch
 
-- 🌐 **Website**: [edwardwhitehead.github.io](https://edwardwhitehead.github.io)
-- 💼 **LinkedIn**: [edward-whitehead](https://www.linkedin.com/in/edward-whitehead-927b6214b/)
+- 🌐 **Website**: [edwardwhitehead.dev](https://edwardwhitehead.dev)
+- 💼 **LinkedIn**: [edward-whitehead](https://www.linkedin.com/in/edwardwhiteheaddev)
 - 📧 **Email**: [ed.surreal@gmail.com](mailto:ed.surreal@gmail.com)
 - 📱 **Phone**: [+27 61-760-9568](tel:+27617609568)
 
