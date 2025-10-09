@@ -53,6 +53,13 @@ jobs:
         with:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+      - name: Add Environment Variables
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }} # Example for a Next.js app
+        run: |
+          # If your build process relies on a .env file, you can create it here
+          echo "NEXT_PUBLIC_MY_API_KEY=${{ secrets.MY_API_KEY }}" > .env.production
+          # Or simply ensure your build tool uses process.env.NEXT_PUBLIC_MY_API_KEY
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
