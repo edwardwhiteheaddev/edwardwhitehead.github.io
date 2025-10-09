@@ -7,6 +7,8 @@ import { ProjectsSection } from '@/components/kyros/Projects';
 import { ScrollToTop } from '@/components/kyros/ScrollToTop';
 import { SkillsSection } from '@/components/kyros/Skills';
 import { getMarkdownData } from '@/lib/markdown';
+import { normalizeButtons } from '@/lib/normalizers';
+import { AboutMarkdownData, HeroMarkdownData } from '@/schemas';
 import type { Metadata } from 'next';
 
 interface MetadataData {
@@ -21,28 +23,6 @@ interface MetadataData {
   twitterTitle?: string;
   twitterDescription?: string;
   twitterImage?: string;
-}
-
-interface HeroMarkdownData {
-  name: string;
-  title: string;
-  titleGradientText?: string;
-  titleEndText?: string;
-  btnGradientIsEnabled: boolean;
-  btnGradientHref: string;
-  btnGradientText: string;
-  btnDefaultIsEnabled: boolean;
-  btnDefaultHref: string;
-  btnDefaultText: string;
-  typedPhrases?: string[];
-  locations?: { label: string; description: string }[];
-  contentHtml: string;
-}
-
-interface AboutMarkdownData {
-  title: string;
-  contentHtml: string;
-  skillProgress?: { label: string; value: number }[];
 }
 
 interface SkillsMarkdownData {
@@ -118,23 +98,6 @@ export async function generateMetadata(): Promise<Metadata> {
         "Welcome to the personal resume website of Edward Whitehead, a software developer specializing in AI, web, and mobile projects.",
     };
   }
-}
-
-function normalizeButtons(hero: HeroMarkdownData) {
-  return [
-    {
-      text: hero.btnGradientText,
-      href: hero.btnGradientHref,
-      variant: 'primary' as const,
-      enabled: hero.btnGradientIsEnabled,
-    },
-    {
-      text: hero.btnDefaultText,
-      href: hero.btnDefaultHref,
-      variant: 'ghost' as const,
-      enabled: hero.btnDefaultIsEnabled,
-    },
-  ];
 }
 
 export default async function HomePage() {

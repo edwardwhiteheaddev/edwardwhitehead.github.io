@@ -48,7 +48,7 @@ export function AboutSection({ title, contentHtml, skillProgress }: AboutSection
                                     text={`${item.value}%`}
                                     styles={buildStyles({
                                         textColor: '#ffffff',
-                                        pathColor: 'rgba(255, 197, 66, 100)',
+                                        pathColor: '#FF575F',
                                         trailColor: 'rgba(255, 255, 255, 0.12)',
                                     })}
                                 />
