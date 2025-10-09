@@ -1,11 +1,9 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useMemo, useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
-import Logo from '@/assets/logo.svg'
 
 const NAV_ITEMS = [
     { label: 'Home', target: 'hero' },
@@ -79,12 +77,9 @@ export function KyrosNavbar() {
                         <Link href="https://github.com/ultracoolbru" target="_blank" rel="noopener noreferrer">GitHub</Link></span>
                 </div>
                 <div className="kyros-navbar__inner">
-                    <div className="kyros-navbar__brand">
-                        <Image src={Logo} alt="Logo" width={80} height={80} />
-                    </div>
-                    {/* <Link href="/" className="kyros-navbar__brand">
+                    <Link href="/" className="kyros-navbar__brand">
                         Edward <span>Whitehead</span>
-                    </Link> */}
+                    </Link>
 
                     <button
                         className="kyros-navbar__toggle"
