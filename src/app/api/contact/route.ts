@@ -34,7 +34,7 @@ export async function POST(request: NextRequest) {
 
   try {
     // Verify transporter configuration
-    // await transporter.verify(); // Optional: verify connection configuration
+    await transporter.verify(); // Optional: verify connection configuration
 
     // Send the email
     await transporter.sendMail(mailOptions);
