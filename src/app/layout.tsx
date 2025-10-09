@@ -22,7 +22,12 @@ export const metadata: Metadata = {
     description: "An experienced software developer focused on AI, web, mobile, and leadership.",
     url: 'https://edwardwhitehead.github.io',
     siteName: 'Edward Whitehead Portfolio',
-    images: [{ url: '/og-banner.png', width: 1200, height: 630, },],
+    images: [{
+      url: '/assets/the-comeback-build-og-image.png',
+      alt: 'Edward Whitehead | Seasoned Software Developer',
+      width: 1200,
+      height: 630
+    }],
     locale: 'en_US',
     type: 'website',
   },
@@ -30,7 +35,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Edward Whitehead | Seasoned Software Developer',
     description: 'An experienced software developer focused on AI, web, mobile, and leadership.',
-    images: ['/og-banner.png'],
+    images: ['/assets/the-comeback-build-og-image.png'],
   },
 };
 
