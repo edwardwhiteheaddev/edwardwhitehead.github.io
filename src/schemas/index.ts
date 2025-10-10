@@ -26,4 +26,23 @@ interface HeroMarkdownData {
     contentHtml: string;
 }
 
-export type { AboutMarkdownData, TbcAboutMarkdownData, HeroMarkdownData };
+interface CurrentOfferData {
+    title: string;
+    description: string;
+    offers: { title: string; includes: string; cost: string }[];
+    offerIncludes: string;
+}
+
+interface WhyThisMattersData {
+    title: string;
+    details: string;
+    contentHtml: string;
+}
+
+interface ConnectData {
+    title: string;
+    channels: { network: string; url: string }[];
+    contentHtml: string;
+}
+
+export type { AboutMarkdownData, TbcAboutMarkdownData, HeroMarkdownData, CurrentOfferData, WhyThisMattersData, ConnectData };

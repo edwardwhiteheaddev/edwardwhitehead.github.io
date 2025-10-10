@@ -7,8 +7,10 @@
     --kyros-panel: #1f2327;
     --kyros-border: rgba(255, 255, 255, 0.08);
     --kyros-text: #ffffff;
+    --kyros-text-dark: #222222;
     --kyros-muted: #bbbbbb;
     --kyros-transition: all 0.3s ease;
+    --kyros-blue: #1976d2;
 }
 
 * {
@@ -56,6 +58,22 @@ section {
 .kyros-section {
     padding: 100px 0;
     background: var(--kyros-background);
+    position: relative;
+}
+
+.kyros-section__alt {
+    margin: 50px;
+    background: var(--kyros-primary);
+    border: 1px solid transparent;
+    border-radius: 15px;
+    position: relative;
+}
+
+.kyros-section__blue {
+    margin: 50px;
+    background: var(--kyros-blue);
+    border: 1px solid transparent;
+    border-radius: 15px;
     position: relative;
 }
 
@@ -796,6 +814,138 @@ section {
     border: 0;
 }
 
+/* Current Offer (Mantine-like feature grid) */
+.current-offer {
+    position: relative;
+}
+
+.current-offer__container {
+    width: min(80%, 1200px);
+    margin-inline: auto;
+}
+
+.current-offer__title {
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+}
+
+.current-offer__description {
+    color: var(--kyros-text-dark);
+    max-width: 52ch;
+}
+
+.current-offer__cta {
+    box-shadow: 0 10px 24px rgba(0, 160, 255, 0.25);
+    color: #fff;
+}
+
+.current-offer__cta:hover,
+.current-offer__cta:focus {
+    color: #fff;
+    /* prevent global a:hover from overriding Button text */
+}
+
+.current-offer__cta .mantine-Button-label {
+    color: inherit;
+}
+
+.current-offer__card {
+    background: var(--kyros-panel);
+    border: 1px solid var(--kyros-border);
+    border-radius: 16px;
+    padding: 22px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+}
+
+.current-offer__card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.35);
+    border-color: rgba(255, 255, 255, 0.16);
+}
+
+.current-offer__card-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1f77ff, #1cc8ff);
+    color: #fff;
+}
+
+.current-offer__card-icon .fa {
+    font-size: 18px;
+}
+
+.current-offer__card-title {
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.current-offer__card-includes {
+    color: var(--kyros-muted);
+    font-size: 0.95rem;
+}
+
+.current-offer__card-cost {
+    margin-top: auto;
+}
+
+.current-offer__card--note {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-style: dashed;
+    grid-column: 1 / -1;
+}
+
+/* Lets Connect */
+.lets-connect {
+    text-align: center;
+}
+
+.lets-connect__title {
+    margin-bottom: 1rem;
+}
+
+.lets-connect__links {
+    display: inline-flex;
+    gap: 0.75rem;
+    align-items: center;
+    list-style: none;
+    margin: 0 0 1.25rem 0;
+    padding: 0;
+}
+
+.lets-connect__item {
+    display: inline-flex;
+    align-items: center;
+}
+
+.lets-connect__item+.lets-connect__item::before {
+    content: '|';
+    color: rgba(255, 255, 255, 0.35);
+    margin: 0 0.5rem;
+}
+
+.lets-connect__link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 150ms ease;
+}
+
+.lets-connect__link:hover,
+.lets-connect__link:focus {
+    color: var(--kyros-primary);
+}
+
 @media (max-width: 768px) {
     .kyros-section {
         padding: 72px 0;
@@ -818,5 +968,24 @@ section {
 
     .kyros-navbar__menu {
         gap: 18px;
+    }
+
+    .current-offer .wrapper {
+        padding: calc(var(--mantine-spacing-xl) * 2) var(--mantine-spacing-xl);
+        background-color: var(--mantine-color-gray-0);
+    }
+
+    .current-offer .title {
+        font-size: 1.75rem;
+        line-height: 1.2;
+        margin-bottom: var(--mantine-spacing-md);
+        font-weight: 700;
+        text-transform: none;
+    }
+
+    .current-offer__container {
+        width: 100%;
+        margin-inline: auto;
+        padding-inline: var(--mantine-spacing-xl);
     }
 }

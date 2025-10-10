@@ -11,7 +11,7 @@ btnDefaultHref: "/#contact"
 btnDefaultText: "Get In Touch"
 typedPhrases:
   - "Dashboards"
-  - "AI"
+  - "AI Integration"
   - "Automations"
 locations:
   - label: "Remote"
