@@ -4,8 +4,11 @@ import { HeroSection } from './components/Hero';
 import { Preloader } from "@/components/kyros/Preloader";
 import { getMarkdownData } from "@/lib/markdown";
 import { normalizeButtons } from "@/lib/normalizers";
-import { TbcAboutMarkdownData, HeroMarkdownData } from "@/schemas";
+import { TbcAboutMarkdownData, HeroMarkdownData, CurrentOfferData, WhyThisMattersData, ConnectData } from "@/schemas";
 import { Metadata, Viewport } from "next";
+import { CurrentOfferSection } from "./components/CurrentOffer";
+import { WhyThisMattersSection } from "./components/WhyThisMatters";
+import { LetsConnectSection } from "./components/LetsConnect";
 
 export const metadata: Metadata = {
     robots: {
@@ -137,13 +140,15 @@ export default async function TheComebackBuildPage() {
     const [
         aboutData,
         heroData,
-        // skillsData,
-        // experienceData,
-        // projectsData,
-        // contactData,
+        currentOfferData,
+        whyThisMattersData,
+        connectData
     ] = await Promise.all([
         getMarkdownData<TbcAboutMarkdownData>('the-comeback-build/tcb-about'),
         getMarkdownData<HeroMarkdownData>('the-comeback-build/tcb-hero'),
+        getMarkdownData<CurrentOfferData>('the-comeback-build/tcb-current-offer'),
+        getMarkdownData<WhyThisMattersData>('the-comeback-build/tcb-why-this-matters'),
+        getMarkdownData<ConnectData>('the-comeback-build/tcb-connect')
     ]);
 
     return (
@@ -170,6 +175,40 @@ export default async function TheComebackBuildPage() {
                         title={aboutData.title}
                         contentHtml={aboutData.contentHtml}
                         skillProgress={aboutData.skillProgress ?? []}
+                    />
+                </div>
+            </div>
+
+            {/* Current Offer section */}
+            <div className="w-full p-8 min-h-screen kyros-section__alt">
+                <div className="max-w-4xl mx-auto">
+                    <CurrentOfferSection
+                        title={currentOfferData.title}
+                        description={currentOfferData.description}
+                        offers={currentOfferData.offers}
+                        offerIncludes={currentOfferData.offerIncludes}
+                    />
+                </div>
+            </div>
+
+            {/* Why This Matters section */}
+            <div className="w-full p-8 min-h-screen kyros-section__blue">
+                <div className="max-w-4xl mx-auto">
+                    <WhyThisMattersSection
+                        title={whyThisMattersData.title}
+                        details={whyThisMattersData.details}
+                        contentHtml={whyThisMattersData.contentHtml}
+                    />
+                </div>
+            </div>
+
+            {/* Let's Connect section */}
+            <div className="w-full p-8 min-h-screen">
+                <div className="max-w-4xl mx-auto">
+                    <LetsConnectSection
+                        title={connectData.title}
+                        channels={connectData.channels}
+                        contentHtml={connectData.contentHtml}
                     />
                 </div>
             </div>

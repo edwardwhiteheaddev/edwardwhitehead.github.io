@@ -55,6 +55,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
+          precedence='preload'
         />
       </head>
       <body>

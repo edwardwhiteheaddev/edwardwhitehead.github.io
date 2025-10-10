@@ -1,6 +1,6 @@
 {
-  "name": "temp_next_app",
-  "version": "0.1.9",
+  "name": "edwardwhitehead.dev",
+  "version": "0.1.10",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack --port 4000",
