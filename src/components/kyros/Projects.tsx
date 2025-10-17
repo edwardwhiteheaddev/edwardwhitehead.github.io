@@ -4,6 +4,7 @@ import Aos from 'aos';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect } from 'react';
+import { Button } from '@mantine/core';
 
 export interface ProjectItem {
     id: number | string;
@@ -12,6 +13,7 @@ export interface ProjectItem {
     image?: string;
     description: string;
     url?: string;
+    featured?: boolean;
 }
 
 export interface ProjectsSectionProps {
@@ -48,6 +50,11 @@ export function ProjectsSection({ title, projects }: ProjectsSectionProps) {
                                     </div>
                                 )}
                                 <div className="kyros-portfolio-content">
+                                    {project.featured && (
+                                        <span className="kyros-featured-badge">
+                                            <i className="fa fa-star" aria-hidden="true" /> Featured
+                                        </span>
+                                    )}
                                     <span>{project.category}</span>
                                     <h3>{project.title}</h3>
                                     <p>{project.description}</p>
@@ -88,6 +95,20 @@ export function ProjectsSection({ title, projects }: ProjectsSectionProps) {
                             </div>
                         );
                     })}
+                </div>
+                <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
+                    <Button
+                        variant="filled"
+                        size="lg"
+                        component={Link}
+                        href="/projects"
+                        style={{
+                            backgroundColor: 'var(--kyros-primary)',
+                            borderColor: 'var(--kyros-primary)'
+                        }}
+                    >
+                        View All Projects
+                    </Button>
                 </div>
             </div>
         </section>

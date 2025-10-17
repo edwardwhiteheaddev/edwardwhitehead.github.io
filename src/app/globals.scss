@@ -21,6 +21,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    padding-top: 24px;
     max-width: 100vw;
     overflow-x: hidden;
     background: var(--kyros-background);
@@ -164,7 +165,7 @@ section {
     width: 100%;
     z-index: 1000;
     transition: var(--kyros-transition);
-    padding: 18px 0;
+    padding: 18px;
 }
 
 .kyros-navbar.scrolled {
@@ -179,6 +180,14 @@ section {
     justify-content: space-between;
     gap: 32px;
     position: relative;
+    background: rgba(15, 17, 20, 0.85);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 50px;
+    padding: 2px 32px;
+    margin: 0 auto;
+    max-width: fit-content;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .kyros-navbar__brand {
@@ -245,10 +254,17 @@ section {
 
 .kyros-navbar__topbar {
     text-align: center;
-    padding: 8px 0;
     font-size: 0.85rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     margin-bottom: 8px;
+    background: rgba(15, 17, 20, 0.85);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 50px;
+    padding: 6px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .kyros-navbar__topbar a {
@@ -274,13 +290,13 @@ section {
         display: none;
         position: absolute;
         top: 100%;
-        left: 12px;
-        right: 12px;
+        left: 2px;
+        right: 2px;
         flex-direction: column;
         background: rgba(15, 17, 20, 0.98);
         border: 1px solid rgba(255, 255, 255, 0.12);
-        border-radius: 18px;
-        padding: 18px;
+        border-radius: 28px;
+        padding: 20px;
         margin-top: 16px;
         transform-origin: top center;
     }
@@ -314,12 +330,11 @@ section {
 .kyros-hero__background {
     position: absolute;
     inset: 0;
-    background-image: url('../assets/1.png');
-    background-repeat: no-repeat;
-    background-position: '25% 75%';
-    background-size: cover;
+    object-fit: cover;
+    object-position: top center;
+    width: 100%;
+    height: 100%;
     opacity: 0.12;
-    transform: scale(1.1);
     z-index: 0;
 }
 
@@ -690,6 +705,22 @@ section {
     gap: 8px;
 }
 
+.kyros-featured-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: linear-gradient(135deg, var(--kyros-primary), #ff767f);
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 8px rgba(255, 87, 95, 0.3);
+}
+
 /* Contact */
 .kyros-contact {
     border-radius: 28px;
@@ -968,6 +999,14 @@ section {
 
     .kyros-navbar__menu {
         gap: 18px;
+    }
+
+    .kyros-navbar__inner {
+        max-width: 100%;
+        margin: 0 12px;
+        border-radius: 32px;
+        padding: 4px 20px;
+        gap: 12px;
     }
 
     .current-offer .wrapper {

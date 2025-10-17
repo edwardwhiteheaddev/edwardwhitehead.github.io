@@ -9,7 +9,7 @@ import Logo from '@/assets/logo.svg'
 import Topbar from './Topbar';
 
 const NAV_ITEMS = [
-    { label: 'Home', target: '' },
+    { label: 'Home', target: '/' },
     { label: 'About', target: '/#about' },
     { label: 'Expertise', target: '/#skills' },
     { label: 'Experience', target: '/#experience' },
@@ -26,10 +26,9 @@ export function KyrosNavbar() {
 
     useEffect(() => {
         const handleScroll = () => {
-            setScrolled(window.scrollY > 80);
+            // Removed scroll detection to keep navbar transparent
         };
 
-        handleScroll();
         window.addEventListener('scroll', handleScroll, { passive: true });
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);

@@ -45,4 +45,30 @@ interface ConnectData {
     contentHtml: string;
 }
 
-export type { AboutMarkdownData, TbcAboutMarkdownData, HeroMarkdownData, CurrentOfferData, WhyThisMattersData, ConnectData };
+interface MetadataData {
+    title: string;
+    description: string;
+    keywords?: string;
+    author?: string;
+    ogTitle?: string;
+    ogDescription?: string;
+    ogImage?: string;
+    twitterCard?: string;
+    twitterTitle?: string;
+    twitterDescription?: string;
+    twitterImage?: string;
+    applicationName?: string;
+    generator?: string;
+    locale?: string;
+    type?: string;
+}
+
+export type {
+    AboutMarkdownData,
+    TbcAboutMarkdownData,
+    HeroMarkdownData,
+    CurrentOfferData,
+    WhyThisMattersData,
+    ConnectData,
+    MetadataData
+};

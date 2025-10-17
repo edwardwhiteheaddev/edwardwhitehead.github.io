@@ -9,6 +9,7 @@ projects:
     date: 'January 2023'
     description: 'A FinTech gratuity/payment solution built with Flutter and Firebase. I was the founder of this project.'
     url: './projects/paybee'
+    featured: true
   - id: 1
     title: 'MobeeWash'
     slug: 'mobeewash'
@@ -17,6 +18,7 @@ projects:
     date: 'September 2022'
     description: 'A mobile car wash booking application. I served as the Team Lead for this project at Bumblebee.'
     url: './projects/mobeewash'
+    featured: true
   - id: 2
     title: 'FedEx'
     slug: 'fedex-mobile-stack'
@@ -25,6 +27,7 @@ projects:
     date: 'March 2021'
     description: 'Redesigned and developed courier application, which significantly improved national delivery operations for FedEx in Southern Africa.'
     url: './projects/fedex-mobile-stack'
+    featured: true
   - id: 3
     title: 'Qirvo'
     slug: 'qirvo'
@@ -33,4 +36,5 @@ projects:
     date: 'Ongoing'
     description: 'An AI-powered life dashboard designed to manage various aspects of life. It uses AI to deliver intelligent analysis of tasks, health, projects, and more.'
     url: './projects/qirvo'
+    featured: true
 ---

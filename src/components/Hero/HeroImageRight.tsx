@@ -9,7 +9,12 @@ interface HeroImageRightProps {
 
 export function HeroImageRight(props: HeroImageRightProps) {
     return (
-        <div className={classes.root} style={{ backgroundImage: `url(${props.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div
+            className={classes.root}
+            style={{
+                '--hero-background-image': `url(${props.image})`
+            } as React.CSSProperties}
+        >
             <Container size="lg">
                 <div className={classes.inner}>
                     <div className={classes.content}>
