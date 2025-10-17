@@ -5,11 +5,11 @@ keywords: "full stack developer, AI developer, mobile architect, software entrep
 author: "Edward Whitehead"
 ogTitle: "Edward Whitehead | Senior Full Stack Developer & AI Innovator | React, Next.js, Flutter, .NET Expert"
 ogDescription: "20+ year veteran full stack developer and AI innovator. Founder of Qirvo (AI command platform), PayBee (FinTech), Violt (smart home), Orby (command center). Expert in React, Next.js, TypeScript, Flutter, .NET MAUI, Azure, Firebase. Mobile architect specializing in cross-platform development, AI/ML integration, SaaS platforms."
-ogImage: "assets/og-image.png"
+ogImage: "assets/images/og-image.png"
 twitterCard: "summary_large_image"
 twitterTitle: "Edward Whitehead | Senior Full Stack Developer & AI Innovator | 20+ Years"
 twitterDescription: "Expert full stack developer & AI innovator with 20+ years experience. React, Next.js, Flutter, .NET specialist. Founder of AI platforms (Qirvo, PayBee). Remote developer, mobile architect, startup founder, technical leader."
-twitterImage: "assets/og-image.png"
+twitterImage: "assets/images/og-image.png"
 applicationName: "Edward Whitehead Portfolio"
 generator: Next.js
 locale: en_US
