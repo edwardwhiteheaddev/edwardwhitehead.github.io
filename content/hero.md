@@ -22,4 +22,4 @@ locations:
     description: "Cape Town"
 ---
 
-An seasoned software developer and entrepreneur with two decades of experience, focused on AI, web, mobile, and leadership.
+A seasoned software developer and entrepreneur with two decades of experience, focused on AI, web, mobile, and leadership.

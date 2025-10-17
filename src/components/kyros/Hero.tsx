@@ -1,9 +1,11 @@
 'use client';
 
 import Aos from 'aos';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useMemo, useRef } from 'react';
 import Typed from 'typed.js';
+import me from '@/assets/me.png';
 
 export interface HeroLocation {
     label: string;
@@ -75,7 +77,7 @@ export function HeroSection({
 
     return (
         <section id="hero" className="kyros-hero">
-            <div className="kyros-hero__background" aria-hidden="true" />
+            <Image loading="eager" src={me.src} alt="Hero Background of Edward Whitehead" className="kyros-hero__background" aria-hidden="true" width={1000} height={1000} />
             <div className="container">
                 <div className="kyros-hero__inner">
                     <p

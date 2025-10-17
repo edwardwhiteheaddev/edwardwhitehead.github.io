@@ -4,7 +4,7 @@ import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import "@mantine/core/styles.css";
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import type { Metadata } from 'next';
+import type { Viewport } from 'next';
 import { Roboto, Saira } from 'next/font/google';
 import React from 'react';
 import { theme } from '../theme';
@@ -13,42 +13,25 @@ import './globals.scss';
 const saira = Saira({ subsets: ['latin'], variable: '--font-saira', weight: ['400', '500', '600', '700', '800'] });
 const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto', weight: ['300', '400', '500', '700'] });
 
-export const metadata: Metadata = {
-  metadataBase: new URL('https://edwardwhitehead.github.io'),
-  title: "Edward Whitehead | Seasoned Software Developer",
-  description: "Personal resume website for Edward Whitehead, a software developer specializing in AI, web, and mobile projects.",
-  openGraph: {
-    title: "Edward Whitehead | Seasoned Software Developer",
-    description: "An experienced software developer focused on AI, web, mobile, and leadership.",
-    url: 'https://edwardwhitehead.github.io',
-    siteName: 'Edward Whitehead Portfolio',
-    images: [{
-      url: '/assets/the-comeback-build-og-image.png',
-      alt: 'Edward Whitehead | Seasoned Software Developer',
-      width: 1200,
-      height: 630
-    }],
-    locale: 'en_US',
-    type: 'website',
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  viewportFit: "cover",
+  minimumScale: 1,
+  themeColor: {
+    color: "#000000",
+    media: "(prefers-color-scheme: dark)"
   },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Edward Whitehead | Seasoned Software Developer',
-    description: 'An experienced software developer focused on AI, web, mobile, and leadership.',
-    images: ['/assets/the-comeback-build-og-image.png'],
-  },
+  colorScheme: "dark",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${saira.variable} ${roboto.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${saira.variable} ${roboto.variable}`} suppressHydrationWarning data-scroll-behavior="smooth">
       <head>
         <ColorSchemeScript />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <meta
-          name="viewport"
-          content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
-        />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"

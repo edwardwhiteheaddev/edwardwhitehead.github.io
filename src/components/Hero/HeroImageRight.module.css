@@ -6,6 +6,21 @@
     padding-top: calc(var(--mantine-spacing-xl) * 3);
     padding-bottom: calc(var(--mantine-spacing-xl) * 3);
     min-height: 300px;
+    position: relative;
+}
+
+.root::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: var(--hero-background-image);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.12;
+    z-index: 0;
 }
 
 .inner {

@@ -128,7 +128,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                     <Group>
                         <Button
                             component={Link}
-                            href="/#projects"
+                            href="/projects"
                             variant="filled"
                             size="lg"
                         >

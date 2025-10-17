@@ -8,22 +8,8 @@ import { ScrollToTop } from '@/components/kyros/ScrollToTop';
 import { SkillsSection } from '@/components/kyros/Skills';
 import { getMarkdownData } from '@/lib/markdown';
 import { normalizeButtons } from '@/lib/normalizers';
-import { AboutMarkdownData, HeroMarkdownData } from '@/schemas';
-import type { Metadata } from 'next';
-
-interface MetadataData {
-  title: string;
-  description: string;
-  keywords?: string;
-  author?: string;
-  ogTitle?: string;
-  ogDescription?: string;
-  ogImage?: string;
-  twitterCard?: string;
-  twitterTitle?: string;
-  twitterDescription?: string;
-  twitterImage?: string;
-}
+import { AboutMarkdownData, HeroMarkdownData, MetadataData } from '@/schemas';
+import type { Metadata, Viewport } from 'next';
 
 interface SkillsMarkdownData {
   title: string;
@@ -54,6 +40,7 @@ interface ProjectsMarkdownData {
     date?: string;
     description: string;
     url?: string;
+    featured?: boolean;
   }[];
 }
 
@@ -71,24 +58,41 @@ export async function generateMetadata(): Promise<Metadata> {
   try {
     const metadataData = await getMarkdownData<MetadataData>('metadata');
     const allowedTwitterCards = ['summary', 'summary_large_image', 'app', 'player'] as const;
-    const twitterCard =
-      allowedTwitterCards.find((card) => card === metadataData.twitterCard) ?? 'summary_large_image';
+    const twitterCard = allowedTwitterCards.find((card) => card === metadataData.twitterCard) ?? 'summary_large_image';
+
     return {
+      metadataBase: new URL('https://edwardwhitehead.dev'),
       title: metadataData.title,
       description: metadataData.description,
       keywords: metadataData.keywords,
+      creator: metadataData.author,
       authors: metadataData.author ? [{ name: metadataData.author }] : undefined,
+      applicationName: metadataData.applicationName,
+      generator: metadataData.generator,
       openGraph: {
+        siteName: metadataData.applicationName,
+        locale: metadataData.locale,
+        type: 'website',
         title: metadataData.ogTitle || metadataData.title,
         description: metadataData.ogDescription || metadataData.description,
         images: metadataData.ogImage ? [metadataData.ogImage] : undefined,
-        type: 'website',
+        url: new URL('https://edwardwhitehead.dev'),
       },
       twitter: {
         card: twitterCard,
         title: metadataData.twitterTitle || metadataData.title,
         description: metadataData.twitterDescription || metadataData.description,
         images: metadataData.twitterImage ? [metadataData.twitterImage] : undefined,
+      },
+      icons: {
+        icon: '/favicon.ico',
+      },
+      robots: {
+        index: true,
+        follow: false,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+        "max-video-preview": -1
       },
     };
   } catch {

@@ -8,11 +8,13 @@ socials:
   - label: 'LinkedIn'
     url: 'https://www.linkedin.com/in/edwardwhiteheaddev/'
   - label: 'GitHub'
-    url: 'https://github.com/ultracoolbru'
-  - label: 'X'
-    url: 'https://x.com/ultracoolbru'
+    url: 'https://github.com/edwardwhiteheaddev'
+  - label: 'Twitter/X'
+    url: 'https://x.com/edwhiteheaddev'
   - label: 'Instagram'
-    url: 'https://www.instagram.com/ultracoolbru'
+    url: 'https://www.instagram.com/edwardwhiteheaddev'
+  - label: 'Facebook'
+    url: 'https://www.facebook.com/edwardwhiteheaddev'
 ---
 
 Ready to modernize your platform, ship an AI-driven product, or accelerate a multi-platform rollout? Drop a note and I’ll follow up with a tailored plan and next steps.

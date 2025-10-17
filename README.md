@@ -93,7 +93,7 @@ A cutting-edge portfolio website built with **Next.js 15** and **React 19**, sho
 
 ```bash
 # Clone the repository
-git clone https://github.com/ultracoolbru/edwardwhitehead.github.io.git
+git clone https://github.com/edwardwhiteheaddev/edwardwhitehead.github.io.git
 
 # Navigate to project directory
 cd edwardwhitehead.github.io
@@ -270,7 +270,7 @@ This repository is configured for GitHub Pages deployment:
 
 For optimal performance with Next.js features:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ultracoolbru/edwardwhitehead.github.io)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/edwardwhiteheaddev/edwardwhitehead.github.io)
 
 ### Other Platforms
 
