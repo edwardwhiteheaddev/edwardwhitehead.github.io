@@ -9,6 +9,10 @@ socials:
     url: 'https://www.linkedin.com/in/edwardwhiteheaddev/'
   - label: 'GitHub'
     url: 'https://github.com/ultracoolbru'
+  - label: 'X'
+    url: 'https://x.com/ultracoolbru'
+  - label: 'Instagram'
+    url: 'https://www.instagram.com/ultracoolbru'
 ---
 
 Ready to modernize your platform, ship an AI-driven product, or accelerate a multi-platform rollout? Drop a note and I’ll follow up with a tailored plan and next steps.

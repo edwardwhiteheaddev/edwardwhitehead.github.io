@@ -55,7 +55,7 @@ export function AboutSection({ title, contentHtml, skillProgress }: AboutSection
                                 data-aos="fade-up"
                                 data-aos-delay={200 + index * 80}
                             >
-                                <Card variant="plain" sx={{ backgroundColor: '#ff575f' }}>
+                                <Card variant="plain" sx={{ backgroundColor: '#171a1d' }}>
                                     <CardOverflow>
                                         <AspectRatio ratio="2">
                                             <Image

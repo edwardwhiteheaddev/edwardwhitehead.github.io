@@ -1,14 +1,17 @@
 ---
 title: 'About Me'
 skillProgress:
-  - { label: 'Product Strategy', value: 92 }
-  - { label: 'Systems Architecture', value: 90 }
-  - { label: 'Full-Stack Engineering', value: 88 }
-  - { label: 'Leadership & Coaching', value: 86 }
+  - { label: 'Leadership', value: 40 }
+  - { label: 'Coaching', value: 20 }
+  - { label: 'Development', value: 20 }
+  - { label: 'Product Strategy', value: 20 }
+  - { label: 'Total', value: 100 }
 ---
 
-Seasoned Software Engineer, Architect, and Entrepreneur with 20+ years of experience designing, developing, and scaling cross-platform applications, SaaS platforms, and AI-driven systems. Proven ability to lead full-cycle product development from concept to deployment, with expertise spanning Next.js, React, TypeScript, Node.js, MongoDB, Firebase, and cloud infrastructure (Vercel, Azure, AWS, Firebase Hosting).
+At SmartTask, I worked remotely on mobile software development, legacy code migration, UI design, and agile processes. I led two major codebase migrations: first from Xamarin Forms (WPF architecture) to Model-View-View Model (MVVM), enabling support for newer Android and iOS versions, and then to .NET MAUI to ensure ongoing compatibility with future platforms.
 
-Founder of multiple ventures including Qirvo (AI-powered command platform with plugin marketplace and CLI agent), Violt (AI-driven smart-home automation platform), and Orby (modular personal/business command center) — each built with open-source cores, extensible plugin systems, and premium cloud-based layers.
+I am a Full Stack Developer, Mobile Architect, and Entrepreneur with over 20 years of experience designing and scaling cross-platform applications, SaaS platforms, and AI-driven systems. I lead end-to-end product development and have expertise in Next.js, React, TypeScript, Node.js, MongoDB, Firebase, and cloud infrastructure, including Vercel, Azure, and Firebase Hosting.
 
-Strong track record of building scalable architectures, multi-agent AI systems, automation workflows, and open-source SDKs while managing branding, go-to-market strategies, and investor pitches. Adept at leading distributed development, integrating AI/ML, robotics, IoT, and automation, and aligning technology execution with business growth strategies.
+I have founded several ventures, including Qirvo (an AI-powered command platform with a plugin marketplace and CLI agent), Violt (an AI-driven smart home automation), and Orby (a modular command center for personal and business use). Each is built on open-source cores, extensible plugin systems, and premium cloud-based services.
+
+I have a proven record of building scalable architectures, multi-agent AI systems, automation workflows, and open-source SDKs. I also manage branding, go-to-market strategies, and investor pitches, and excel at leading distributed teams and integrating AI, robotics, IoT, and automation to support business growth.

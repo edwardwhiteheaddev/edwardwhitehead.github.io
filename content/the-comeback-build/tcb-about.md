@@ -7,9 +7,7 @@ skillProgress:
   - { label: 'Leadership & Coaching', description: 'Delivery, demo, and handoff', value: '4. Day 7', imageUrl: 'https://images.unsplash.com/photo-1588814547572-13d8fb9bda3d?w=500&auto=format&fit=crop&q=60' }
 ---
 
-Hi, I’m Edward Whitehead, a Software Architect & SaaS Engineer with 20+ years of experience designing scalable systems and AI-powered platforms like Violt and Qirvo.
+Hi, I’m Edward Whitehead, a Software Developer, Software Architect, & SaaS Engineer with 20+ years of experience designing scalable systems and AI-powered platforms like [Violt](https://github.com/violt-app) and [Qirvo](https://github.com/Qirvo).
 
 After a sudden job loss, I decided not to pause — but to rebuild.
-Now, I’m helping startups and small businesses move faster by delivering production-ready dashboards and automation workflows in one week.
-
----
+Now, I’m helping startups and small businesses move faster by delivering production-ready dashboards, AI integrations, and automation workflows.

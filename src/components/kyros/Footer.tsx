@@ -3,6 +3,8 @@ import Link from 'next/link';
 const FOOTER_LINKS = [
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/edwardwhiteheaddev/' },
     { label: 'GitHub', href: 'https://github.com/ultracoolbru' },
+    { label: 'X', href: 'https://x.com/ultracoolbru' },
+    { label: 'Instagram', href: 'https://www.instagram.com/ultracoolbru' },
 ];
 
 export function KyrosFooter() {
