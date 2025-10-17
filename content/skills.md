@@ -2,16 +2,16 @@
 title: 'Core Skills & Key Highlights'
 subtitle: 'Core capabilities that drive real-world delivery'
 skills:
-  - category: 'Languages & Frameworks'
-    list: 'C#, .NET, .NET MAUI, Xamarin Forms, Jetpack Compose/Kotlin, React, Next.js, Flutter/Dart, TypeScript, HTML, CSS, Python (Basic – FastAPI)'
+  - category: 'Languages'
+    list: 'C#, .NET, .NET MAUI, Xamarin Forms, Jetpack Compose/Kotlin, React, Next.js, Flutter/Dart, TypeScript, HTML, CSS, Python (Basic – FastAPI), YAML'
   - category: 'Cloud & DevOps'
-    list: 'Azure DevOps, Azure CI/CD Pipelines, Azure Cognitive Services, YAML, GitHub'
+    list: 'Azure DevOps, Azure CI/CD Pipelines, Azure Cognitive Services, GitHub, Vercel, Firebase'
   - category: 'Architecture'
     list: 'Mobile & Web Solution Architecture, SaaS, Microservices, API Development'
   - category: 'Tools'
-    list: 'Figma, Canva, Vercel, Firebase, VSCode, Windsurf, AI Tools (OpenAI, Gemini, OpenRouter, Ollma, LM Studio and Vibe Coding)'
+    list: 'Figma, Canva, VSCode, Windsurf, AI/LLM Tools (OpenAI, Gemini, OpenRouter, Ollma, LM Studio and Vibe Coding)'
   - category: 'Soft Skills'
-    list: 'Management/Leadership, Project Management, Mentoring, Vendor Management, Technical Documentation, HR & Performance Management'
+    list: 'Management, Leadership, Project Management, Mentoring, Vendor Management, Technical Documentation, HR & Performance Management'
 ---
 
 - **Product Development & SaaS:** Built multiple platforms (Qirvo, Violt, Orby) from the ground up, including dashboards, CLIs, mobile apps, and plugin marketplaces.

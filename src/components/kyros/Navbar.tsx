@@ -6,14 +6,16 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useMemo, useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import Logo from '@/assets/logo.svg'
+import Topbar from './Topbar';
 
 const NAV_ITEMS = [
-    { label: 'Home', target: 'hero' },
-    { label: 'About', target: 'about' },
-    { label: 'Expertise', target: 'skills' },
-    { label: 'Experience', target: 'experience' },
-    { label: 'Projects', target: 'projects' },
-    { label: 'Contact', target: 'contact' },
+    { label: 'Home', target: '' },
+    { label: 'About', target: '/#about' },
+    { label: 'Expertise', target: '/#skills' },
+    { label: 'Experience', target: '/#experience' },
+    { label: 'Projects', target: '/#projects' },
+    { label: 'Contact', target: '/#contact' },
+    { label: 'The Comeback Build', target: '/the-comeback-build' }
 ];
 
 export function KyrosNavbar() {
@@ -38,11 +40,11 @@ export function KyrosNavbar() {
 
     const navLinks = useMemo(() => {
         return NAV_ITEMS.map((item) => {
-            if (isHome) {
+            if (isHome && item.target !== '' && item.target.startsWith('/#')) {
                 return (
                     <ScrollLink
                         key={item.target}
-                        to={item.target}
+                        to={item.target.slice(2)}
                         className="kyros-navbar__item"
                         smooth
                         spy
@@ -59,7 +61,7 @@ export function KyrosNavbar() {
             return (
                 <Link
                     key={item.target}
-                    href={`/#${item.target}`}
+                    href={item.target}
                     className="kyros-navbar__item"
                 >
                     {item.label}
@@ -71,16 +73,12 @@ export function KyrosNavbar() {
     return (
         <header className={`kyros-navbar${scrolled ? ' scrolled' : ''}`}>
             <div className="container">
-                <div className="kyros-navbar__topbar">
-                    <span>
-                        <a href="tel:+27617609568">+27 61-760-9568</a> |{' '}
-                        <a href="mailto:ed.surreal@gmail.com">ed.surreal@gmail.com</a> |{' '}
-                        <Link href="https://www.linkedin.com/in/edwardwhiteheaddev/" target="_blank" rel="noopener noreferrer">LinkedIn</Link> |{' '}
-                        <Link href="https://github.com/ultracoolbru" target="_blank" rel="noopener noreferrer">GitHub</Link></span>
-                </div>
+                <Topbar />
                 <div className="kyros-navbar__inner">
                     <div className="kyros-navbar__brand">
-                        <Image src={Logo} alt="Logo" width={80} height={80} />
+                        <Link href="/">
+                            <Image src={Logo} alt="Logo" width={80} height={80} />
+                        </Link>
                     </div>
                     {/* <Link href="/" className="kyros-navbar__brand">
                         Edward <span>Whitehead</span>

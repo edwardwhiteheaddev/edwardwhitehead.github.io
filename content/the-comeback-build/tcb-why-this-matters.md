@@ -1,6 +1,6 @@
 ---
 title: 'Why This Matters'
-details: 'This isn’t just about dashboards — it’s about building momentum again.'
+details: 'I build and automate dashboards that give founders visibility and control.'
 ---
 
 If you want results, reliability, and a builder who genuinely cares, let’s talk.

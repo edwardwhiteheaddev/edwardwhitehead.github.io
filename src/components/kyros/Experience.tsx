@@ -9,6 +9,7 @@ export interface ExperienceItem {
     dates: string;
     description: string;
     skills?: string;
+    notableAchievements?: string;
 }
 
 export interface ExperienceSectionProps {
@@ -72,6 +73,11 @@ export function ExperienceSection({ title, experience }: ExperienceSectionProps)
                                 {item.skills && item.skills.trim().length > 0 && (
                                     <p className="text-muted" style={{ marginTop: '0.75rem' }}>
                                         <strong>Skills:</strong> {item.skills}
+                                    </p>
+                                )}
+                                {item.notableAchievements && item.notableAchievements.trim().length > 0 && (
+                                    <p className="text-muted" style={{ marginTop: '0.75rem' }}>
+                                        <strong>Notable Achievements:</strong> {item.notableAchievements}
                                     </p>
                                 )}
                             </div>

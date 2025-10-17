@@ -86,7 +86,7 @@ export function HeroSection({
         setSubmitMessage('');
 
         try {
-            const response = await fetch('/the-comeback-build/api/submit-email', {
+            const response = await fetch('/api/submit-email', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -211,7 +211,7 @@ export function HeroSection({
                                     disabled={isSubmitting}
                                     sx={{ minWidth: 'fit-content' }}
                                 >
-                                    {isSubmitting ? 'Sending...' : 'Contact Me Now'}
+                                    {isSubmitting ? 'Sending...' : 'Email Me Today'}
                                 </Button>
                             </Stack>
                         </form>

@@ -120,7 +120,7 @@ export function HeroSection({
                     >
                         {filteredButtons.map((button) => {
                             const isExternal = button.href.startsWith('http') || button.href.startsWith('mailto:') || button.href.startsWith('tel:');
-                            const className = `kyros-button ${button.variant === 'ghost' ? 'kyros-button--primary' : 'kyros-button--ghost'}`;
+                            const className = `m-2 kyros-button ${button.variant === 'ghost' ? 'kyros-button--primary' : 'kyros-button--ghost'}`;
 
                             if (isExternal) {
                                 return (
