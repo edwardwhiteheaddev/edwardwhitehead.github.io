@@ -9,6 +9,7 @@ import { Button } from '@mantine/core';
 export interface ProjectItem {
     id: number | string;
     title: string;
+    slug?: string;
     category: string;
     image?: string;
     description: string;
@@ -84,15 +85,17 @@ export function ProjectsSection({ title, projects }: ProjectsSectionProps) {
                             );
                         }
 
+                        // If no external URL, link to internal project page using slug
                         return (
-                            <div
+                            <Link
                                 key={project.id ?? project.title}
+                                href={`/projects/${project.slug}`}
                                 className="kyros-portfolio-card"
                                 data-aos="fade-up"
                                 data-aos-delay={index * 100}
                             >
                                 {cardContent}
-                            </div>
+                            </Link>
                         );
                     })}
                 </div>

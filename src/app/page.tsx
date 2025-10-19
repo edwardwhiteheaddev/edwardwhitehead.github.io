@@ -6,102 +6,20 @@ import { Preloader } from '@/components/kyros/Preloader';
 import { ProjectsSection } from '@/components/kyros/Projects';
 import { ScrollToTop } from '@/components/kyros/ScrollToTop';
 import { SkillsSection } from '@/components/kyros/Skills';
-import { getMarkdownData } from '@/lib/markdown';
+import { getMarkdownData, getFeaturedProjects } from '@/lib/markdown';
 import { normalizeButtons } from '@/lib/normalizers';
-import { AboutMarkdownData, HeroMarkdownData, MetadataData } from '@/schemas';
-import type { Metadata, Viewport } from 'next';
-
-interface SkillsMarkdownData {
-  title: string;
-  subtitle?: string;
-  skills: { category: string; list: string }[];
-  contentHtml: string;
-}
-
-interface ExperienceMarkdownData {
-  title: string;
-  jobs: {
-    role: string;
-    company: string;
-    dates: string;
-    description: string;
-    skills?: string;
-  }[];
-}
-
-interface ProjectsMarkdownData {
-  title: string;
-  projects: {
-    id: number | string;
-    title: string;
-    slug?: string;
-    category: string;
-    image?: string;
-    date?: string;
-    description: string;
-    url?: string;
-    featured?: boolean;
-  }[];
-}
-
-interface ContactMarkdownData {
-  title: string;
-  subtitle?: string;
-  email: string;
-  phone?: string;
-  location?: string;
-  socials?: { label: string; url: string }[];
-  contentHtml: string;
-}
+import {
+  AboutMarkdownData,
+  HeroMarkdownData,
+  SkillsMarkdownData,
+  ExperienceMarkdownData,
+  ContactMarkdownData
+} from '@/schemas';
+import { generateMetadata as generateMetadataUtil } from '@/lib/generate-metadata';
+import type { Metadata } from 'next';
 
 export async function generateMetadata(): Promise<Metadata> {
-  try {
-    const metadataData = await getMarkdownData<MetadataData>('metadata');
-    const allowedTwitterCards = ['summary', 'summary_large_image', 'app', 'player'] as const;
-    const twitterCard = allowedTwitterCards.find((card) => card === metadataData.twitterCard) ?? 'summary_large_image';
-
-    return {
-      metadataBase: new URL('https://edwardwhitehead.dev'),
-      title: metadataData.title,
-      description: metadataData.description,
-      keywords: metadataData.keywords,
-      creator: metadataData.author,
-      authors: metadataData.author ? [{ name: metadataData.author }] : undefined,
-      applicationName: metadataData.applicationName,
-      generator: metadataData.generator,
-      openGraph: {
-        siteName: metadataData.applicationName,
-        locale: metadataData.locale,
-        type: 'website',
-        title: metadataData.ogTitle || metadataData.title,
-        description: metadataData.ogDescription || metadataData.description,
-        images: metadataData.ogImage ? [metadataData.ogImage] : undefined,
-        url: new URL('https://edwardwhitehead.dev'),
-      },
-      twitter: {
-        card: twitterCard,
-        title: metadataData.twitterTitle || metadataData.title,
-        description: metadataData.twitterDescription || metadataData.description,
-        images: metadataData.twitterImage ? [metadataData.twitterImage] : undefined,
-      },
-      icons: {
-        icon: '/favicon.ico',
-      },
-      robots: {
-        index: true,
-        follow: false,
-        "max-image-preview": "large",
-        "max-snippet": -1,
-        "max-video-preview": -1
-      },
-    };
-  } catch {
-    return {
-      title: 'Edward Whitehead | Seasoned Software Developer',
-      description:
-        "Welcome to the personal resume website of Edward Whitehead, a software developer specializing in AI, web, and mobile projects.",
-    };
-  }
+  return generateMetadataUtil({ metaDataFile: 'metadata' });
 }
 
 export default async function HomePage() {
@@ -110,14 +28,14 @@ export default async function HomePage() {
     aboutData,
     skillsData,
     experienceData,
-    projectsData,
+    featuredProjects,
     contactData,
   ] = await Promise.all([
     getMarkdownData<HeroMarkdownData>('hero'),
     getMarkdownData<AboutMarkdownData>('about'),
     getMarkdownData<SkillsMarkdownData>('skills'),
     getMarkdownData<ExperienceMarkdownData>('experience'),
-    getMarkdownData<ProjectsMarkdownData>('projects'),
+    getFeaturedProjects(),
     getMarkdownData<ContactMarkdownData>('contact'),
   ]);
 
@@ -149,7 +67,7 @@ export default async function HomePage() {
         contentHtml={aboutData.contentHtml}
         skillProgress={aboutData.skillProgress ?? []}
       />
-      <ProjectsSection title={projectsData.title} projects={projectsData.projects ?? []} />
+      <ProjectsSection title="Featured Projects" projects={featuredProjects} />
       <ContactSection
         title={contactData.title}
         subtitle={contactData.subtitle}

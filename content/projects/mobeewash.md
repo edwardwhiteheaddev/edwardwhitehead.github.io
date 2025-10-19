@@ -1,10 +1,40 @@
 ---
 id: 1
 title: 'MobeeWash - Mobile Car Wash Platform'
+slug: 'mobeewash'
 category: 'Mobile Development'
 image: 'https://images.unsplash.com/photo-1607860108855-64acf2078ed9?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0w=720&q=80'
 date: 'Oct 2019 – Sep 2021'
 description: 'A mobile car wash booking application. I served as the Team Lead for this project at Bumblebee.'
+overview: 'A mobile car wash booking application. I served as the Team Lead for this project at Bumblebee.'
+author: 'Edward Whitehead'
+ogTitle: 'MobeeWash - Mobile Car Wash Platform'
+ogDescription: 'A mobile car wash booking application. I served as the Team Lead for this project at Bumblebee.'
+ogImage: 'https://images.unsplash.com/photo-1607860108855-64acf2078ed9?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0w=720&q=80'
+twitterTitle: 'MobeeWash - Mobile Car Wash Platform'
+twitterDescription: 'A mobile car wash booking application. I served as the Team Lead for this project at Bumblebee.'
+twitterImage: 'https://images.unsplash.com/photo-1607860108855-64acf2078ed9?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0w=720&q=80'
+twitterCard: 'summary_large_image'
+canonicalUrl: 'https://edwardwhitehead.dev/projects/mobeewash'
+structuredData:
+  "@context": "https://schema.org"
+  "@type": "SoftwareApplication"
+  "name": "MobeeWash"
+  "description": "A mobile car wash booking application. I served as the Team Lead for this project at Bumblebee."
+  "applicationCategory": "EnterpriseSoftware"
+  "operatingSystem": "IONIC"
+  "offers":
+    "@type": "Offer"
+    "price": "0"
+    "priceCurrency": "USD"
+  "author":
+    "@type": "Person"
+    "name": "Edward Whitehead"
+    "url": "https://edwardwhitehead.dev"
+github: ''
+url: '/projects/mobeewash'
+featured: true
+keywords: 'MobeeWash, Mobile Car Wash, Car Wash Booking, Bumblebee, Team Lead, IONIC, .Net Restful API, SQL, Google Maps API'
 ---
 
 ## MobeeWash - Mobile Car Wash Platform
