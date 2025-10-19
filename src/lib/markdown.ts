@@ -6,6 +6,7 @@ import html from "remark-html";
 
 const contentDirectory = path.join(process.cwd(), "content");
 const projectsDirectory = path.join(process.cwd(), "content", "projects");
+const blogDirectory = path.join(process.cwd(), "content", "blog");
 
 export async function getMarkdownData<T>(fileName: string): Promise<{ contentHtml: string } & T> {
   const fullPath = path.join(contentDirectory, `${fileName}.md`);
@@ -52,4 +53,147 @@ export function getAllProjectIds(): string[] {
   return fileNames
     .filter((fileName) => fileName.endsWith('.md'))
     .map((fileName) => fileName.replace(/\.md$/, ''));
+}
+
+// Project-specific functions
+export interface Project {
+  id: number;
+  title: string;
+  slug: string;
+  category: string;
+  image: string;
+  date: string;
+  description: string;
+  overview: string;
+  url?: string;
+  featured?: boolean;
+  contentHtml: string;
+  // SEO and AEO metadata fields
+  metaTitle?: string;
+  metaDescription?: string;
+  keywords?: string[];
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  twitterTitle?: string;
+  twitterDescription?: string;
+  twitterImage?: string;
+  twitterCard?: string;
+  canonicalUrl?: string;
+  structuredData?: object;
+}
+
+export async function getAllProjects(): Promise<Project[]> {
+  const fileNames = fs.readdirSync(projectsDirectory);
+  const allProjectsData: Project[] = [];
+
+  for (const fileName of fileNames) {
+    if (!fileName.endsWith('.md')) continue;
+
+    const id = fileName.replace(/\.md$/, '');
+    const fullPath = path.join(projectsDirectory, fileName);
+    const fileContents = fs.readFileSync(fullPath, "utf8");
+
+    // Use gray-matter to parse the post metadata section
+    const matterResult = matter(fileContents);
+
+    // Combine the data with the id
+    allProjectsData.push({
+      contentHtml: '', // We don't need the full HTML for the listing
+      ...matterResult.data as Omit<Project, 'contentHtml'>,
+    });
+  }
+
+  // Sort projects by id
+  return allProjectsData.sort((a, b) => a.id - b.id);
+}
+
+export async function getFeaturedProjects(): Promise<Project[]> {
+  const allProjects = await getAllProjects();
+  return allProjects.filter(project => project.featured === true);
+}
+
+export function getAllProjectSlugs(): string[] {
+  const fileNames = fs.readdirSync(projectsDirectory);
+  return fileNames
+    .filter((fileName) => fileName.endsWith('.md'))
+    .map((fileName) => fileName.replace(/\.md$/, ''));
+}
+
+// Blog-specific functions
+export interface BlogPost {
+  slug: string;
+  title: string;
+  date: string;
+  description: string;
+  category: string;
+  tags?: string[];
+  image?: string;
+  featured?: boolean;
+  contentHtml: string;
+}
+
+export async function getBlogPostBySlug<T>(slug: string): Promise<{ contentHtml: string } & T> {
+  const fullPath = path.join(blogDirectory, `${slug}.md`);
+  const fileContents = fs.readFileSync(fullPath, "utf8");
+
+  // Use gray-matter to parse the post metadata section
+  const matterResult = matter(fileContents);
+
+  // Use remark to convert markdown into HTML string
+  const processedContent = await remark()
+    .use(html)
+    .process(matterResult.content);
+  const contentHtml = processedContent.toString();
+
+  // Combine the data with the slug and contentHtml
+  return {
+    contentHtml,
+    slug,
+    ...matterResult.data as T,
+  };
+}
+
+export async function getAllBlogPosts(): Promise<BlogPost[]> {
+  const fileNames = fs.readdirSync(blogDirectory);
+  const allPostsData: BlogPost[] = [];
+
+  for (const fileName of fileNames) {
+    if (!fileName.endsWith('.md')) continue;
+
+    const slug = fileName.replace(/\.md$/, '');
+    const fullPath = path.join(blogDirectory, fileName);
+    const fileContents = fs.readFileSync(fullPath, "utf8");
+
+    // Use gray-matter to parse the post metadata section
+    const matterResult = matter(fileContents);
+
+    // Combine the data with the slug
+    allPostsData.push({
+      slug,
+      contentHtml: '', // We don't need the full HTML for the listing
+      ...matterResult.data as Omit<BlogPost, 'slug' | 'contentHtml'>,
+    });
+  }
+
+  // Sort posts by date (newest first)
+  return allPostsData.sort((a, b) => {
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
+  });
+}
+
+export function getAllBlogSlugs(): string[] {
+  const fileNames = fs.readdirSync(blogDirectory);
+  return fileNames
+    .filter((fileName) => fileName.endsWith('.md'))
+    .map((fileName) => fileName.replace(/\.md$/, ''));
+}
+
+export function generateSlugFromTitle(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, '') // Remove special characters
+    .replace(/\s+/g, '-') // Replace spaces with hyphens
+    .replace(/-+/g, '-') // Replace multiple hyphens with single hyphen
+    .trim();
 }

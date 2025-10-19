@@ -15,11 +15,10 @@ const NAV_ITEMS = [
     { label: 'Experience', target: '/#experience' },
     { label: 'Projects', target: '/#projects' },
     { label: 'Contact', target: '/#contact' },
-    { label: 'The Comeback Build', target: '/the-comeback-build' }
+    { label: 'Blog', target: '/blog' }
 ];
 
 export function KyrosNavbar() {
-    const [scrolled, setScrolled] = useState(false);
     const [mobileOpen, setMobileOpen] = useState(false);
     const pathname = usePathname();
     const isHome = pathname === '/' || pathname === '';
@@ -70,7 +69,7 @@ export function KyrosNavbar() {
     }, [isHome]);
 
     return (
-        <header className={`kyros-navbar${scrolled ? ' scrolled' : ''}`}>
+        <header className={`kyros-navbar`}>
             <div className="container">
                 <Topbar />
                 <div className="kyros-navbar__inner">

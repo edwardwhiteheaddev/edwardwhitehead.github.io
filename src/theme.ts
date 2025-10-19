@@ -1,7 +1,7 @@
 import { createTheme } from "@mantine/core";
 
 // Refined color palette for a more professional feel
-const ariesGold = "#D4AF37"; // A slightly more muted, elegant gold
+const ariesRed = "#FF575F"; // A professional red color
 const charcoal = "#1F2937"; // A deep charcoal, slightly softer than pure black
 const offWhite = "#F9FAFB"; // A clean, soft white for backgrounds
 
@@ -24,20 +24,20 @@ export const theme = createTheme({
       "#141517",
       "#101113",
     ],
-    ariesGold: [
-      "#FDF6E3",
-      "#FAEEC5",
-      "#F5E09C",
-      "#F1D272",
-      "#EDC448",
-      "#E9B61E",
-      ariesGold,
-      "#B89A2E",
-      "#9C8126",
-      "#80681E",
+    ariesRed: [
+      "#FEF2F2",
+      "#FEE2E2",
+      "#FECACA",
+      "#FCA5A5",
+      "#F87171",
+      "#EF4444",
+      ariesRed,
+      "#B91C1C",
+      "#991B1B",
+      "#7F1D1D",
     ],
   },
-  primaryColor: "ariesGold",
+  primaryColor: "ariesRed",
   primaryShade: 6,
   defaultRadius: "md",
   white: offWhite,

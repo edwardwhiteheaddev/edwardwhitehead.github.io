@@ -1,10 +1,40 @@
 ---
 id: 2
 title: 'FedEx Mobile Stack'
+slug: 'fedex-mobile-stack'
 category: 'Enterprise Software'
 image: 'https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
 date: 'Jun 2010 – Mar 2018'
 description: 'IT Lead for Mobility & Customs Clearance (Southern Africa)'
+author: 'Edward Whitehead'
+ogTitle: 'FedEx Mobile Stack - IT Lead for Mobility & Customs Clearance (Southern Africa)'
+ogDescription: 'IT Lead for Mobility & Customs Clearance (Southern Africa)'
+ogImage: 'https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
+twitterTitle: 'FedEx Mobile Stack - IT Lead for Mobility & Customs Clearance (Southern Africa)'
+twitterDescription: 'IT Lead for Mobility & Customs Clearance (Southern Africa)'
+twitterImage: 'https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
+twitterCard: 'summary_large_image'
+canonicalUrl: 'https://edwardwhitehead.dev/projects/fedex-mobile-stack'
+structuredData:
+  "@context": "https://schema.org"
+  "@type": "SoftwareApplication"
+  "name": "FedEx Mobile Stack"
+  "description": "IT Lead for Mobility & Customs Clearance (Southern Africa)"
+  "applicationCategory": "EnterpriseSoftware"
+  "operatingSystem": "Windows Mobile"
+  "offers":
+    "@type": "Offer"
+    "price": "0"
+    "priceCurrency": "USD"
+  "author":
+    "@type": "Person"
+    "name": "Edward Whitehead"
+    "url": "https://edwardwhitehead.dev"
+overview: 'IT Lead for Mobility & Customs Clearance (Southern Africa)'
+github: ''
+url: '/projects/fedex-mobile-stack'
+featured: true
+keywords: 'FedEx, Mobile Stack, Southern Africa, IT Lead, Mobility, Customs Clearance, Windows Mobile, C#, WCF, SQL Server'
 ---
 
 ## FedEx Mobile Stack

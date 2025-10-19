@@ -1,11 +1,39 @@
 ---
 id: 3
 title: 'Qirvo - AI Life Dashboard'
+slug: 'qirvo'
 category: 'AI & Web Development'
 image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
 date: 'August 2023'
 description: 'An AI-powered life dashboard designed to manage various aspects of life. It uses AI to deliver intelligent analysis of tasks, health, projects, and more.'
-url: 'https://github.com/Qirvo'
+overview: 'An AI-powered life dashboard designed to manage various aspects of life.'
+ogTitle: 'Qirvo - AI Life Dashboard'
+ogDescription: 'An AI-powered life dashboard designed to manage various aspects of life. It uses AI to deliver intelligent analysis of tasks, health, projects, and more.'
+ogImage: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
+twitterTitle: 'Qirvo - AI Life Dashboard'
+twitterDescription: 'An AI-powered life dashboard designed to manage various aspects of life. It uses AI to deliver intelligent analysis of tasks, health, projects, and more.'
+twitterImage: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
+twitterCard: 'summary_large_image'
+canonicalUrl: 'https://edwardwhitehead.dev/projects/qirvo'
+structuredData:
+  "@context": "https://schema.org"
+  "@type": "SoftwareApplication"
+  "name": "Qirvo"
+  "description": "An AI-powered life dashboard designed to manage various aspects of life. It uses AI to deliver intelligent analysis of tasks, health, projects, and more."
+  "applicationCategory": "EnterpriseSoftware"
+  "operatingSystem": "Next.js & React with TypeScript"
+  "offers":
+    "@type": "Offer"
+    "price": "0"
+    "priceCurrency": "USD"
+  "author":
+    "@type": "Person"
+    "name": "Edward Whitehead"
+    "url": "https://edwardwhitehead.dev"
+github: 'https://github.com/Qirvo'
+url: '/projects/qirvo'
+featured: true
+keywords: 'Qirvo, AI Life Dashboard, AI-powered life dashboard, intelligent analysis, task prioritization, health tracking, project management, habit tracking, personalized recommendations, natural language processing, voice commands'
 ---
 
 ## Qirvo - AI Life Dashboard

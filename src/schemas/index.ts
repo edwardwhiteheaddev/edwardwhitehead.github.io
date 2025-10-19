@@ -63,6 +63,49 @@ interface MetadataData {
     type?: string;
 }
 
+interface SkillsMarkdownData {
+    title: string;
+    subtitle?: string;
+    skills: { category: string; list: string }[];
+    contentHtml: string;
+}
+
+interface ExperienceMarkdownData {
+    title: string;
+    jobs: {
+        role: string;
+        company: string;
+        dates: string;
+        description: string;
+        skills?: string;
+    }[];
+}
+
+interface ProjectsMarkdownData {
+    title: string;
+    projects: {
+        id: number | string;
+        title: string;
+        slug?: string;
+        category: string;
+        image?: string;
+        date?: string;
+        description: string;
+        url?: string;
+        featured?: boolean;
+    }[];
+}
+
+interface ContactMarkdownData {
+    title: string;
+    subtitle?: string;
+    email: string;
+    phone?: string;
+    location?: string;
+    socials?: { label: string; url: string }[];
+    contentHtml: string;
+}
+
 export type {
     AboutMarkdownData,
     TbcAboutMarkdownData,
@@ -70,5 +113,9 @@ export type {
     CurrentOfferData,
     WhyThisMattersData,
     ConnectData,
-    MetadataData
+    MetadataData,
+    SkillsMarkdownData,
+    ExperienceMarkdownData,
+    ProjectsMarkdownData,
+    ContactMarkdownData
 };
