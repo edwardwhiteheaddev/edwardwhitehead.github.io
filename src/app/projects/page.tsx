@@ -16,7 +16,9 @@ function ProjectsContent({ projects }: { projects: ProjectsMarkdownData[] }) {
 }
 
 export default async function ProjectsPage() {
+  console.log('ProjectsPage: Starting to fetch projects...');
   const allProjects = await getAllProjects();
+  console.log('ProjectsPage: Fetched projects:', allProjects.length, allProjects.map(p => p.title));
 
   return (
     <Suspense fallback={<LoadingFallback />}>
