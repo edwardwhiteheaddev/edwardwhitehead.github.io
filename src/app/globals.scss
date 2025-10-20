@@ -1034,3 +1034,24 @@ section {
         padding-inline: var(--mantine-spacing-xl);
     }
 }
+
+/* Blog-specific styles */
+.blog-meta {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    font-size: 0.875rem;
+    color: var(--mantine-color-gray-6);
+}
+
+.blog-date,
+.blog-author {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.blog-date i,
+.blog-author i {
+    font-size: 0.75rem;
+}

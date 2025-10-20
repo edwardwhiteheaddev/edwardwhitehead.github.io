@@ -8,6 +8,20 @@ date: 'Oct 2019 – Sep 2021'
 description: 'A mobile car wash booking application. I served as the Team Lead for this project at Bumblebee.'
 overview: 'A mobile car wash booking application. I served as the Team Lead for this project at Bumblebee.'
 author: 'Edward Whitehead'
+
+# SEO and AEO metadata fields
+metaTitle: 'MobeeWash - Mobile Car Wash Platform | Edward Whitehead'
+metaDescription: 'Led development of MobeeWash, a comprehensive mobile car wash booking application built with IONIC, .NET API, and Google Maps integration at Bumblebee.'
+keywords:
+  - 'MobeeWash'
+  - 'Mobile Car Wash'
+  - 'Car Wash Booking'
+  - 'Bumblebee'
+  - 'Team Lead'
+  - 'IONIC'
+  - '.Net Restful API'
+  - 'SQL'
+  - 'Google Maps API'
 ogTitle: 'MobeeWash - Mobile Car Wash Platform'
 ogDescription: 'A mobile car wash booking application. I served as the Team Lead for this project at Bumblebee.'
 ogImage: 'https://images.unsplash.com/photo-1607860108855-64acf2078ed9?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0w=720&q=80'
@@ -16,6 +30,7 @@ twitterDescription: 'A mobile car wash booking application. I served as the Team
 twitterImage: 'https://images.unsplash.com/photo-1607860108855-64acf2078ed9?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0w=720&q=80'
 twitterCard: 'summary_large_image'
 canonicalUrl: 'https://edwardwhitehead.dev/projects/mobeewash'
+
 structuredData:
   "@context": "https://schema.org"
   "@type": "SoftwareApplication"
@@ -33,8 +48,7 @@ structuredData:
     "url": "https://edwardwhitehead.dev"
 github: ''
 url: '/projects/mobeewash'
-featured: true
-keywords: 'MobeeWash, Mobile Car Wash, Car Wash Booking, Bumblebee, Team Lead, IONIC, .Net Restful API, SQL, Google Maps API'
+featured: false
 ---
 
 ## MobeeWash - Mobile Car Wash Platform

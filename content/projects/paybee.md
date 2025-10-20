@@ -8,6 +8,18 @@ date: 'Aug 2021 – Jun 2025'
 description: 'A FinTech gratuity/payment solution that was initially a concept that eventually turned into a complete Fintech solution, but was eventually cancelled due to legal requirements to run a Fintech company and the limited funds available to continue.'
 overview: 'A FinTech gratuity/payment solution that was initially a concept.'
 author: 'Edward Whitehead'
+
+# SEO and AEO metadata fields
+metaTitle: 'PayBee™ - Revolutionary FinTech Payment Solution | Edward Whitehead'
+metaDescription: 'PayBee™ was an innovative FinTech gratuity and payment solution developed by Edward Whitehead. A complete mobile payment ecosystem that was ahead of its time.'
+keywords:
+  - 'PayBee'
+  - 'FinTech'
+  - 'mobile payments'
+  - 'gratuity solution'
+  - 'payment processing'
+  - 'mobile app'
+  - 'financial technology'
 ogTitle: 'PayBee™ - Revolutionary FinTech Payment Solution | Edward Whitehead'
 ogDescription: 'Discover PayBee™, an innovative FinTech gratuity and payment solution developed by Edward Whitehead. A complete mobile payment ecosystem that was ahead of its time.'
 ogImage: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
@@ -16,6 +28,7 @@ twitterDescription: 'Discover PayBee™, an innovative FinTech gratuity and paym
 twitterImage: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
 twitterCard: 'summary_large_image'
 canonicalUrl: 'https://edwardwhitehead.dev/projects/paybee'
+
 structuredData:
   "@context": "https://schema.org"
   "@type": "SoftwareApplication"
@@ -34,7 +47,6 @@ structuredData:
 github: 'https://github.com/team-paybee'
 url: '/projects/paybee'
 featured: true
-keywords: 'PayBee, FinTech, mobile payments, gratuity solution, payment processing, mobile app, financial technology'
 ---
 
 ## PayBee™ - The Queen Bee of Payment Processing

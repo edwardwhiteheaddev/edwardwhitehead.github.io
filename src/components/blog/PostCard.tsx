@@ -1,10 +1,10 @@
 import { Badge, Button, Card, Group, Image, Stack, Text, Title } from '@mantine/core';
-import { BlogPost } from '@/lib/markdown';
+import { BlogPostMarkdownData } from '@/schemas';
 import Link from 'next/link';
 import { IconCalendar, IconCategory, IconTag } from '@tabler/icons-react';
 
 interface PostCardProps {
-  post: BlogPost;
+  post: BlogPostMarkdownData;
   variant?: 'featured' | 'compact' | 'detailed';
   showTags?: boolean;
   showDescription?: boolean;

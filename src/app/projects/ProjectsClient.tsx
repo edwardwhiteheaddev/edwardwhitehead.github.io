@@ -15,9 +15,9 @@ import { motion } from "framer-motion";
 import { FadeIn } from "@/components/FadeIn";
 import { IconCalendar } from "@tabler/icons-react";
 import Link from "next/link";
-import { Project } from "@/lib/markdown";
+import { ProjectsMarkdownData } from '@/schemas';
 
-export function ProjectsClient({ projects }: { projects: Project[] }) {
+export function ProjectsClient({ projects }: { projects: ProjectsMarkdownData[] }) {
 
   return (
     <FadeIn>

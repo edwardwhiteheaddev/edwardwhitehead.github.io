@@ -1,9 +1,10 @@
-import { getAllBlogSlugs, getBlogPostBySlug, BlogPost } from '@/lib/markdown';
-import { Badge, Button, Container, Group, Image, Stack, Text, Title } from '@mantine/core';
+import { getAllBlogSlugs, getBlogPostBySlug } from '@/lib/markdown';
+import { Badge, Button, Container, Group, Stack, Text, Title } from '@mantine/core';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { IconCalendar, IconCategory, IconTag } from '@tabler/icons-react';
+import { BlogPostMarkdownData } from '@/schemas';
 
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
@@ -19,7 +20,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
   const resolvedParams = await params;
   try {
-    const postData = await getBlogPostBySlug<BlogPost>(resolvedParams.slug);
+    const postData = await getBlogPostBySlug<BlogPostMarkdownData>(resolvedParams.slug);
     return {
       title: `${postData.title} | Edward Whitehead`,
       description: postData.description,
@@ -49,10 +50,10 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const resolvedParams = await params;
-  let postData: BlogPost;
+  let postData: BlogPostMarkdownData;
 
   try {
-    postData = await getBlogPostBySlug<BlogPost>(resolvedParams.slug);
+    postData = await getBlogPostBySlug<BlogPostMarkdownData>(resolvedParams.slug);
   } catch {
     notFound();
   }

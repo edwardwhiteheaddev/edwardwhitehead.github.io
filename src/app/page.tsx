@@ -1,12 +1,13 @@
 import { AboutSection } from '@/components/kyros/About';
 import { ContactSection } from '@/components/kyros/Contact';
 import { ExperienceSection } from '@/components/kyros/Experience';
+import { FeaturedBlogsSection } from '@/components/kyros/FeaturedBlogs';
 import { HeroSection } from '@/components/kyros/Hero';
 import { Preloader } from '@/components/kyros/Preloader';
 import { ProjectsSection } from '@/components/kyros/Projects';
 import { ScrollToTop } from '@/components/kyros/ScrollToTop';
 import { SkillsSection } from '@/components/kyros/Skills';
-import { getMarkdownData, getFeaturedProjects } from '@/lib/markdown';
+import { getFeaturedBlogs, getMarkdownData, getFeaturedProjects } from '@/lib/markdown';
 import { normalizeButtons } from '@/lib/normalizers';
 import {
   AboutMarkdownData,
@@ -29,6 +30,7 @@ export default async function HomePage() {
     skillsData,
     experienceData,
     featuredProjects,
+    featuredBlogs,
     contactData,
   ] = await Promise.all([
     getMarkdownData<HeroMarkdownData>('hero'),
@@ -36,6 +38,7 @@ export default async function HomePage() {
     getMarkdownData<SkillsMarkdownData>('skills'),
     getMarkdownData<ExperienceMarkdownData>('experience'),
     getFeaturedProjects(),
+    getFeaturedBlogs(),
     getMarkdownData<ContactMarkdownData>('contact'),
   ]);
 
@@ -68,6 +71,7 @@ export default async function HomePage() {
         skillProgress={aboutData.skillProgress ?? []}
       />
       <ProjectsSection title="Featured Projects" projects={featuredProjects} />
+      <FeaturedBlogsSection title="Featured Blog Posts" blogs={featuredBlogs} />
       <ContactSection
         title={contactData.title}
         subtitle={contactData.subtitle}

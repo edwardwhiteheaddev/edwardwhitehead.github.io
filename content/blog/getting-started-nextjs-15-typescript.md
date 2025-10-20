@@ -6,7 +6,50 @@ description: 'A comprehensive guide to setting up a modern Next.js 15 project wi
 category: 'Web Development'
 tags: ['Next.js', 'TypeScript', 'React', 'Web Development']
 image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
-featured: true
+featured: false
+author: 'Edward Whitehead'
+
+# SEO and AEO metadata fields
+metaTitle: 'Getting Started with Next.js 15 and TypeScript | Edward Whitehead'
+metaDescription: 'Learn how to set up a modern Next.js 15 project with TypeScript. Complete guide covering App Router, TypeScript configuration, and best practices for scalable React applications.'
+keywords:
+  - 'Next.js 15'
+  - 'TypeScript'
+  - 'React'
+  - 'Web Development'
+  - 'App Router'
+  - 'Modern React'
+  - 'JavaScript Framework'
+  - 'Frontend Development'
+ogTitle: 'Getting Started with Next.js 15 and TypeScript'
+ogDescription: 'A comprehensive guide to setting up a modern Next.js 15 project with TypeScript, covering best practices and common pitfalls.'
+ogImage: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
+twitterTitle: 'Getting Started with Next.js 15 and TypeScript'
+twitterDescription: 'Complete guide to Next.js 15 setup with TypeScript, App Router, and modern React development practices.'
+twitterImage: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
+twitterCard: 'summary_large_image'
+canonicalUrl: 'https://edwardwhitehead.dev/blog/getting-started-nextjs-15-typescript'
+
+structuredData:
+  "@context": "https://schema.org"
+  "@type": "BlogPosting"
+  "headline": "Getting Started with Next.js 15 and TypeScript"
+  "description": "A comprehensive guide to setting up a modern Next.js 15 project with TypeScript, covering best practices and common pitfalls."
+  "author":
+    "@type": "Person"
+    "name": "Edward Whitehead"
+    "url": "https://edwardwhitehead.dev"
+  "datePublished": "2024-12-19"
+  "dateModified": "2024-12-19"
+  "mainEntityOfPage":
+    "@type": "WebPage"
+    "@id": "https://edwardwhitehead.dev/blog/getting-started-nextjs-15-typescript"
+  "publisher":
+    "@type": "Person"
+    "name": "Edward Whitehead"
+  "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80"
+  "articleSection": "Web Development"
+  "keywords": ["Next.js 15", "TypeScript", "React", "Web Development"]
 ---
 
 # Getting Started with Next.js 15 and TypeScript

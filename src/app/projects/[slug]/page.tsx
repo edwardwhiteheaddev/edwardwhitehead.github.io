@@ -1,8 +1,11 @@
-import { getProjectData, Project } from '@/lib/markdown';
+import { getProjectData } from '@/lib/markdown';
 import { Badge, Button, Container, Group, Stack, Text, Title } from '@mantine/core';
 import Link from 'next/link';
 import { FadeIn } from "@/components/FadeIn";
 import { generateStaticParams, generateMetadata } from './metadata';
+import { ProjectsMarkdownData } from '@/schemas';
+import { Suspense } from 'react';
+import LoadingFallback from '@/lib/loading-fallback';
 
 interface ProjectPageProps {
   params: Promise<{ slug: string }>;
@@ -12,7 +15,7 @@ interface ProjectPageProps {
 // Note: This page is statically generated at build time for static export compatibility
 export { generateStaticParams, generateMetadata };
 
-function ProjectContent({ projectData }: { projectData: Project }) {
+function ProjectContent({ projectData }: { projectData: ProjectsMarkdownData }) {
   return (
     <>
       {/* Structured Data for SEO/AEO */}
@@ -127,10 +130,10 @@ function ProjectContent({ projectData }: { projectData: Project }) {
                 Get In Touch
               </Button>
 
-              {projectData.url && (
+              {projectData.github && (
                 <Button
                   component={Link}
-                  href={projectData.url}
+                  href={projectData.github}
                   variant="outline"
                   size="lg"
                   target='_blank'
@@ -153,11 +156,15 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
   try {
     // Fetch project data
-    const projectData = await getProjectData<Project>(resolvedParams.slug);
+    const projectData = await getProjectData<ProjectsMarkdownData>(resolvedParams.slug);
     console.log('ProjectPage - data fetched successfully:', projectData.title);
     console.log('ProjectPage - contentHtml length:', projectData.contentHtml?.length || 0);
 
-    return <ProjectContent projectData={projectData} />;
+    return (
+      <Suspense fallback={<LoadingFallback />}>
+        <ProjectContent projectData={projectData} />
+      </Suspense>
+    );
   } catch (error) {
     console.error('ProjectPage - error fetching data:', error);
     return (
@@ -165,7 +172,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         <div style={{ textAlign: 'center', padding: '4rem 0' }}>
           <Title order={1} c="red" mb="md">Project Not Found</Title>
           <Text c="dimmed" size="lg" mb="xl">
-            The project "{resolvedParams.slug}" could not be found.
+            The project &#34;{resolvedParams.slug}&#34; could not be found.
           </Text>
           <Text c="dimmed" size="sm" mb="xl">
             Error: {error instanceof Error ? error.message : 'Unknown error'}

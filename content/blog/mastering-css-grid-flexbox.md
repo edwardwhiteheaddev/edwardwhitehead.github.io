@@ -7,6 +7,49 @@ category: 'CSS'
 tags: ['CSS', 'Grid', 'Flexbox', 'Responsive Design', 'Web Design']
 image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
 featured: false
+author: 'Edward Whitehead'
+
+# SEO and AEO metadata fields
+metaTitle: 'Mastering Modern CSS Grid and Flexbox | Edward Whitehead'
+metaDescription: 'Learn advanced CSS Grid and Flexbox techniques for creating responsive, accessible layouts. Complete guide to modern CSS layout systems with practical examples.'
+keywords:
+  - 'CSS Grid'
+  - 'Flexbox'
+  - 'CSS Layout'
+  - 'Responsive Design'
+  - 'Web Design'
+  - 'CSS Tutorial'
+  - 'Modern CSS'
+  - 'Layout Techniques'
+ogTitle: 'Mastering Modern CSS Grid and Flexbox'
+ogDescription: 'A deep dive into modern CSS layout techniques using Grid and Flexbox for responsive, accessible web designs.'
+ogImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
+twitterTitle: 'Mastering CSS Grid and Flexbox'
+twitterDescription: 'Advanced CSS Grid and Flexbox techniques for modern responsive web design.'
+twitterImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
+twitterCard: 'summary_large_image'
+canonicalUrl: 'https://edwardwhitehead.dev/blog/mastering-css-grid-flexbox'
+
+structuredData:
+  "@context": "https://schema.org"
+  "@type": "BlogPosting"
+  "headline": "Mastering Modern CSS Grid and Flexbox"
+  "description": "A deep dive into modern CSS layout techniques using Grid and Flexbox for responsive, accessible web designs."
+  "author":
+    "@type": "Person"
+    "name": "Edward Whitehead"
+    "url": "https://edwardwhitehead.dev"
+  "datePublished": "2024-12-10"
+  "dateModified": "2024-12-10"
+  "mainEntityOfPage":
+    "@type": "WebPage"
+    "@id": "https://edwardwhitehead.dev/blog/mastering-css-grid-flexbox"
+  "publisher":
+    "@type": "Person"
+    "name": "Edward Whitehead"
+  "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80"
+  "articleSection": "CSS"
+  "keywords": ["CSS Grid", "Flexbox", "CSS Layout", "Responsive Design", "Web Design"]
 ---
 
 # Mastering Modern CSS Grid and Flexbox

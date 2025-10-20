@@ -7,6 +7,23 @@ image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3
 date: 'August 2023'
 description: 'An AI-powered life dashboard designed to manage various aspects of life. It uses AI to deliver intelligent analysis of tasks, health, projects, and more.'
 overview: 'An AI-powered life dashboard designed to manage various aspects of life.'
+author: 'Edward Whitehead'
+
+# SEO and AEO metadata fields
+metaTitle: 'Qirvo - AI Life Dashboard | Edward Whitehead'
+metaDescription: 'Qirvo is an AI-powered life dashboard that intelligently manages tasks, health, projects, and more using advanced AI analysis and personalized recommendations.'
+keywords:
+  - 'Qirvo'
+  - 'AI Life Dashboard'
+  - 'AI-powered life dashboard'
+  - 'intelligent analysis'
+  - 'task prioritization'
+  - 'health tracking'
+  - 'project management'
+  - 'habit tracking'
+  - 'personalized recommendations'
+  - 'natural language processing'
+  - 'voice commands'
 ogTitle: 'Qirvo - AI Life Dashboard'
 ogDescription: 'An AI-powered life dashboard designed to manage various aspects of life. It uses AI to deliver intelligent analysis of tasks, health, projects, and more.'
 ogImage: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
@@ -15,6 +32,7 @@ twitterDescription: 'An AI-powered life dashboard designed to manage various asp
 twitterImage: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
 twitterCard: 'summary_large_image'
 canonicalUrl: 'https://edwardwhitehead.dev/projects/qirvo'
+
 structuredData:
   "@context": "https://schema.org"
   "@type": "SoftwareApplication"
@@ -33,7 +51,6 @@ structuredData:
 github: 'https://github.com/Qirvo'
 url: '/projects/qirvo'
 featured: true
-keywords: 'Qirvo, AI Life Dashboard, AI-powered life dashboard, intelligent analysis, task prioritization, health tracking, project management, habit tracking, personalized recommendations, natural language processing, voice commands'
 ---
 
 ## Qirvo - AI Life Dashboard
