@@ -18,7 +18,6 @@ import Link from "next/link";
 import { ProjectsMarkdownData } from '@/schemas';
 
 export function ProjectsClient({ projects }: { projects: ProjectsMarkdownData[] }) {
-  console.log('ProjectsClient: Received projects:', projects.length, projects.map(p => p.title));
 
   return (
     <FadeIn>
