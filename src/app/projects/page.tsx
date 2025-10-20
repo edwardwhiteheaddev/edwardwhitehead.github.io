@@ -1,19 +1,24 @@
 import { getAllProjects } from "@/lib/markdown";
+import { ProjectsMarkdownData } from '@/schemas';
 import { ProjectsClient } from "./ProjectsClient";
-import LoadingFallback from "@/lib/loading-fallback";
 import { Suspense } from "react";
+import LoadingFallback from "@/lib/loading-fallback";
 
 export const metadata = {
   title: "Projects | Edward Whitehead",
   description: "A selection of projects by Edward Whitehead.",
 };
 
+function ProjectsContent({ projects }: { projects: ProjectsMarkdownData[] }) {
+  return <ProjectsClient projects={projects} />;
+}
+
 export default async function ProjectsPage() {
   const allProjects = await getAllProjects();
 
   return (
     <Suspense fallback={<LoadingFallback />}>
-      <ProjectsClient projects={allProjects} />
+      <ProjectsContent projects={allProjects} />
     </Suspense>
   );
 }
