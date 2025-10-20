@@ -1,4 +1,5 @@
-import { getAllProjectSlugs, getProjectData, Project } from '@/lib/markdown';
+import { getAllProjectSlugs, getProjectData } from '@/lib/markdown';
+import { ProjectsMarkdownData } from '@/schemas';
 import { Metadata } from 'next';
 
 interface ProjectPageProps {
@@ -15,7 +16,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: ProjectPageProps): Promise<Metadata> {
     const resolvedParams = await params;
     try {
-        const projectData = await getProjectData<Project>(resolvedParams.slug);
+        const projectData = await getProjectData<ProjectsMarkdownData>(resolvedParams.slug);
         const { generateMetadata: generateMetadataUtil } = await import('@/lib/generate-metadata');
         return generateMetadataUtil({ projectData });
     } catch {

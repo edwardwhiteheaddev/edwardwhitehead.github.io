@@ -1,4 +1,5 @@
-import { getAllProjects, Project } from "@/lib/markdown";
+import { getAllProjects } from "@/lib/markdown";
+import { ProjectsMarkdownData } from '@/schemas';
 import { ProjectsClient } from "./ProjectsClient";
 import { Suspense } from "react";
 import LoadingFallback from "@/lib/loading-fallback";
@@ -10,7 +11,7 @@ export const metadata = {
   description: "A selection of projects by Edward Whitehead.",
 };
 
-function ProjectsContent({ projects }: { projects: Project[] }) {
+function ProjectsContent({ projects }: { projects: ProjectsMarkdownData[] }) {
   return <ProjectsClient projects={projects} />;
 }
 

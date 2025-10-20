@@ -1,3 +1,4 @@
+import { BlogPostMarkdownData, ProjectsMarkdownData } from "@/schemas";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
@@ -55,37 +56,9 @@ export function getAllProjectIds(): string[] {
     .map((fileName) => fileName.replace(/\.md$/, ''));
 }
 
-// Project-specific functions
-export interface Project {
-  id: number;
-  title: string;
-  slug: string;
-  category: string;
-  image: string;
-  date: string;
-  description: string;
-  overview: string;
-  url?: string;
-  featured?: boolean;
-  contentHtml: string;
-  // SEO and AEO metadata fields
-  metaTitle?: string;
-  metaDescription?: string;
-  keywords?: string[];
-  ogTitle?: string;
-  ogDescription?: string;
-  ogImage?: string;
-  twitterTitle?: string;
-  twitterDescription?: string;
-  twitterImage?: string;
-  twitterCard?: string;
-  canonicalUrl?: string;
-  structuredData?: object;
-}
-
-export async function getAllProjects(): Promise<Project[]> {
+export async function getAllProjects(): Promise<ProjectsMarkdownData[]> {
   const fileNames = fs.readdirSync(projectsDirectory);
-  const allProjectsData: Project[] = [];
+  const allProjectsData: ProjectsMarkdownData[] = [];
 
   for (const fileName of fileNames) {
     if (!fileName.endsWith('.md')) continue;
@@ -97,10 +70,11 @@ export async function getAllProjects(): Promise<Project[]> {
     // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents);
 
-    // Combine the data with the id
+    // Combine the data with the slug (filename takes precedence for routing)
     allProjectsData.push({
       contentHtml: '', // We don't need the full HTML for the listing
-      ...matterResult.data as Omit<Project, 'contentHtml'>,
+      ...matterResult.data as Omit<ProjectsMarkdownData, 'contentHtml'>,
+      slug: id, // Override any slug from front matter with filename
     });
   }
 
@@ -108,7 +82,7 @@ export async function getAllProjects(): Promise<Project[]> {
   return allProjectsData.sort((a, b) => a.id - b.id);
 }
 
-export async function getFeaturedProjects(): Promise<Project[]> {
+export async function getFeaturedProjects(): Promise<ProjectsMarkdownData[]> {
   const allProjects = await getAllProjects();
   return allProjects.filter(project => project.featured === true);
 }
@@ -118,19 +92,6 @@ export function getAllProjectSlugs(): string[] {
   return fileNames
     .filter((fileName) => fileName.endsWith('.md'))
     .map((fileName) => fileName.replace(/\.md$/, ''));
-}
-
-// Blog-specific functions
-export interface BlogPost {
-  slug: string;
-  title: string;
-  date: string;
-  description: string;
-  category: string;
-  tags?: string[];
-  image?: string;
-  featured?: boolean;
-  contentHtml: string;
 }
 
 export async function getBlogPostBySlug<T>(slug: string): Promise<{ contentHtml: string } & T> {
@@ -154,9 +115,9 @@ export async function getBlogPostBySlug<T>(slug: string): Promise<{ contentHtml:
   };
 }
 
-export async function getAllBlogPosts(): Promise<BlogPost[]> {
+export async function getAllBlogPosts(): Promise<BlogPostMarkdownData[]> {
   const fileNames = fs.readdirSync(blogDirectory);
-  const allPostsData: BlogPost[] = [];
+  const allPostsData: BlogPostMarkdownData[] = [];
 
   for (const fileName of fileNames) {
     if (!fileName.endsWith('.md')) continue;
@@ -172,7 +133,7 @@ export async function getAllBlogPosts(): Promise<BlogPost[]> {
     allPostsData.push({
       slug,
       contentHtml: '', // We don't need the full HTML for the listing
-      ...matterResult.data as Omit<BlogPost, 'slug' | 'contentHtml'>,
+      ...matterResult.data as Omit<BlogPostMarkdownData, 'slug' | 'contentHtml'>,
     });
   }
 
@@ -180,6 +141,11 @@ export async function getAllBlogPosts(): Promise<BlogPost[]> {
   return allPostsData.sort((a, b) => {
     return new Date(b.date).getTime() - new Date(a.date).getTime();
   });
+}
+
+export async function getFeaturedBlogs(): Promise<BlogPostMarkdownData[]> {
+  const allBlogs = await getAllBlogPosts();
+  return allBlogs.filter(blog => blog.featured === true);
 }
 
 export function getAllBlogSlugs(): string[] {

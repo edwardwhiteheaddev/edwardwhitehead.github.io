@@ -1,17 +1,17 @@
 'use client';
 
 import { Badge, Button, Card, Container, Group, Image, SimpleGrid, Stack, Text, Title } from '@mantine/core';
-import { BlogPost } from '@/lib/markdown';
 import Link from 'next/link';
-import { IconCalendar, IconCategory, IconEye } from '@tabler/icons-react';
+import { IconCalendar } from '@tabler/icons-react';
+import { BlogPostMarkdownData } from '@/schemas';
 
 interface BlogListingClientProps {
-  posts: BlogPost[];
+  posts: BlogPostMarkdownData[];
 }
 
 export function BlogListingClient({ posts }: BlogListingClientProps) {
   const featuredPosts = posts.filter(post => post.featured);
-  const regularPosts = posts.filter(post => !post.featured);
+  // const regularPosts = posts.filter(post => !post.featured);
 
   return (
     <Container size="lg" py="xl">

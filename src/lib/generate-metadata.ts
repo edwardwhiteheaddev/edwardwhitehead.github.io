@@ -1,9 +1,8 @@
 import { Metadata } from "next";
 import { getMarkdownData } from "./markdown";
-import { MetadataData } from "@/schemas";
-import { Project } from "./markdown";
+import { MetadataData, ProjectsMarkdownData } from "@/schemas";
 
-export async function generateMetadata({ metaDataFile, projectData }: { metaDataFile?: string; projectData?: Project }): Promise<Metadata> {
+export async function generateMetadata({ metaDataFile, projectData }: { metaDataFile?: string; projectData?: ProjectsMarkdownData }): Promise<Metadata> {
     // If project data is provided, use it for metadata
     if (projectData) {
         const allowedTwitterCards = ['summary', 'summary_large_image', 'app', 'player'] as const;
@@ -41,7 +40,7 @@ export async function generateMetadata({ metaDataFile, projectData }: { metaData
             },
             alternates: {
                 canonical: projectData.canonicalUrl || `https://edwardwhitehead.dev/projects/${projectData.slug}`,
-            },
+            }
         };
     }
 

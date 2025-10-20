@@ -6,7 +6,50 @@ description: 'Learn how to architect large React applications using micro-fronte
 category: 'Architecture'
 tags: ['React', 'Micro-Frontends', 'Architecture', 'JavaScript']
 image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
-featured: true
+featured: false
+author: 'Edward Whitehead'
+
+# SEO and AEO metadata fields
+metaTitle: 'Building Scalable React Applications with Micro-Frontends | Edward Whitehead'
+metaDescription: 'Learn micro-frontend architecture for React applications. Complete guide to breaking down large React apps into manageable, independently deployable modules.'
+keywords:
+  - 'React Micro-Frontends'
+  - 'Micro-Frontend Architecture'
+  - 'Scalable React Apps'
+  - 'Frontend Architecture'
+  - 'JavaScript Architecture'
+  - 'Module Federation'
+  - 'Independent Deployment'
+  - 'Team Collaboration'
+ogTitle: 'Building Scalable React Applications with Micro-Frontends'
+ogDescription: 'Learn how to architect large React applications using micro-frontends for better maintainability and team collaboration.'
+ogImage: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
+twitterTitle: 'Scalable React Micro-Frontends'
+twitterDescription: 'Guide to micro-frontend architecture for building and maintaining large React applications.'
+twitterImage: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
+twitterCard: 'summary_large_image'
+canonicalUrl: 'https://edwardwhitehead.dev/blog/scalable-react-micro-frontends'
+
+structuredData:
+  "@context": "https://schema.org"
+  "@type": "BlogPosting"
+  "headline": "Building Scalable React Applications with Micro-Frontends"
+  "description": "Learn how to architect large React applications using micro-frontends for better maintainability and team collaboration."
+  "author":
+    "@type": "Person"
+    "name": "Edward Whitehead"
+    "url": "https://edwardwhitehead.dev"
+  "datePublished": "2024-12-15"
+  "dateModified": "2024-12-15"
+  "mainEntityOfPage":
+    "@type": "WebPage"
+    "@id": "https://edwardwhitehead.dev/blog/scalable-react-micro-frontends"
+  "publisher":
+    "@type": "Person"
+    "name": "Edward Whitehead"
+  "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80"
+  "articleSection": "Architecture"
+  "keywords": ["React Micro-Frontends", "Micro-Frontend Architecture", "Scalable React Apps", "Frontend Architecture"]
 ---
 
 # Building Scalable React Applications with Micro-Frontends

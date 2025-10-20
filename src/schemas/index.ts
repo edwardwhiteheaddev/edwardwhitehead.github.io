@@ -81,19 +81,61 @@ interface ExperienceMarkdownData {
     }[];
 }
 
+// Project-specific functions
 interface ProjectsMarkdownData {
+    id: number;
     title: string;
-    projects: {
-        id: number | string;
-        title: string;
-        slug?: string;
-        category: string;
-        image?: string;
-        date?: string;
-        description: string;
-        url?: string;
-        featured?: boolean;
-    }[];
+    slug: string;
+    category: string;
+    image: string;
+    date: string;
+    description: string;
+    overview: string;
+    url?: string;
+    github?: string;
+    featured?: boolean;
+    contentHtml: string;
+    // SEO and AEO metadata fields
+    metaTitle?: string;
+    metaDescription?: string;
+    keywords?: string[];
+    ogTitle?: string;
+    ogDescription?: string;
+    ogImage?: string;
+    twitterTitle?: string;
+    twitterDescription?: string;
+    twitterImage?: string;
+    twitterCard?: string;
+    canonicalUrl?: string;
+    structuredData?: object;
+}
+
+// Blog-specific functions
+interface BlogPostMarkdownData {
+    slug: string;
+    title: string;
+    date: string;
+    description: string;
+    category: string;
+    tags?: string[];
+    image?: string;
+    featured?: boolean;
+    contentHtml: string;
+    author?: string;
+
+    // SEO and AEO metadata fields
+    metaTitle?: string;
+    metaDescription?: string;
+    keywords?: string[];
+    ogTitle?: string;
+    ogDescription?: string;
+    ogImage?: string;
+    twitterTitle?: string;
+    twitterDescription?: string;
+    twitterImage?: string;
+    twitterCard?: string;
+    canonicalUrl?: string;
+    structuredData?: object;
 }
 
 interface ContactMarkdownData {
@@ -117,5 +159,6 @@ export type {
     SkillsMarkdownData,
     ExperienceMarkdownData,
     ProjectsMarkdownData,
+    BlogPostMarkdownData,
     ContactMarkdownData
 };
