@@ -61,66 +61,77 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   return (
     <>
       {/* Hero Section */}
-      {postData.image && (
+      <Container size="lg" py="xl">
         <div
           style={{
             position: 'relative',
             width: '100%',
-            height: '400px',
-            backgroundImage: `url(${postData.image})`,
+            height: '300px',
+            backgroundImage: postData.image 
+              ? `url(${postData.image})` 
+              : 'url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170)',
+            backgroundColor: '#1a1b1e',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            borderRadius: '12px',
             display: 'flex',
-            alignItems: 'flex-end',
+            alignItems: 'center',
+            justifyContent: 'center',
+            marginBottom: '3rem',
+            border: '1px solid rgba(220, 38, 38, 0.2)',
+            overflow: 'hidden',
           }}
         >
+          {/* Dark overlay for text readability */}
           <div
             style={{
-              background: 'linear-gradient(transparent, rgba(0,0,0,0.8))',
-              width: '100%',
-              padding: '40px 20px 20px',
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              background: 'linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%)',
+              zIndex: 1,
             }}
-          >
-            <Container size="lg">
-              <Stack gap="md">
-                <Group gap="xs">
-                  <Badge variant="light" color="blue" size="lg">
-                    <IconCategory size={14} style={{ marginRight: 4 }} />
-                    {postData.category}
+          />
+          <div style={{ textAlign: 'center', padding: '2rem', position: 'relative', zIndex: 2 }}>
+            <Group gap="xs" justify="center" mb="md">
+              <Badge variant="light" color="blue" size="lg">
+                <IconCategory size={14} style={{ marginRight: 4 }} />
+                {postData.category}
+              </Badge>
+              <Text size="sm" c="white">
+                <IconCalendar size={14} style={{ marginRight: 4 }} />
+                {new Date(postData.date).toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                })}
+              </Text>
+            </Group>
+
+            <Title order={1} size="h1" c="white" mb="md" style={{ fontSize: '2.5rem' }}>
+              {postData.title}
+            </Title>
+
+            <Text c="gray.2" size="xl" maw={800} mx="auto" mb="md">
+              {postData.description}
+            </Text>
+
+            {postData.tags && postData.tags.length > 0 && (
+              <Group gap={8} justify="center">
+                {postData.tags.map((tag) => (
+                  <Badge key={tag} variant="outline" color="gray">
+                    <IconTag size={12} style={{ marginRight: 4 }} />
+                    {tag}
                   </Badge>
-                  <Text size="sm" c="white">
-                    <IconCalendar size={14} style={{ marginRight: 4 }} />
-                    {new Date(postData.date).toLocaleDateString('en-US', {
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric'
-                    })}
-                  </Text>
-                </Group>
-
-                <Title order={1} size="h1" c="white" style={{ fontSize: '2.5rem' }}>
-                  {postData.title}
-                </Title>
-
-                <Text size="xl" c="gray.2" maw={800}>
-                  {postData.description}
-                </Text>
-
-                {postData.tags && postData.tags.length > 0 && (
-                  <Group gap={8}>
-                    {postData.tags.map((tag) => (
-                      <Badge key={tag} variant="outline" color="gray">
-                        <IconTag size={12} style={{ marginRight: 4 }} />
-                        {tag}
-                      </Badge>
-                    ))}
-                  </Group>
-                )}
-              </Stack>
-            </Container>
+                ))}
+              </Group>
+            )}
           </div>
         </div>
-      )}
+      </Container>
 
       {/* Content Section */}
       <Container size="md" py="xl">
@@ -135,45 +146,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           >
             ← Back to Blog
           </Button>
-
-          {/* Article Header (if no hero image) */}
-          {!postData.image && (
-            <Stack gap="md">
-              <Group gap="xs">
-                <Badge variant="light" color="blue" size="lg">
-                  <IconCategory size={14} style={{ marginRight: 4 }} />
-                  {postData.category}
-                </Badge>
-                <Text size="sm" c="dimmed">
-                  <IconCalendar size={14} style={{ marginRight: 4 }} />
-                  {new Date(postData.date).toLocaleDateString('en-US', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric'
-                  })}
-                </Text>
-              </Group>
-
-              <Title order={1} size="h1" c="white">
-                {postData.title}
-              </Title>
-
-              <Text size="xl" c="gray.5" maw={800}>
-                {postData.description}
-              </Text>
-
-              {postData.tags && postData.tags.length > 0 && (
-                <Group gap={8}>
-                  {postData.tags.map((tag) => (
-                    <Badge key={tag} variant="outline" color="gray">
-                      <IconTag size={12} style={{ marginRight: 4 }} />
-                      {tag}
-                    </Badge>
-                  ))}
-                </Group>
-              )}
-            </Stack>
-          )}
 
           {/* Article Content */}
           <div
