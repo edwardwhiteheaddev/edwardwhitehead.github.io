@@ -7,6 +7,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import Logo from '@/assets/logo.svg'
 import Topbar from './Topbar';
+import { IconSparkles } from '@tabler/icons-react';
+import { useChatbot } from '@/components/chatbot/ChatbotProvider';
 
 const NAV_ITEMS = [
     { label: 'Home', target: '/' },
@@ -22,6 +24,7 @@ export function KyrosNavbar() {
     const [mobileOpen, setMobileOpen] = useState(false);
     const pathname = usePathname();
     const isHome = pathname === '/' || pathname === '';
+    const { open } = useChatbot();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -91,9 +94,22 @@ export function KyrosNavbar() {
                         <i className="fa fa-bars" aria-hidden="true" />
                     </button>
 
-                    <nav className={`kyros-navbar__menu${mobileOpen ? ' is-open' : ''}`}>
-                        {navLinks}
-                    </nav>
+                    <div className="kyros-navbar__actions">
+                        <nav className={`kyros-navbar__menu${mobileOpen ? ' is-open' : ''}`}>
+                            {navLinks}
+                        </nav>
+                        <button
+                            type="button"
+                            className="kyros-navbar__bot-btn"
+                            onClick={() => {
+                                open();
+                                setMobileOpen(false);
+                            }}
+                            aria-label="Open AI assistant"
+                        >
+                            <IconSparkles stroke={1.8} />
+                        </button>
+                    </div>
                 </div>
             </div>
         </header>

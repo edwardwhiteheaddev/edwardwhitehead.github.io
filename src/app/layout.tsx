@@ -1,13 +1,13 @@
 import { KyrosFooter } from '@/components/kyros/Footer';
 import { KyrosNavbar } from '@/components/kyros/Navbar';
-import { ColorSchemeScript, MantineProvider } from '@mantine/core';
+import { Providers } from '@/components/Providers';
+import { ColorSchemeScript } from '@mantine/core';
 import "@mantine/core/styles.css";
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import type { Viewport } from 'next';
 import { Roboto, Saira } from 'next/font/google';
 import React from 'react';
-import { theme } from '../theme';
 import './globals.scss';
 
 const saira = Saira({ subsets: ['latin'], variable: '--font-saira', weight: ['400', '500', '600', '700', '800'] });
@@ -42,11 +42,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
-        <MantineProvider theme={theme}>
+        <Providers>
           <KyrosNavbar />
           <main style={{ minHeight: '100vh', paddingTop: '120px' }}>{children}</main>
           <KyrosFooter />
-        </MantineProvider>
+        </Providers>
       </body>
     </html>
   );
