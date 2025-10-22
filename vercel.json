@@ -1,0 +1,18 @@
+{
+  "functions": {
+    "src/app/api/chatbot/route.ts": {
+      "maxDuration": 30
+    },
+    "src/app/api/contact/route.ts": {
+      "maxDuration": 30
+    },
+    "src/app/api/submit-email/route.ts": {
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "OPENAI_API_KEY": "@openai_api_key",
+    "CHATBOT_MODEL": "@chatbot_model",
+    "CHATBOT_SYSTEM_PROMPT": "@chatbot_system_prompt"
+  }
+}
