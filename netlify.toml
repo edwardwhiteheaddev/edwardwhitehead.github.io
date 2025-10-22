@@ -5,6 +5,18 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# Configure secrets scanning to exclude legitimate environment variables
+[build.processing.secrets_scanning]
+  omit_paths = [
+    ".next/cache/webpack/**/*",
+    ".next/server/**/*",
+    "netlify/functions/chatbot.ts",
+    "solution_items/chatbot-service/worker.ts",
+    "src/app/api/chatbot/route.ts",
+    "src/lib/chatbot-client.ts"
+  ]
+  omit_keys = ["CHATBOT_MODEL", "CHATBOT_SYSTEM_PROMPT"]
+
 # Netlify Functions
 [functions]
   directory = "netlify/functions"
