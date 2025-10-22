@@ -3,7 +3,7 @@
   publish = "out"
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "20"
   SECRETS_SCAN_OMIT_KEYS = "CHATBOT_MODEL,CHATBOT_SYSTEM_PROMPT"
   SECRETS_SCAN_OMIT_PATHS = ".next/**/*,netlify/functions/**/*,solution_items/**/*,src/**/*"
 
