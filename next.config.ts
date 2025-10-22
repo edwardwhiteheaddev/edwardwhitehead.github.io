@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable static export
-  output: 'export',
+  // Remove static export to enable API routes
+  // output: 'export',
 
-  // Add trailing slash to ensure proper routing on GitHub Pages
+  // Add trailing slash to ensure proper routing
   trailingSlash: true,
 
-  // Disable image optimization for static export
+  // Keep image optimization disabled for compatibility
   images: {
     unoptimized: true,
     remotePatterns: [
