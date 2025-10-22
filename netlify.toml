@@ -4,18 +4,8 @@
 
 [build.environment]
   NODE_VERSION = "18"
-
-# Configure secrets scanning to exclude legitimate environment variables
-[build.processing.secrets_scanning]
-  omit_paths = [
-    ".next/cache/webpack/**/*",
-    ".next/server/**/*",
-    "netlify/functions/chatbot.ts",
-    "solution_items/chatbot-service/worker.ts",
-    "src/app/api/chatbot/route.ts",
-    "src/lib/chatbot-client.ts"
-  ]
-  omit_keys = ["CHATBOT_MODEL", "CHATBOT_SYSTEM_PROMPT"]
+  SECRETS_SCAN_OMIT_KEYS = "CHATBOT_MODEL,CHATBOT_SYSTEM_PROMPT"
+  SECRETS_SCAN_OMIT_PATHS = ".next/**/*,netlify/functions/**/*,solution_items/**/*,src/**/*"
 
 # Netlify Functions
 [functions]
