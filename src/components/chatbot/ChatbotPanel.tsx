@@ -59,7 +59,7 @@ export default function ChatbotPanel() {
     if (!isOpen) return;
     const node = bottomRef.current;
     node?.scrollIntoView({ behavior: "smooth" });
-  }, [messages]);
+  }, [messages, isOpen]);
 
   useEffect(() => {
     if (knowledgeStatus !== "idle") return;
@@ -100,7 +100,7 @@ export default function ChatbotPanel() {
         window.localStorage.removeItem("chatbot.apiUrl");
       }
     }
-  }, []);
+  }, [apiUrl]);
 
   useEffect(() => {
     if (apiUrl) {
@@ -352,7 +352,7 @@ function cosineSimilarity(a: number[], b: number[]) {
 function embedQuery(question: string, dimensions: number) {
   const vector = new Array(dimensions).fill(0);
   const tokens = question.toLowerCase().split(/[\s,.;:!?]+/).filter(Boolean);
-  tokens.forEach((token, index) => {
+  tokens.forEach((token) => {
     const hash = simpleHash(token);
     const position = hash % dimensions;
     vector[position] += 1;

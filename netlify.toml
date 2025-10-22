@@ -1,9 +1,14 @@
 [build]
-  command = "npm run build"
+  command = "npm run build:static"
   publish = "out"
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "20"
+
+# Netlify Functions
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
 
 [[redirects]]
   from = "/api/chatbot"

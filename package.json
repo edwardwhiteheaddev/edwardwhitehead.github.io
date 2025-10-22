@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack --port 4000",
     "build": "npm run build:knowledge && next build",
+    "build:static": "npm run build:knowledge && NETLIFY=true next build",
     "start": "next start",
     "lint": "eslint",
     "test-email": "node test-email.js",
@@ -48,6 +49,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@netlify/functions": "^2.8.2",
     "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/nodemailer": "^7.0.1",

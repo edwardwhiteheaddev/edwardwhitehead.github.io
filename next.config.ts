@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Remove static export to enable API routes
-  // output: 'export',
+  // Enable static export only for Netlify builds
+  ...(process.env.NETLIFY && { output: 'export' }),
 
   // Add trailing slash to ensure proper routing
   trailingSlash: true,

@@ -9,7 +9,7 @@ export interface Env {
 const DEFAULT_MODEL = "gpt-4o-mini";
 const DEFAULT_SYSTEM_PROMPT = `You are Edward Whitehead's friendly AI assistant. Use the provided context to answer questions about his experience, projects, skills, and contact information. If the context does not contain an answer, respond honestly that you do not have that information and encourage the user to reach out via the contact form.`;
 
-export default {
+const worker = {
     async fetch(request: Request, env: Env): Promise<Response> {
         if (request.method !== "POST") {
             return new Response("Method Not Allowed", { status: 405, headers: { Allow: "POST" } });
@@ -68,3 +68,5 @@ export default {
         }
     },
 };
+
+export default worker;
