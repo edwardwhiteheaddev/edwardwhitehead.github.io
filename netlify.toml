@@ -3,7 +3,7 @@
   publish = "out"
 
 [build.environment]
-  NODE_VERSION = "20"
+  NODE_VERSION = "18"
 
 # Configure secrets scanning to exclude legitimate environment variables
 [build.processing.secrets_scanning]
