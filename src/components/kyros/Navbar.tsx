@@ -85,15 +85,6 @@ export function KyrosNavbar() {
                         Edward <span>Whitehead</span>
                     </Link> */}
 
-                    <button
-                        className="kyros-navbar__toggle"
-                        aria-label="Toggle navigation"
-                        aria-expanded={mobileOpen}
-                        onClick={() => setMobileOpen((prev) => !prev)}
-                    >
-                        <i className="fa fa-bars" aria-hidden="true" />
-                    </button>
-
                     <div className="kyros-navbar__actions">
                         <nav className={`kyros-navbar__menu${mobileOpen ? ' is-open' : ''}`}>
                             {navLinks}
@@ -108,6 +99,14 @@ export function KyrosNavbar() {
                             aria-label="Open AI assistant"
                         >
                             <IconSparkles stroke={1.8} />
+                        </button>
+                        <button
+                            className="kyros-navbar__toggle"
+                            aria-label="Toggle navigation"
+                            aria-expanded={mobileOpen}
+                            onClick={() => setMobileOpen((prev) => !prev)}
+                        >
+                            <i className="fa fa-bars" aria-hidden="true" />
                         </button>
                     </div>
                 </div>
