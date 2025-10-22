@@ -7,6 +7,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![Sass](https://img.shields.io/badge/Sass-1.93.2-CC6699?style=for-the-badge&logo=sass)](https://sass-lang.com/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0153483e-1ae4-4b63-a6fa-b8a34317ead2/deploy-status)](https://app.netlify.com/projects/edwardwhiteheaddev/deploys)
 
 ### 🌟 A Modern, Responsive Portfolio Showcasing 20+ Years of Software Development Excellence
 
