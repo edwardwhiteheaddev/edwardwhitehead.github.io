@@ -37,22 +37,16 @@ export function ContactSection({ title, subtitle, email, phone, location, social
                     <div dangerouslySetInnerHTML={{ __html: bodyHtml }} className="text-muted" />
                     <div className="kyros-contact__grid">
                         <div className="kyros-contact__item">
-                            <p>
-                                <h4>Email</h4>
-                                <a href={`mailto:${email}`}>{email}</a>
-                            </p>
-                            <p>
-                                <h4>Buy me a coffee</h4>
-                            </p>
-                            <p>
-                                <Image
-                                    src="/assets/images/buy-me-a-coffee-qr-code.png"
-                                    alt="Buy me a coffee QR code"
-                                    width="120"
-                                    height="120"
-                                    loading="lazy"
-                                />
-                            </p>
+                            <h4>Email</h4>
+                            <a href={`mailto:${email}`}>{email}</a>
+                            <h4>Buy me a coffee</h4>
+                            <Image
+                                src="/assets/images/buy-me-a-coffee-qr-code.png"
+                                alt="Buy me a coffee QR code"
+                                width="120"
+                                height="120"
+                                loading="lazy"
+                            />
                         </div>
                         {phone && (
                             <div className="kyros-contact__item">

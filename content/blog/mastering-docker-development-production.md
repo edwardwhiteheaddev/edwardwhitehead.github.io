@@ -6,7 +6,7 @@ description: 'Complete guide to using Docker for development workflows and produ
 category: 'DevOps'
 tags: ['Docker', 'Containerization', 'DevOps', 'Microservices', 'CI/CD']
 image: 'https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
-featured: true
+featured: false
 author: 'Edward Whitehead'
 
 # SEO and AEO metadata fields
