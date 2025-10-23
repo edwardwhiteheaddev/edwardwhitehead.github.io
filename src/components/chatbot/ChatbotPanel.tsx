@@ -68,6 +68,11 @@ export default function ChatbotPanel() {
       .then(async (response) => {
         if (!response.ok) throw new Error(`Failed to load knowledge (${response.status})`);
         const payload = (await response.json()) as KnowledgePayload;
+        console.log("[Chatbot] Loaded knowledge:", {
+          documentCount: payload.documentCount,
+          generatedAt: payload.generatedAt,
+          hasEmbeddings: payload.documents.some(doc => doc.embedding && doc.embedding.length > 0)
+        });
         setKnowledge(payload.documents ?? []);
         setKnowledgeStatus("ready");
       })
@@ -123,11 +128,16 @@ export default function ChatbotPanel() {
 
     try {
       const context = selectContext(question, knowledge, CONTEXT_COUNT);
+      console.log("[Chatbot] Selected context for question:", question);
+      console.log("[Chatbot] Context count:", context.length);
+      context.forEach((doc, i) => {
+        console.log(`[Chatbot] Context ${i + 1}: ${doc.title} (${doc.slug})`);
+      });
 
       // Runtime validation: ensure we're not calling the root URL
       let targetUrl = apiUrl;
       const origin = window.location.origin;
-      
+
       console.log("[Chatbot] Debug validation:", {
         DEFAULT_API_URL,
         apiUrl,
@@ -135,7 +145,7 @@ export default function ChatbotPanel() {
         "apiUrl === origin": apiUrl === origin,
         "includes /api/": apiUrl.includes("/api/")
       });
-      
+
       const isInvalidUrl = !DEFAULT_API_URL && (
         !targetUrl ||
         targetUrl === origin ||
@@ -310,6 +320,10 @@ function selectContext(question: string, documents: KnowledgeEntry[], limit: num
     score: scoreMatch(question, document),
   }));
   scored.sort((a, b) => b.score - a.score);
+  console.log("[Chatbot] Top 5 scores for question:", question);
+  scored.slice(0, 5).forEach((item, index) => {
+    console.log(`[Chatbot] ${index + 1}. ${item.document.title} (${item.document.slug}) - Score: ${item.score}`);
+  });
   return scored.slice(0, limit).map(({ document }) => ({
     id: document.id,
     slug: document.slug,
