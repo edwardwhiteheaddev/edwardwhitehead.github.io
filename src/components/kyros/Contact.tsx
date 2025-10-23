@@ -1,6 +1,7 @@
 'use client';
 
 import Aos from 'aos';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect } from 'react';
 
@@ -36,8 +37,22 @@ export function ContactSection({ title, subtitle, email, phone, location, social
                     <div dangerouslySetInnerHTML={{ __html: bodyHtml }} className="text-muted" />
                     <div className="kyros-contact__grid">
                         <div className="kyros-contact__item">
-                            <h4>Email</h4>
-                            <a href={`mailto:${email}`}>{email}</a>
+                            <p>
+                                <h4>Email</h4>
+                                <a href={`mailto:${email}`}>{email}</a>
+                            </p>
+                            <p>
+                                <h4>Buy me a coffee</h4>
+                            </p>
+                            <p>
+                                <Image
+                                    src="/assets/images/buy-me-a-coffee-qr-code.png"
+                                    alt="Buy me a coffee QR code"
+                                    width="120"
+                                    height="120"
+                                    loading="lazy"
+                                />
+                            </p>
                         </div>
                         {phone && (
                             <div className="kyros-contact__item">

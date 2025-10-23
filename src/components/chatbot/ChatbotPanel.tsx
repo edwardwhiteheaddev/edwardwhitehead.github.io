@@ -68,6 +68,11 @@ export default function ChatbotPanel() {
       .then(async (response) => {
         if (!response.ok) throw new Error(`Failed to load knowledge (${response.status})`);
         const payload = (await response.json()) as KnowledgePayload;
+        console.log("[Chatbot] Loaded knowledge:", {
+          documentCount: payload.documentCount,
+          generatedAt: payload.generatedAt,
+          hasEmbeddings: payload.documents.some(doc => doc.embedding && doc.embedding.length > 0)
+        });
         setKnowledge(payload.documents ?? []);
         setKnowledgeStatus("ready");
       })
@@ -123,11 +128,16 @@ export default function ChatbotPanel() {
 
     try {
       const context = selectContext(question, knowledge, CONTEXT_COUNT);
+      console.log("[Chatbot] Selected context for question:", question);
+      console.log("[Chatbot] Context count:", context.length);
+      context.forEach((doc, i) => {
+        console.log(`[Chatbot] Context ${i + 1}: ${doc.title} (${doc.slug})`);
+      });
 
       // Runtime validation: ensure we're not calling the root URL
       let targetUrl = apiUrl;
       const origin = window.location.origin;
-      
+
       console.log("[Chatbot] Debug validation:", {
         DEFAULT_API_URL,
         apiUrl,
@@ -135,7 +145,7 @@ export default function ChatbotPanel() {
         "apiUrl === origin": apiUrl === origin,
         "includes /api/": apiUrl.includes("/api/")
       });
-      
+
       const isInvalidUrl = !DEFAULT_API_URL && (
         !targetUrl ||
         targetUrl === origin ||
@@ -182,7 +192,7 @@ export default function ChatbotPanel() {
       const reply: ChatMessage = {
         role: "assistant",
         content: typeof data.reply === "string" ? data.reply : "I encountered an unexpected response.",
-        sources: Array.isArray(data.sources) ? data.sources : undefined,
+        sources: Array.isArray(data.sources) ? [...new Set(data.sources as string[])] : undefined,
       };
 
       setMessages((prev) => [...prev, reply]);
@@ -310,6 +320,10 @@ function selectContext(question: string, documents: KnowledgeEntry[], limit: num
     score: scoreMatch(question, document),
   }));
   scored.sort((a, b) => b.score - a.score);
+  console.log("[Chatbot] Top 5 scores for question:", question);
+  scored.slice(0, 5).forEach((item, index) => {
+    console.log(`[Chatbot] ${index + 1}. ${item.document.title} (${item.document.slug}) - Score: ${item.score}`);
+  });
   return scored.slice(0, limit).map(({ document }) => ({
     id: document.id,
     slug: document.slug,
@@ -319,9 +333,7 @@ function selectContext(question: string, documents: KnowledgeEntry[], limit: num
 }
 
 function scoreMatch(question: string, document: KnowledgeEntry) {
-  if (document.embedding && document.embedding.length > 0) {
-    return cosineSimilarity(document.embedding, embedQuery(question, document.embedding.length));
-  }
+  // Always use keyword matching, ignore embeddings for now
   const normalizedQuestion = question.toLowerCase();
   const normalizedContent = document.content.toLowerCase();
   let score = 0;
@@ -331,40 +343,4 @@ function scoreMatch(question: string, document: KnowledgeEntry) {
     if (normalizedContent.includes(token)) score += 1;
   });
   return score;
-}
-
-function cosineSimilarity(a: number[], b: number[]) {
-  const minLength = Math.min(a.length, b.length);
-  let dot = 0;
-  let magnitudeA = 0;
-  let magnitudeB = 0;
-  for (let index = 0; index < minLength; index += 1) {
-    const valueA = a[index];
-    const valueB = b[index];
-    dot += valueA * valueB;
-    magnitudeA += valueA * valueA;
-    magnitudeB += valueB * valueB;
-  }
-  const denominator = Math.sqrt(magnitudeA) * Math.sqrt(magnitudeB);
-  return denominator === 0 ? 0 : dot / denominator;
-}
-
-function embedQuery(question: string, dimensions: number) {
-  const vector = new Array(dimensions).fill(0);
-  const tokens = question.toLowerCase().split(/[\s,.;:!?]+/).filter(Boolean);
-  tokens.forEach((token) => {
-    const hash = simpleHash(token);
-    const position = hash % dimensions;
-    vector[position] += 1;
-  });
-  return vector;
-}
-
-function simpleHash(input: string) {
-  let hash = 0;
-  for (let index = 0; index < input.length; index += 1) {
-    hash = (hash << 5) - hash + input.charCodeAt(index);
-    hash |= 0;
-  }
-  return Math.abs(hash);
 }
