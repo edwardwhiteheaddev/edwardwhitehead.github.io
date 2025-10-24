@@ -76,7 +76,7 @@ A cutting-edge portfolio website built with **Next.js 15** and **React 19**, sho
 | **Styling** | ![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3) ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap) |
 | **UI/UX** | ![Mantine](https://img.shields.io/badge/Mantine-339AF0?style=flat&logo=mantine) ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-black?style=flat&logo=framer) ![AOS](https://img.shields.io/badge/AOS-FF6B6B?style=flat) |
 | **Development** | ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=eslint) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git) |
-| **Deployment** | ![Vercel](https://img.shields.io/badge/Vercel-black?style=flat&logo=vercel) ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=github) |
+| **Deployment** | [![Netlify Status](https://api.netlify.com/api/v1/badges/0153483e-1ae4-4b63-a6fa-b8a34317ead2/deploy-status)](https://app.netlify.com/projects/edwardwhiteheaddev/deploys) |
 
 </div>
 
