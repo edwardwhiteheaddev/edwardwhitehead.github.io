@@ -6,7 +6,7 @@ description: 'Comprehensive guide to web performance optimization, covering Core
 category: 'Performance'
 tags: ['Web Performance', 'Core Web Vitals', 'Performance Optimization', 'Lighthouse', 'Web Vitals']
 image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
-featured: true
+featured: false
 author: 'Edward Whitehead'
 
 # SEO and AEO metadata fields

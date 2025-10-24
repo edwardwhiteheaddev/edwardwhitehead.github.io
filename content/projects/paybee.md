@@ -46,7 +46,7 @@ structuredData:
     "url": "https://edwardwhitehead.dev"
 github: 'https://github.com/team-paybee'
 url: '/projects/paybee'
-featured: true
+featured: false
 ---
 
 ## PayBee™ - The Queen Bee of Payment Processing
