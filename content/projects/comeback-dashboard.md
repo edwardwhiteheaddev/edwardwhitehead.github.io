@@ -57,8 +57,6 @@ structuredData:
 
 An opinionated demo admin dashboard built to demonstrate modern Next.js patterns and pragmatic production practices. View the live demo at: <https://the-comeback-dashbaord.vercel.app/>
 
-![Dashboard preview](/assets/images/comeback-dashboard.png)
-
 ## 🌟 Overview
 
 Comeback Dashboard is a compact, accessible admin UI that focuses on real-world developer concerns: performance, maintainability, and clear separation of server/client responsibilities. It's intentionally a demo — small enough to explore quickly, but structured like a production app.
@@ -109,7 +107,7 @@ The demo follows accessible semantic HTML, keyboard navigation patterns, and sen
 ## 📎 Links & Resources
 
 - Live demo: <https://the-comeback-dashbaord.vercel.app/>
-- Monorepo path: `edwardwhitehead.dev/comeback-dashboard`
+- Monorepo path: `[comeback-dashboard]`(https://github.com/edwardwhiteheaddev/edwardwhiteheaddev)
 
 ---
 
