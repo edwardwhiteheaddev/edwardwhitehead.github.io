@@ -55,7 +55,7 @@ structuredData:
     - "Multi-provider integrations"
 ---
 
-# 🔗 **API Nexus – Universal API Management Platform**
+## 🔗 **API Nexus – Universal API Management Platform**
 
 **APIs connected. Businesses empowered.**
 

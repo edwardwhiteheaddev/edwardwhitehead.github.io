@@ -1,9 +1,141 @@
 {
-  "generatedAt": "2025-10-23T09:14:21.606Z",
-  "documentCount": 151,
+  "generatedAt": "2025-12-10T13:42:24.130Z",
+  "documentCount": 184,
   "source": "content",
   "embeddingModel": null,
   "documents": [
+    {
+      "id": "about-enhanced-1",
+      "slug": "about-enhanced",
+      "title": "About Me - According to AI",
+      "excerpt": "## More About Me - According to AI\n\n### Identity & Personal Context\n\n- Preferred name: Ed; architect-level creator, systems thinker, and innovator.\n- Married wi",
+      "content": "## More About Me - According to AI\n\n### Identity & Personal Context\n\n- Preferred name: Ed; architect-level creator, systems thinker, and innovator.\n- Married with children; family is my anchor and motivation.\n- Rebuilt after relocations, loss, burnout; highly resilient and fairness-driven.\n- I perform best with sequential structure; reset habits: cycling, gym, learning, meditation, creative thinking, and helping those in need.\n\n### Health & Astrology (shared context)\n\n- Living with fibromyalgia and Kimerly anomaly.\n- Shared birth details for you, your wife, and your children for synastry/relocation analysis.\n\n### Professional Situation",
+      "embedding": null,
+      "metadata": {
+        "title": "About Me - According to AI",
+        "skillProgress": [
+          {
+            "label": "Leadership",
+            "value": 40
+          },
+          {
+            "label": "Coaching",
+            "value": 20
+          },
+          {
+            "label": "Development",
+            "value": 20
+          },
+          {
+            "label": "Product Strategy",
+            "value": 20
+          },
+          {
+            "label": "Total",
+            "value": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "about-enhanced-2",
+      "slug": "about-enhanced",
+      "title": "About Me - According to AI",
+      "excerpt": "- Senior software architect (20+ years), currently navigating a new world on the horizon, where my life will be ppositively affected by what I aim to achieve.\n-",
+      "content": "- Senior software architect (20+ years), currently navigating a new world on the horizon, where my life will be ppositively affected by what I aim to achieve.\n- Founder of Violt, Qirvo, Orby, SubSeat (co-founder); focused on open, extensible systems.\n- Lead with Next.js 16, React 19, TypeScript, Node.js, MongoDB, CI/CD, automation, and multi-agent AI workflows.\n- Pioneering adopter of AI and testing and creating with its capabilities.\n\n### Product & Startup Work",
+      "embedding": null,
+      "metadata": {
+        "title": "About Me - According to AI",
+        "skillProgress": [
+          {
+            "label": "Leadership",
+            "value": 40
+          },
+          {
+            "label": "Coaching",
+            "value": 20
+          },
+          {
+            "label": "Development",
+            "value": 20
+          },
+          {
+            "label": "Product Strategy",
+            "value": 20
+          },
+          {
+            "label": "Total",
+            "value": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "about-enhanced-3",
+      "slug": "about-enhanced",
+      "title": "About Me - According to AI",
+      "excerpt": "- **SubSeat:** Turn every booking into a loyal customer.\n- **Violt Core & Violt AI:** AI-powered smart-home OS, robotics integrations, API-first.\n- **Qirvo:** A",
+      "content": "- **SubSeat:** Turn every booking into a loyal customer.\n- **Violt Core & Violt AI:** AI-powered smart-home OS, robotics integrations, API-first.\n- **Qirvo:** AI command platform with CLI/dashboard and advanced AI dev agent workflow.\n- **Echo AI Dev Agent:** Autonomous coding agent with PR creation, tests, semantic diffing, multi-agent orchestration, n8n integration.\n- **Personal Dashboard:** Firebase-hosted health, mood, tasks, voice input, AI feedback.\n- **Relocation Plans:** Exploring Portugal and Malaysia with detailed criteria.\n\n### Working Style\n\n- Prefer a step-by-step execution plan with clear structure, and reduced cognitive load.\n- Momentum from finishing one task before starting the next; realistic pacing around health, family, and time.\n\n### Emotional & Motivational Context",
+      "embedding": null,
+      "metadata": {
+        "title": "About Me - According to AI",
+        "skillProgress": [
+          {
+            "label": "Leadership",
+            "value": 40
+          },
+          {
+            "label": "Coaching",
+            "value": 20
+          },
+          {
+            "label": "Development",
+            "value": 20
+          },
+          {
+            "label": "Product Strategy",
+            "value": 20
+          },
+          {
+            "label": "Total",
+            "value": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "about-enhanced-4",
+      "slug": "about-enhanced",
+      "title": "About Me - According to AI",
+      "excerpt": "- Overwhelmed at times but committed to the end goal; driven by stability for wife and children.\n- I constantly bounce back stronger after setbacks; I value enc",
+      "content": "- Overwhelmed at times but committed to the end goal; driven by stability for wife and children.\n- I constantly bounce back stronger after setbacks; I value encouragement, structure, and clarity.",
+      "embedding": null,
+      "metadata": {
+        "title": "About Me - According to AI",
+        "skillProgress": [
+          {
+            "label": "Leadership",
+            "value": 40
+          },
+          {
+            "label": "Coaching",
+            "value": 20
+          },
+          {
+            "label": "Development",
+            "value": 20
+          },
+          {
+            "label": "Product Strategy",
+            "value": 20
+          },
+          {
+            "label": "Total",
+            "value": 100
+          }
+        ]
+      }
+    },
     {
       "id": "about-1",
       "slug": "about",
@@ -3965,7 +4097,7 @@
           "CI/CD"
         ],
         "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Mastering Docker for Development and Production | Edward Whitehead",
         "metaDescription": "Complete Docker guide covering development workflows, multi-stage builds, container orchestration, and production deployment strategies for modern applications.",
@@ -4040,7 +4172,7 @@
           "CI/CD"
         ],
         "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Mastering Docker for Development and Production | Edward Whitehead",
         "metaDescription": "Complete Docker guide covering development workflows, multi-stage builds, container orchestration, and production deployment strategies for modern applications.",
@@ -4115,7 +4247,7 @@
           "CI/CD"
         ],
         "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Mastering Docker for Development and Production | Edward Whitehead",
         "metaDescription": "Complete Docker guide covering development workflows, multi-stage builds, container orchestration, and production deployment strategies for modern applications.",
@@ -4190,7 +4322,7 @@
           "CI/CD"
         ],
         "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Mastering Docker for Development and Production | Edward Whitehead",
         "metaDescription": "Complete Docker guide covering development workflows, multi-stage builds, container orchestration, and production deployment strategies for modern applications.",
@@ -4265,7 +4397,7 @@
           "CI/CD"
         ],
         "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Mastering Docker for Development and Production | Edward Whitehead",
         "metaDescription": "Complete Docker guide covering development workflows, multi-stage builds, container orchestration, and production deployment strategies for modern applications.",
@@ -4315,6 +4447,1419 @@
             "DevOps",
             "Microservices",
             "CI/CD"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/qirvo-ai-life-dashboard-productivity-1",
+      "slug": "blog/qirvo-ai-life-dashboard-productivity",
+      "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+      "excerpt": "# Qirvo: Revolutionizing Personal Productivity with AI Life Management\n\nIn today's fast-paced world, managing multiple aspects of life—work, health, personal pr",
+      "content": "# Qirvo: Revolutionizing Personal Productivity with AI Life Management\n\nIn today's fast-paced world, managing multiple aspects of life—work, health, personal projects, and habits—can feel overwhelming. Qirvo emerges as a sophisticated AI-powered life dashboard designed to streamline these elements, providing intelligent insights that adapt to your unique lifestyle and goals.\n\n## The Vision Behind Qirvo\n\nQirvo represents a paradigm shift in personal productivity tools. Unlike traditional task managers or habit trackers, Qirvo employs advanced artificial intelligence to understand patterns in your behavior, predict needs, and offer actionable recommendations. It's not just another app—it's your intelligent companion for comprehensive life optimization.\n\n## Core Features That Set Qirvo Apart",
+      "embedding": null,
+      "metadata": {
+        "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+        "slug": "qirvo-ai-life-dashboard-productivity",
+        "date": "2025-10-23",
+        "description": "Discover Qirvo, the AI-powered life dashboard that intelligently manages tasks, health, projects, and habits to optimize personal productivity and well-being.",
+        "category": "AI & Productivity",
+        "tags": [
+          "AI",
+          "Life Management",
+          "Productivity",
+          "Dashboard",
+          "Health Tracking",
+          "Project Management",
+          "Habit Tracking",
+          "Personal Development"
+        ],
+        "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Qirvo AI Life Dashboard | Intelligent Personal Productivity Management",
+        "metaDescription": "Transform your productivity with Qirvo, the AI-powered life dashboard. Intelligent task prioritization, health tracking, project management, and personalized insights for professionals.",
+        "keywords": [
+          "Qirvo AI dashboard",
+          "personal productivity AI",
+          "life management software",
+          "AI task prioritization",
+          "health tracking dashboard",
+          "project management AI",
+          "habit tracking app",
+          "personal development tools",
+          "intelligent life management",
+          "productivity optimization"
+        ],
+        "ogTitle": "Qirvo: AI Life Dashboard for Enhanced Productivity",
+        "ogDescription": "Experience the future of personal management with Qirvo. AI-driven insights for tasks, health, projects, and habits that adapt to your lifestyle.",
+        "ogImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Qirvo AI Life Dashboard | Smart Productivity Management",
+        "twitterDescription": "Revolutionize your daily routine with AI-powered life management. Intelligent analysis, personalized recommendations, and seamless integration.",
+        "twitterImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/qirvo-ai-life-dashboard-productivity",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+          "description": "Discover Qirvo, the AI-powered life dashboard that intelligently manages tasks, health, projects, and habits to optimize personal productivity and well-being.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-10-23",
+          "dateModified": "2025-10-23",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/qirvo-ai-life-dashboard-productivity"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "keywords": "AI, Life Management, Productivity, Dashboard, Health Tracking"
+        }
+      }
+    },
+    {
+      "id": "blog/qirvo-ai-life-dashboard-productivity-2",
+      "slug": "blog/qirvo-ai-life-dashboard-productivity",
+      "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+      "excerpt": "### Intelligent Task Prioritization\nQirvo's AI analyzes your tasks, deadlines, and historical completion patterns to automatically prioritize activities. This e",
+      "content": "### Intelligent Task Prioritization\nQirvo's AI analyzes your tasks, deadlines, and historical completion patterns to automatically prioritize activities. This ensures you focus on what matters most, reducing decision fatigue and improving overall efficiency.\n\n### Comprehensive Health Tracking\nBeyond basic fitness metrics, Qirvo integrates health data to provide holistic wellness insights. It correlates activity levels, sleep patterns, and productivity metrics to suggest optimal routines and identify potential health optimizations.\n\n### Seamless Project Management\nWith native GitHub integration, Qirvo transforms project management into an intuitive experience. The AI tracks progress, identifies bottlenecks, and suggests resource allocations to keep projects on track.",
+      "embedding": null,
+      "metadata": {
+        "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+        "slug": "qirvo-ai-life-dashboard-productivity",
+        "date": "2025-10-23",
+        "description": "Discover Qirvo, the AI-powered life dashboard that intelligently manages tasks, health, projects, and habits to optimize personal productivity and well-being.",
+        "category": "AI & Productivity",
+        "tags": [
+          "AI",
+          "Life Management",
+          "Productivity",
+          "Dashboard",
+          "Health Tracking",
+          "Project Management",
+          "Habit Tracking",
+          "Personal Development"
+        ],
+        "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Qirvo AI Life Dashboard | Intelligent Personal Productivity Management",
+        "metaDescription": "Transform your productivity with Qirvo, the AI-powered life dashboard. Intelligent task prioritization, health tracking, project management, and personalized insights for professionals.",
+        "keywords": [
+          "Qirvo AI dashboard",
+          "personal productivity AI",
+          "life management software",
+          "AI task prioritization",
+          "health tracking dashboard",
+          "project management AI",
+          "habit tracking app",
+          "personal development tools",
+          "intelligent life management",
+          "productivity optimization"
+        ],
+        "ogTitle": "Qirvo: AI Life Dashboard for Enhanced Productivity",
+        "ogDescription": "Experience the future of personal management with Qirvo. AI-driven insights for tasks, health, projects, and habits that adapt to your lifestyle.",
+        "ogImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Qirvo AI Life Dashboard | Smart Productivity Management",
+        "twitterDescription": "Revolutionize your daily routine with AI-powered life management. Intelligent analysis, personalized recommendations, and seamless integration.",
+        "twitterImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/qirvo-ai-life-dashboard-productivity",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+          "description": "Discover Qirvo, the AI-powered life dashboard that intelligently manages tasks, health, projects, and habits to optimize personal productivity and well-being.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-10-23",
+          "dateModified": "2025-10-23",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/qirvo-ai-life-dashboard-productivity"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "keywords": "AI, Life Management, Productivity, Dashboard, Health Tracking"
+        }
+      }
+    },
+    {
+      "id": "blog/qirvo-ai-life-dashboard-productivity-3",
+      "slug": "blog/qirvo-ai-life-dashboard-productivity",
+      "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+      "excerpt": "### Advanced Habit Tracking\nQirvo goes beyond simple habit logging by recognizing patterns and providing predictive insights. It identifies optimal times for ha",
+      "content": "### Advanced Habit Tracking\nQirvo goes beyond simple habit logging by recognizing patterns and providing predictive insights. It identifies optimal times for habit formation and offers personalized strategies to build sustainable routines.\n\n### Personalized Recommendations\nDrawing from machine learning algorithms, Qirvo delivers tailored suggestions based on your unique patterns. Whether it's scheduling breaks, suggesting learning opportunities, or recommending health adjustments, these insights become increasingly accurate over time.\n\n## Technical Excellence for Enterprise-Grade Reliability\n\nBuilt with modern web technologies, Qirvo ensures scalability and performance:",
+      "embedding": null,
+      "metadata": {
+        "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+        "slug": "qirvo-ai-life-dashboard-productivity",
+        "date": "2025-10-23",
+        "description": "Discover Qirvo, the AI-powered life dashboard that intelligently manages tasks, health, projects, and habits to optimize personal productivity and well-being.",
+        "category": "AI & Productivity",
+        "tags": [
+          "AI",
+          "Life Management",
+          "Productivity",
+          "Dashboard",
+          "Health Tracking",
+          "Project Management",
+          "Habit Tracking",
+          "Personal Development"
+        ],
+        "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Qirvo AI Life Dashboard | Intelligent Personal Productivity Management",
+        "metaDescription": "Transform your productivity with Qirvo, the AI-powered life dashboard. Intelligent task prioritization, health tracking, project management, and personalized insights for professionals.",
+        "keywords": [
+          "Qirvo AI dashboard",
+          "personal productivity AI",
+          "life management software",
+          "AI task prioritization",
+          "health tracking dashboard",
+          "project management AI",
+          "habit tracking app",
+          "personal development tools",
+          "intelligent life management",
+          "productivity optimization"
+        ],
+        "ogTitle": "Qirvo: AI Life Dashboard for Enhanced Productivity",
+        "ogDescription": "Experience the future of personal management with Qirvo. AI-driven insights for tasks, health, projects, and habits that adapt to your lifestyle.",
+        "ogImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Qirvo AI Life Dashboard | Smart Productivity Management",
+        "twitterDescription": "Revolutionize your daily routine with AI-powered life management. Intelligent analysis, personalized recommendations, and seamless integration.",
+        "twitterImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/qirvo-ai-life-dashboard-productivity",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+          "description": "Discover Qirvo, the AI-powered life dashboard that intelligently manages tasks, health, projects, and habits to optimize personal productivity and well-being.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-10-23",
+          "dateModified": "2025-10-23",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/qirvo-ai-life-dashboard-productivity"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "keywords": "AI, Life Management, Productivity, Dashboard, Health Tracking"
+        }
+      }
+    },
+    {
+      "id": "blog/qirvo-ai-life-dashboard-productivity-4",
+      "slug": "blog/qirvo-ai-life-dashboard-productivity",
+      "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+      "excerpt": "- **Frontend**: Next.js & React with TypeScript for robust, type-safe development\n- **Backend**: Node.js with Express for efficient API handling\n- **Database**:",
+      "content": "- **Frontend**: Next.js & React with TypeScript for robust, type-safe development\n- **Backend**: Node.js with Express for efficient API handling\n- **Database**: MongoDB for flexible, scalable data management\n- **Deployment**: Vercel for global performance and reliability\n\n## AI Capabilities That Drive Results\n\nQirvo's artificial intelligence engine features:\n\n- **Predictive Analytics**: Anticipates schedule conflicts and optimizes time allocation\n- **Natural Language Processing**: Understands voice commands and written notes for seamless interaction\n- **Pattern Recognition**: Identifies behavioral trends to provide proactive guidance\n- **Automated Insights**: Generates reports and recommendations without manual intervention\n- **Personalized Coaching**: Offers context-aware suggestions for continuous improvement\n\n## Enterprise Applications and Professional Benefits",
+      "embedding": null,
+      "metadata": {
+        "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+        "slug": "qirvo-ai-life-dashboard-productivity",
+        "date": "2025-10-23",
+        "description": "Discover Qirvo, the AI-powered life dashboard that intelligently manages tasks, health, projects, and habits to optimize personal productivity and well-being.",
+        "category": "AI & Productivity",
+        "tags": [
+          "AI",
+          "Life Management",
+          "Productivity",
+          "Dashboard",
+          "Health Tracking",
+          "Project Management",
+          "Habit Tracking",
+          "Personal Development"
+        ],
+        "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Qirvo AI Life Dashboard | Intelligent Personal Productivity Management",
+        "metaDescription": "Transform your productivity with Qirvo, the AI-powered life dashboard. Intelligent task prioritization, health tracking, project management, and personalized insights for professionals.",
+        "keywords": [
+          "Qirvo AI dashboard",
+          "personal productivity AI",
+          "life management software",
+          "AI task prioritization",
+          "health tracking dashboard",
+          "project management AI",
+          "habit tracking app",
+          "personal development tools",
+          "intelligent life management",
+          "productivity optimization"
+        ],
+        "ogTitle": "Qirvo: AI Life Dashboard for Enhanced Productivity",
+        "ogDescription": "Experience the future of personal management with Qirvo. AI-driven insights for tasks, health, projects, and habits that adapt to your lifestyle.",
+        "ogImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Qirvo AI Life Dashboard | Smart Productivity Management",
+        "twitterDescription": "Revolutionize your daily routine with AI-powered life management. Intelligent analysis, personalized recommendations, and seamless integration.",
+        "twitterImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/qirvo-ai-life-dashboard-productivity",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+          "description": "Discover Qirvo, the AI-powered life dashboard that intelligently manages tasks, health, projects, and habits to optimize personal productivity and well-being.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-10-23",
+          "dateModified": "2025-10-23",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/qirvo-ai-life-dashboard-productivity"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "keywords": "AI, Life Management, Productivity, Dashboard, Health Tracking"
+        }
+      }
+    },
+    {
+      "id": "blog/qirvo-ai-life-dashboard-productivity-5",
+      "slug": "blog/qirvo-ai-life-dashboard-productivity",
+      "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+      "excerpt": "While designed for individual use, Qirvo's sophisticated analytics make it valuable for professionals and organizations seeking to optimize team productivity. I",
+      "content": "While designed for individual use, Qirvo's sophisticated analytics make it valuable for professionals and organizations seeking to optimize team productivity. Its ability to integrate with project management tools and provide detailed insights positions it as a tool for modern workplaces focused on employee well-being and performance.\n\n## Current Development Status\n\nQirvo is actively evolving with a focus on creating the most intuitive and powerful life management platform available. The current version demonstrates significant potential, with ongoing development enhancing AI capabilities and expanding integration options.\n\n## Looking Ahead",
+      "embedding": null,
+      "metadata": {
+        "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+        "slug": "qirvo-ai-life-dashboard-productivity",
+        "date": "2025-10-23",
+        "description": "Discover Qirvo, the AI-powered life dashboard that intelligently manages tasks, health, projects, and habits to optimize personal productivity and well-being.",
+        "category": "AI & Productivity",
+        "tags": [
+          "AI",
+          "Life Management",
+          "Productivity",
+          "Dashboard",
+          "Health Tracking",
+          "Project Management",
+          "Habit Tracking",
+          "Personal Development"
+        ],
+        "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Qirvo AI Life Dashboard | Intelligent Personal Productivity Management",
+        "metaDescription": "Transform your productivity with Qirvo, the AI-powered life dashboard. Intelligent task prioritization, health tracking, project management, and personalized insights for professionals.",
+        "keywords": [
+          "Qirvo AI dashboard",
+          "personal productivity AI",
+          "life management software",
+          "AI task prioritization",
+          "health tracking dashboard",
+          "project management AI",
+          "habit tracking app",
+          "personal development tools",
+          "intelligent life management",
+          "productivity optimization"
+        ],
+        "ogTitle": "Qirvo: AI Life Dashboard for Enhanced Productivity",
+        "ogDescription": "Experience the future of personal management with Qirvo. AI-driven insights for tasks, health, projects, and habits that adapt to your lifestyle.",
+        "ogImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Qirvo AI Life Dashboard | Smart Productivity Management",
+        "twitterDescription": "Revolutionize your daily routine with AI-powered life management. Intelligent analysis, personalized recommendations, and seamless integration.",
+        "twitterImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/qirvo-ai-life-dashboard-productivity",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+          "description": "Discover Qirvo, the AI-powered life dashboard that intelligently manages tasks, health, projects, and habits to optimize personal productivity and well-being.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-10-23",
+          "dateModified": "2025-10-23",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/qirvo-ai-life-dashboard-productivity"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "keywords": "AI, Life Management, Productivity, Dashboard, Health Tracking"
+        }
+      }
+    },
+    {
+      "id": "blog/qirvo-ai-life-dashboard-productivity-6",
+      "slug": "blog/qirvo-ai-life-dashboard-productivity",
+      "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+      "excerpt": "The future of Qirvo includes enhanced AI models, broader integrations, and advanced personalization features. As the platform learns more about user preferences",
+      "content": "The future of Qirvo includes enhanced AI models, broader integrations, and advanced personalization features. As the platform learns more about user preferences and behaviors, it will become an even more indispensable tool for those seeking to maximize their potential.\n\n## Experience Qirvo Today\n\nReady to transform how you manage your life? Qirvo represents the next evolution in personal productivity tools. Visit the project page to learn more about current capabilities and upcoming features.\n\nWhether you're a busy professional, entrepreneur, or simply someone committed to personal growth, Qirvo provides the intelligent support needed to achieve your goals efficiently and sustainably.",
+      "embedding": null,
+      "metadata": {
+        "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+        "slug": "qirvo-ai-life-dashboard-productivity",
+        "date": "2025-10-23",
+        "description": "Discover Qirvo, the AI-powered life dashboard that intelligently manages tasks, health, projects, and habits to optimize personal productivity and well-being.",
+        "category": "AI & Productivity",
+        "tags": [
+          "AI",
+          "Life Management",
+          "Productivity",
+          "Dashboard",
+          "Health Tracking",
+          "Project Management",
+          "Habit Tracking",
+          "Personal Development"
+        ],
+        "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Qirvo AI Life Dashboard | Intelligent Personal Productivity Management",
+        "metaDescription": "Transform your productivity with Qirvo, the AI-powered life dashboard. Intelligent task prioritization, health tracking, project management, and personalized insights for professionals.",
+        "keywords": [
+          "Qirvo AI dashboard",
+          "personal productivity AI",
+          "life management software",
+          "AI task prioritization",
+          "health tracking dashboard",
+          "project management AI",
+          "habit tracking app",
+          "personal development tools",
+          "intelligent life management",
+          "productivity optimization"
+        ],
+        "ogTitle": "Qirvo: AI Life Dashboard for Enhanced Productivity",
+        "ogDescription": "Experience the future of personal management with Qirvo. AI-driven insights for tasks, health, projects, and habits that adapt to your lifestyle.",
+        "ogImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Qirvo AI Life Dashboard | Smart Productivity Management",
+        "twitterDescription": "Revolutionize your daily routine with AI-powered life management. Intelligent analysis, personalized recommendations, and seamless integration.",
+        "twitterImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/qirvo-ai-life-dashboard-productivity",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
+          "description": "Discover Qirvo, the AI-powered life dashboard that intelligently manages tasks, health, projects, and habits to optimize personal productivity and well-being.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-10-23",
+          "dateModified": "2025-10-23",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/qirvo-ai-life-dashboard-productivity"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "keywords": "AI, Life Management, Productivity, Dashboard, Health Tracking"
+        }
+      }
+    },
+    {
+      "id": "blog/react-nextjs-security-vulnerabilities-2024-1",
+      "slug": "blog/react-nextjs-security-vulnerabilities-2024",
+      "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+      "excerpt": "## React and Next.js Security Vulnerabilities 2024: What You Need to Know\n\nAs React and Next.js continue to dominate the modern web development landscape, secur",
+      "content": "## React and Next.js Security Vulnerabilities 2024: What You Need to Know\n\nAs React and Next.js continue to dominate the modern web development landscape, security vulnerabilities in these frameworks pose significant risks to millions of applications worldwide. In 2024, several critical vulnerabilities have been discovered that require immediate attention and patching. This comprehensive guide explores what these vulnerabilities are, their impact, and how you can protect your applications.\n\n## Overview of Recent Vulnerabilities\n\nThe React ecosystem experienced multiple critical security issues in 2024, ranging from DOM-based XSS vulnerabilities to server-side rendering (SSR) exploits in Next.js. Understanding these vulnerabilities is crucial for maintaining the security posture of your applications.\n\n### Key Vulnerabilities Discovered",
+      "embedding": null,
+      "metadata": {
+        "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "slug": "react-nextjs-security-vulnerabilities-2024",
+        "date": "2024-12-20",
+        "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "category": "Security",
+        "tags": [
+          "React",
+          "Next.js",
+          "Security",
+          "Vulnerabilities",
+          "Web Security",
+          "DevOps"
+        ],
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": false,
+        "author": "Edward Whitehead",
+        "metaTitle": "React and Next.js Security Vulnerabilities 2024 | Edward Whitehead",
+        "metaDescription": "Critical security vulnerabilities discovered in React and Next.js in 2024. Learn about the impact, affected versions, and mitigation strategies to secure your applications.",
+        "keywords": [
+          "React Security",
+          "Next.js Vulnerabilities",
+          "Web Security",
+          "Security Vulnerabilities",
+          "Application Security",
+          "DevOps",
+          "Dependency Management",
+          "Security Patching"
+        ],
+        "ogTitle": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "ogDescription": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "ogImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "React & Next.js Security Vulnerabilities 2024",
+        "twitterDescription": "Critical security issues in React and Next.js: what happened, who is affected, and how to patch your apps.",
+        "twitterImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+          "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2024-12-20",
+          "dateModified": "2024-12-20",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Security",
+          "keywords": [
+            "React Security",
+            "Next.js Vulnerabilities",
+            "Web Security",
+            "Dependency Management"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/react-nextjs-security-vulnerabilities-2024-2",
+      "slug": "blog/react-nextjs-security-vulnerabilities-2024",
+      "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+      "excerpt": "- **React DOM XSS Vulnerability (CVE-2024-XXXXX)**: A dangerous XSS flaw in certain React DOM render functions\n- **Next.js Server Actions Vulnerability**: Poten",
+      "content": "- **React DOM XSS Vulnerability (CVE-2024-XXXXX)**: A dangerous XSS flaw in certain React DOM render functions\n- **Next.js Server Actions Vulnerability**: Potential unauthorized access through improper validation\n- **Dependency Chain Exploits**: Critical issues in commonly used React libraries and middleware\n\n## Understanding the React DOM XSS Vulnerability\n\nOne of the most critical vulnerabilities discovered in 2024 affects how React handles certain HTML attributes and event handlers.\n\n### The Issue\n\nReact's DOM rendering engine, under specific conditions, failed to properly sanitize user input when rendering HTML attributes with certain prop types. This could allow attackers to inject arbitrary JavaScript code that executes in users' browsers.\n\n### Affected Versions\n\n- React 18.0.0 through 18.2.x\n- React 19.0.0 through 19.0.0-rc.1 (release candidate)\n\n### Vulnerability Vector",
+      "embedding": null,
+      "metadata": {
+        "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "slug": "react-nextjs-security-vulnerabilities-2024",
+        "date": "2024-12-20",
+        "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "category": "Security",
+        "tags": [
+          "React",
+          "Next.js",
+          "Security",
+          "Vulnerabilities",
+          "Web Security",
+          "DevOps"
+        ],
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": false,
+        "author": "Edward Whitehead",
+        "metaTitle": "React and Next.js Security Vulnerabilities 2024 | Edward Whitehead",
+        "metaDescription": "Critical security vulnerabilities discovered in React and Next.js in 2024. Learn about the impact, affected versions, and mitigation strategies to secure your applications.",
+        "keywords": [
+          "React Security",
+          "Next.js Vulnerabilities",
+          "Web Security",
+          "Security Vulnerabilities",
+          "Application Security",
+          "DevOps",
+          "Dependency Management",
+          "Security Patching"
+        ],
+        "ogTitle": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "ogDescription": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "ogImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "React & Next.js Security Vulnerabilities 2024",
+        "twitterDescription": "Critical security issues in React and Next.js: what happened, who is affected, and how to patch your apps.",
+        "twitterImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+          "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2024-12-20",
+          "dateModified": "2024-12-20",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Security",
+          "keywords": [
+            "React Security",
+            "Next.js Vulnerabilities",
+            "Web Security",
+            "Dependency Management"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/react-nextjs-security-vulnerabilities-2024-3",
+      "slug": "blog/react-nextjs-security-vulnerabilities-2024",
+      "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+      "excerpt": "```javascript\n// Vulnerable code example\nfunction UserProfile({ userData }) {\n  // If userData.bio contains malicious HTML/JS, it could execute\n  return (\n    <",
+      "content": "```javascript\n// Vulnerable code example\nfunction UserProfile({ userData }) {\n  // If userData.bio contains malicious HTML/JS, it could execute\n  return (\n    <div \n      dangerouslySetInnerHTML={{ __html: userData.bio }}\n      className=\"bio-section\"\n    />\n  );\n}\n\n// Better approach with sanitization\nimport DOMPurify from 'dompurify';\n\nfunction UserProfile({ userData }) {\n  const cleanBio = DOMPurify.sanitize(userData.bio);\n  return (\n    <div \n      dangerouslySetInnerHTML={{ __html: cleanBio }}\n      className=\"bio-section\"\n    />\n  );\n}\n```\n\n## Next.js Server Actions Security Issue\n\nNext.js 13+ introduced Server Actions, a powerful feature that simplifies server-client communication. However, a critical vulnerability was discovered in how server actions validate requests.\n\n### The Problem",
+      "embedding": null,
+      "metadata": {
+        "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "slug": "react-nextjs-security-vulnerabilities-2024",
+        "date": "2024-12-20",
+        "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "category": "Security",
+        "tags": [
+          "React",
+          "Next.js",
+          "Security",
+          "Vulnerabilities",
+          "Web Security",
+          "DevOps"
+        ],
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": false,
+        "author": "Edward Whitehead",
+        "metaTitle": "React and Next.js Security Vulnerabilities 2024 | Edward Whitehead",
+        "metaDescription": "Critical security vulnerabilities discovered in React and Next.js in 2024. Learn about the impact, affected versions, and mitigation strategies to secure your applications.",
+        "keywords": [
+          "React Security",
+          "Next.js Vulnerabilities",
+          "Web Security",
+          "Security Vulnerabilities",
+          "Application Security",
+          "DevOps",
+          "Dependency Management",
+          "Security Patching"
+        ],
+        "ogTitle": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "ogDescription": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "ogImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "React & Next.js Security Vulnerabilities 2024",
+        "twitterDescription": "Critical security issues in React and Next.js: what happened, who is affected, and how to patch your apps.",
+        "twitterImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+          "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2024-12-20",
+          "dateModified": "2024-12-20",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Security",
+          "keywords": [
+            "React Security",
+            "Next.js Vulnerabilities",
+            "Web Security",
+            "Dependency Management"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/react-nextjs-security-vulnerabilities-2024-4",
+      "slug": "blog/react-nextjs-security-vulnerabilities-2024",
+      "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+      "excerpt": "Server actions did not properly validate the origin of requests in certain configurations, potentially allowing CSRF (Cross-Site Request Forgery) attacks. This ",
+      "content": "Server actions did not properly validate the origin of requests in certain configurations, potentially allowing CSRF (Cross-Site Request Forgery) attacks. This could enable attackers to:\n\n- Modify user data without consent\n- Delete resources\n- Change application settings\n- Execute sensitive operations on behalf of users\n\n### Example Vulnerable Pattern\n\n```typescript\n// app/actions.ts - Server Action\n'use server';\n\nexport async function deleteUserAccount(userId: string) {\n  // This didn't properly validate the request origin in vulnerable versions\n  await db.users.delete({ id: userId });\n  return { success: true };\n}\n\n// app/components/DangerZone.tsx\n'use client';\n\nimport { deleteUserAccount } from '@/app/actions';\n\nexport function DangerZone() {\n  return (\n    <button onClick={() => deleteUserAccount(userId)}>\n      Delete Account\n    </button>\n  );\n}\n```\n\n### Mitigation Strategy",
+      "embedding": null,
+      "metadata": {
+        "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "slug": "react-nextjs-security-vulnerabilities-2024",
+        "date": "2024-12-20",
+        "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "category": "Security",
+        "tags": [
+          "React",
+          "Next.js",
+          "Security",
+          "Vulnerabilities",
+          "Web Security",
+          "DevOps"
+        ],
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": false,
+        "author": "Edward Whitehead",
+        "metaTitle": "React and Next.js Security Vulnerabilities 2024 | Edward Whitehead",
+        "metaDescription": "Critical security vulnerabilities discovered in React and Next.js in 2024. Learn about the impact, affected versions, and mitigation strategies to secure your applications.",
+        "keywords": [
+          "React Security",
+          "Next.js Vulnerabilities",
+          "Web Security",
+          "Security Vulnerabilities",
+          "Application Security",
+          "DevOps",
+          "Dependency Management",
+          "Security Patching"
+        ],
+        "ogTitle": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "ogDescription": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "ogImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "React & Next.js Security Vulnerabilities 2024",
+        "twitterDescription": "Critical security issues in React and Next.js: what happened, who is affected, and how to patch your apps.",
+        "twitterImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+          "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2024-12-20",
+          "dateModified": "2024-12-20",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Security",
+          "keywords": [
+            "React Security",
+            "Next.js Vulnerabilities",
+            "Web Security",
+            "Dependency Management"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/react-nextjs-security-vulnerabilities-2024-5",
+      "slug": "blog/react-nextjs-security-vulnerabilities-2024",
+      "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+      "excerpt": "```typescript\n// app/actions.ts - Secure implementation\n'use server';\n\nimport { auth } from '@/lib/auth';\n\nexport async function deleteUserAccount(userId: strin",
+      "content": "```typescript\n// app/actions.ts - Secure implementation\n'use server';\n\nimport { auth } from '@/lib/auth';\n\nexport async function deleteUserAccount(userId: string) {\n  // Verify user is authenticated and owns the account\n  const session = await auth();\n  \n  if (!session || session.user.id !== userId) {\n    throw new Error('Unauthorized');\n  }\n\n// Add additional CSRF protection via headers\n  const headers = await headers();\n  const origin = headers.get('origin');\n  \n  if (origin !== process.env.NEXT_PUBLIC_URL) {\n    throw new Error('Invalid origin');\n  }\n\nawait db.users.delete({ id: userId });\n  return { success: true };\n}\n```\n\n## Next.js Middleware and Authentication Bypass\n\nA vulnerability in Next.js middleware execution order could allow authenticated users to access protected routes under specific conditions.\n\n### Impact",
+      "embedding": null,
+      "metadata": {
+        "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "slug": "react-nextjs-security-vulnerabilities-2024",
+        "date": "2024-12-20",
+        "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "category": "Security",
+        "tags": [
+          "React",
+          "Next.js",
+          "Security",
+          "Vulnerabilities",
+          "Web Security",
+          "DevOps"
+        ],
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": false,
+        "author": "Edward Whitehead",
+        "metaTitle": "React and Next.js Security Vulnerabilities 2024 | Edward Whitehead",
+        "metaDescription": "Critical security vulnerabilities discovered in React and Next.js in 2024. Learn about the impact, affected versions, and mitigation strategies to secure your applications.",
+        "keywords": [
+          "React Security",
+          "Next.js Vulnerabilities",
+          "Web Security",
+          "Security Vulnerabilities",
+          "Application Security",
+          "DevOps",
+          "Dependency Management",
+          "Security Patching"
+        ],
+        "ogTitle": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "ogDescription": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "ogImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "React & Next.js Security Vulnerabilities 2024",
+        "twitterDescription": "Critical security issues in React and Next.js: what happened, who is affected, and how to patch your apps.",
+        "twitterImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+          "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2024-12-20",
+          "dateModified": "2024-12-20",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Security",
+          "keywords": [
+            "React Security",
+            "Next.js Vulnerabilities",
+            "Web Security",
+            "Dependency Management"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/react-nextjs-security-vulnerabilities-2024-6",
+      "slug": "blog/react-nextjs-security-vulnerabilities-2024",
+      "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+      "excerpt": "- Unauthorized access to protected API routes\n- Exposure of sensitive user data\n- Potential account takeover in certain architectures\n\n### Secure Pattern\n\n```ty",
+      "content": "- Unauthorized access to protected API routes\n- Exposure of sensitive user data\n- Potential account takeover in certain architectures\n\n### Secure Pattern\n\n```typescript\n// middleware.ts - Proper authentication check\nimport { withAuth } from 'next-auth/middleware';\n\nexport const middleware = withAuth({\n  callbacks: {\n    authorized: ({ token, req }) => {\n      // Verify token exists and is valid\n      if (!token) return false;\n      \n      // Check route-specific permissions\n      const protectedRoutes = ['/admin', '/dashboard/settings'];\n      const isProtectedRoute = protectedRoutes.some(route => \n        req.nextUrl.pathname.startsWith(route)\n      );\n\nif (isProtectedRoute && token.role !== 'admin') {\n        return false;\n      }\n\nreturn true;\n    },\n  },\n});\n\nexport const config = {\n  matcher: ['/admin/:path*', '/dashboard/:path*', '/api/protected/:path*'],\n};\n```",
+      "embedding": null,
+      "metadata": {
+        "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "slug": "react-nextjs-security-vulnerabilities-2024",
+        "date": "2024-12-20",
+        "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "category": "Security",
+        "tags": [
+          "React",
+          "Next.js",
+          "Security",
+          "Vulnerabilities",
+          "Web Security",
+          "DevOps"
+        ],
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": false,
+        "author": "Edward Whitehead",
+        "metaTitle": "React and Next.js Security Vulnerabilities 2024 | Edward Whitehead",
+        "metaDescription": "Critical security vulnerabilities discovered in React and Next.js in 2024. Learn about the impact, affected versions, and mitigation strategies to secure your applications.",
+        "keywords": [
+          "React Security",
+          "Next.js Vulnerabilities",
+          "Web Security",
+          "Security Vulnerabilities",
+          "Application Security",
+          "DevOps",
+          "Dependency Management",
+          "Security Patching"
+        ],
+        "ogTitle": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "ogDescription": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "ogImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "React & Next.js Security Vulnerabilities 2024",
+        "twitterDescription": "Critical security issues in React and Next.js: what happened, who is affected, and how to patch your apps.",
+        "twitterImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+          "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2024-12-20",
+          "dateModified": "2024-12-20",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Security",
+          "keywords": [
+            "React Security",
+            "Next.js Vulnerabilities",
+            "Web Security",
+            "Dependency Management"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/react-nextjs-security-vulnerabilities-2024-7",
+      "slug": "blog/react-nextjs-security-vulnerabilities-2024",
+      "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+      "excerpt": "## Immediate Action Items\n\n### 1. Update Dependencies\n\nRun these commands to check for vulnerable versions:\n\n```bash\n# Check for vulnerabilities\nnpm audit\n\n# Up",
+      "content": "## Immediate Action Items\n\n### 1. Update Dependencies\n\nRun these commands to check for vulnerable versions:\n\n```bash\n# Check for vulnerabilities\nnpm audit\n\n# Update to patched versions\nnpm update react react-dom next\n```\n\n### 2. Verify Your Current Versions\n\n```bash\nnpm list react react-dom next\n```\n\n### 3. Security Audit Your Code\n\n- Review all `dangerouslySetInnerHTML` usage\n- Audit Server Actions for proper authorization\n- Check middleware implementation for auth gaps\n- Verify CSRF protection on all form submissions\n\n## Prevention Best Practices\n\n### 1. Input Validation and Sanitization\n\n```typescript\nimport DOMPurify from 'dompurify';\nimport { z } from 'zod';\n\nconst userSchema = z.object({\n  name: z.string().min(1).max(255),\n  bio: z.string().max(1000),\n});",
+      "embedding": null,
+      "metadata": {
+        "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "slug": "react-nextjs-security-vulnerabilities-2024",
+        "date": "2024-12-20",
+        "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "category": "Security",
+        "tags": [
+          "React",
+          "Next.js",
+          "Security",
+          "Vulnerabilities",
+          "Web Security",
+          "DevOps"
+        ],
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": false,
+        "author": "Edward Whitehead",
+        "metaTitle": "React and Next.js Security Vulnerabilities 2024 | Edward Whitehead",
+        "metaDescription": "Critical security vulnerabilities discovered in React and Next.js in 2024. Learn about the impact, affected versions, and mitigation strategies to secure your applications.",
+        "keywords": [
+          "React Security",
+          "Next.js Vulnerabilities",
+          "Web Security",
+          "Security Vulnerabilities",
+          "Application Security",
+          "DevOps",
+          "Dependency Management",
+          "Security Patching"
+        ],
+        "ogTitle": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "ogDescription": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "ogImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "React & Next.js Security Vulnerabilities 2024",
+        "twitterDescription": "Critical security issues in React and Next.js: what happened, who is affected, and how to patch your apps.",
+        "twitterImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+          "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2024-12-20",
+          "dateModified": "2024-12-20",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Security",
+          "keywords": [
+            "React Security",
+            "Next.js Vulnerabilities",
+            "Web Security",
+            "Dependency Management"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/react-nextjs-security-vulnerabilities-2024-8",
+      "slug": "blog/react-nextjs-security-vulnerabilities-2024",
+      "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+      "excerpt": "function sanitizeUserInput(input: unknown) {\n  const validated = userSchema.parse(input);\n  return {\n    name: validated.name,\n    bio: DOMPurify.sanitize(valid",
+      "content": "function sanitizeUserInput(input: unknown) {\n  const validated = userSchema.parse(input);\n  return {\n    name: validated.name,\n    bio: DOMPurify.sanitize(validated.bio),\n  };\n}\n```\n\n### 2. Content Security Policy (CSP)\n\n```typescript\n// next.config.ts\nexport default {\n  headers: async () => [\n    {\n      source: '/:path*',\n      headers: [\n        {\n          key: 'Content-Security-Policy',\n          value: \"default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'\",\n        },\n      ],\n    },\n  ],\n};\n```\n\n### 3. Regular Dependency Audits\n\n```bash\n# Audit dependencies monthly\nnpm audit --production\n\n# Set up automated scanning\nnpx snyk monitor\n```\n\n### 4. Use Security Headers\n\n```typescript\n// middleware.ts\nimport { NextResponse } from 'next/server';\nimport type { NextRequest } from 'next/server';",
+      "embedding": null,
+      "metadata": {
+        "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "slug": "react-nextjs-security-vulnerabilities-2024",
+        "date": "2024-12-20",
+        "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "category": "Security",
+        "tags": [
+          "React",
+          "Next.js",
+          "Security",
+          "Vulnerabilities",
+          "Web Security",
+          "DevOps"
+        ],
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": false,
+        "author": "Edward Whitehead",
+        "metaTitle": "React and Next.js Security Vulnerabilities 2024 | Edward Whitehead",
+        "metaDescription": "Critical security vulnerabilities discovered in React and Next.js in 2024. Learn about the impact, affected versions, and mitigation strategies to secure your applications.",
+        "keywords": [
+          "React Security",
+          "Next.js Vulnerabilities",
+          "Web Security",
+          "Security Vulnerabilities",
+          "Application Security",
+          "DevOps",
+          "Dependency Management",
+          "Security Patching"
+        ],
+        "ogTitle": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "ogDescription": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "ogImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "React & Next.js Security Vulnerabilities 2024",
+        "twitterDescription": "Critical security issues in React and Next.js: what happened, who is affected, and how to patch your apps.",
+        "twitterImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+          "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2024-12-20",
+          "dateModified": "2024-12-20",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Security",
+          "keywords": [
+            "React Security",
+            "Next.js Vulnerabilities",
+            "Web Security",
+            "Dependency Management"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/react-nextjs-security-vulnerabilities-2024-9",
+      "slug": "blog/react-nextjs-security-vulnerabilities-2024",
+      "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+      "excerpt": "export function middleware(request: NextRequest) {\n  const response = NextResponse.next();\n\n// Security headers\n  response.headers.set('X-Content-Type-Options',",
+      "content": "export function middleware(request: NextRequest) {\n  const response = NextResponse.next();\n\n// Security headers\n  response.headers.set('X-Content-Type-Options', 'nosniff');\n  response.headers.set('X-Frame-Options', 'DENY');\n  response.headers.set('X-XSS-Protection', '1; mode=block');\n  response.headers.set('Referrer-Policy', 'strict-origin-when-cross-origin');\n\nreturn response;\n}\n\nexport const config = {\n  matcher: '/:path*',\n};\n```\n\n## Testing Your Application\n\n### Unit Test for XSS Prevention\n\n```typescript\nimport { render, screen } from '@testing-library/react';\nimport UserProfile from '@/components/UserProfile';\n\ndescribe('XSS Protection', () => {\n  it('should not execute injected scripts', () => {\n    const maliciousData = {\n      bio: '<img src=x onerror=\"alert(\\'XSS\\')\">',\n    };",
+      "embedding": null,
+      "metadata": {
+        "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "slug": "react-nextjs-security-vulnerabilities-2024",
+        "date": "2024-12-20",
+        "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "category": "Security",
+        "tags": [
+          "React",
+          "Next.js",
+          "Security",
+          "Vulnerabilities",
+          "Web Security",
+          "DevOps"
+        ],
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": false,
+        "author": "Edward Whitehead",
+        "metaTitle": "React and Next.js Security Vulnerabilities 2024 | Edward Whitehead",
+        "metaDescription": "Critical security vulnerabilities discovered in React and Next.js in 2024. Learn about the impact, affected versions, and mitigation strategies to secure your applications.",
+        "keywords": [
+          "React Security",
+          "Next.js Vulnerabilities",
+          "Web Security",
+          "Security Vulnerabilities",
+          "Application Security",
+          "DevOps",
+          "Dependency Management",
+          "Security Patching"
+        ],
+        "ogTitle": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "ogDescription": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "ogImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "React & Next.js Security Vulnerabilities 2024",
+        "twitterDescription": "Critical security issues in React and Next.js: what happened, who is affected, and how to patch your apps.",
+        "twitterImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+          "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2024-12-20",
+          "dateModified": "2024-12-20",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Security",
+          "keywords": [
+            "React Security",
+            "Next.js Vulnerabilities",
+            "Web Security",
+            "Dependency Management"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/react-nextjs-security-vulnerabilities-2024-10",
+      "slug": "blog/react-nextjs-security-vulnerabilities-2024",
+      "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+      "excerpt": "render(<UserProfile userData={maliciousData} />);\n    \n    // Should display sanitized content, not execute script\n    expect(screen.queryByText(/alert/)).not.t",
+      "content": "render(<UserProfile userData={maliciousData} />);\n    \n    // Should display sanitized content, not execute script\n    expect(screen.queryByText(/alert/)).not.toBeInTheDocument();\n  });\n});\n```\n\n### Integration Test for Server Actions\n\n```typescript\nimport { deleteUserAccount } from '@/app/actions';\n\ndescribe('Server Actions Security', () => {\n  it('should prevent unauthorized deletion', async () => {\n    const unAuthorizedUserId = 'user-123';\n    \n    // Mock auth to return different user\n    jest.mock('@/lib/auth', () => ({\n      auth: () => ({ user: { id: 'other-user' } }),\n    }));\n\nawait expect(\n      deleteUserAccount(unAuthorizedUserId)\n    ).rejects.toThrow('Unauthorized');\n  });\n});\n```\n\n## Timeline of Patches",
+      "embedding": null,
+      "metadata": {
+        "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "slug": "react-nextjs-security-vulnerabilities-2024",
+        "date": "2024-12-20",
+        "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "category": "Security",
+        "tags": [
+          "React",
+          "Next.js",
+          "Security",
+          "Vulnerabilities",
+          "Web Security",
+          "DevOps"
+        ],
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": false,
+        "author": "Edward Whitehead",
+        "metaTitle": "React and Next.js Security Vulnerabilities 2024 | Edward Whitehead",
+        "metaDescription": "Critical security vulnerabilities discovered in React and Next.js in 2024. Learn about the impact, affected versions, and mitigation strategies to secure your applications.",
+        "keywords": [
+          "React Security",
+          "Next.js Vulnerabilities",
+          "Web Security",
+          "Security Vulnerabilities",
+          "Application Security",
+          "DevOps",
+          "Dependency Management",
+          "Security Patching"
+        ],
+        "ogTitle": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "ogDescription": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "ogImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "React & Next.js Security Vulnerabilities 2024",
+        "twitterDescription": "Critical security issues in React and Next.js: what happened, who is affected, and how to patch your apps.",
+        "twitterImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+          "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2024-12-20",
+          "dateModified": "2024-12-20",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Security",
+          "keywords": [
+            "React Security",
+            "Next.js Vulnerabilities",
+            "Web Security",
+            "Dependency Management"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/react-nextjs-security-vulnerabilities-2024-11",
+      "slug": "blog/react-nextjs-security-vulnerabilities-2024",
+      "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+      "excerpt": "| Version | Patch Date | Vulnerability | Status |\n|---------|-----------|----------------|--------|\n| React 18.3.0 | 2024-10-15 | XSS in DOM rendering | Availab",
+      "content": "| Version | Patch Date | Vulnerability | Status |\n|---------|-----------|----------------|--------|\n| React 18.3.0 | 2024-10-15 | XSS in DOM rendering | Available |\n| React 19.0.0 | 2024-11-20 | Server Actions validation | Available |\n| Next.js 14.0.3 | 2024-09-25 | Middleware auth bypass | Available |\n| Next.js 15.0.1 | 2024-12-10 | SSR vulnerability | Available |\n\n## Monitoring and Logging\n\n```typescript\n// lib/security-logger.ts\nexport function logSecurityEvent(\n  eventType: string,\n  details: Record<string, unknown>\n) {\n  const event = {\n    timestamp: new Date().toISOString(),\n    type: eventType,\n    ...details,\n  };\n\n// Log to external security monitoring service\n  fetch('/api/security/log', {\n    method: 'POST',\n    body: JSON.stringify(event),\n  }).catch(console.error);\n}",
+      "embedding": null,
+      "metadata": {
+        "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "slug": "react-nextjs-security-vulnerabilities-2024",
+        "date": "2024-12-20",
+        "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "category": "Security",
+        "tags": [
+          "React",
+          "Next.js",
+          "Security",
+          "Vulnerabilities",
+          "Web Security",
+          "DevOps"
+        ],
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": false,
+        "author": "Edward Whitehead",
+        "metaTitle": "React and Next.js Security Vulnerabilities 2024 | Edward Whitehead",
+        "metaDescription": "Critical security vulnerabilities discovered in React and Next.js in 2024. Learn about the impact, affected versions, and mitigation strategies to secure your applications.",
+        "keywords": [
+          "React Security",
+          "Next.js Vulnerabilities",
+          "Web Security",
+          "Security Vulnerabilities",
+          "Application Security",
+          "DevOps",
+          "Dependency Management",
+          "Security Patching"
+        ],
+        "ogTitle": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "ogDescription": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "ogImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "React & Next.js Security Vulnerabilities 2024",
+        "twitterDescription": "Critical security issues in React and Next.js: what happened, who is affected, and how to patch your apps.",
+        "twitterImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+          "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2024-12-20",
+          "dateModified": "2024-12-20",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Security",
+          "keywords": [
+            "React Security",
+            "Next.js Vulnerabilities",
+            "Web Security",
+            "Dependency Management"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/react-nextjs-security-vulnerabilities-2024-12",
+      "slug": "blog/react-nextjs-security-vulnerabilities-2024",
+      "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+      "excerpt": "// Example usage\nlogSecurityEvent('FAILED_AUTH_ATTEMPT', {\n  userId: 'user-123',\n  endpoint: '/api/admin/users',\n});\n```\n\n## Conclusion\n\nSecurity vulnerabilitie",
+      "content": "// Example usage\nlogSecurityEvent('FAILED_AUTH_ATTEMPT', {\n  userId: 'user-123',\n  endpoint: '/api/admin/users',\n});\n```\n\n## Conclusion\n\nSecurity vulnerabilities in React and Next.js demand swift action. By updating to patched versions, implementing proper input validation, and following security best practices, you can protect your applications from exploitation.\n\n**Key Takeaways:**\n\n1. Update React and Next.js immediately to patched versions\n2. Audit your codebase for vulnerable patterns\n3. Implement comprehensive input validation and sanitization\n4. Use security headers and Content Security Policy\n5. Set up continuous dependency monitoring\n6. Test security-critical functionality regularly",
+      "embedding": null,
+      "metadata": {
+        "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "slug": "react-nextjs-security-vulnerabilities-2024",
+        "date": "2024-12-20",
+        "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "category": "Security",
+        "tags": [
+          "React",
+          "Next.js",
+          "Security",
+          "Vulnerabilities",
+          "Web Security",
+          "DevOps"
+        ],
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": false,
+        "author": "Edward Whitehead",
+        "metaTitle": "React and Next.js Security Vulnerabilities 2024 | Edward Whitehead",
+        "metaDescription": "Critical security vulnerabilities discovered in React and Next.js in 2024. Learn about the impact, affected versions, and mitigation strategies to secure your applications.",
+        "keywords": [
+          "React Security",
+          "Next.js Vulnerabilities",
+          "Web Security",
+          "Security Vulnerabilities",
+          "Application Security",
+          "DevOps",
+          "Dependency Management",
+          "Security Patching"
+        ],
+        "ogTitle": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "ogDescription": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "ogImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "React & Next.js Security Vulnerabilities 2024",
+        "twitterDescription": "Critical security issues in React and Next.js: what happened, who is affected, and how to patch your apps.",
+        "twitterImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+          "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2024-12-20",
+          "dateModified": "2024-12-20",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Security",
+          "keywords": [
+            "React Security",
+            "Next.js Vulnerabilities",
+            "Web Security",
+            "Dependency Management"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/react-nextjs-security-vulnerabilities-2024-13",
+      "slug": "blog/react-nextjs-security-vulnerabilities-2024",
+      "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+      "excerpt": "Stay vigilant, keep your dependencies updated, and maintain a proactive security posture. The React ecosystem is committed to fixing vulnerabilities quickly—you",
+      "content": "Stay vigilant, keep your dependencies updated, and maintain a proactive security posture. The React ecosystem is committed to fixing vulnerabilities quickly—your responsibility is to apply those fixes promptly.\n\n---\n\n**Have you encountered any of these vulnerabilities in your projects? Share your experience and mitigation strategies in the comments below.**",
+      "embedding": null,
+      "metadata": {
+        "title": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "slug": "react-nextjs-security-vulnerabilities-2024",
+        "date": "2024-12-20",
+        "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "category": "Security",
+        "tags": [
+          "React",
+          "Next.js",
+          "Security",
+          "Vulnerabilities",
+          "Web Security",
+          "DevOps"
+        ],
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": false,
+        "author": "Edward Whitehead",
+        "metaTitle": "React and Next.js Security Vulnerabilities 2024 | Edward Whitehead",
+        "metaDescription": "Critical security vulnerabilities discovered in React and Next.js in 2024. Learn about the impact, affected versions, and mitigation strategies to secure your applications.",
+        "keywords": [
+          "React Security",
+          "Next.js Vulnerabilities",
+          "Web Security",
+          "Security Vulnerabilities",
+          "Application Security",
+          "DevOps",
+          "Dependency Management",
+          "Security Patching"
+        ],
+        "ogTitle": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+        "ogDescription": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+        "ogImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "React & Next.js Security Vulnerabilities 2024",
+        "twitterDescription": "Critical security issues in React and Next.js: what happened, who is affected, and how to patch your apps.",
+        "twitterImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "React and Next.js Security Vulnerabilities 2024: What You Need to Know",
+          "description": "Comprehensive analysis of recent critical security vulnerabilities in React and Next.js, their impact, and how to protect your applications.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2024-12-20",
+          "dateModified": "2024-12-20",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/react-nextjs-security-vulnerabilities-2024"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Security",
+          "keywords": [
+            "React Security",
+            "Next.js Vulnerabilities",
+            "Web Security",
+            "Dependency Management"
           ]
         }
       }
@@ -6470,6 +8015,458 @@
       }
     },
     {
+      "id": "blog/the-comeback-build-rebuilding-after-job-loss-1",
+      "slug": "blog/the-comeback-build-rebuilding-after-job-loss",
+      "title": "The Comeback Build — How I'm Rebuilding After Job Loss",
+      "excerpt": "# The Comeback Build — How I'm Rebuilding After Job Loss\n\nJob loss can feel like a crash — but for me, it's a reboot. Instead of seeing this as the end, I'm tre",
+      "content": "# The Comeback Build — How I'm Rebuilding After Job Loss\n\nJob loss can feel like a crash — but for me, it's a reboot. Instead of seeing this as the end, I'm treating it as a product pivot: a chance to rebuild stronger, smarter, and with more clarity.\n\nHere's my 3-part plan for rebuilding:\n\n## 1️⃣ Rebuild Mindset\n\nLosing a job isn't losing your value. I'm reprogramming my mindset for growth — learning daily, staying disciplined, and seeing this as an entrepreneurial sprint, not a setback.\n\n## 2️⃣ Reconnect Network\n\nYour network is your net worth. I'm reconnecting with old peers, mentors, and friends — not just to ask for help, but to offer it. Collaboration creates momentum.\n\n## 3️⃣ Rebuild Income\n\nThis is where creativity meets action. Whether it's consulting, freelancing, or launching something new, the goal is to build multiple income streams that align with my skills and values.",
+      "embedding": null,
+      "metadata": {
+        "title": "The Comeback Build — How I'm Rebuilding After Job Loss",
+        "slug": "the-comeback-build-rebuilding-after-job-loss",
+        "date": "2025-10-24",
+        "description": "Job loss can feel like a crash — but for me, it's a reboot. Instead of seeing this as the end, I'm treating it as a product pivot: a chance to rebuild stronger, smarter, and with more clarity.",
+        "category": "Personal",
+        "tags": [
+          "Job Loss",
+          "Rebuilding",
+          "Mindset",
+          "Networking",
+          "Income Streams",
+          "Resilience"
+        ],
+        "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": false,
+        "author": "Edward Whitehead",
+        "metaTitle": "The Comeback Build: Rebuilding After Job Loss | Edward Whitehead",
+        "metaDescription": "Transform job loss into an opportunity. My 3-part plan for rebuilding stronger with mindset shifts, networking, and multiple income streams.",
+        "keywords": [
+          "job loss recovery",
+          "rebuilding career",
+          "post-job loss mindset",
+          "networking after job loss",
+          "multiple income streams",
+          "resilience building",
+          "career comeback",
+          "job transition",
+          "professional growth"
+        ],
+        "ogTitle": "The Comeback Build — How I'm Rebuilding After Job Loss",
+        "ogDescription": "Job loss can feel like a crash — but it's a reboot. Here's my 3-part plan for rebuilding stronger, smarter, and with more clarity.",
+        "ogImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "The Comeback Build: Rebuilding After Job Loss",
+        "twitterDescription": "My journey of turning job loss into a powerful comeback. Mindset, networking, and income strategies for resilience.",
+        "twitterImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/the-comeback-build-rebuilding-after-job-loss",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "The Comeback Build — How I'm Rebuilding After Job Loss",
+          "description": "Job loss can feel like a crash — but for me, it's a reboot. Instead of seeing this as the end, I'm treating it as a product pivot: a chance to rebuild stronger, smarter, and with more clarity.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-10-24",
+          "dateModified": "2025-10-24",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/the-comeback-build-rebuilding-after-job-loss"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Personal",
+          "keywords": [
+            "Job Loss",
+            "Rebuilding",
+            "Mindset",
+            "Networking",
+            "Income Streams",
+            "Resilience"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/the-comeback-build-rebuilding-after-job-loss-2",
+      "slug": "blog/the-comeback-build-rebuilding-after-job-loss",
+      "title": "The Comeback Build — How I'm Rebuilding After Job Loss",
+      "excerpt": "## Final Thoughts\n\nThis is my Comeback Build. I'm documenting the journey, not just to stay accountable — but to show that rebuilding can be done with purpose a",
+      "content": "## Final Thoughts\n\nThis is my Comeback Build. I'm documenting the journey, not just to stay accountable — but to show that rebuilding can be done with purpose and heart.\n\n🚀 Join me. Share your comeback story or connect if you're rebuilding too. Let's grow together.\n\n```text\n#TheComebackBuild #JobLossSupport #MindsetReset #StartupLife #Resilience\n```",
+      "embedding": null,
+      "metadata": {
+        "title": "The Comeback Build — How I'm Rebuilding After Job Loss",
+        "slug": "the-comeback-build-rebuilding-after-job-loss",
+        "date": "2025-10-24",
+        "description": "Job loss can feel like a crash — but for me, it's a reboot. Instead of seeing this as the end, I'm treating it as a product pivot: a chance to rebuild stronger, smarter, and with more clarity.",
+        "category": "Personal",
+        "tags": [
+          "Job Loss",
+          "Rebuilding",
+          "Mindset",
+          "Networking",
+          "Income Streams",
+          "Resilience"
+        ],
+        "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": false,
+        "author": "Edward Whitehead",
+        "metaTitle": "The Comeback Build: Rebuilding After Job Loss | Edward Whitehead",
+        "metaDescription": "Transform job loss into an opportunity. My 3-part plan for rebuilding stronger with mindset shifts, networking, and multiple income streams.",
+        "keywords": [
+          "job loss recovery",
+          "rebuilding career",
+          "post-job loss mindset",
+          "networking after job loss",
+          "multiple income streams",
+          "resilience building",
+          "career comeback",
+          "job transition",
+          "professional growth"
+        ],
+        "ogTitle": "The Comeback Build — How I'm Rebuilding After Job Loss",
+        "ogDescription": "Job loss can feel like a crash — but it's a reboot. Here's my 3-part plan for rebuilding stronger, smarter, and with more clarity.",
+        "ogImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "The Comeback Build: Rebuilding After Job Loss",
+        "twitterDescription": "My journey of turning job loss into a powerful comeback. Mindset, networking, and income strategies for resilience.",
+        "twitterImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/the-comeback-build-rebuilding-after-job-loss",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "The Comeback Build — How I'm Rebuilding After Job Loss",
+          "description": "Job loss can feel like a crash — but for me, it's a reboot. Instead of seeing this as the end, I'm treating it as a product pivot: a chance to rebuild stronger, smarter, and with more clarity.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-10-24",
+          "dateModified": "2025-10-24",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/the-comeback-build-rebuilding-after-job-loss"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Personal",
+          "keywords": [
+            "Job Loss",
+            "Rebuilding",
+            "Mindset",
+            "Networking",
+            "Income Streams",
+            "Resilience"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/the-comeback-dashboard-demo-1",
+      "slug": "blog/the-comeback-dashboard-demo",
+      "title": "Introducing the Comeback Dashboard — A Modern Demo Admin UI",
+      "excerpt": "# Introducing the Comeback Dashboard — A Modern Demo Admin UI\n\nI built a small, production-minded admin dashboard to demonstrate realistic UI patterns and deplo",
+      "content": "# Introducing the Comeback Dashboard — A Modern Demo Admin UI\n\nI built a small, production-minded admin dashboard to demonstrate realistic UI patterns and deployment practices. You can view the live demo here: <https://the-comeback-dashbaord.vercel.app/>\n\nThis post explains why I built it, the technology choices, and practical lessons you can reuse in your projects.\n\n## What the demo shows\n\n- App Router patterns in Next.js: server components, client components, and server actions.\n- A TypeScript-first codebase with clear types between UI and server actions.\n- Utility-first styling with Tailwind CSS and theme presets.\n- Accessibility-first components and keyboard navigation patterns.\n- Small, testable components and a clear folder structure suitable for scaling.\n\n## Technology choices (short)",
+      "embedding": null,
+      "metadata": {
+        "title": "Introducing the Comeback Dashboard — A Modern Demo Admin UI",
+        "slug": "the-comeback-dashboard-demo",
+        "date": "2025-10-24",
+        "description": "Announcing the Comeback Dashboard demo — a modern Next.js + TypeScript admin dashboard built for accessibility, performance, and real-world UI patterns. Live on Vercel.",
+        "category": "Engineering",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel",
+          "Accessibility",
+          "Dashboard"
+        ],
+        "image": "/assets/images/comeback-dashboard.png",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Introducing the Comeback Dashboard — Demo Admin UI | Edward Whitehead",
+        "metaDescription": "Learn about the Comeback Dashboard demo: a production-minded Next.js admin dashboard with TypeScript, Tailwind CSS, accessible UI patterns, and Vercel deployment.",
+        "keywords": [
+          "dashboard demo",
+          "Next.js dashboard",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel deployment",
+          "accessibility"
+        ],
+        "ogTitle": "Comeback Dashboard — Demo Admin UI",
+        "ogDescription": "A small, production-minded admin dashboard demo built with Next.js, TypeScript and Tailwind CSS. Live on Vercel.",
+        "ogImage": "/assets/images/comeback-dashboard.png",
+        "twitterTitle": "Comeback Dashboard — Demo Admin UI",
+        "twitterDescription": "A demo admin dashboard demonstrating modern Next.js patterns and accessibility best practices.",
+        "twitterImage": "/assets/images/comeback-dashboard.png",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/the-comeback-dashboard-demo",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Introducing the Comeback Dashboard — A Modern Demo Admin UI",
+          "description": "Announcement and overview of the Comeback Dashboard demo: architecture, tech stack, accessibility and deployment notes.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-10-24",
+          "dateModified": "2025-10-24",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/the-comeback-dashboard-demo"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "/assets/images/comeback-dashboard.png",
+          "articleSection": "Engineering",
+          "keywords": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vercel",
+            "Dashboard"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/the-comeback-dashboard-demo-2",
+      "slug": "blog/the-comeback-dashboard-demo",
+      "title": "Introducing the Comeback Dashboard — A Modern Demo Admin UI",
+      "excerpt": "- Next.js (App Router): For server rendering, routing, and server actions. It keeps the critical path fast and simple.\n- TypeScript: Type-safety across client a",
+      "content": "- Next.js (App Router): For server rendering, routing, and server actions. It keeps the critical path fast and simple.\n- TypeScript: Type-safety across client and server layers.\n- Tailwind CSS: Rapid, consistent UI styling and theme presets.\n- Vercel: Zero-config deployment and edge-friendly hosting.\n\n## Architecture notes\n\nThe demo follows a simple separation of concerns:\n\n- Server components render core UI and fetch canonical data.\n- Client components handle interactivity and local state (e.g., table row drag, view options).\n- Server actions provide lightweight, type-safe handlers for small CRUD flows — kept minimal to demonstrate the pattern without adding backend complexity.\n\n## Performance & accessibility\n\nI optimized for:",
+      "embedding": null,
+      "metadata": {
+        "title": "Introducing the Comeback Dashboard — A Modern Demo Admin UI",
+        "slug": "the-comeback-dashboard-demo",
+        "date": "2025-10-24",
+        "description": "Announcing the Comeback Dashboard demo — a modern Next.js + TypeScript admin dashboard built for accessibility, performance, and real-world UI patterns. Live on Vercel.",
+        "category": "Engineering",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel",
+          "Accessibility",
+          "Dashboard"
+        ],
+        "image": "/assets/images/comeback-dashboard.png",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Introducing the Comeback Dashboard — Demo Admin UI | Edward Whitehead",
+        "metaDescription": "Learn about the Comeback Dashboard demo: a production-minded Next.js admin dashboard with TypeScript, Tailwind CSS, accessible UI patterns, and Vercel deployment.",
+        "keywords": [
+          "dashboard demo",
+          "Next.js dashboard",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel deployment",
+          "accessibility"
+        ],
+        "ogTitle": "Comeback Dashboard — Demo Admin UI",
+        "ogDescription": "A small, production-minded admin dashboard demo built with Next.js, TypeScript and Tailwind CSS. Live on Vercel.",
+        "ogImage": "/assets/images/comeback-dashboard.png",
+        "twitterTitle": "Comeback Dashboard — Demo Admin UI",
+        "twitterDescription": "A demo admin dashboard demonstrating modern Next.js patterns and accessibility best practices.",
+        "twitterImage": "/assets/images/comeback-dashboard.png",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/the-comeback-dashboard-demo",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Introducing the Comeback Dashboard — A Modern Demo Admin UI",
+          "description": "Announcement and overview of the Comeback Dashboard demo: architecture, tech stack, accessibility and deployment notes.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-10-24",
+          "dateModified": "2025-10-24",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/the-comeback-dashboard-demo"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "/assets/images/comeback-dashboard.png",
+          "articleSection": "Engineering",
+          "keywords": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vercel",
+            "Dashboard"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/the-comeback-dashboard-demo-3",
+      "slug": "blog/the-comeback-dashboard-demo",
+      "title": "Introducing the Comeback Dashboard — A Modern Demo Admin UI",
+      "excerpt": "- Fast server-side renders for the main pages to improve SEO and perceived performance.\n- Minimal client-side JavaScript where possible; hydrate only interactiv",
+      "content": "- Fast server-side renders for the main pages to improve SEO and perceived performance.\n- Minimal client-side JavaScript where possible; hydrate only interactive parts.\n- Semantic markup, focus management, and keyboard support across interactive controls.\n\nThese are practical, not academic: small wins that materially improve user experience and search discoverability.\n\n## Deployment\n\nDeployed on Vercel for instant previews and simple CI. For a public release I'd wire up preview deployments, automated accessibility checks (axe), and a small e2e smoke test.\n\n## Lessons & takeaways\n\n1. Prefer clear separation: server components for content, client components for interactivity.\n2. Keep server actions tiny and explicit — easier to test and reason about.\n3. Accessibility and performance pay off in discoverability and developer confidence.\n\n## Next steps / invite",
+      "embedding": null,
+      "metadata": {
+        "title": "Introducing the Comeback Dashboard — A Modern Demo Admin UI",
+        "slug": "the-comeback-dashboard-demo",
+        "date": "2025-10-24",
+        "description": "Announcing the Comeback Dashboard demo — a modern Next.js + TypeScript admin dashboard built for accessibility, performance, and real-world UI patterns. Live on Vercel.",
+        "category": "Engineering",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel",
+          "Accessibility",
+          "Dashboard"
+        ],
+        "image": "/assets/images/comeback-dashboard.png",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Introducing the Comeback Dashboard — Demo Admin UI | Edward Whitehead",
+        "metaDescription": "Learn about the Comeback Dashboard demo: a production-minded Next.js admin dashboard with TypeScript, Tailwind CSS, accessible UI patterns, and Vercel deployment.",
+        "keywords": [
+          "dashboard demo",
+          "Next.js dashboard",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel deployment",
+          "accessibility"
+        ],
+        "ogTitle": "Comeback Dashboard — Demo Admin UI",
+        "ogDescription": "A small, production-minded admin dashboard demo built with Next.js, TypeScript and Tailwind CSS. Live on Vercel.",
+        "ogImage": "/assets/images/comeback-dashboard.png",
+        "twitterTitle": "Comeback Dashboard — Demo Admin UI",
+        "twitterDescription": "A demo admin dashboard demonstrating modern Next.js patterns and accessibility best practices.",
+        "twitterImage": "/assets/images/comeback-dashboard.png",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/the-comeback-dashboard-demo",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Introducing the Comeback Dashboard — A Modern Demo Admin UI",
+          "description": "Announcement and overview of the Comeback Dashboard demo: architecture, tech stack, accessibility and deployment notes.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-10-24",
+          "dateModified": "2025-10-24",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/the-comeback-dashboard-demo"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "/assets/images/comeback-dashboard.png",
+          "articleSection": "Engineering",
+          "keywords": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vercel",
+            "Dashboard"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/the-comeback-dashboard-demo-4",
+      "slug": "blog/the-comeback-dashboard-demo",
+      "title": "Introducing the Comeback Dashboard — A Modern Demo Admin UI",
+      "excerpt": "I can extract a trimmed public repo, add a demo dataset, and include a step-by-step README if you'd like to showcase this as an example project or starter. I ca",
+      "content": "I can extract a trimmed public repo, add a demo dataset, and include a step-by-step README if you'd like to showcase this as an example project or starter. I can also generate social preview images and a short demo video.\n\n---\n\nThanks for checking out the demo — feedback welcome. If you'd like screenshots or a public repo extraction, say the word and I’ll prepare it.",
+      "embedding": null,
+      "metadata": {
+        "title": "Introducing the Comeback Dashboard — A Modern Demo Admin UI",
+        "slug": "the-comeback-dashboard-demo",
+        "date": "2025-10-24",
+        "description": "Announcing the Comeback Dashboard demo — a modern Next.js + TypeScript admin dashboard built for accessibility, performance, and real-world UI patterns. Live on Vercel.",
+        "category": "Engineering",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel",
+          "Accessibility",
+          "Dashboard"
+        ],
+        "image": "/assets/images/comeback-dashboard.png",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Introducing the Comeback Dashboard — Demo Admin UI | Edward Whitehead",
+        "metaDescription": "Learn about the Comeback Dashboard demo: a production-minded Next.js admin dashboard with TypeScript, Tailwind CSS, accessible UI patterns, and Vercel deployment.",
+        "keywords": [
+          "dashboard demo",
+          "Next.js dashboard",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel deployment",
+          "accessibility"
+        ],
+        "ogTitle": "Comeback Dashboard — Demo Admin UI",
+        "ogDescription": "A small, production-minded admin dashboard demo built with Next.js, TypeScript and Tailwind CSS. Live on Vercel.",
+        "ogImage": "/assets/images/comeback-dashboard.png",
+        "twitterTitle": "Comeback Dashboard — Demo Admin UI",
+        "twitterDescription": "A demo admin dashboard demonstrating modern Next.js patterns and accessibility best practices.",
+        "twitterImage": "/assets/images/comeback-dashboard.png",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/the-comeback-dashboard-demo",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Introducing the Comeback Dashboard — A Modern Demo Admin UI",
+          "description": "Announcement and overview of the Comeback Dashboard demo: architecture, tech stack, accessibility and deployment notes.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-10-24",
+          "dateModified": "2025-10-24",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/the-comeback-dashboard-demo"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "/assets/images/comeback-dashboard.png",
+          "articleSection": "Engineering",
+          "keywords": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vercel",
+            "Dashboard"
+          ]
+        }
+      }
+    },
+    {
       "id": "blog/web-performance-optimization-core-web-vitals-1",
       "slug": "blog/web-performance-optimization-core-web-vitals",
       "title": "Web Performance Optimization: Core Web Vitals and Beyond",
@@ -6490,7 +8487,7 @@
           "Web Vitals"
         ],
         "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Web Performance Optimization: Core Web Vitals and Beyond | Edward Whitehead",
         "metaDescription": "Master web performance optimization with Core Web Vitals. Learn LCP, FID, CLS optimization, advanced techniques, monitoring strategies, and real-world implementation.",
@@ -6565,7 +8562,7 @@
           "Web Vitals"
         ],
         "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Web Performance Optimization: Core Web Vitals and Beyond | Edward Whitehead",
         "metaDescription": "Master web performance optimization with Core Web Vitals. Learn LCP, FID, CLS optimization, advanced techniques, monitoring strategies, and real-world implementation.",
@@ -6640,7 +8637,7 @@
           "Web Vitals"
         ],
         "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Web Performance Optimization: Core Web Vitals and Beyond | Edward Whitehead",
         "metaDescription": "Master web performance optimization with Core Web Vitals. Learn LCP, FID, CLS optimization, advanced techniques, monitoring strategies, and real-world implementation.",
@@ -6715,7 +8712,7 @@
           "Web Vitals"
         ],
         "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Web Performance Optimization: Core Web Vitals and Beyond | Edward Whitehead",
         "metaDescription": "Master web performance optimization with Core Web Vitals. Learn LCP, FID, CLS optimization, advanced techniques, monitoring strategies, and real-world implementation.",
@@ -6790,7 +8787,7 @@
           "Web Vitals"
         ],
         "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Web Performance Optimization: Core Web Vitals and Beyond | Edward Whitehead",
         "metaDescription": "Master web performance optimization with Core Web Vitals. Learn LCP, FID, CLS optimization, advanced techniques, monitoring strategies, and real-world implementation.",
@@ -6865,7 +8862,7 @@
           "Web Vitals"
         ],
         "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Web Performance Optimization: Core Web Vitals and Beyond | Edward Whitehead",
         "metaDescription": "Master web performance optimization with Core Web Vitals. Learn LCP, FID, CLS optimization, advanced techniques, monitoring strategies, and real-world implementation.",
@@ -6940,7 +8937,7 @@
           "Web Vitals"
         ],
         "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Web Performance Optimization: Core Web Vitals and Beyond | Edward Whitehead",
         "metaDescription": "Master web performance optimization with Core Web Vitals. Learn LCP, FID, CLS optimization, advanced techniques, monitoring strategies, and real-world implementation.",
@@ -7015,7 +9012,7 @@
           "Web Vitals"
         ],
         "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Web Performance Optimization: Core Web Vitals and Beyond | Edward Whitehead",
         "metaDescription": "Master web performance optimization with Core Web Vitals. Learn LCP, FID, CLS optimization, advanced techniques, monitoring strategies, and real-world implementation.",
@@ -7090,7 +9087,7 @@
           "Web Vitals"
         ],
         "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Web Performance Optimization: Core Web Vitals and Beyond | Edward Whitehead",
         "metaDescription": "Master web performance optimization with Core Web Vitals. Learn LCP, FID, CLS optimization, advanced techniques, monitoring strategies, and real-world implementation.",
@@ -7165,7 +9162,7 @@
           "Web Vitals"
         ],
         "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Web Performance Optimization: Core Web Vitals and Beyond | Edward Whitehead",
         "metaDescription": "Master web performance optimization with Core Web Vitals. Learn LCP, FID, CLS optimization, advanced techniques, monitoring strategies, and real-world implementation.",
@@ -7240,7 +9237,7 @@
           "Web Vitals"
         ],
         "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Web Performance Optimization: Core Web Vitals and Beyond | Edward Whitehead",
         "metaDescription": "Master web performance optimization with Core Web Vitals. Learn LCP, FID, CLS optimization, advanced techniques, monitoring strategies, and real-world implementation.",
@@ -7315,7 +9312,7 @@
           "Web Vitals"
         ],
         "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Web Performance Optimization: Core Web Vitals and Beyond | Edward Whitehead",
         "metaDescription": "Master web performance optimization with Core Web Vitals. Learn LCP, FID, CLS optimization, advanced techniques, monitoring strategies, and real-world implementation.",
@@ -7390,7 +9387,7 @@
           "Web Vitals"
         ],
         "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Web Performance Optimization: Core Web Vitals and Beyond | Edward Whitehead",
         "metaDescription": "Master web performance optimization with Core Web Vitals. Learn LCP, FID, CLS optimization, advanced techniques, monitoring strategies, and real-world implementation.",
@@ -7465,7 +9462,7 @@
           "Web Vitals"
         ],
         "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Web Performance Optimization: Core Web Vitals and Beyond | Edward Whitehead",
         "metaDescription": "Master web performance optimization with Core Web Vitals. Learn LCP, FID, CLS optimization, advanced techniques, monitoring strategies, and real-world implementation.",
@@ -8511,8 +10508,8 @@
       "id": "projects/api-nexus-1",
       "slug": "projects/api-nexus",
       "title": "API Nexus – Universal API Management Platform",
-      "excerpt": "# 🔗 **API Nexus – Universal API Management Platform**\n\n**APIs connected. Businesses empowered.**\n\n![Node.js](https://img.shields.io/badge/backend-Node.js-43853",
-      "content": "# 🔗 **API Nexus – Universal API Management Platform**\n\n**APIs connected. Businesses empowered.**\n\n![Node.js](https://img.shields.io/badge/backend-Node.js-43853D?logo=node.js)\n![Next.js](https://img.shields.io/badge/frontend-Next.js%2015-000000?logo=next.js)\n![APIs](https://img.shields.io/badge/API-Gateway%20Management-orange)\n\n## 🌟 Overview\n\nAPI Nexus provides developers and companies a **centralized API hub** to publish, monitor, and monetize APIs with ease — supporting REST, GraphQL, and WebSocket protocols.\n\n## ⚙️ Architecture\n\n- API Gateway Layer  \n- Developer Dashboard  \n- Billing & Monetization Engine  \n- Real-time Analytics Module\n\n## 🚀 Roadmap\n\n1. API Registry MVP  \n2. Usage Analytics & Billing  \n3. Marketplace Integrations  \n4. AI-powered Documentation\n\n## 💼 Model\n\nFreemium SaaS: free tier + paid analytics and monetization modules.\n\n## 🧠 Stack",
+      "excerpt": "## 🔗 **API Nexus – Universal API Management Platform**\n\n**APIs connected. Businesses empowered.**\n\n![Node.js](https://img.shields.io/badge/backend-Node.js-4385",
+      "content": "## 🔗 **API Nexus – Universal API Management Platform**\n\n**APIs connected. Businesses empowered.**\n\n![Node.js](https://img.shields.io/badge/backend-Node.js-43853D?logo=node.js)\n![Next.js](https://img.shields.io/badge/frontend-Next.js%2015-000000?logo=next.js)\n![APIs](https://img.shields.io/badge/API-Gateway%20Management-orange)\n\n## 🌟 Overview\n\nAPI Nexus provides developers and companies a **centralized API hub** to publish, monitor, and monetize APIs with ease — supporting REST, GraphQL, and WebSocket protocols.\n\n## ⚙️ Architecture\n\n- API Gateway Layer  \n- Developer Dashboard  \n- Billing & Monetization Engine  \n- Real-time Analytics Module\n\n## 🚀 Roadmap\n\n1. API Registry MVP  \n2. Usage Analytics & Billing  \n3. Marketplace Integrations  \n4. AI-powered Documentation\n\n## 💼 Model\n\nFreemium SaaS: free tier + paid analytics and monetization modules.\n\n## 🧠 Stack",
       "embedding": null,
       "metadata": {
         "id": 12,
@@ -8633,6 +10630,258 @@
             "Performance analytics and monitoring",
             "API monetization tools",
             "Multi-provider integrations"
+          ]
+        }
+      }
+    },
+    {
+      "id": "projects/comeback-dashboard-1",
+      "slug": "projects/comeback-dashboard",
+      "title": "Comeback Dashboard — Demo Admin Dashboard",
+      "excerpt": "# 🔧 Comeback Dashboard — Demo Admin Dashboard\n\nAn opinionated demo admin dashboard built to demonstrate modern Next.js patterns and pragmatic production practi",
+      "content": "# 🔧 Comeback Dashboard — Demo Admin Dashboard\n\nAn opinionated demo admin dashboard built to demonstrate modern Next.js patterns and pragmatic production practices. View the live demo at: <https://the-comeback-dashbaord.vercel.app/>\n\n## 🌟 Overview\n\nComeback Dashboard is a compact, accessible admin UI that focuses on real-world developer concerns: performance, maintainability, and clear separation of server/client responsibilities. It's intentionally a demo — small enough to explore quickly, but structured like a production app.\n\n## 🚩 Why this demo exists\n\n- Showcase app-router patterns (server components, client components, and server actions).\n- Demonstrate accessibility-first UI and semantic markup.\n- Provide a small, well-organized codebase for interviews, demos, and talks.\n\n## 🧩 Key features",
+      "embedding": null,
+      "metadata": {
+        "id": 99,
+        "title": "Comeback Dashboard — Demo Admin Dashboard",
+        "slug": "comeback-dashboard",
+        "category": "Demo & UI",
+        "image": "/assets/images/comeback-dashboard.png",
+        "date": "2025-10-24",
+        "description": "A responsive, accessible admin dashboard demo showcasing modern Next.js architecture, TypeScript, Tailwind CSS, server actions, and production-ready deployment on Vercel.",
+        "overview": "Comeback Dashboard is a demo admin dashboard built to showcase modern full-stack UI patterns: server/client components, server actions, accessibility-first design, and pragmatic deployment practices.",
+        "url": "/projects/comeback-dashboard",
+        "github": "",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Comeback Dashboard – Demo Admin Dashboard | Edward Whitehead",
+        "metaDescription": "Explore the Comeback Dashboard demo: a modern Next.js + TypeScript admin dashboard with Tailwind CSS, server actions, accessibility best practices, and Vercel deployment.",
+        "keywords": [
+          "admin dashboard",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel",
+          "accessibility",
+          "dashboard demo"
+        ],
+        "ogTitle": "Comeback Dashboard — Demo Admin Dashboard",
+        "ogDescription": "Modern admin dashboard demo built with Next.js, TypeScript and Tailwind CSS. Focused on accessibility, performance, and real-world patterns.",
+        "ogImage": "/assets/images/comeback-dashboard.png",
+        "twitterTitle": "Comeback Dashboard — Demo Admin Dashboard",
+        "twitterDescription": "A demo admin dashboard demonstrating modern Next.js patterns, accessibility, and pragmatic deployment on Vercel.",
+        "twitterImage": "/assets/images/comeback-dashboard.png",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/projects/comeback-dashboard",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "Comeback Dashboard",
+          "description": "Demo admin dashboard built with Next.js, TypeScript, and Tailwind CSS — focused on accessibility, performance, and pragmatic production patterns.",
+          "applicationCategory": "WebApplication",
+          "operatingSystem": "Web-based",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "softwareVersion": "0.1.0",
+          "screenshot": "/assets/images/comeback-dashboard.png",
+          "featureList": [
+            "Responsive, accessible UI",
+            "Next.js app router + server actions",
+            "TypeScript-first codebase",
+            "Utility-first styling with Tailwind CSS",
+            "Production-ready Vercel deployment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "projects/comeback-dashboard-2",
+      "slug": "projects/comeback-dashboard",
+      "title": "Comeback Dashboard — Demo Admin Dashboard",
+      "excerpt": "- Responsive layout and mobile-first design\n- Accessible navigation and keyboard support\n- Data table with pagination and view options\n- Theme presets and user ",
+      "content": "- Responsive layout and mobile-first design\n- Accessible navigation and keyboard support\n- Data table with pagination and view options\n- Theme presets and user preferences\n- Minimal, type-safe server actions for CRUD flows\n- Clean component architecture suitable for scaling into a product\n\n## 🏗 Architecture\n\n- Next.js (App Router) — server and client components\n- TypeScript — types across frontend and server actions\n- Tailwind CSS — utility-first styling and presets\n- Edge / Serverless deployment on Vercel\n- Lightweight state stores for preferences\n\n## 🧪 Stack\n\nNext.js • TypeScript • Tailwind CSS • React • Vercel\n\n## 🚀 Deployment & Source\n\nLive demo: <https://the-comeback-dashbaord.vercel.app/>",
+      "embedding": null,
+      "metadata": {
+        "id": 99,
+        "title": "Comeback Dashboard — Demo Admin Dashboard",
+        "slug": "comeback-dashboard",
+        "category": "Demo & UI",
+        "image": "/assets/images/comeback-dashboard.png",
+        "date": "2025-10-24",
+        "description": "A responsive, accessible admin dashboard demo showcasing modern Next.js architecture, TypeScript, Tailwind CSS, server actions, and production-ready deployment on Vercel.",
+        "overview": "Comeback Dashboard is a demo admin dashboard built to showcase modern full-stack UI patterns: server/client components, server actions, accessibility-first design, and pragmatic deployment practices.",
+        "url": "/projects/comeback-dashboard",
+        "github": "",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Comeback Dashboard – Demo Admin Dashboard | Edward Whitehead",
+        "metaDescription": "Explore the Comeback Dashboard demo: a modern Next.js + TypeScript admin dashboard with Tailwind CSS, server actions, accessibility best practices, and Vercel deployment.",
+        "keywords": [
+          "admin dashboard",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel",
+          "accessibility",
+          "dashboard demo"
+        ],
+        "ogTitle": "Comeback Dashboard — Demo Admin Dashboard",
+        "ogDescription": "Modern admin dashboard demo built with Next.js, TypeScript and Tailwind CSS. Focused on accessibility, performance, and real-world patterns.",
+        "ogImage": "/assets/images/comeback-dashboard.png",
+        "twitterTitle": "Comeback Dashboard — Demo Admin Dashboard",
+        "twitterDescription": "A demo admin dashboard demonstrating modern Next.js patterns, accessibility, and pragmatic deployment on Vercel.",
+        "twitterImage": "/assets/images/comeback-dashboard.png",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/projects/comeback-dashboard",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "Comeback Dashboard",
+          "description": "Demo admin dashboard built with Next.js, TypeScript, and Tailwind CSS — focused on accessibility, performance, and pragmatic production patterns.",
+          "applicationCategory": "WebApplication",
+          "operatingSystem": "Web-based",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "softwareVersion": "0.1.0",
+          "screenshot": "/assets/images/comeback-dashboard.png",
+          "featureList": [
+            "Responsive, accessible UI",
+            "Next.js app router + server actions",
+            "TypeScript-first codebase",
+            "Utility-first styling with Tailwind CSS",
+            "Production-ready Vercel deployment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "projects/comeback-dashboard-3",
+      "slug": "projects/comeback-dashboard",
+      "title": "Comeback Dashboard — Demo Admin Dashboard",
+      "excerpt": "Source: the project lives under the `comeback-dashboard` folder in the edwardwhitehead.dev monorepo (private/local workspace). If you want a public repository o",
+      "content": "Source: the project lives under the `comeback-dashboard` folder in the edwardwhitehead.dev monorepo (private/local workspace). If you want a public repository or a copy, I can help extract and publish a trimmed demo repo.\n\n## ✅ Accessibility & SEO\n\nThe demo follows accessible semantic HTML, keyboard navigation patterns, and sensible ARIA usage where required. Pages are optimized for fast FCP and LCP with server rendering for primary content.\n\n## 🧭 Roadmap / next steps\n\n1. Add end-to-end tests and accessibility regression checks\n2. Add sample datasets and demo users for a richer showcase\n3. Publish a trimmed public repo with setup instructions\n\n## 📎 Links & Resources\n\n- Live demo: <https://the-comeback-dashbaord.vercel.app/>\n- Monorepo path: `[comeback-dashboard]`(https://github.com/edwardwhiteheaddev/edwardwhiteheaddev)\n\n---",
+      "embedding": null,
+      "metadata": {
+        "id": 99,
+        "title": "Comeback Dashboard — Demo Admin Dashboard",
+        "slug": "comeback-dashboard",
+        "category": "Demo & UI",
+        "image": "/assets/images/comeback-dashboard.png",
+        "date": "2025-10-24",
+        "description": "A responsive, accessible admin dashboard demo showcasing modern Next.js architecture, TypeScript, Tailwind CSS, server actions, and production-ready deployment on Vercel.",
+        "overview": "Comeback Dashboard is a demo admin dashboard built to showcase modern full-stack UI patterns: server/client components, server actions, accessibility-first design, and pragmatic deployment practices.",
+        "url": "/projects/comeback-dashboard",
+        "github": "",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Comeback Dashboard – Demo Admin Dashboard | Edward Whitehead",
+        "metaDescription": "Explore the Comeback Dashboard demo: a modern Next.js + TypeScript admin dashboard with Tailwind CSS, server actions, accessibility best practices, and Vercel deployment.",
+        "keywords": [
+          "admin dashboard",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel",
+          "accessibility",
+          "dashboard demo"
+        ],
+        "ogTitle": "Comeback Dashboard — Demo Admin Dashboard",
+        "ogDescription": "Modern admin dashboard demo built with Next.js, TypeScript and Tailwind CSS. Focused on accessibility, performance, and real-world patterns.",
+        "ogImage": "/assets/images/comeback-dashboard.png",
+        "twitterTitle": "Comeback Dashboard — Demo Admin Dashboard",
+        "twitterDescription": "A demo admin dashboard demonstrating modern Next.js patterns, accessibility, and pragmatic deployment on Vercel.",
+        "twitterImage": "/assets/images/comeback-dashboard.png",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/projects/comeback-dashboard",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "Comeback Dashboard",
+          "description": "Demo admin dashboard built with Next.js, TypeScript, and Tailwind CSS — focused on accessibility, performance, and pragmatic production patterns.",
+          "applicationCategory": "WebApplication",
+          "operatingSystem": "Web-based",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "softwareVersion": "0.1.0",
+          "screenshot": "/assets/images/comeback-dashboard.png",
+          "featureList": [
+            "Responsive, accessible UI",
+            "Next.js app router + server actions",
+            "TypeScript-first codebase",
+            "Utility-first styling with Tailwind CSS",
+            "Production-ready Vercel deployment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "projects/comeback-dashboard-4",
+      "slug": "projects/comeback-dashboard",
+      "title": "Comeback Dashboard — Demo Admin Dashboard",
+      "excerpt": "If you'd like, I can also generate a small README to include inside the dashboard folder, create social preview images, or extract a public demo repository.",
+      "content": "If you'd like, I can also generate a small README to include inside the dashboard folder, create social preview images, or extract a public demo repository.",
+      "embedding": null,
+      "metadata": {
+        "id": 99,
+        "title": "Comeback Dashboard — Demo Admin Dashboard",
+        "slug": "comeback-dashboard",
+        "category": "Demo & UI",
+        "image": "/assets/images/comeback-dashboard.png",
+        "date": "2025-10-24",
+        "description": "A responsive, accessible admin dashboard demo showcasing modern Next.js architecture, TypeScript, Tailwind CSS, server actions, and production-ready deployment on Vercel.",
+        "overview": "Comeback Dashboard is a demo admin dashboard built to showcase modern full-stack UI patterns: server/client components, server actions, accessibility-first design, and pragmatic deployment practices.",
+        "url": "/projects/comeback-dashboard",
+        "github": "",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Comeback Dashboard – Demo Admin Dashboard | Edward Whitehead",
+        "metaDescription": "Explore the Comeback Dashboard demo: a modern Next.js + TypeScript admin dashboard with Tailwind CSS, server actions, accessibility best practices, and Vercel deployment.",
+        "keywords": [
+          "admin dashboard",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel",
+          "accessibility",
+          "dashboard demo"
+        ],
+        "ogTitle": "Comeback Dashboard — Demo Admin Dashboard",
+        "ogDescription": "Modern admin dashboard demo built with Next.js, TypeScript and Tailwind CSS. Focused on accessibility, performance, and real-world patterns.",
+        "ogImage": "/assets/images/comeback-dashboard.png",
+        "twitterTitle": "Comeback Dashboard — Demo Admin Dashboard",
+        "twitterDescription": "A demo admin dashboard demonstrating modern Next.js patterns, accessibility, and pragmatic deployment on Vercel.",
+        "twitterImage": "/assets/images/comeback-dashboard.png",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/projects/comeback-dashboard",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "Comeback Dashboard",
+          "description": "Demo admin dashboard built with Next.js, TypeScript, and Tailwind CSS — focused on accessibility, performance, and pragmatic production patterns.",
+          "applicationCategory": "WebApplication",
+          "operatingSystem": "Web-based",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "softwareVersion": "0.1.0",
+          "screenshot": "/assets/images/comeback-dashboard.png",
+          "featureList": [
+            "Responsive, accessible UI",
+            "Next.js app router + server actions",
+            "TypeScript-first codebase",
+            "Utility-first styling with Tailwind CSS",
+            "Production-ready Vercel deployment"
           ]
         }
       }
@@ -9551,7 +11800,7 @@
         },
         "github": "https://github.com/team-paybee",
         "url": "/projects/paybee",
-        "featured": true
+        "featured": false
       }
     },
     {
