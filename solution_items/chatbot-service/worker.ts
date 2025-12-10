@@ -52,7 +52,7 @@ const worker = {
             });
 
             const output = completion.output?.[0];
-            const reply = output && "content" in output ? output.content.find((segment) => segment.type === "output_text") : null;
+            const reply = output && "content" in output ? output.content?.find((segment) => segment.type === "output_text") : null;
             const replyText = reply && reply.type === "output_text" ? reply.text : "I could not generate a response.";
 
             return Response.json({

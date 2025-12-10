@@ -4,6 +4,7 @@ import { AboutClient } from "./AboutClient";
 interface AboutData {
   title: string;
   contentHtml: string;
+  skillProgress?: { label: string; value: number }[];
 }
 
 export const metadata = {
@@ -12,6 +13,6 @@ export const metadata = {
 };
 
 export default async function AboutPage() {
-  const aboutData = await getMarkdownData<AboutData>("about");
+  const aboutData = await getMarkdownData<AboutData>("about-enhanced");
   return <AboutClient data={aboutData} />;
 }

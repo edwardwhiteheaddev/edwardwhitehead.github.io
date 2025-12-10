@@ -7,17 +7,18 @@ import { Preloader } from '@/components/kyros/Preloader';
 import { ProjectsSection } from '@/components/kyros/Projects';
 import { ScrollToTop } from '@/components/kyros/ScrollToTop';
 import { SkillsSection } from '@/components/kyros/Skills';
-import { getFeaturedBlogs, getMarkdownData, getFeaturedProjects } from '@/lib/markdown';
+import { generateMetadata as generateMetadataUtil } from '@/lib/generate-metadata';
+import { getFeaturedBlogs, getFeaturedProjects, getMarkdownData } from '@/lib/markdown';
 import { normalizeButtons } from '@/lib/normalizers';
 import {
   AboutMarkdownData,
-  HeroMarkdownData,
-  SkillsMarkdownData,
+  ContactMarkdownData,
   ExperienceMarkdownData,
-  ContactMarkdownData
+  HeroMarkdownData,
+  SkillsMarkdownData
 } from '@/schemas';
-import { generateMetadata as generateMetadataUtil } from '@/lib/generate-metadata';
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 export async function generateMetadata(): Promise<Metadata> {
   return generateMetadataUtil({ metaDataFile: 'metadata' });
@@ -70,6 +71,13 @@ export default async function HomePage() {
         contentHtml={aboutData.contentHtml}
         skillProgress={aboutData.skillProgress ?? []}
       />
+      <section className="about-cta">
+        <div className="container">
+          <Link href="/about" className="about-ai-button">
+            More About Me - According to AI
+          </Link>
+        </div>
+      </section>
       <ProjectsSection title="Featured Projects" projects={featuredProjects} />
       <FeaturedBlogsSection title="Featured Blog Posts" blogs={featuredBlogs} />
       <ContactSection
