@@ -30,7 +30,7 @@
     "dotenv": "^17.2.3",
     "framer-motion": "^12.23.26",
     "gray-matter": "^4.0.3",
-    "next": "16.0.8",
+    "next": "16.0.9",
     "nodemailer": "^7.0.11",
     "octokit": "^5.0.5",
     "openai": "^6.10.0",
