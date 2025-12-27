@@ -6,7 +6,7 @@ description: 'Discover Qirvo, the AI-powered life dashboard that intelligently m
 category: 'AI & Productivity'
 tags: ['AI', 'Life Management', 'Productivity', 'Dashboard', 'Health Tracking', 'Project Management', 'Habit Tracking', 'Personal Development']
 image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
-featured: true
+featured: false
 author: 'Edward Whitehead'
 
 # SEO and AEO metadata fields
@@ -64,18 +64,23 @@ Qirvo represents a paradigm shift in personal productivity tools. Unlike traditi
 ## Core Features That Set Qirvo Apart
 
 ### Intelligent Task Prioritization
+
 Qirvo's AI analyzes your tasks, deadlines, and historical completion patterns to automatically prioritize activities. This ensures you focus on what matters most, reducing decision fatigue and improving overall efficiency.
 
 ### Comprehensive Health Tracking
+
 Beyond basic fitness metrics, Qirvo integrates health data to provide holistic wellness insights. It correlates activity levels, sleep patterns, and productivity metrics to suggest optimal routines and identify potential health optimizations.
 
 ### Seamless Project Management
+
 With native GitHub integration, Qirvo transforms project management into an intuitive experience. The AI tracks progress, identifies bottlenecks, and suggests resource allocations to keep projects on track.
 
 ### Advanced Habit Tracking
+
 Qirvo goes beyond simple habit logging by recognizing patterns and providing predictive insights. It identifies optimal times for habit formation and offers personalized strategies to build sustainable routines.
 
 ### Personalized Recommendations
+
 Drawing from machine learning algorithms, Qirvo delivers tailored suggestions based on your unique patterns. Whether it's scheduling breaks, suggesting learning opportunities, or recommending health adjustments, these insights become increasingly accurate over time.
 
 ## Technical Excellence for Enterprise-Grade Reliability

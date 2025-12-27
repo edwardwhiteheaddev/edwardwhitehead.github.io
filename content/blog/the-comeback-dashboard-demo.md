@@ -6,7 +6,7 @@ description: 'Announcing the Comeback Dashboard demo — a modern Next.js + Type
 category: 'Engineering'
 tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Vercel', 'Accessibility', 'Dashboard']
 image: '/assets/images/comeback-dashboard.png'
-featured: true
+featured: false
 author: 'Edward Whitehead'
 
 # SEO and AEO metadata fields
