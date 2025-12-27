@@ -49,7 +49,7 @@ structuredData:
     "url": "https://edwardwhitehead.dev"
 github: ''
 url: '/projects/fedex-mobile-stack'
-featured: true
+featured: false
 ---
 
 ## FedEx Mobile Stack

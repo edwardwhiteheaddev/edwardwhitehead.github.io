@@ -1,6 +1,17 @@
 ---
 title: 'Experience'
 jobs:
+  - role: 'Co-Founder (CTO)'
+    company: 'SubSeat – Remote'
+    dates: 'June 2025 – Present'
+    description: |
+      - Co-founder of SubSeat. A subscription based booking platform for barbers, beauty salons - think of it as a Netflix for the booking your favourite hair appointment.
+      - Responsible for all technical decisions, architecture and implementation of a robust plarform ensuring speed, security and reliability.
+      - As CTO, I am also reposible for the full Product, from go-to-market strategy to working with suppliers.
+    skills: 'CTO · Lead Architect · Next.js · Product Lifecycle Management · Postgre · Supabase · Vercel · Go-to-Market Strategy · Full Stack Developer'
+    notableAchievements: |
+      - I am currently building out the MVP for launch in early 2026.
+
   - role: 'Founder'
     company: 'Qirvo – Remote'
     dates: 'June 2025 – Present'

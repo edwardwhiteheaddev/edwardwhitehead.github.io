@@ -1,10 +1,10 @@
 ---
 title: 'About Me'
 skillProgress:
-  - { label: 'Leadership', value: 40 }
-  - { label: 'Coaching', value: 20 }
-  - { label: 'Development', value: 20 }
-  - { label: 'Product Strategy', value: 20 }
+  - { label: 'Leadership', value: 45 }
+  - { label: 'Coaching', value: 05 }
+  - { label: 'Development', value: 15 }
+  - { label: 'Product Strategy', value: 35 }
   - { label: 'Total', value: 100 }
 ---
 

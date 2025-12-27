@@ -1,5 +1,5 @@
 ---
-id: 99
+id: 14
 title: 'Comeback Dashboard — Demo Admin Dashboard'
 slug: 'comeback-dashboard'
 category: 'Demo & UI'
@@ -107,7 +107,7 @@ The demo follows accessible semantic HTML, keyboard navigation patterns, and sen
 ## 📎 Links & Resources
 
 - Live demo: <https://the-comeback-dashbaord.vercel.app/>
-- Monorepo path: `[comeback-dashboard]`(https://github.com/edwardwhiteheaddev/edwardwhiteheaddev)
+- Monorepo path: `[comeback-dashboard]`(<https://github.com/edwardwhiteheaddev/edwardwhiteheaddev>)
 
 ---
 
