@@ -1,0 +1,556 @@
+/*
+  UNIVRS — premium neutral dark palette
+  Typography:
+  - Primary: Frutiger
+  - Fallbacks: Inter, Helvetica Neue, Arial, sans-serif
+
+  Font loading strategy:
+  - If you have licensed Frutiger files, place them in `public/fonts/`:
+    - `Frutiger.woff2` (preferred)
+    - `Frutiger.woff`
+  - The @font-face below will pick them up.
+*/
+
+@font-face {
+  font-family: "Frutiger";
+  src:
+    url("/assets/fonts/Frutiger.woff2") format("woff2"),
+    url("/assets/fonts/Frutiger.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Frutiger";
+  src:
+    url("/assets/fonts/Frutiger.woff2") format("woff2"),
+    url("/assets/fonts/Frutiger.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.page {
+  --u-bg: #0f1216;
+  --u-panel: rgba(255, 255, 255, 0.04);
+  --u-border: rgba(255, 255, 255, 0.09);
+  --u-text: rgba(255, 255, 255, 0.92);
+  --u-muted: rgba(255, 255, 255, 0.68);
+  --u-faint: rgba(255, 255, 255, 0.52);
+  --u-accent: rgba(255, 255, 255, 0.92);
+
+  background: var(--u-bg);
+  color: var(--u-text);
+  font-family: "Frutiger", Inter, "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(15, 18, 22, 0.86);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--u-border);
+}
+
+.headerInner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--u-text);
+  text-decoration: none;
+}
+
+.brandText {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.92rem;
+}
+
+.nav {
+  display: none;
+  gap: 18px;
+}
+
+.navLink {
+  color: var(--u-muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.navLink:hover {
+  color: var(--u-text);
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.botBtn {
+  height: 40px;
+  width: 40px;
+  border-radius: 999px;
+  border: 1px solid var(--u-border);
+  background: transparent;
+  color: var(--u-text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botBtn:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.menuBtn {
+  height: 40px;
+  width: 40px;
+  border-radius: 999px;
+  border: 1px solid var(--u-border);
+  background: transparent;
+  color: var(--u-text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuIcon {
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  border-top: 2px solid rgba(255, 255, 255, 0.85);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.85);
+  position: relative;
+}
+
+.menuIcon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 2px solid rgba(255, 255, 255, 0.85);
+}
+
+.mobileNav {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 6px 20px 16px;
+  display: grid;
+  gap: 10px;
+}
+
+.mobileNavLink {
+  border: 1px solid var(--u-border);
+  background: rgba(255, 255, 255, 0.03);
+  padding: 12px 14px;
+  border-radius: 12px;
+  color: var(--u-text);
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  padding: 92px 0 44px;
+}
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
+
+.h1 {
+  font-size: clamp(2.1rem, 4vw, 3.3rem);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin: 0 0 14px;
+  font-weight: 700;
+}
+
+.lede {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: var(--u-text);
+  margin: 0 0 10px;
+}
+
+.value {
+  font-size: 1.02rem;
+  line-height: 1.75;
+  color: var(--u-muted);
+  margin: 0;
+}
+
+.heroCtas {
+  margin-top: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+}
+
+.primaryCta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--u-text);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.primaryCta:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.secondaryCta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+  color: var(--u-muted);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.secondaryCta:hover {
+  color: var(--u-text);
+}
+
+.microCopy {
+  margin-top: 16px;
+  color: var(--u-faint);
+  font-size: 0.95rem;
+}
+
+.heroAside {
+  display: none;
+}
+
+.mark {
+  height: 360px;
+  border-radius: 18px;
+  border: 1px solid var(--u-border);
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      circle at 50% 45%,
+      rgba(255, 255, 255, 0.09),
+      rgba(255, 255, 255, 0) 62%
+    ),
+    rgba(255, 255, 255, 0.02);
+}
+
+.markImage {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Trust */
+.trust {
+  padding: 18px 0 58px;
+}
+
+.trustList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+  border: 1px solid var(--u-border);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 16px;
+  padding: 18px 18px;
+}
+
+.trustList strong {
+  color: var(--u-accent);
+}
+
+/* Sections */
+.section,
+.sectionAlt {
+  padding: 70px 0;
+}
+
+.sectionAlt {
+  background: rgba(255, 255, 255, 0.02);
+  border-top: 1px solid var(--u-border);
+  border-bottom: 1px solid var(--u-border);
+}
+
+.sectionHeader {
+  margin-bottom: 26px;
+}
+
+.h2 {
+  font-size: clamp(1.55rem, 2.4vw, 2.1rem);
+  letter-spacing: -0.01em;
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+.h3 {
+  font-size: 1.05rem;
+  margin: 0 0 8px;
+  font-weight: 700;
+}
+
+.sectionIntro {
+  margin: 0;
+  color: var(--u-muted);
+  line-height: 1.8;
+  max-width: 760px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.card {
+  border: 1px solid var(--u-border);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  padding: 18px 18px;
+}
+
+.card p {
+  margin: 0 0 10px;
+  color: var(--u-muted);
+  line-height: 1.75;
+}
+
+.cardOutcome {
+  color: var(--u-text);
+}
+
+/* Process */
+.steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 16px;
+}
+
+.step {
+  border: 1px solid var(--u-border);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.step p {
+  margin: 0;
+  color: var(--u-muted);
+  line-height: 1.8;
+}
+
+/* Philosophy */
+.philosophyGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+.quote {
+  border: 1px solid var(--u-border);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.quoteText {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+.quoteSub {
+  margin: 10px 0 0;
+  color: var(--u-muted);
+  line-height: 1.8;
+}
+
+.beliefs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.beliefs li {
+  border: 1px solid var(--u-border);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  padding: 14px 16px;
+  color: var(--u-muted);
+  line-height: 1.75;
+}
+
+.beliefs strong {
+  color: var(--u-text);
+}
+
+/* Fit */
+.fitGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.fitCol {
+  border: 1px solid var(--u-border);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.list {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--u-muted);
+  line-height: 1.85;
+}
+
+/* CTA */
+.cta {
+  padding: 80px 0 92px;
+}
+
+.ctaCard {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 18px;
+  padding: 22px;
+}
+
+.ctaActions {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+/* Footer */
+.footer {
+  border-top: 1px solid var(--u-border);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.footerInner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 22px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.footerMeta {
+  max-width: 520px;
+}
+
+.footerBrand {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.footerNote {
+  color: var(--u-muted);
+  line-height: 1.8;
+}
+
+.footerLinks {
+  display: grid;
+  gap: 10px;
+}
+
+.footerLink {
+  color: var(--u-muted);
+  text-decoration: none;
+}
+
+.footerLink:hover {
+  color: var(--u-text);
+}
+
+/* Desktop */
+@media (min-width: 920px) {
+  .nav {
+    display: flex;
+  }
+
+  .menuBtn {
+    display: none;
+  }
+
+  .mobileNav {
+    display: none;
+  }
+
+  .hero {
+    padding: 120px 0 60px;
+  }
+
+  .heroGrid {
+    grid-template-columns: 1.2fr 0.8fr;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .heroAside {
+    display: block;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .philosophyGrid {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+
+  .fitGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .trustList {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

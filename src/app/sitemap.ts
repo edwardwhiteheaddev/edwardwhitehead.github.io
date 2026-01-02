@@ -1,5 +1,5 @@
-import { MetadataRoute } from 'next';
 import { getAllBlogPosts, getAllProjects } from '@/lib/markdown';
+import { MetadataRoute } from 'next';
 
 export const dynamic = 'force-static';
 
@@ -61,6 +61,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             lastModified: new Date(),
             changeFrequency: 'monthly',
             priority: 0.8,
+        },
+        {
+            url: `${baseUrl}/univrs`,
+            lastModified: new Date(),
+            changeFrequency: 'monthly',
+            priority: 0.85,
         },
     ];
 

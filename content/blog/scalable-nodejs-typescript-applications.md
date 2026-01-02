@@ -6,7 +6,7 @@ description: 'Learn how to build maintainable, scalable Node.js applications usi
 category: 'Backend Development'
 tags: ['Node.js', 'TypeScript', 'Scalability', 'Architecture', 'Testing', 'Microservices']
 image: 'https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
-featured: true
+featured: false
 author: 'Edward Whitehead'
 
 # SEO and AEO metadata fields

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-12-27T07:41:36.327Z",
-  "documentCount": 184,
+  "generatedAt": "2026-01-02T10:26:59.851Z",
+  "documentCount": 204,
   "source": "content",
   "embeddingModel": null,
   "documents": [
@@ -148,19 +148,19 @@
         "skillProgress": [
           {
             "label": "Leadership",
-            "value": 40
+            "value": 45
           },
           {
             "label": "Coaching",
-            "value": 20
+            "value": 5
           },
           {
             "label": "Development",
-            "value": 20
+            "value": 15
           },
           {
             "label": "Product Strategy",
-            "value": 20
+            "value": 35
           },
           {
             "label": "Total",
@@ -181,19 +181,19 @@
         "skillProgress": [
           {
             "label": "Leadership",
-            "value": 40
+            "value": 45
           },
           {
             "label": "Coaching",
-            "value": 20
+            "value": 5
           },
           {
             "label": "Development",
-            "value": 20
+            "value": 15
           },
           {
             "label": "Product Strategy",
-            "value": 20
+            "value": 35
           },
           {
             "label": "Total",
@@ -723,6 +723,228 @@
             "Higher-Order Components",
             "HOC",
             "Compound Components"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/ai-native-software-delivery-systems-1",
+      "slug": "blog/ai-native-software-delivery-systems",
+      "title": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control",
+      "excerpt": "# AI-Native Software Delivery: Designing Systems That Scale Without Losing Control\n\nAI has changed how software is written.  \nIt has *not* changed the fundament",
+      "content": "# AI-Native Software Delivery: Designing Systems That Scale Without Losing Control\n\nAI has changed how software is written.  \nIt has *not* changed the fundamentals of how software should be **designed**, **governed**, or **owned**.\n\nMany teams are discovering this the hard way.\n\nVelocity increases. Output explodes.  \nClarity quietly disappears.\n\nThis article explores what **AI-native software delivery** actually means—and how to design systems that benefit from AI **without losing control, accountability, or long-term stability**.\n\n---\n\n## What “AI-Native” Really Means (And What It Doesn’t)\n\nAI-native does **not** mean:\n\n- Replacing engineers with models\n- Letting tools decide architecture\n- Optimising for speed at any cost\n\nAI-native *does* mean:",
+      "embedding": null,
+      "metadata": {
+        "title": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control",
+        "slug": "ai-native-software-delivery-systems",
+        "date": "2026-01-02",
+        "description": "A practical, senior-level guide to AI-native software delivery—how to design systems that leverage AI without sacrificing clarity, accountability, or long-term maintainability.",
+        "category": "Software Architecture",
+        "tags": [
+          "AI-Native",
+          "Software Delivery",
+          "Systems Architecture",
+          "AI Augmentation",
+          "Engineering Leadership",
+          "U-ASDLC"
+        ],
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control | Edward Whitehead",
+        "metaDescription": "Learn how to design AI-native software delivery systems that scale responsibly. A senior guide to AI augmentation, system clarity, and sustainable engineering.",
+        "keywords": [
+          "AI-Native Software",
+          "AI Software Delivery",
+          "AI-Augmented Development",
+          "Software Architecture",
+          "Engineering Leadership",
+          "AI Systems Design",
+          "U-ASDLC"
+        ],
+        "ogTitle": "AI-Native Software Delivery",
+        "ogDescription": "How to design AI-native delivery systems that enhance speed without sacrificing trust, clarity, or accountability.",
+        "ogImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "AI-Native Software Delivery",
+        "twitterDescription": "A senior guide to building AI-native systems without losing control.",
+        "twitterImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control",
+          "description": "A practical guide to AI-native software delivery focused on clarity, accountability, and long-term system health.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2026-01-02",
+          "dateModified": "2026-01-02",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Software Architecture",
+          "keywords": [
+            "AI-Native",
+            "Software Delivery",
+            "Systems Architecture",
+            "Engineering Leadership"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/ai-native-software-delivery-systems-2",
+      "slug": "blog/ai-native-software-delivery-systems",
+      "title": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control",
+      "excerpt": "- Designing workflows where AI **augments human judgment**\n- Treating AI as a collaborator, not an authority\n- Embedding AI into delivery systems intentionally,",
+      "content": "- Designing workflows where AI **augments human judgment**\n- Treating AI as a collaborator, not an authority\n- Embedding AI into delivery systems intentionally, not reactively\n\nIn short: **AI-native is a systems decision, not a tooling decision.**\n\n---\n\n## The Core Problem: Speed Without Structure\n\nAI tools dramatically reduce the cost of:\n\n- Writing code\n- Generating tests\n- Producing documentation\n- Exploring solution spaces\n\nBut they do **nothing** to:\n\n- Clarify intent\n- Define ownership\n- Enforce architectural boundaries\n- Maintain long-term coherence\n\nWithout structure, AI accelerates **entropy**.\n\n---\n\n## Designing an AI-Augmented Delivery System\n\nA healthy AI-native delivery system has three explicit layers:\n\n### 1. Human Decision Layer (Non-Negotiable)\n\nHumans remain responsible for:\n\n- System boundaries\n- Trade-offs\n- Risk acceptance\n- Architectural direction",
+      "embedding": null,
+      "metadata": {
+        "title": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control",
+        "slug": "ai-native-software-delivery-systems",
+        "date": "2026-01-02",
+        "description": "A practical, senior-level guide to AI-native software delivery—how to design systems that leverage AI without sacrificing clarity, accountability, or long-term maintainability.",
+        "category": "Software Architecture",
+        "tags": [
+          "AI-Native",
+          "Software Delivery",
+          "Systems Architecture",
+          "AI Augmentation",
+          "Engineering Leadership",
+          "U-ASDLC"
+        ],
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control | Edward Whitehead",
+        "metaDescription": "Learn how to design AI-native software delivery systems that scale responsibly. A senior guide to AI augmentation, system clarity, and sustainable engineering.",
+        "keywords": [
+          "AI-Native Software",
+          "AI Software Delivery",
+          "AI-Augmented Development",
+          "Software Architecture",
+          "Engineering Leadership",
+          "AI Systems Design",
+          "U-ASDLC"
+        ],
+        "ogTitle": "AI-Native Software Delivery",
+        "ogDescription": "How to design AI-native delivery systems that enhance speed without sacrificing trust, clarity, or accountability.",
+        "ogImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "AI-Native Software Delivery",
+        "twitterDescription": "A senior guide to building AI-native systems without losing control.",
+        "twitterImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control",
+          "description": "A practical guide to AI-native software delivery focused on clarity, accountability, and long-term system health.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2026-01-02",
+          "dateModified": "2026-01-02",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Software Architecture",
+          "keywords": [
+            "AI-Native",
+            "Software Delivery",
+            "Systems Architecture",
+            "Engineering Leadership"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/ai-native-software-delivery-systems-3",
+      "slug": "blog/ai-native-software-delivery-systems",
+      "title": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control",
+      "excerpt": "AI can *advise*. It must never *decide*.\n\n---\n\n### 2. AI Execution Layer (Constrained)\n\nAI excels when:\n\n- Scope is explicit\n- Constraints are enforced\n- Output",
+      "content": "AI can *advise*. It must never *decide*.\n\n---\n\n### 2. AI Execution Layer (Constrained)\n\nAI excels when:\n\n- Scope is explicit\n- Constraints are enforced\n- Outputs are reviewable\n\nWell-defined tasks AI handles effectively:\n\n- Code scaffolding\n- Refactoring assistance\n- Test generation\n- Documentation drafts\n\nPoorly defined tasks create invisible debt.\n\n---\n\n### 3. Governance & Feedback Layer\n\nEvery AI-assisted system must answer:\n\n- Who approved this?\n- Can we trace why it exists?\n- Can we reverse it?\n- Can we explain it?\n\nIf the answer is “no”, the system is already fragile.\n\n---\n\n## A Simple AI-Augmented Workflow Example\n\n```text\n1. Human defines intent and constraints\n2. AI generates candidate implementation\n3. Human reviews and accepts or rejects\n4. System records decision context\n5. Delivery proceeds with accountability intact\n```",
+      "embedding": null,
+      "metadata": {
+        "title": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control",
+        "slug": "ai-native-software-delivery-systems",
+        "date": "2026-01-02",
+        "description": "A practical, senior-level guide to AI-native software delivery—how to design systems that leverage AI without sacrificing clarity, accountability, or long-term maintainability.",
+        "category": "Software Architecture",
+        "tags": [
+          "AI-Native",
+          "Software Delivery",
+          "Systems Architecture",
+          "AI Augmentation",
+          "Engineering Leadership",
+          "U-ASDLC"
+        ],
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control | Edward Whitehead",
+        "metaDescription": "Learn how to design AI-native software delivery systems that scale responsibly. A senior guide to AI augmentation, system clarity, and sustainable engineering.",
+        "keywords": [
+          "AI-Native Software",
+          "AI Software Delivery",
+          "AI-Augmented Development",
+          "Software Architecture",
+          "Engineering Leadership",
+          "AI Systems Design",
+          "U-ASDLC"
+        ],
+        "ogTitle": "AI-Native Software Delivery",
+        "ogDescription": "How to design AI-native delivery systems that enhance speed without sacrificing trust, clarity, or accountability.",
+        "ogImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "AI-Native Software Delivery",
+        "twitterDescription": "A senior guide to building AI-native systems without losing control.",
+        "twitterImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control",
+          "description": "A practical guide to AI-native software delivery focused on clarity, accountability, and long-term system health.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2026-01-02",
+          "dateModified": "2026-01-02",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Software Architecture",
+          "keywords": [
+            "AI-Native",
+            "Software Delivery",
+            "Systems Architecture",
+            "Engineering Leadership"
           ]
         }
       }
@@ -1689,6 +1911,849 @@
             "AsyncIO",
             "OpenAPI",
             "API Development"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/building-subseat-subscription-booking-platform-1",
+      "slug": "blog/building-subseat-subscription-booking-platform",
+      "title": "Building Subseat: Subscription Booking for Beauty & Wellness ",
+      "excerpt": "# Building Subseat: Subscription Booking for Beauty & Wellness\n\nSubseat’s tagline is simple: **“Your Seat, Your Subscription.”**\n\nWe’re building a subscription-",
+      "content": "# Building Subseat: Subscription Booking for Beauty & Wellness\n\nSubseat’s tagline is simple: **“Your Seat, Your Subscription.”**\n\nWe’re building a subscription-based booking platform for beauty & wellness—so customers can reliably book with the providers they trust (barbers, stylists, nail techs, and wellness professionals), and businesses can grow predictable recurring revenue with stronger client loyalty.\n\nI’m the CTO at Subseat. I’m responsible for the technical and product decisions—but I’m also intentional about making sure Subseat’s story is bigger than me. This post is a snapshot of what we’re building and the principles guiding it.\n\n## What Subseat is (in one sentence)\n\nSubseat is a subscription booking platform that helps customers **stop fighting for appointments** and helps service businesses **turn one-time visitors into regulars**.\n\n## How it works (high level)",
+      "embedding": null,
+      "metadata": {
+        "title": "Building Subseat: Subscription Booking for Beauty & Wellness ",
+        "slug": "building-subseat-subscription-booking-platform",
+        "date": "2025-12-27",
+        "description": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription-based booking that helps customers keep their favourite slots and helps businesses grow predictable recurring revenue.",
+        "category": "Engineering",
+        "tags": [
+          "Startups",
+          "Product Strategy",
+          "Subscriptions",
+          "Booking",
+          "Beauty & Wellness",
+          "B2B SaaS",
+          "Marketplace"
+        ],
+        "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Building Subseat: Subscription Booking for Beauty & Wellness | Edward Whitehead",
+        "metaDescription": "CTO notes from Subseat: how we’re building subscription-based booking for beauty & wellness—priority slots for customers, predictable income for businesses, and a product that strengthens loyalty.",
+        "keywords": [
+          "subscription booking",
+          "beauty and wellness booking",
+          "barber subscription",
+          "salon subscription model",
+          "recurring revenue for service businesses",
+          "client retention",
+          "appointment scheduling",
+          "creator economy",
+          "service marketplace"
+        ],
+        "ogTitle": "Building Subseat: Subscription Booking for Beauty & Wellness",
+        "ogDescription": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription booking that improves customer loyalty and business predictability.",
+        "ogImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Building Subseat: Subscription Booking",
+        "twitterDescription": "How we’re building subscription booking for beauty & wellness: priority booking for customers, predictable recurring revenue for businesses.",
+        "twitterImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/building-subseat-subscription-booking-platform",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Building Subseat: Subscription Booking for Beauty & Wellness",
+          "description": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription-based booking that helps customers keep their favourite slots and helps businesses grow predictable recurring revenue.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-12-27",
+          "dateModified": "2025-12-27",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/building-subseat-subscription-booking-platform"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Engineering",
+          "keywords": [
+            "Subscriptions",
+            "Booking",
+            "Beauty & Wellness",
+            "Product Strategy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/building-subseat-subscription-booking-platform-2",
+      "slug": "blog/building-subseat-subscription-booking-platform",
+      "title": "Building Subseat: Subscription Booking for Beauty & Wellness ",
+      "excerpt": "The customer experience is designed to be straightforward:\n\n1. Choose your provider\n2. Select a subscription plan\n3. Book instantly (with priority access)\n4. Sh",
+      "content": "The customer experience is designed to be straightforward:\n\n1. Choose your provider\n2. Select a subscription plan\n3. Book instantly (with priority access)\n4. Show up and enjoy the service\n\nOn the business side, the model is built around recurring revenue and better calendar utilization—supported by a management dashboard, analytics, and automated reminders.\n\n## The two-sided problem we’re solving\n\nBeauty & wellness has a unique friction profile:\n\n- Customers want consistency: the same provider, the same vibe, the same time slot.\n- Providers need predictability: fewer empty seats, fewer no-shows, and steadier cash flow.\n\nSubscriptions can align both sides—but only if the experience is seamless and the rules are clear.\n\nThat’s the core product challenge: make subscriptions feel like a benefit, not a lock-in.\n\n## What I focus on as CTO",
+      "embedding": null,
+      "metadata": {
+        "title": "Building Subseat: Subscription Booking for Beauty & Wellness ",
+        "slug": "building-subseat-subscription-booking-platform",
+        "date": "2025-12-27",
+        "description": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription-based booking that helps customers keep their favourite slots and helps businesses grow predictable recurring revenue.",
+        "category": "Engineering",
+        "tags": [
+          "Startups",
+          "Product Strategy",
+          "Subscriptions",
+          "Booking",
+          "Beauty & Wellness",
+          "B2B SaaS",
+          "Marketplace"
+        ],
+        "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Building Subseat: Subscription Booking for Beauty & Wellness | Edward Whitehead",
+        "metaDescription": "CTO notes from Subseat: how we’re building subscription-based booking for beauty & wellness—priority slots for customers, predictable income for businesses, and a product that strengthens loyalty.",
+        "keywords": [
+          "subscription booking",
+          "beauty and wellness booking",
+          "barber subscription",
+          "salon subscription model",
+          "recurring revenue for service businesses",
+          "client retention",
+          "appointment scheduling",
+          "creator economy",
+          "service marketplace"
+        ],
+        "ogTitle": "Building Subseat: Subscription Booking for Beauty & Wellness",
+        "ogDescription": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription booking that improves customer loyalty and business predictability.",
+        "ogImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Building Subseat: Subscription Booking",
+        "twitterDescription": "How we’re building subscription booking for beauty & wellness: priority booking for customers, predictable recurring revenue for businesses.",
+        "twitterImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/building-subseat-subscription-booking-platform",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Building Subseat: Subscription Booking for Beauty & Wellness",
+          "description": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription-based booking that helps customers keep their favourite slots and helps businesses grow predictable recurring revenue.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-12-27",
+          "dateModified": "2025-12-27",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/building-subseat-subscription-booking-platform"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Engineering",
+          "keywords": [
+            "Subscriptions",
+            "Booking",
+            "Beauty & Wellness",
+            "Product Strategy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/building-subseat-subscription-booking-platform-3",
+      "slug": "blog/building-subseat-subscription-booking-platform",
+      "title": "Building Subseat: Subscription Booking for Beauty & Wellness ",
+      "excerpt": "My job is less about “choosing the stack” and more about building a system that can scale trust.\n\nHere are the areas I spend the most time on:\n\n### 1. Product c",
+      "content": "My job is less about “choosing the stack” and more about building a system that can scale trust.\n\nHere are the areas I spend the most time on:\n\n### 1. Product clarity\n\nIf a customer can’t answer these questions in seconds, we’ve failed:\n\n- What am I subscribing to?\n- How often can I book?\n- What happens if I need to reschedule?\n- What happens if my provider is unavailable?\n\nSubseat’s product pages and FAQ are shaped around this: simple steps, transparent pricing, and clear expectations.\n\n### 2. Subscription mechanics (without the headaches)\n\nSubscriptions only work when the edge cases are handled well:\n\n- reschedules and cancellations that don’t create conflict\n- fair usage rules that protect providers\n- prioritised booking that feels real (not marketing)\n\nThis is where product design and engineering meet: the logic has to be right, and the UX has to be obvious.",
+      "embedding": null,
+      "metadata": {
+        "title": "Building Subseat: Subscription Booking for Beauty & Wellness ",
+        "slug": "building-subseat-subscription-booking-platform",
+        "date": "2025-12-27",
+        "description": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription-based booking that helps customers keep their favourite slots and helps businesses grow predictable recurring revenue.",
+        "category": "Engineering",
+        "tags": [
+          "Startups",
+          "Product Strategy",
+          "Subscriptions",
+          "Booking",
+          "Beauty & Wellness",
+          "B2B SaaS",
+          "Marketplace"
+        ],
+        "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Building Subseat: Subscription Booking for Beauty & Wellness | Edward Whitehead",
+        "metaDescription": "CTO notes from Subseat: how we’re building subscription-based booking for beauty & wellness—priority slots for customers, predictable income for businesses, and a product that strengthens loyalty.",
+        "keywords": [
+          "subscription booking",
+          "beauty and wellness booking",
+          "barber subscription",
+          "salon subscription model",
+          "recurring revenue for service businesses",
+          "client retention",
+          "appointment scheduling",
+          "creator economy",
+          "service marketplace"
+        ],
+        "ogTitle": "Building Subseat: Subscription Booking for Beauty & Wellness",
+        "ogDescription": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription booking that improves customer loyalty and business predictability.",
+        "ogImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Building Subseat: Subscription Booking",
+        "twitterDescription": "How we’re building subscription booking for beauty & wellness: priority booking for customers, predictable recurring revenue for businesses.",
+        "twitterImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/building-subseat-subscription-booking-platform",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Building Subseat: Subscription Booking for Beauty & Wellness",
+          "description": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription-based booking that helps customers keep their favourite slots and helps businesses grow predictable recurring revenue.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-12-27",
+          "dateModified": "2025-12-27",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/building-subseat-subscription-booking-platform"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Engineering",
+          "keywords": [
+            "Subscriptions",
+            "Booking",
+            "Beauty & Wellness",
+            "Product Strategy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/building-subseat-subscription-booking-platform-4",
+      "slug": "blog/building-subseat-subscription-booking-platform",
+      "title": "Building Subseat: Subscription Booking for Beauty & Wellness ",
+      "excerpt": "### 3. Business outcomes (not vanity features)\n\nWe prioritise features that directly support:\n\n- predictable revenue\n- loyalty / retention\n- calendar health\n- r",
+      "content": "### 3. Business outcomes (not vanity features)\n\nWe prioritise features that directly support:\n\n- predictable revenue\n- loyalty / retention\n- calendar health\n- reduced no-shows\n\nThat includes a business dashboard for tracking subscriptions and bookings, plus automated reminders to reduce last-minute gaps.\n\n### 4. Operational reliability\n\nIn subscription businesses, reliability is the product.\n\nIf booking is slow, reminders are late, or a provider’s calendar isn’t accurate, trust disappears—and churn follows. A big part of my role is establishing quality bars (observability, safe releases, and a bias toward simplicity).\n\n## Promoting Subseat without making it “the CTO show”\n\nFounders and early leaders naturally become the loudest voice. That can help early on—but it can also accidentally make the brand feel like a personal brand.",
+      "embedding": null,
+      "metadata": {
+        "title": "Building Subseat: Subscription Booking for Beauty & Wellness ",
+        "slug": "building-subseat-subscription-booking-platform",
+        "date": "2025-12-27",
+        "description": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription-based booking that helps customers keep their favourite slots and helps businesses grow predictable recurring revenue.",
+        "category": "Engineering",
+        "tags": [
+          "Startups",
+          "Product Strategy",
+          "Subscriptions",
+          "Booking",
+          "Beauty & Wellness",
+          "B2B SaaS",
+          "Marketplace"
+        ],
+        "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Building Subseat: Subscription Booking for Beauty & Wellness | Edward Whitehead",
+        "metaDescription": "CTO notes from Subseat: how we’re building subscription-based booking for beauty & wellness—priority slots for customers, predictable income for businesses, and a product that strengthens loyalty.",
+        "keywords": [
+          "subscription booking",
+          "beauty and wellness booking",
+          "barber subscription",
+          "salon subscription model",
+          "recurring revenue for service businesses",
+          "client retention",
+          "appointment scheduling",
+          "creator economy",
+          "service marketplace"
+        ],
+        "ogTitle": "Building Subseat: Subscription Booking for Beauty & Wellness",
+        "ogDescription": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription booking that improves customer loyalty and business predictability.",
+        "ogImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Building Subseat: Subscription Booking",
+        "twitterDescription": "How we’re building subscription booking for beauty & wellness: priority booking for customers, predictable recurring revenue for businesses.",
+        "twitterImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/building-subseat-subscription-booking-platform",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Building Subseat: Subscription Booking for Beauty & Wellness",
+          "description": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription-based booking that helps customers keep their favourite slots and helps businesses grow predictable recurring revenue.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-12-27",
+          "dateModified": "2025-12-27",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/building-subseat-subscription-booking-platform"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Engineering",
+          "keywords": [
+            "Subscriptions",
+            "Booking",
+            "Beauty & Wellness",
+            "Product Strategy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/building-subseat-subscription-booking-platform-5",
+      "slug": "blog/building-subseat-subscription-booking-platform",
+      "title": "Building Subseat: Subscription Booking for Beauty & Wellness ",
+      "excerpt": "My goal is to promote Subseat in a way that points attention where it belongs:\n\n- the customer problem (booking friction)\n- the providers and businesses we serv",
+      "content": "My goal is to promote Subseat in a way that points attention where it belongs:\n\n- the customer problem (booking friction)\n- the providers and businesses we serve\n- the product outcomes (simplicity, loyalty, predictability)\n\nPractically, that means sharing:\n\n- product updates framed around user value\n- customer and provider stories\n- the mission: simplifying self-care bookings through subscriptions that empower creators and strengthen customer loyalty\n\nIf you follow Subseat on social, you’ll see more “here’s what Subseat unlocks” and less “here’s what I built.” That’s deliberate.\n\n## Pricing philosophy (transparent and flexible)\n\nSubseat’s site describes three business tiers:",
+      "embedding": null,
+      "metadata": {
+        "title": "Building Subseat: Subscription Booking for Beauty & Wellness ",
+        "slug": "building-subseat-subscription-booking-platform",
+        "date": "2025-12-27",
+        "description": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription-based booking that helps customers keep their favourite slots and helps businesses grow predictable recurring revenue.",
+        "category": "Engineering",
+        "tags": [
+          "Startups",
+          "Product Strategy",
+          "Subscriptions",
+          "Booking",
+          "Beauty & Wellness",
+          "B2B SaaS",
+          "Marketplace"
+        ],
+        "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Building Subseat: Subscription Booking for Beauty & Wellness | Edward Whitehead",
+        "metaDescription": "CTO notes from Subseat: how we’re building subscription-based booking for beauty & wellness—priority slots for customers, predictable income for businesses, and a product that strengthens loyalty.",
+        "keywords": [
+          "subscription booking",
+          "beauty and wellness booking",
+          "barber subscription",
+          "salon subscription model",
+          "recurring revenue for service businesses",
+          "client retention",
+          "appointment scheduling",
+          "creator economy",
+          "service marketplace"
+        ],
+        "ogTitle": "Building Subseat: Subscription Booking for Beauty & Wellness",
+        "ogDescription": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription booking that improves customer loyalty and business predictability.",
+        "ogImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Building Subseat: Subscription Booking",
+        "twitterDescription": "How we’re building subscription booking for beauty & wellness: priority booking for customers, predictable recurring revenue for businesses.",
+        "twitterImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/building-subseat-subscription-booking-platform",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Building Subseat: Subscription Booking for Beauty & Wellness",
+          "description": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription-based booking that helps customers keep their favourite slots and helps businesses grow predictable recurring revenue.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-12-27",
+          "dateModified": "2025-12-27",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/building-subseat-subscription-booking-platform"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Engineering",
+          "keywords": [
+            "Subscriptions",
+            "Booking",
+            "Beauty & Wellness",
+            "Product Strategy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/building-subseat-subscription-booking-platform-6",
+      "slug": "blog/building-subseat-subscription-booking-platform",
+      "title": "Building Subseat: Subscription Booking for Beauty & Wellness ",
+      "excerpt": "- **Basic Seat**: free plan with a small commission on active subscribers\n- **Partner Seat**: early access with extra perks and advanced analytics\n- **Enterpris",
+      "content": "- **Basic Seat**: free plan with a small commission on active subscribers\n- **Partner Seat**: early access with extra perks and advanced analytics\n- **Enterprise Seat**: custom solutions, including API access and integrations\n\nThe goal is to support new businesses and established operators without forcing the same plan onto everyone.\n\n## What we’re building toward\n\nThe long-term vision is a system where:\n\n- customers have a dependable routine with providers they trust\n- providers have a recurring base they can build a business around\n- subscriptions improve the experience, not complicate it\n\nIf you’re a customer who wants guaranteed access to your favourite slot—or a business that wants predictable income—Subseat is for you.\n\n## Join the waitlist\n\nSubseat is currently building and onboarding via the waitlist.\n\n- Website: <https://subseat.com/>\n- Waitlist: <https://subseat.com/#waitlist>",
+      "embedding": null,
+      "metadata": {
+        "title": "Building Subseat: Subscription Booking for Beauty & Wellness ",
+        "slug": "building-subseat-subscription-booking-platform",
+        "date": "2025-12-27",
+        "description": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription-based booking that helps customers keep their favourite slots and helps businesses grow predictable recurring revenue.",
+        "category": "Engineering",
+        "tags": [
+          "Startups",
+          "Product Strategy",
+          "Subscriptions",
+          "Booking",
+          "Beauty & Wellness",
+          "B2B SaaS",
+          "Marketplace"
+        ],
+        "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Building Subseat: Subscription Booking for Beauty & Wellness | Edward Whitehead",
+        "metaDescription": "CTO notes from Subseat: how we’re building subscription-based booking for beauty & wellness—priority slots for customers, predictable income for businesses, and a product that strengthens loyalty.",
+        "keywords": [
+          "subscription booking",
+          "beauty and wellness booking",
+          "barber subscription",
+          "salon subscription model",
+          "recurring revenue for service businesses",
+          "client retention",
+          "appointment scheduling",
+          "creator economy",
+          "service marketplace"
+        ],
+        "ogTitle": "Building Subseat: Subscription Booking for Beauty & Wellness",
+        "ogDescription": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription booking that improves customer loyalty and business predictability.",
+        "ogImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Building Subseat: Subscription Booking",
+        "twitterDescription": "How we’re building subscription booking for beauty & wellness: priority booking for customers, predictable recurring revenue for businesses.",
+        "twitterImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/building-subseat-subscription-booking-platform",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Building Subseat: Subscription Booking for Beauty & Wellness",
+          "description": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription-based booking that helps customers keep their favourite slots and helps businesses grow predictable recurring revenue.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-12-27",
+          "dateModified": "2025-12-27",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/building-subseat-subscription-booking-platform"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Engineering",
+          "keywords": [
+            "Subscriptions",
+            "Booking",
+            "Beauty & Wellness",
+            "Product Strategy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/building-subseat-subscription-booking-platform-7",
+      "slug": "blog/building-subseat-subscription-booking-platform",
+      "title": "Building Subseat: Subscription Booking for Beauty & Wellness ",
+      "excerpt": "```text\n#Subseat #Subscriptions #BeautyTech #WellnessTech #Booking #CreatorEconomy #SaaS #ProductStrategy\n```",
+      "content": "```text\n#Subseat #Subscriptions #BeautyTech #WellnessTech #Booking #CreatorEconomy #SaaS #ProductStrategy\n```",
+      "embedding": null,
+      "metadata": {
+        "title": "Building Subseat: Subscription Booking for Beauty & Wellness ",
+        "slug": "building-subseat-subscription-booking-platform",
+        "date": "2025-12-27",
+        "description": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription-based booking that helps customers keep their favourite slots and helps businesses grow predictable recurring revenue.",
+        "category": "Engineering",
+        "tags": [
+          "Startups",
+          "Product Strategy",
+          "Subscriptions",
+          "Booking",
+          "Beauty & Wellness",
+          "B2B SaaS",
+          "Marketplace"
+        ],
+        "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Building Subseat: Subscription Booking for Beauty & Wellness | Edward Whitehead",
+        "metaDescription": "CTO notes from Subseat: how we’re building subscription-based booking for beauty & wellness—priority slots for customers, predictable income for businesses, and a product that strengthens loyalty.",
+        "keywords": [
+          "subscription booking",
+          "beauty and wellness booking",
+          "barber subscription",
+          "salon subscription model",
+          "recurring revenue for service businesses",
+          "client retention",
+          "appointment scheduling",
+          "creator economy",
+          "service marketplace"
+        ],
+        "ogTitle": "Building Subseat: Subscription Booking for Beauty & Wellness",
+        "ogDescription": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription booking that improves customer loyalty and business predictability.",
+        "ogImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Building Subseat: Subscription Booking",
+        "twitterDescription": "How we’re building subscription booking for beauty & wellness: priority booking for customers, predictable recurring revenue for businesses.",
+        "twitterImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/building-subseat-subscription-booking-platform",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Building Subseat: Subscription Booking for Beauty & Wellness",
+          "description": "A behind-the-scenes look at the product and engineering work I’m leading at Subseat: subscription-based booking that helps customers keep their favourite slots and helps businesses grow predictable recurring revenue.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-12-27",
+          "dateModified": "2025-12-27",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/building-subseat-subscription-booking-platform"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Engineering",
+          "keywords": [
+            "Subscriptions",
+            "Booking",
+            "Beauty & Wellness",
+            "Product Strategy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/building-viola-wellbeing-app-gratitude-journal-1",
+      "slug": "blog/building-viola-wellbeing-app-gratitude-journal",
+      "title": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+      "excerpt": "# Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking\n\nViola is a wellbeing app I own and actively build. The idea is simple: **tran",
+      "content": "# Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking\n\nViola is a wellbeing app I own and actively build. The idea is simple: **transform your mindset in 10 minutes a day** through a lightweight daily practice.\n\nAt its core, Viola combines a few small behaviors that compound over time:\n\n- gratitude journaling (including optional photo attachments)\n- motivational quotes you can save/share\n- mood and wellbeing tracking (sleep, habits, and wellness metrics)\n- goals, milestones, and simple daily tasks\n\nYou can explore it here: <https://www.viola.land/>\n\n## The vision behind Viola\n\nMost wellbeing tools fail for one of two reasons:\n\n1. They’re too heavy (too many steps, too much setup)\n2. They’re too vague (they don’t help you build a repeatable habit)\n\nViola is built around the smallest viable daily loop:",
+      "embedding": null,
+      "metadata": {
+        "title": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+        "slug": "building-viola-wellbeing-app-gratitude-journal",
+        "date": "2025-12-27",
+        "description": "A behind-the-scenes look at Viola (a project I own): daily gratitude journaling, motivational quotes, and wellbeing tracking designed to help you improve your mindset in 10 minutes a day.",
+        "category": "Engineering",
+        "tags": [
+          "Wellbeing",
+          "Gratitude Journal",
+          "Mental Health",
+          "Product Design",
+          "Mobile App",
+          "Personal Development"
+        ],
+        "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Building Viola: Wellbeing App for Gratitude & Mindset | Edward Whitehead",
+        "metaDescription": "Viola, a wellbeing app for daily gratitude journaling, motivational quotes, and mindful tracking, and more—designed to help you improve your mindset in 10 minutes a day.",
+        "keywords": [
+          "wellbeing app",
+          "gratitude journal app",
+          "mood tracker",
+          "mental health tracking",
+          "daily journaling",
+          "motivation quotes app",
+          "mindset improvement",
+          "personal development app",
+          "wellness dashboard"
+        ],
+        "ogTitle": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+        "ogDescription": "A behind-the-scenes look at building Viola: daily gratitude journaling, motivational quotes, and mindful tracking designed to help you improve your mindset in 10 minutes a day.",
+        "ogImage": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Building Viola: Wellbeing App (Owner Notes)",
+        "twitterDescription": "How I’m building Viola: gratitude journaling, motivational quotes, and wellbeing tracking to help you improve your mindset in 10 minutes a day.",
+        "twitterImage": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/building-viola-wellbeing-app-gratitude-journal",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+          "description": "A behind-the-scenes look at Viola (a project I own): daily gratitude journaling, motivational quotes, and wellbeing tracking designed to help you improve your mindset in 10 minutes a day.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-12-27",
+          "dateModified": "2025-12-27",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/building-viola-wellbeing-app-gratitude-journal"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Engineering",
+          "keywords": [
+            "Wellbeing",
+            "Gratitude",
+            "Journaling",
+            "Mental Health"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/building-viola-wellbeing-app-gratitude-journal-2",
+      "slug": "blog/building-viola-wellbeing-app-gratitude-journal",
+      "title": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+      "excerpt": "- reflect\n- capture a moment of gratitude\n- get a small dose of motivation\n- track your wellbeing so you can spot patterns\n\nAnd with AI coming soon, you will ge",
+      "content": "- reflect\n- capture a moment of gratitude\n- get a small dose of motivation\n- track your wellbeing so you can spot patterns\n\nAnd with AI coming soon, you will get a weeky overview of your past weeks tracking and how you can improve.\n\nIf you can do it consistently, it works.\n\n## What Viola does today\n\nViola’s current feature set includes:\n\n### Daily gratitude journaling\n\nWrite gratitude entries and optionally attach photos. The goal isn’t perfect writing—it’s consistent reflection.\n\n### Motivational quotes\n\nA quotes library and a swipeable quote feed, designed for quick “reset” moments during the day.\n\n### Wellbeing tracking and insights\n\nTrack mood and sleep, plus wellness metrics like water intake, exercise, meditation, nutrition, energy levels, and more. Over time, the value is in noticing correlations and trends.\n\n### A customizable experience",
+      "embedding": null,
+      "metadata": {
+        "title": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+        "slug": "building-viola-wellbeing-app-gratitude-journal",
+        "date": "2025-12-27",
+        "description": "A behind-the-scenes look at Viola (a project I own): daily gratitude journaling, motivational quotes, and wellbeing tracking designed to help you improve your mindset in 10 minutes a day.",
+        "category": "Engineering",
+        "tags": [
+          "Wellbeing",
+          "Gratitude Journal",
+          "Mental Health",
+          "Product Design",
+          "Mobile App",
+          "Personal Development"
+        ],
+        "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Building Viola: Wellbeing App for Gratitude & Mindset | Edward Whitehead",
+        "metaDescription": "Viola, a wellbeing app for daily gratitude journaling, motivational quotes, and mindful tracking, and more—designed to help you improve your mindset in 10 minutes a day.",
+        "keywords": [
+          "wellbeing app",
+          "gratitude journal app",
+          "mood tracker",
+          "mental health tracking",
+          "daily journaling",
+          "motivation quotes app",
+          "mindset improvement",
+          "personal development app",
+          "wellness dashboard"
+        ],
+        "ogTitle": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+        "ogDescription": "A behind-the-scenes look at building Viola: daily gratitude journaling, motivational quotes, and mindful tracking designed to help you improve your mindset in 10 minutes a day.",
+        "ogImage": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Building Viola: Wellbeing App (Owner Notes)",
+        "twitterDescription": "How I’m building Viola: gratitude journaling, motivational quotes, and wellbeing tracking to help you improve your mindset in 10 minutes a day.",
+        "twitterImage": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/building-viola-wellbeing-app-gratitude-journal",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+          "description": "A behind-the-scenes look at Viola (a project I own): daily gratitude journaling, motivational quotes, and wellbeing tracking designed to help you improve your mindset in 10 minutes a day.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-12-27",
+          "dateModified": "2025-12-27",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/building-viola-wellbeing-app-gratitude-journal"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Engineering",
+          "keywords": [
+            "Wellbeing",
+            "Gratitude",
+            "Journaling",
+            "Mental Health"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/building-viola-wellbeing-app-gratitude-journal-3",
+      "slug": "blog/building-viola-wellbeing-app-gratitude-journal",
+      "title": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+      "excerpt": "Viola supports themes (light/dark/custom) and a personalized dashboard so the app feels like yours.\n\n## Product principles (how I make decisions)\n\nBecause I own",
+      "content": "Viola supports themes (light/dark/custom) and a personalized dashboard so the app feels like yours.\n\n## Product principles (how I make decisions)\n\nBecause I own the project, I get to be opinionated. Here are the principles that keep me from over-building:\n\n### 1. Ten minutes is the constraint\n\nIf a workflow can’t be completed in around ten minutes, it’s too long. Constraints create clarity.\n\n### 2. The user’s data stays theirs\n\nViola’s Terms emphasize that users retain ownership of their content (entries, photos, and health logs), and the Privacy Policy is explicit about what’s collected and why.\n\n### 3. Trust is the feature\n\nA wellbeing app is intimate. That means being serious about:\n\n- security basics (encryption, access controls)\n- predictable behavior (no surprise sharing)\n- clear health disclaimers (supporting wellbeing, not replacing professional care)",
+      "embedding": null,
+      "metadata": {
+        "title": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+        "slug": "building-viola-wellbeing-app-gratitude-journal",
+        "date": "2025-12-27",
+        "description": "A behind-the-scenes look at Viola (a project I own): daily gratitude journaling, motivational quotes, and wellbeing tracking designed to help you improve your mindset in 10 minutes a day.",
+        "category": "Engineering",
+        "tags": [
+          "Wellbeing",
+          "Gratitude Journal",
+          "Mental Health",
+          "Product Design",
+          "Mobile App",
+          "Personal Development"
+        ],
+        "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Building Viola: Wellbeing App for Gratitude & Mindset | Edward Whitehead",
+        "metaDescription": "Viola, a wellbeing app for daily gratitude journaling, motivational quotes, and mindful tracking, and more—designed to help you improve your mindset in 10 minutes a day.",
+        "keywords": [
+          "wellbeing app",
+          "gratitude journal app",
+          "mood tracker",
+          "mental health tracking",
+          "daily journaling",
+          "motivation quotes app",
+          "mindset improvement",
+          "personal development app",
+          "wellness dashboard"
+        ],
+        "ogTitle": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+        "ogDescription": "A behind-the-scenes look at building Viola: daily gratitude journaling, motivational quotes, and mindful tracking designed to help you improve your mindset in 10 minutes a day.",
+        "ogImage": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Building Viola: Wellbeing App (Owner Notes)",
+        "twitterDescription": "How I’m building Viola: gratitude journaling, motivational quotes, and wellbeing tracking to help you improve your mindset in 10 minutes a day.",
+        "twitterImage": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/building-viola-wellbeing-app-gratitude-journal",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+          "description": "A behind-the-scenes look at Viola (a project I own): daily gratitude journaling, motivational quotes, and wellbeing tracking designed to help you improve your mindset in 10 minutes a day.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-12-27",
+          "dateModified": "2025-12-27",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/building-viola-wellbeing-app-gratitude-journal"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Engineering",
+          "keywords": [
+            "Wellbeing",
+            "Gratitude",
+            "Journaling",
+            "Mental Health"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/building-viola-wellbeing-app-gratitude-journal-4",
+      "slug": "blog/building-viola-wellbeing-app-gratitude-journal",
+      "title": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+      "excerpt": "## Building the product without making it “about me”\n\nEven though I own Viola, the product has to stand on its own.\n\nSo when I talk about Viola, I try to keep t",
+      "content": "## Building the product without making it “about me”\n\nEven though I own Viola, the product has to stand on its own.\n\nSo when I talk about Viola, I try to keep the spotlight on:\n\n- the daily habit (gratitude + reflection + tracking)\n- the outcome (calmer, clearer, more consistent self-awareness)\n- the user experience (simple, fast, motivating)\n\nThe best marketing is: someone feels better after a week and tells a friend.\n\n## What’s next\n\nMy focus going forward is to keep improving the core loop (journal → motivation → tracking → insight) while adding premium features that don’t compromise simplicity.\n\n## Try Viola Today\n\n- Website: <https://www.viola.land/>\n- Create account: <https://www.viola.land/auth/register>\n- Blog: <https://www.viola.land/blog>\n\n```text\n#ViolaApp #Wellbeing #GratitudeJournal #MentalHealth #Mindset #Journaling #SelfCare #PersonalDevelopment\n```",
+      "embedding": null,
+      "metadata": {
+        "title": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+        "slug": "building-viola-wellbeing-app-gratitude-journal",
+        "date": "2025-12-27",
+        "description": "A behind-the-scenes look at Viola (a project I own): daily gratitude journaling, motivational quotes, and wellbeing tracking designed to help you improve your mindset in 10 minutes a day.",
+        "category": "Engineering",
+        "tags": [
+          "Wellbeing",
+          "Gratitude Journal",
+          "Mental Health",
+          "Product Design",
+          "Mobile App",
+          "Personal Development"
+        ],
+        "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Building Viola: Wellbeing App for Gratitude & Mindset | Edward Whitehead",
+        "metaDescription": "Viola, a wellbeing app for daily gratitude journaling, motivational quotes, and mindful tracking, and more—designed to help you improve your mindset in 10 minutes a day.",
+        "keywords": [
+          "wellbeing app",
+          "gratitude journal app",
+          "mood tracker",
+          "mental health tracking",
+          "daily journaling",
+          "motivation quotes app",
+          "mindset improvement",
+          "personal development app",
+          "wellness dashboard"
+        ],
+        "ogTitle": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+        "ogDescription": "A behind-the-scenes look at building Viola: daily gratitude journaling, motivational quotes, and mindful tracking designed to help you improve your mindset in 10 minutes a day.",
+        "ogImage": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterTitle": "Building Viola: Wellbeing App (Owner Notes)",
+        "twitterDescription": "How I’m building Viola: gratitude journaling, motivational quotes, and wellbeing tracking to help you improve your mindset in 10 minutes a day.",
+        "twitterImage": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/building-viola-wellbeing-app-gratitude-journal",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Building Viola: A Wellbeing App for Gratitude, Motivation, and Mindful Tracking",
+          "description": "A behind-the-scenes look at Viola (a project I own): daily gratitude journaling, motivational quotes, and wellbeing tracking designed to help you improve your mindset in 10 minutes a day.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2025-12-27",
+          "dateModified": "2025-12-27",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/building-viola-wellbeing-app-gratitude-journal"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
+          "articleSection": "Engineering",
+          "keywords": [
+            "Wellbeing",
+            "Gratitude",
+            "Journaling",
+            "Mental Health"
           ]
         }
       }
@@ -4456,7 +5521,7 @@
       "slug": "blog/qirvo-ai-life-dashboard-productivity",
       "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
       "excerpt": "# Qirvo: Revolutionizing Personal Productivity with AI Life Management\n\nIn today's fast-paced world, managing multiple aspects of life—work, health, personal pr",
-      "content": "# Qirvo: Revolutionizing Personal Productivity with AI Life Management\n\nIn today's fast-paced world, managing multiple aspects of life—work, health, personal projects, and habits—can feel overwhelming. Qirvo emerges as a sophisticated AI-powered life dashboard designed to streamline these elements, providing intelligent insights that adapt to your unique lifestyle and goals.\n\n## The Vision Behind Qirvo\n\nQirvo represents a paradigm shift in personal productivity tools. Unlike traditional task managers or habit trackers, Qirvo employs advanced artificial intelligence to understand patterns in your behavior, predict needs, and offer actionable recommendations. It's not just another app—it's your intelligent companion for comprehensive life optimization.\n\n## Core Features That Set Qirvo Apart",
+      "content": "# Qirvo: Revolutionizing Personal Productivity with AI Life Management\n\nIn today's fast-paced world, managing multiple aspects of life—work, health, personal projects, and habits—can feel overwhelming. Qirvo emerges as a sophisticated AI-powered life dashboard designed to streamline these elements, providing intelligent insights that adapt to your unique lifestyle and goals.\n\n## The Vision Behind Qirvo\n\nQirvo represents a paradigm shift in personal productivity tools. Unlike traditional task managers or habit trackers, Qirvo employs advanced artificial intelligence to understand patterns in your behavior, predict needs, and offer actionable recommendations. It's not just another app—it's your intelligent companion for comprehensive life optimization.\n\n## Core Features That Set Qirvo Apart\n\n### Intelligent Task Prioritization",
       "embedding": null,
       "metadata": {
         "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
@@ -4475,7 +5540,7 @@
           "Personal Development"
         ],
         "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Qirvo AI Life Dashboard | Intelligent Personal Productivity Management",
         "metaDescription": "Transform your productivity with Qirvo, the AI-powered life dashboard. Intelligent task prioritization, health tracking, project management, and personalized insights for professionals.",
@@ -4528,8 +5593,8 @@
       "id": "blog/qirvo-ai-life-dashboard-productivity-2",
       "slug": "blog/qirvo-ai-life-dashboard-productivity",
       "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
-      "excerpt": "### Intelligent Task Prioritization\nQirvo's AI analyzes your tasks, deadlines, and historical completion patterns to automatically prioritize activities. This e",
-      "content": "### Intelligent Task Prioritization\nQirvo's AI analyzes your tasks, deadlines, and historical completion patterns to automatically prioritize activities. This ensures you focus on what matters most, reducing decision fatigue and improving overall efficiency.\n\n### Comprehensive Health Tracking\nBeyond basic fitness metrics, Qirvo integrates health data to provide holistic wellness insights. It correlates activity levels, sleep patterns, and productivity metrics to suggest optimal routines and identify potential health optimizations.\n\n### Seamless Project Management\nWith native GitHub integration, Qirvo transforms project management into an intuitive experience. The AI tracks progress, identifies bottlenecks, and suggests resource allocations to keep projects on track.",
+      "excerpt": "Qirvo's AI analyzes your tasks, deadlines, and historical completion patterns to automatically prioritize activities. This ensures you focus on what matters mos",
+      "content": "Qirvo's AI analyzes your tasks, deadlines, and historical completion patterns to automatically prioritize activities. This ensures you focus on what matters most, reducing decision fatigue and improving overall efficiency.\n\n### Comprehensive Health Tracking\n\nBeyond basic fitness metrics, Qirvo integrates health data to provide holistic wellness insights. It correlates activity levels, sleep patterns, and productivity metrics to suggest optimal routines and identify potential health optimizations.\n\n### Seamless Project Management\n\nWith native GitHub integration, Qirvo transforms project management into an intuitive experience. The AI tracks progress, identifies bottlenecks, and suggests resource allocations to keep projects on track.\n\n### Advanced Habit Tracking",
       "embedding": null,
       "metadata": {
         "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
@@ -4548,7 +5613,7 @@
           "Personal Development"
         ],
         "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Qirvo AI Life Dashboard | Intelligent Personal Productivity Management",
         "metaDescription": "Transform your productivity with Qirvo, the AI-powered life dashboard. Intelligent task prioritization, health tracking, project management, and personalized insights for professionals.",
@@ -4601,8 +5666,8 @@
       "id": "blog/qirvo-ai-life-dashboard-productivity-3",
       "slug": "blog/qirvo-ai-life-dashboard-productivity",
       "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
-      "excerpt": "### Advanced Habit Tracking\nQirvo goes beyond simple habit logging by recognizing patterns and providing predictive insights. It identifies optimal times for ha",
-      "content": "### Advanced Habit Tracking\nQirvo goes beyond simple habit logging by recognizing patterns and providing predictive insights. It identifies optimal times for habit formation and offers personalized strategies to build sustainable routines.\n\n### Personalized Recommendations\nDrawing from machine learning algorithms, Qirvo delivers tailored suggestions based on your unique patterns. Whether it's scheduling breaks, suggesting learning opportunities, or recommending health adjustments, these insights become increasingly accurate over time.\n\n## Technical Excellence for Enterprise-Grade Reliability\n\nBuilt with modern web technologies, Qirvo ensures scalability and performance:",
+      "excerpt": "Qirvo goes beyond simple habit logging by recognizing patterns and providing predictive insights. It identifies optimal times for habit formation and offers per",
+      "content": "Qirvo goes beyond simple habit logging by recognizing patterns and providing predictive insights. It identifies optimal times for habit formation and offers personalized strategies to build sustainable routines.\n\n### Personalized Recommendations\n\nDrawing from machine learning algorithms, Qirvo delivers tailored suggestions based on your unique patterns. Whether it's scheduling breaks, suggesting learning opportunities, or recommending health adjustments, these insights become increasingly accurate over time.\n\n## Technical Excellence for Enterprise-Grade Reliability\n\nBuilt with modern web technologies, Qirvo ensures scalability and performance:",
       "embedding": null,
       "metadata": {
         "title": "Qirvo: Revolutionizing Personal Productivity with AI Life Management",
@@ -4621,7 +5686,7 @@
           "Personal Development"
         ],
         "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Qirvo AI Life Dashboard | Intelligent Personal Productivity Management",
         "metaDescription": "Transform your productivity with Qirvo, the AI-powered life dashboard. Intelligent task prioritization, health tracking, project management, and personalized insights for professionals.",
@@ -4694,7 +5759,7 @@
           "Personal Development"
         ],
         "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Qirvo AI Life Dashboard | Intelligent Personal Productivity Management",
         "metaDescription": "Transform your productivity with Qirvo, the AI-powered life dashboard. Intelligent task prioritization, health tracking, project management, and personalized insights for professionals.",
@@ -4767,7 +5832,7 @@
           "Personal Development"
         ],
         "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Qirvo AI Life Dashboard | Intelligent Personal Productivity Management",
         "metaDescription": "Transform your productivity with Qirvo, the AI-powered life dashboard. Intelligent task prioritization, health tracking, project management, and personalized insights for professionals.",
@@ -4840,7 +5905,7 @@
           "Personal Development"
         ],
         "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Qirvo AI Life Dashboard | Intelligent Personal Productivity Management",
         "metaDescription": "Transform your productivity with Qirvo, the AI-powered life dashboard. Intelligent task prioritization, health tracking, project management, and personalized insights for professionals.",
@@ -6996,7 +8061,7 @@
           "Microservices"
         ],
         "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Building Scalable Node.js Applications with TypeScript | Edward Whitehead",
         "metaDescription": "Complete guide to building scalable Node.js apps with TypeScript. Learn architecture patterns, testing strategies, error handling, and deployment best practices.",
@@ -7071,7 +8136,7 @@
           "Microservices"
         ],
         "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Building Scalable Node.js Applications with TypeScript | Edward Whitehead",
         "metaDescription": "Complete guide to building scalable Node.js apps with TypeScript. Learn architecture patterns, testing strategies, error handling, and deployment best practices.",
@@ -7146,7 +8211,7 @@
           "Microservices"
         ],
         "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Building Scalable Node.js Applications with TypeScript | Edward Whitehead",
         "metaDescription": "Complete guide to building scalable Node.js apps with TypeScript. Learn architecture patterns, testing strategies, error handling, and deployment best practices.",
@@ -7221,7 +8286,7 @@
           "Microservices"
         ],
         "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Building Scalable Node.js Applications with TypeScript | Edward Whitehead",
         "metaDescription": "Complete guide to building scalable Node.js apps with TypeScript. Learn architecture patterns, testing strategies, error handling, and deployment best practices.",
@@ -7296,7 +8361,7 @@
           "Microservices"
         ],
         "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Building Scalable Node.js Applications with TypeScript | Edward Whitehead",
         "metaDescription": "Complete guide to building scalable Node.js apps with TypeScript. Learn architecture patterns, testing strategies, error handling, and deployment best practices.",
@@ -7371,7 +8436,7 @@
           "Microservices"
         ],
         "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Building Scalable Node.js Applications with TypeScript | Edward Whitehead",
         "metaDescription": "Complete guide to building scalable Node.js apps with TypeScript. Learn architecture patterns, testing strategies, error handling, and deployment best practices.",
@@ -7446,7 +8511,7 @@
           "Microservices"
         ],
         "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Building Scalable Node.js Applications with TypeScript | Edward Whitehead",
         "metaDescription": "Complete guide to building scalable Node.js apps with TypeScript. Learn architecture patterns, testing strategies, error handling, and deployment best practices.",
@@ -7521,7 +8586,7 @@
           "Microservices"
         ],
         "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Building Scalable Node.js Applications with TypeScript | Edward Whitehead",
         "metaDescription": "Complete guide to building scalable Node.js apps with TypeScript. Learn architecture patterns, testing strategies, error handling, and deployment best practices.",
@@ -7596,7 +8661,7 @@
           "Microservices"
         ],
         "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Building Scalable Node.js Applications with TypeScript | Edward Whitehead",
         "metaDescription": "Complete guide to building scalable Node.js apps with TypeScript. Learn architecture patterns, testing strategies, error handling, and deployment best practices.",
@@ -8192,7 +9257,7 @@
           "Dashboard"
         ],
         "image": "/assets/images/comeback-dashboard.png",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Introducing the Comeback Dashboard — Demo Admin UI | Edward Whitehead",
         "metaDescription": "Learn about the Comeback Dashboard demo: a production-minded Next.js admin dashboard with TypeScript, Tailwind CSS, accessible UI patterns, and Vercel deployment.",
@@ -8266,7 +9331,7 @@
           "Dashboard"
         ],
         "image": "/assets/images/comeback-dashboard.png",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Introducing the Comeback Dashboard — Demo Admin UI | Edward Whitehead",
         "metaDescription": "Learn about the Comeback Dashboard demo: a production-minded Next.js admin dashboard with TypeScript, Tailwind CSS, accessible UI patterns, and Vercel deployment.",
@@ -8340,7 +9405,7 @@
           "Dashboard"
         ],
         "image": "/assets/images/comeback-dashboard.png",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Introducing the Comeback Dashboard — Demo Admin UI | Edward Whitehead",
         "metaDescription": "Learn about the Comeback Dashboard demo: a production-minded Next.js admin dashboard with TypeScript, Tailwind CSS, accessible UI patterns, and Vercel deployment.",
@@ -8414,7 +9479,7 @@
           "Dashboard"
         ],
         "image": "/assets/images/comeback-dashboard.png",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Introducing the Comeback Dashboard — Demo Admin UI | Edward Whitehead",
         "metaDescription": "Learn about the Comeback Dashboard demo: a production-minded Next.js admin dashboard with TypeScript, Tailwind CSS, accessible UI patterns, and Vercel deployment.",
@@ -10642,7 +11707,7 @@
       "content": "# 🔧 Comeback Dashboard — Demo Admin Dashboard\n\nAn opinionated demo admin dashboard built to demonstrate modern Next.js patterns and pragmatic production practices. View the live demo at: <https://the-comeback-dashbaord.vercel.app/>\n\n## 🌟 Overview\n\nComeback Dashboard is a compact, accessible admin UI that focuses on real-world developer concerns: performance, maintainability, and clear separation of server/client responsibilities. It's intentionally a demo — small enough to explore quickly, but structured like a production app.\n\n## 🚩 Why this demo exists\n\n- Showcase app-router patterns (server components, client components, and server actions).\n- Demonstrate accessibility-first UI and semantic markup.\n- Provide a small, well-organized codebase for interviews, demos, and talks.\n\n## 🧩 Key features",
       "embedding": null,
       "metadata": {
-        "id": 99,
+        "id": 14,
         "title": "Comeback Dashboard — Demo Admin Dashboard",
         "slug": "comeback-dashboard",
         "category": "Demo & UI",
@@ -10705,7 +11770,7 @@
       "content": "- Responsive layout and mobile-first design\n- Accessible navigation and keyboard support\n- Data table with pagination and view options\n- Theme presets and user preferences\n- Minimal, type-safe server actions for CRUD flows\n- Clean component architecture suitable for scaling into a product\n\n## 🏗 Architecture\n\n- Next.js (App Router) — server and client components\n- TypeScript — types across frontend and server actions\n- Tailwind CSS — utility-first styling and presets\n- Edge / Serverless deployment on Vercel\n- Lightweight state stores for preferences\n\n## 🧪 Stack\n\nNext.js • TypeScript • Tailwind CSS • React • Vercel\n\n## 🚀 Deployment & Source\n\nLive demo: <https://the-comeback-dashbaord.vercel.app/>",
       "embedding": null,
       "metadata": {
-        "id": 99,
+        "id": 14,
         "title": "Comeback Dashboard — Demo Admin Dashboard",
         "slug": "comeback-dashboard",
         "category": "Demo & UI",
@@ -10765,10 +11830,10 @@
       "slug": "projects/comeback-dashboard",
       "title": "Comeback Dashboard — Demo Admin Dashboard",
       "excerpt": "Source: the project lives under the `comeback-dashboard` folder in the edwardwhitehead.dev monorepo (private/local workspace). If you want a public repository o",
-      "content": "Source: the project lives under the `comeback-dashboard` folder in the edwardwhitehead.dev monorepo (private/local workspace). If you want a public repository or a copy, I can help extract and publish a trimmed demo repo.\n\n## ✅ Accessibility & SEO\n\nThe demo follows accessible semantic HTML, keyboard navigation patterns, and sensible ARIA usage where required. Pages are optimized for fast FCP and LCP with server rendering for primary content.\n\n## 🧭 Roadmap / next steps\n\n1. Add end-to-end tests and accessibility regression checks\n2. Add sample datasets and demo users for a richer showcase\n3. Publish a trimmed public repo with setup instructions\n\n## 📎 Links & Resources\n\n- Live demo: <https://the-comeback-dashbaord.vercel.app/>\n- Monorepo path: `[comeback-dashboard]`(https://github.com/edwardwhiteheaddev/edwardwhiteheaddev)\n\n---",
+      "content": "Source: the project lives under the `comeback-dashboard` folder in the edwardwhitehead.dev monorepo (private/local workspace). If you want a public repository or a copy, I can help extract and publish a trimmed demo repo.\n\n## ✅ Accessibility & SEO\n\nThe demo follows accessible semantic HTML, keyboard navigation patterns, and sensible ARIA usage where required. Pages are optimized for fast FCP and LCP with server rendering for primary content.\n\n## 🧭 Roadmap / next steps\n\n1. Add end-to-end tests and accessibility regression checks\n2. Add sample datasets and demo users for a richer showcase\n3. Publish a trimmed public repo with setup instructions\n\n## 📎 Links & Resources\n\n- Live demo: <https://the-comeback-dashbaord.vercel.app/>\n- Monorepo path: `[comeback-dashboard]`(<https://github.com/edwardwhiteheaddev/edwardwhiteheaddev>)\n\n---",
       "embedding": null,
       "metadata": {
-        "id": 99,
+        "id": 14,
         "title": "Comeback Dashboard — Demo Admin Dashboard",
         "slug": "comeback-dashboard",
         "category": "Demo & UI",
@@ -10831,7 +11896,7 @@
       "content": "If you'd like, I can also generate a small README to include inside the dashboard folder, create social preview images, or extract a public demo repository.",
       "embedding": null,
       "metadata": {
-        "id": 99,
+        "id": 14,
         "title": "Comeback Dashboard — Demo Admin Dashboard",
         "slug": "comeback-dashboard",
         "category": "Demo & UI",
@@ -11189,7 +12254,7 @@
         },
         "github": "",
         "url": "/projects/fedex-mobile-stack",
-        "featured": true
+        "featured": false
       }
     },
     {
@@ -11251,7 +12316,7 @@
         },
         "github": "",
         "url": "/projects/fedex-mobile-stack",
-        "featured": true
+        "featured": false
       }
     },
     {
@@ -12680,6 +13745,239 @@
       "metadata": {
         "title": "Why This Matters",
         "details": "I build and automate dashboards that give founders visibility and control."
+      }
+    },
+    {
+      "id": "univrs/univrs-consulting-core-1",
+      "slug": "univrs/univrs-consulting-core",
+      "title": "UNIVRS Consulting – AI-Native Systems & Technical Leadership",
+      "excerpt": "## 🌌 UNIVRS Consulting\n\n**Where systems regain clarity. Where delivery becomes humane.**\n\nUNIVRS Consulting exists to help founders, leaders, and teams navigat",
+      "content": "## 🌌 UNIVRS Consulting\n\n**Where systems regain clarity. Where delivery becomes humane.**\n\nUNIVRS Consulting exists to help founders, leaders, and teams navigate complexity without losing control, quality, or trust. It provides senior-level technical leadership in an era where AI accelerates delivery — but often magnifies chaos.\n\nUNIVRS is not an agency.  \nIt is a **thinking partner**.\n\n---\n\n## 🧠 What UNIVRS Does\n\nUNIVRS works across five primary domains:\n\n### 1. Fractional CTO & Technical Leadership\n\nHands-on, senior technical leadership without full-time overhead. Ideal for early-stage and scaling organisations needing clarity, structure, and steady execution.\n\n### 2. AI-Augmented Delivery Systems\n\nDesigns responsible AI workflows that **support humans**, improve throughput, and maintain accountability — without replacing judgment or ownership.\n\n### 3. Platform & Systems Architecture",
+      "embedding": null,
+      "metadata": {
+        "id": 1,
+        "title": "UNIVRS Consulting – AI-Native Systems & Technical Leadership",
+        "slug": "univrs-consulting",
+        "category": "Consulting & Technology Strategy",
+        "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=1171",
+        "date": "2026",
+        "description": "UNIVRS Consulting provides senior technical leadership, AI-augmented delivery systems, and platform architecture for founders and teams seeking clarity, stability, and long-term impact.",
+        "overview": "UNIVRS Consulting is a senior-led technology consultancy focused on AI-native delivery, systems architecture, and execution clarity. It partners with founders and leadership teams to design, stabilise, and evolve complex software systems responsibly.",
+        "url": "/univrs",
+        "github": "",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "UNIVRS Consulting – AI-Native Systems & Technical Leadership",
+        "metaDescription": "Senior technical consulting for founders and teams. AI-augmented delivery, platform architecture, and fractional CTO leadership with clarity and trust.",
+        "keywords": [
+          "UNIVRS Consulting",
+          "Fractional CTO",
+          "AI Consulting",
+          "Systems Architecture",
+          "Technical Leadership",
+          "Software Strategy",
+          "AI-Augmented Delivery",
+          "Enterprise Architecture",
+          "Founder Support"
+        ],
+        "ogTitle": "UNIVRS Consulting",
+        "ogDescription": "Senior technical leadership and AI-native delivery systems for founders and teams.",
+        "ogImage": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=1171",
+        "twitterTitle": "UNIVRS Consulting",
+        "twitterDescription": "Calm, senior technical leadership for AI-era systems.",
+        "twitterImage": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=1171",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/univrs",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "UNIVRS Consulting",
+          "description": "Senior-led AI-native consulting providing systems architecture, delivery clarity, and technical leadership.",
+          "founder": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "areaServed": "Global",
+          "serviceType": [
+            "Fractional CTO",
+            "AI-Augmented Delivery Design",
+            "Platform Architecture",
+            "Technical Advisory"
+          ]
+        }
+      }
+    },
+    {
+      "id": "univrs/univrs-consulting-core-2",
+      "slug": "univrs/univrs-consulting-core",
+      "title": "UNIVRS Consulting – AI-Native Systems & Technical Leadership",
+      "excerpt": "Architects scalable, resilient systems across web, mobile, AI, and cloud platforms with a focus on longevity and maintainability.\n\n### 4. Stabilisation & Recove",
+      "content": "Architects scalable, resilient systems across web, mobile, AI, and cloud platforms with a focus on longevity and maintainability.\n\n### 4. Stabilisation & Recovery\n\nSteps into distressed or chaotic technical environments to restore trust, delivery rhythm, and architectural integrity.\n\n### 5. Strategic Technical Advisory\n\nProvides founders and executives with clear, honest technical insight to support better decisions, roadmaps, and investments.\n\n---\n\n## 🎯 Who UNIVRS Is For\n\n- Founders seeking calm, senior technical guidance  \n- Teams under delivery pressure or architectural strain  \n- Leaders navigating AI adoption responsibly  \n- Organisations that value clarity over hype\n\n**UNIVRS is not for:**\n\n- Feature factories  \n- Cheap outsourcing models  \n- Short-term hacks  \n- Technology without accountability\n\n---\n\n## 🧭 Philosophy",
+      "embedding": null,
+      "metadata": {
+        "id": 1,
+        "title": "UNIVRS Consulting – AI-Native Systems & Technical Leadership",
+        "slug": "univrs-consulting",
+        "category": "Consulting & Technology Strategy",
+        "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=1171",
+        "date": "2026",
+        "description": "UNIVRS Consulting provides senior technical leadership, AI-augmented delivery systems, and platform architecture for founders and teams seeking clarity, stability, and long-term impact.",
+        "overview": "UNIVRS Consulting is a senior-led technology consultancy focused on AI-native delivery, systems architecture, and execution clarity. It partners with founders and leadership teams to design, stabilise, and evolve complex software systems responsibly.",
+        "url": "/univrs",
+        "github": "",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "UNIVRS Consulting – AI-Native Systems & Technical Leadership",
+        "metaDescription": "Senior technical consulting for founders and teams. AI-augmented delivery, platform architecture, and fractional CTO leadership with clarity and trust.",
+        "keywords": [
+          "UNIVRS Consulting",
+          "Fractional CTO",
+          "AI Consulting",
+          "Systems Architecture",
+          "Technical Leadership",
+          "Software Strategy",
+          "AI-Augmented Delivery",
+          "Enterprise Architecture",
+          "Founder Support"
+        ],
+        "ogTitle": "UNIVRS Consulting",
+        "ogDescription": "Senior technical leadership and AI-native delivery systems for founders and teams.",
+        "ogImage": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=1171",
+        "twitterTitle": "UNIVRS Consulting",
+        "twitterDescription": "Calm, senior technical leadership for AI-era systems.",
+        "twitterImage": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=1171",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/univrs",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "UNIVRS Consulting",
+          "description": "Senior-led AI-native consulting providing systems architecture, delivery clarity, and technical leadership.",
+          "founder": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "areaServed": "Global",
+          "serviceType": [
+            "Fractional CTO",
+            "AI-Augmented Delivery Design",
+            "Platform Architecture",
+            "Technical Advisory"
+          ]
+        }
+      }
+    },
+    {
+      "id": "univrs/univrs-consulting-core-3",
+      "slug": "univrs/univrs-consulting-core",
+      "title": "UNIVRS Consulting – AI-Native Systems & Technical Leadership",
+      "excerpt": "- Technology should reduce chaos, not create it  \n- AI is a collaborator, not a replacement  \n- Good systems respect human limits  \n- Delivery without clarity i",
+      "content": "- Technology should reduce chaos, not create it  \n- AI is a collaborator, not a replacement  \n- Good systems respect human limits  \n- Delivery without clarity is waste  \n- Trust compounds over time\n\n---\n\n## 🤝 Engagement Model\n\nUNIVRS typically works through:\n\n- Advisory retainers\n- Fractional leadership engagements\n- Fixed-scope diagnostic and architecture reviews\n\nEach engagement begins with **listening**, not prescribing.\n\n---\n\n## 🛠 Stack Awareness (Tool-Agnostic)\n\nUNIVRS works across modern ecosystems including:\nNode.js • TypeScript • Next.js • React • Cloud platforms • AI orchestration tools • CI/CD pipelines • Observability systems\n\nTechnology choices are **means**, not identity.",
+      "embedding": null,
+      "metadata": {
+        "id": 1,
+        "title": "UNIVRS Consulting – AI-Native Systems & Technical Leadership",
+        "slug": "univrs-consulting",
+        "category": "Consulting & Technology Strategy",
+        "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=1171",
+        "date": "2026",
+        "description": "UNIVRS Consulting provides senior technical leadership, AI-augmented delivery systems, and platform architecture for founders and teams seeking clarity, stability, and long-term impact.",
+        "overview": "UNIVRS Consulting is a senior-led technology consultancy focused on AI-native delivery, systems architecture, and execution clarity. It partners with founders and leadership teams to design, stabilise, and evolve complex software systems responsibly.",
+        "url": "/univrs",
+        "github": "",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "UNIVRS Consulting – AI-Native Systems & Technical Leadership",
+        "metaDescription": "Senior technical consulting for founders and teams. AI-augmented delivery, platform architecture, and fractional CTO leadership with clarity and trust.",
+        "keywords": [
+          "UNIVRS Consulting",
+          "Fractional CTO",
+          "AI Consulting",
+          "Systems Architecture",
+          "Technical Leadership",
+          "Software Strategy",
+          "AI-Augmented Delivery",
+          "Enterprise Architecture",
+          "Founder Support"
+        ],
+        "ogTitle": "UNIVRS Consulting",
+        "ogDescription": "Senior technical leadership and AI-native delivery systems for founders and teams.",
+        "ogImage": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=1171",
+        "twitterTitle": "UNIVRS Consulting",
+        "twitterDescription": "Calm, senior technical leadership for AI-era systems.",
+        "twitterImage": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=1171",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/univrs",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "UNIVRS Consulting",
+          "description": "Senior-led AI-native consulting providing systems architecture, delivery clarity, and technical leadership.",
+          "founder": {
+            "@type": "Person",
+            "name": "Edward Whitehead",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "areaServed": "Global",
+          "serviceType": [
+            "Fractional CTO",
+            "AI-Augmented Delivery Design",
+            "Platform Architecture",
+            "Technical Advisory"
+          ]
+        }
+      }
+    },
+    {
+      "id": "univrs/univrs-consulting-faq-1",
+      "slug": "univrs/univrs-consulting-faq",
+      "title": "UNIVRS Consulting – Frequently Asked Questions",
+      "excerpt": "## ❓ Frequently Asked Questions\n\n### Is UNIVRS an agency?\n\nNo. UNIVRS is a senior-led consulting practice. Engagements are intentional, limited, and deeply invo",
+      "content": "## ❓ Frequently Asked Questions\n\n### Is UNIVRS an agency?\n\nNo. UNIVRS is a senior-led consulting practice. Engagements are intentional, limited, and deeply involved.\n\n---\n\n### Do you build software?\n\nSometimes. But only when it supports clarity. UNIVRS prioritises **thinking, structure, and guidance** before code.\n\n---\n\n### Do you replace internal teams?\n\nNo. UNIVRS strengthens teams, mentors leaders, and designs systems teams can own confidently.\n\n---\n\n### Is this AI consulting?\n\nPartially. UNIVRS focuses on **AI-augmented delivery**, not AI hype or model-chasing.\n\n---\n\n### What makes UNIVRS different?\n\nExperience, restraint, and honesty.  \nUNIVRS will tell you **what not to build** as readily as what to build.\n\n---\n\n### How do engagements start?\n\nUsually with a conversation. No pressure. No sales theatre. Just clarity.",
+      "embedding": null,
+      "metadata": {
+        "id": 23,
+        "title": "UNIVRS Consulting – Frequently Asked Questions",
+        "slug": "univrs-faq",
+        "category": "Consulting FAQ",
+        "date": "2026",
+        "author": "Edward Whitehead"
+      }
+    },
+    {
+      "id": "univrs/univrs-consulting-philosophy-1",
+      "slug": "univrs/univrs-consulting-philosophy",
+      "title": "UNIVRS Consulting – Philosophy & Point of View",
+      "excerpt": "## 🧭 UNIVRS Philosophy\n\nUNIVRS Consulting operates from a simple belief:\n\n> **Technology should serve people — not the other way around.**\n\nIn a world accelera",
+      "content": "## 🧭 UNIVRS Philosophy\n\nUNIVRS Consulting operates from a simple belief:\n\n> **Technology should serve people — not the other way around.**\n\nIn a world accelerating through AI, automation, and constant delivery pressure, UNIVRS exists to restore balance.\n\n---\n\n### Core Beliefs\n\n- AI should **augment judgment**, not replace responsibility  \n- Speed without understanding creates long-term cost  \n- Architecture is a leadership decision, not a tooling choice  \n- Calm systems outperform frantic ones  \n- Sustainable delivery beats heroic effort\n\n---\n\n### View on AI\n\nUNIVRS embraces AI as a **co-pilot**, not an autopilot.\n\nAI systems must be:\n\n- Governed\n- Observable\n- Auditable\n- Aligned with human accountability\n\nAnything else is technical debt disguised as innovation.\n\n---\n\n### View on Leadership\n\nGood technical leadership:",
+      "embedding": null,
+      "metadata": {
+        "id": 22,
+        "title": "UNIVRS Consulting – Philosophy & Point of View",
+        "slug": "univrs-philosophy",
+        "category": "Consulting Philosophy",
+        "date": "2026",
+        "description": "The core beliefs and principles guiding UNIVRS Consulting’s approach to technology, AI, and delivery.",
+        "author": "Edward Whitehead"
+      }
+    },
+    {
+      "id": "univrs/univrs-consulting-philosophy-2",
+      "slug": "univrs/univrs-consulting-philosophy",
+      "title": "UNIVRS Consulting – Philosophy & Point of View",
+      "excerpt": "- Creates psychological safety\n- Makes trade-offs explicit\n- Respects people’s cognitive limits\n- Builds systems that survive change\n\nUNIVRS partners with leade",
+      "content": "- Creates psychological safety\n- Makes trade-offs explicit\n- Respects people’s cognitive limits\n- Builds systems that survive change\n\nUNIVRS partners with leaders who understand this.",
+      "embedding": null,
+      "metadata": {
+        "id": 22,
+        "title": "UNIVRS Consulting – Philosophy & Point of View",
+        "slug": "univrs-philosophy",
+        "category": "Consulting Philosophy",
+        "date": "2026",
+        "description": "The core beliefs and principles guiding UNIVRS Consulting’s approach to technology, AI, and delivery.",
+        "author": "Edward Whitehead"
       }
     }
   ]

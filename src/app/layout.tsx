@@ -1,6 +1,5 @@
-import { KyrosFooter } from '@/components/kyros/Footer';
-import { KyrosNavbar } from '@/components/kyros/Navbar';
 import { Providers } from '@/components/Providers';
+import { SiteShell } from '@/components/SiteShell';
 import { ColorSchemeScript } from '@mantine/core';
 import "@mantine/core/styles.css";
 import 'aos/dist/aos.css';
@@ -43,9 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <Providers>
-          <KyrosNavbar />
-          <main style={{ minHeight: '100vh', paddingTop: '120px' }}>{children}</main>
-          <KyrosFooter />
+          <SiteShell>{children}</SiteShell>
         </Providers>
       </body>
     </html>

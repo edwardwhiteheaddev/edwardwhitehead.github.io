@@ -1,14 +1,14 @@
 'use client';
 
+import Logo from '@/assets/logo.svg';
+import { useChatbot } from '@/components/chatbot/ChatbotProvider';
+import { IconSparkles } from '@tabler/icons-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useMemo, useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
-import Logo from '@/assets/logo.svg'
 import Topbar from './Topbar';
-import { IconSparkles } from '@tabler/icons-react';
-import { useChatbot } from '@/components/chatbot/ChatbotProvider';
 
 const NAV_ITEMS = [
     { label: 'Home', target: '/' },
@@ -36,7 +36,8 @@ export function KyrosNavbar() {
     }, []);
 
     useEffect(() => {
-        setMobileOpen(false);
+        const closeId = window.requestAnimationFrame(() => setMobileOpen(false));
+        return () => window.cancelAnimationFrame(closeId);
     }, [pathname]);
 
     const navLinks = useMemo(() => {

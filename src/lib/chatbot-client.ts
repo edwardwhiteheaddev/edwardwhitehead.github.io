@@ -13,7 +13,7 @@ export class ClientChatbot {
   private systemPrompt: string;
 
   constructor(apiKey: string, model = "gpt-4o-mini") {
-    this.openai = new OpenAI({ 
+    this.openai = new OpenAI({
       apiKey,
       dangerouslyAllowBrowser: true // Required for client-side usage
     });
@@ -25,8 +25,8 @@ export class ClientChatbot {
     try {
       const contextText = Array.isArray(context)
         ? context
-            .map((entry, index) => `Source ${index + 1}: ${entry.title} (${entry.slug})\n${entry.content}`)
-            .join("\n\n")
+          .map((entry, index) => `Source ${index + 1}: ${entry.title} (${entry.slug})\n${entry.content}`)
+          .join("\n\n")
         : "No additional context provided.";
 
       const system = `${this.systemPrompt}\n\nContext:\n${contextText}`;
@@ -39,8 +39,7 @@ export class ClientChatbot {
             content: system,
           },
           ...messages,
-        ],
-        temperature: 0.2,
+        ]
       });
 
       const replyText = completion.choices[0]?.message?.content ?? "I could not generate a response.";
