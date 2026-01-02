@@ -1041,9 +1041,23 @@ section {
     opacity: 0.75;
 }
 
+.chatbot-panel__contact {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+.chatbot-panel__contact a {
+    text-decoration: underline;
+}
+
 .chatbot-panel__sources ul {
     margin: 6px 0 0;
     padding-left: 18px;
+}
+
+.chatbot-panel__sources a {
+    text-decoration: underline;
 }
 
 .chatbot-panel__error {

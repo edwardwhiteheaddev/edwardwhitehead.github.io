@@ -1,2 +1,7 @@
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - sharp
+  - unrs-resolver
+
 overrides:
   next@>=16.0.0-beta.0 <16.0.9: '>=16.0.9'

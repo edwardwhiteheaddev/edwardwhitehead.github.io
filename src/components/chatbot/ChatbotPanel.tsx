@@ -8,6 +8,8 @@ import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
 const KNOWLEDGE_URL = "/chatbot-knowledge.json";
 const DEFAULT_API_URL = process.env.NEXT_PUBLIC_CHATBOT_API_URL ?? "";
 const CONTEXT_COUNT = 5;
+const CONTACT_EMAIL = "hello@edwardwhitehead.dev";
+const CONTACT_CTA_TEXT = "Contact me directly.";
 
 export type ChatMessage = {
   role: "user" | "assistant";
@@ -127,12 +129,25 @@ export default function ChatbotPanel() {
     setErrorMessage("");
 
     try {
-      const context = selectContext(question, knowledge, CONTEXT_COUNT);
+      const { context, topScore } = selectContext(question, knowledge, CONTEXT_COUNT);
       console.log("[Chatbot] Selected context for question:", question);
-      console.log("[Chatbot] Context count:", context.length);
+      console.log("[Chatbot] Context count:", context.length, "topScore:", topScore);
       context.forEach((doc, i) => {
         console.log(`[Chatbot] Context ${i + 1}: ${doc.title} (${doc.slug})`);
       });
+
+      // If we can't find any meaningful matches, avoid calling the LLM with irrelevant context.
+      if (context.length === 0 || topScore <= 0) {
+        setMessages((prev) => [
+          ...prev,
+          {
+            role: "assistant",
+            content:
+              "I couldn’t find reliable information in my knowledge base to answer that. Please reach out directly if you’d like a precise answer.",
+          },
+        ]);
+        return;
+      }
 
       // Runtime validation: ensure we're not calling the root URL
       let targetUrl = apiUrl;
@@ -226,7 +241,7 @@ export default function ChatbotPanel() {
         <header className="chatbot-panel__header">
           <div className="chatbot-panel__heading">
             <IconMessageCircle size={20} />
-            <span>Ask Ed’s AI</span>
+            <span>Ask Me</span>
           </div>
           <div className="chatbot-panel__actions">
             <button type="button" className="chatbot-panel__icon-btn" onClick={resetConversation} aria-label="Reset conversation">
@@ -267,13 +282,23 @@ export default function ChatbotPanel() {
           {messages.map((message, index) => (
             <div key={`${message.role}-${index}`} className={clsx("chatbot-panel__message", `chatbot-panel__message--${message.role}`)}>
               <p>{message.content}</p>
+              {message.role === "assistant" && (
+                <div className="chatbot-panel__contact">
+                  <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_CTA_TEXT}</a>
+                </div>
+              )}
               {message.sources && message.sources.length > 0 && (
                 <div className="chatbot-panel__sources">
                   <span>Sources:</span>
                   <ul>
-                    {message.sources.map((source) => (
-                      <li key={source}>{source}</li>
-                    ))}
+                    {message.sources.map((source) => {
+                      const link = resolveSourceLink(source, knowledge);
+                      return (
+                        <li key={source}>
+                          <a href={link.href}>{link.label}</a>
+                        </li>
+                      );
+                    })}
                   </ul>
                 </div>
               )}
@@ -314,7 +339,7 @@ export default function ChatbotPanel() {
 }
 
 function selectContext(question: string, documents: KnowledgeEntry[], limit: number) {
-  if (documents.length === 0) return [];
+  if (documents.length === 0) return { context: [], topScore: 0 };
   const scored = documents.map((document) => ({
     document,
     score: scoreMatch(question, document),
@@ -324,12 +349,19 @@ function selectContext(question: string, documents: KnowledgeEntry[], limit: num
   scored.slice(0, 5).forEach((item, index) => {
     console.log(`[Chatbot] ${index + 1}. ${item.document.title} (${item.document.slug}) - Score: ${item.score}`);
   });
-  return scored.slice(0, limit).map(({ document }) => ({
-    id: document.id,
-    slug: document.slug,
-    title: document.title,
-    content: document.content,
-  }));
+
+  const topScore = scored[0]?.score ?? 0;
+  const context = scored
+    .filter((item) => item.score > 0)
+    .slice(0, limit)
+    .map(({ document }) => ({
+      id: document.id,
+      slug: document.slug,
+      title: document.title,
+      content: document.content,
+    }));
+
+  return { context, topScore };
 }
 
 function scoreMatch(question: string, document: KnowledgeEntry) {
@@ -343,4 +375,23 @@ function scoreMatch(question: string, document: KnowledgeEntry) {
     if (normalizedContent.includes(token)) score += 1;
   });
   return score;
+}
+
+function resolveSourceLink(source: string, documents: KnowledgeEntry[]) {
+  const match = documents.find((doc) => doc.slug === source);
+  const metadata = (match?.metadata ?? {}) as Record<string, unknown>;
+  const canonicalUrl = typeof metadata.canonicalUrl === "string" ? metadata.canonicalUrl : null;
+
+  if (canonicalUrl) {
+    return {
+      href: canonicalUrl,
+      label: match?.title ?? source,
+    };
+  }
+
+  const href = source.startsWith("http") ? source : `/${source.replace(/^\/+/, "")}`;
+  return {
+    href,
+    label: match?.title ?? source,
+  };
 }
