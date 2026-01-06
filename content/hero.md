@@ -1,8 +1,8 @@
 ---
 name: "Edward Whitehead"
-title: "A SEASONED"
-titleGradientText: "SOFTWARE DEVELOPER,"
-titleEndText: "AND ENTREPRENEUR."
+title: "VISIONARY,"
+titleGradientText: "PRODUCT LEADER,"
+titleEndText: "AND START-UP FOUNDER."
 btnGradientIsEnabled: true
 btnGradientHref: "/#projects"
 btnGradientText: "View My Work"
@@ -10,9 +10,10 @@ btnDefaultIsEnabled: true
 btnDefaultHref: "/#contact"
 btnDefaultText: "Get In Touch"
 typedPhrases:
-  - "Software Architect"
+  - "Fractional CTO"
   - "AI Innovator"
   - "Startup Founder"
+  - "Product Manager"
 locations:
   - label: "Remote"
     description: "Worldwide collaboration"
@@ -22,4 +23,4 @@ locations:
     description: "Cape Town"
 ---
 
-A seasoned software developer and entrepreneur with two decades of experience, focused on AI, web, mobile, and leadership.
+Visionary Technical Product Leader and Architect with 20+ years of experience bridging the gap between business strategy and engineering execution.
