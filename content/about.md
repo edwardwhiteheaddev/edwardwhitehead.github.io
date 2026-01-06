@@ -1,17 +1,26 @@
 ---
 title: 'About Me'
 skillProgress:
-  - { label: 'Leadership', value: 45 }
-  - { label: 'Coaching', value: 05 }
-  - { label: 'Development', value: 15 }
-  - { label: 'Product Strategy', value: 35 }
+  - { label: 'Team Leadership', value: 35 }
+  - { label: 'Product & GTM', value: 30 }
+  - { label: 'Architecture', value: 25 }
+  - { label: 'AI Innovation', value: 10 }
   - { label: 'Total', value: 100 }
 ---
 
-At SmartTask, I worked remotely on mobile software development, legacy code migration, UI design, and agile processes. I led two major codebase migrations: first from Xamarin Forms (WPF architecture) to Model-View-View Model (MVVM), enabling support for newer Android and iOS versions, and then to .NET MAUI to ensure ongoing compatibility with future platforms.
+I am a Visionary Technical Product Leader with 20+ years of experience bridging business strategy and engineering execution. Currently serving as **Co-Founder & CTO of SubSeat**, **Founder & Lead Architect of Qirvo** (AI-powered command platform), and **Founder, Author & Product Lead of Orchestr-ai** (AI-driven SDLC certification framework).
 
-I am a Full Stack Developer, Mobile Architect, and Entrepreneur with over 20 years of experience designing and scaling cross-platform applications, SaaS platforms, and AI-driven systems. I lead end-to-end product development and have expertise in Next.js, React, TypeScript, Node.js, MongoDB, Firebase, and cloud infrastructure, including Vercel, Azure, and Firebase Hosting.
+**Core Expertise:**
 
-I have founded several ventures, including Qirvo (an AI-powered command platform with a plugin marketplace and CLI agent), Violt (an AI-driven smart home automation), and Orby (a modular command center for personal and business use). Each is built on open-source cores, extensible plugin systems, and premium cloud-based services.
+- **Full-Stack Engineering:** TypeScript, React, Next.js 15, Node.js, Firebase, MongoDB, PostgreSQL, AWS, Azure, Docker, Kubernetes
+- **AI & Systems Architecture:** Multi-agent AI systems, plugin ecosystems, modular microservices, and enterprise-scale automation
+- **Product Leadership:** End-to-end SaaS platform development, go-to-market strategy, team leadership, and thought leadership positioning
+- **Fractional CTO Services:** Technical vision, roadmap planning, investor relations, and organizational scaling
 
-I have a proven record of building scalable architectures, multi-agent AI systems, automation workflows, and open-source SDKs. I also manage branding, go-to-market strategies, and investor pitches, and excel at leading distributed teams and integrating AI, robotics, IoT, and automation to support business growth.
+**Notable Ventures:**
+
+- **SubSeat:** AI-enhanced subscription booking platform for beauty services (SaaS, early 2026 launch)
+- **Qirvo:** AI command platform with plugin marketplace and Echo CLI agent for developers
+- **Orchestr-ai:** Commercial certification framework for AI-integrated software delivery lifecycle (U-ASDLC)
+
+I have a proven track record architecting scalable systems, building multi-agent AI workflows, publishing open-source SDKs, and managing investor relations. I excel at leading distributed teams, integrating emerging technologies (AI, IoT, blockchain), and transforming product vision into market-ready solutions.

@@ -11,12 +11,12 @@ skills:
   - category: 'Tools'
     list: 'Figma, Canva, VSCode, Windsurf, AI/LLM Tools (OpenAI, Gemini, OpenRouter, Ollma, LM Studio and Vibe Coding)'
   - category: 'Soft Skills'
-    list: 'Management, Leadership, Project Management, Mentoring, Vendor Management, Technical Documentation, HR & Performance Management'
+    list: 'Management, Leadership, Product Management, Mentoring, Vendor Management, Technical Documentation, HR & Performance Management'
 ---
 
-- **Product Development & SaaS:** Built multiple platforms (Qirvo, Violt, Orby) from the ground up, including dashboards, CLIs, mobile apps, and plugin marketplaces.
-- **Full-Stack Engineering:** Expertise in Next.js 15, React 19, Mantine UI, Zustand, Node.js, Firebase, MongoDB Atlas, TypeScript, Docker, and cross-platform mobile development (Flutter, .NET MAUI, Kotlin).
-- **Systems Architecture:** Created production-ready modular architectures with separation of frontend, backend APIs, and databases, supporting extensibility and enterprise scaling.
-- **Open-Source Leadership:** Published SDKs, plugin frameworks, and CLI agents (e.g., Echo CLI for Qirvo) to support community growth and developer adoption.
-- **Business & Strategy:** Directed branding, pitch decks, investor relations, and GTM strategies.
-- **Creative & Marketing:** Produced branding, animated explainers, social media campaigns, and landing pages to support product adoption and community growth.
+- **Product Development & SaaS:** 20+ years building scalable SaaS platforms from concept to production, including AI-powered systems (Qirvo, Viola), mobile apps, CLIs, and plugin marketplaces that drive adoption.
+- **Full-Stack Engineering:** Expert in TypeScript, React, Next.js 15, Node.js, Firebase, MongoDB, PostgreSQL, AWS, Azure, Docker, Kubernetes, and cross-platform mobile development (Flutter, .NET MAUI, Kotlin).
+- **AI & Systems Architecture:** Architect AI-driven solutions with production-ready modular systems supporting microservices, extensibility, and enterprise-scale operations.
+- **Open-Source & Developer Advocacy:** Published SDKs, plugin frameworks, and CLI tools (e.g., Echo CLI) fostering community growth and developer adoption.
+- **Fractional CTO & Strategy:** Led technical vision, roadmap planning, investor relations, and go-to-market strategies for multiple startups and ventures.
+- **Creative & Marketing:** Crafted brand narratives, pitch decks, animated explainers, social media campaigns, and landing pages to drive product adoption and community engagement.

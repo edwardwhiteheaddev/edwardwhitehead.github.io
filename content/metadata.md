@@ -1,18 +1,16 @@
 ---
-title: "Edward Whitehead | Senior Full Stack Developer & AI Innovator | 20+ Years Experience"
-description: "Expert full stack developer and AI innovator with 20+ years specializing in React, Next.js, TypeScript, Flutter, .NET, and Azure. Founder of AI-powered platforms (Qirvo, PayBee). Remote developer available worldwide. Mobile architect, SaaS expert, startup founder."
-keywords: "full stack developer, AI developer, mobile architect, software entrepreneur, React developer, Next.js expert, TypeScript specialist, Flutter developer, .NET MAUI, Xamarin Forms, Azure developer, Firebase expert, MongoDB architect, AI innovator, startup founder, remote developer, senior developer, technical leader, cross-platform developer, SaaS architect, FinTech developer, AI mobile apps, computer vision, facial recognition, NFC development, QR scanning, Next.js 15, React 19, Mantine UI, Node.js, Python FastAPI, Jetpack Compose, Kotlin, C#, .NET, Azure DevOps, Azure Cognitive Services, Vercel, GitHub, VSCode, Windsurf, Figma, Canva, Southeast Asia developer, South Africa developer, remote work specialist, AI Dev Agent, plugin marketplace, CLI tools, command platform, life dashboard, payment solution, car wash app, courier application, mobile modernization, legacy migration, MVVM architecture, microservices, API development, product development, SaaS platforms, open-source SDK, branding, go-to-market strategy, investor relations, distributed teams, AI robotics IoT automation"
+title: "Edward Whitehead | Visionary Technical Product Leader & AI Innovator | 20+ Years"
+description: "Visionary Technical Product Leader with 20+ years architecting AI-driven platforms and scaling SaaS. Co-Founder & CTO of SubSeat, Founder & Lead Architect of Qirvo (AI command platform), and Creator of Orchestr-ai (AI-integrated SDLC certification). Expert in multi-agent AI systems, full-stack engineering, fractional CTO services, and go-to-market strategy."
+keywords: "visionary technical leader, fractional CTO, AI innovator, product leader, multi-agent AI systems, agentic software development, AI SDLC, full-stack developer, AI command platform, plugin marketplace, Echo CLI, U-ASDLC certification, SaaS architect, startup founder, Next.js expert, React expert, TypeScript specialist, Node.js architect, MongoDB expert, PostgreSQL, Firebase, AWS, Azure cloud, Docker, Kubernetes, Flutter developer, .NET MAUI, Jetpack Compose, Kotlin, Python FastAPI, smart home automation, payment orchestration, blockchain, Web3 Solidity, system architecture, microservices, API development, developer tools, CLI agents, AI Dev Agent, thought leadership, investor relations, go-to-market strategy, team leadership, product strategy, mobile architect, cross-platform development, AI integration, computer vision, facial recognition, NFC development, legacy migration, MVVM architecture, open-source SDK, SaaS platforms, startup leadership, remote work specialist, Southeast Asia, South Africa, distributed teams"
 author: "Edward Whitehead"
-ogTitle: "Edward Whitehead | Senior Full Stack Developer & AI Innovator | React, Next.js, Flutter, .NET Expert"
-ogDescription: "20+ year veteran full stack developer and AI innovator. Founder of Qirvo (AI command platform), PayBee (FinTech), Violt (smart home), Orby (command center). Expert in React, Next.js, TypeScript, Flutter, .NET MAUI, Azure, Firebase. Mobile architect specializing in cross-platform development, AI/ML integration, SaaS platforms."
+ogTitle: "Edward Whitehead | Visionary Technical Product Leader & AI Innovator"
+ogDescription: "Visionary Technical Product Leader with 20+ years. Co-Founder & CTO of SubSeat (AI booking platform), Founder & Lead Architect of Qirvo (AI command platform with plugin marketplace), Creator of Orchestr-ai (U-ASDLC certification). Expert in multi-agent AI systems, full-stack engineering, product strategy, and fractional CTO services."
 ogImage: "assets/images/og-image.png"
 twitterCard: "summary_large_image"
-twitterTitle: "Edward Whitehead | Senior Full Stack Developer & AI Innovator | 20+ Years"
-twitterDescription: "Expert full stack developer & AI innovator with 20+ years experience. React, Next.js, Flutter, .NET specialist. Founder of AI platforms (Qirvo, PayBee). Remote developer, mobile architect, startup founder, technical leader."
+twitterTitle: "Edward Whitehead | Visionary Technical Product Leader & AI Innovator | 20+ Years"
+twitterDescription: "Visionary Technical Product Leader & AI innovator with 20+ years. Co-Founder & CTO SubSeat, Founder & Lead Architect Qirvo (AI platform), Creator Orchestr-ai (AI-SDLC certification). Expert: multi-agent AI, full-stack, fractional CTO, SaaS architecture, go-to-market strategy."
 twitterImage: "assets/images/og-image.png"
-applicationName: "Edward Whitehead Portfolio"
-generator: Next.js
-locale: en_US
+applicationName: "Edward Whitehead - Technical Product Leader & AI Innovator"
+generator: "Next.js 16"
+locale: "en_US"
 ---
-
-This file contains the metadata configuration for the homepage.
