@@ -6,7 +6,7 @@ description: 'A practical, senior-level guide to AI-native software delivery—h
 category: 'Software Architecture'
 tags: ['AI-Native', 'Software Delivery', 'Systems Architecture', 'AI Augmentation', 'Engineering Leadership', 'U-ASDLC']
 image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
-featured: true
+featured: false
 author: 'Edward Whitehead'
 
 # SEO and AEO metadata fields
