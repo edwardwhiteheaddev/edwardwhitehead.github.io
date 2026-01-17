@@ -29,7 +29,8 @@ twitterImage: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?ixli
 twitterCard: 'summary_large_image'
 canonicalUrl: 'https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems'
 
-structuredData:
+structuredData: |
+  {
   "@context": "https://schema.org"
   "@type": "BlogPosting"
   "headline": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control"
@@ -49,6 +50,7 @@ structuredData:
   "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80"
   "articleSection": "Software Architecture"
   "keywords": ["AI-Native", "Software Delivery", "Systems Architecture", "Engineering Leadership"]
+  }
 ---
 
 # AI-Native Software Delivery: Designing Systems That Scale Without Losing Control

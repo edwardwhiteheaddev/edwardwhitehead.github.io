@@ -1,52 +1,54 @@
 ---
-title: 'Stability Before Speed, Why Busy Teams Stall and How to Fix It'  
-slug: 'stability-before-speed'  
-date: '2026-01-17'  
-description: 'Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed for engineering teams.'  
-category: 'Delivery Stabilisation'  
-tags: ['software delivery', 'stability', 'technical debt', 'engineering leadership', 'consulting']  
-image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c'  
-featured: true  
+title: 'Stability Before Speed, Why Busy Teams Stall and How to Fix It'
+slug: 'stability-before-speed'
+date: '2026-01-17'
+description: 'Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed for engineering teams.'
+category: 'Delivery Stabilisation'
+tags: ['software delivery', 'stability', 'technical debt', 'engineering leadership', 'consulting']
+image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c'
+featured: true
 author: 'Edward Whitehead, UNIVRS'
 
 # SEO and AEO metadata fields
-metaTitle: 'Stability Before Speed, How to Fix Fragile Software Delivery'  
-metaDescription: 'Why busy engineering teams stall and how delivery stabilisation unlocks sustainable velocity. Practical guidance from UNIVRS.'  
+metaTitle: 'Stability Before Speed, How to Fix Fragile Software Delivery'
+metaDescription: 'Why busy engineering teams stall and how delivery stabilisation unlocks sustainable velocity. Practical guidance from UNIVRS.'
 keywords:
-    - 'software delivery stabilisation'
-    - 'engineering velocity'
-    - 'technical debt'
-    - 'delivery governance'
-    - 'legacy systems'  
-ogTitle: 'Stability Before Speed'  
-ogDescription: 'Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed.'  
-ogImage: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c'  
-twitterTitle: 'Stability Before Speed'  
-twitterDescription: 'Why busy teams stall and how to fix fragile delivery with stabilisation.'  
-twitterImage: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c'  
-twitterCard: 'summary_large_image'  
+- 'software delivery stabilisation'
+- 'engineering velocity'
+- 'technical debt'
+- 'delivery governance'
+- 'legacy systems'
+ogTitle: 'Stability Before Speed'
+ogDescription: 'Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed.'
+ogImage: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c'
+twitterTitle: 'Stability Before Speed'
+twitterDescription: 'Why busy teams stall and how to fix fragile delivery with stabilisation.'
+twitterImage: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c'
+twitterCard: 'summary_large_image'
 canonicalUrl: 'https://edwardwhitehead.dev/blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it'
 
-structuredData:
-"@context": "https://schema.org"  
-"@type": "BlogPosting"  
-"headline": "Stability Before Speed"  
-"description": "Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed."  
-"author":
-    "@type": "Person"  
-    "name": "Edward Whitehead"  
-    "url": "https://edwardwhitehead.dev"  
-"datePublished": "2026-01-17"  
-"dateModified": "2026-01-17"  
-"mainEntityOfPage":
-    "@type": "WebPage"  
-    "@id": "https://edwardwhitehead.dev/blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it"  
-"publisher":  
-    "@type": "Person"  
-    "name": "Edward Whitehead"  
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"  
-"articleSection": "Delivery Stabilisation"  
-"keywords": ['software delivery', 'stability', 'technical debt', 'engineering leadership']
+structuredData: |
+    {
+    "@context": "https://schema.org"
+    "@type": "BlogPosting"
+    "headline": "Stability Before Speed"
+    "description": "Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed."
+    "author":
+        "@type": "Person"
+        "name": "Edward Whitehead"
+        "url": "https://edwardwhitehead.dev"
+    "datePublished": "2026-01-17"
+    "dateModified": "2026-01-17"
+        "mainEntityOfPage":
+        "@type": "WebPage"
+        "@id": "https://edwardwhitehead.dev/blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it"
+    "publisher":
+        "@type": "Person"
+        "name": "Edward Whitehead"
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+    "articleSection": "Delivery Stabilisation"
+    "keywords": ['software delivery', 'stability', 'technical debt', 'engineering leadership']
+    }
 ---
 
 # Stability Before Speed, Why Busy Teams Stall and How to Fix It
@@ -72,11 +74,11 @@ Under pressure they reveal the truth. Builds fail. Incidents spike. Teams stop s
 ```typescript
 // A fragile delivery system often looks like this
 const delivery = {
-  ownership: 'unclear',
-  decisions: 'bottlenecked',
-  technicalDebt: 'invisible',
-  aiUsage: 'ungoverned',
-  velocity: 'fragile'
+ownership: 'unclear',
+decisions: 'bottlenecked',
+technicalDebt: 'invisible',
+aiUsage: 'ungoverned',
+velocity: 'fragile'
 };
 
 ```
@@ -96,11 +98,11 @@ Ownership becomes explicit. Decisions become structured. Risk becomes visible. A
 ```typescript
 // After stabilisation
 const delivery = {
-  ownership: 'explicit',
-  decisions: 'clear and fast',
-  technicalDebt: 'mapped and managed',
-  aiUsage: 'governed and safe',
-  velocity: 'sustainable'
+ownership: 'explicit',
+decisions: 'clear and fast',
+technicalDebt: 'mapped and managed',
+aiUsage: 'governed and safe',
+velocity: 'sustainable'
 };
 
 ```

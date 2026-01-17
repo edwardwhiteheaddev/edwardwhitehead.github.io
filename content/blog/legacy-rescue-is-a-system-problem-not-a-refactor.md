@@ -1,53 +1,53 @@
 ---
 
-title: 'Legacy Rescue Is a Systems Problem, Not a Refactor'  
-slug: 'legacy-rescue-is-a-systems-problem'  
-date: '2026-01-24'  
-description: 'Why most legacy rescues fail and how a systems approach stabilises complex software delivery.'  
-category: 'Legacy Stabilisation'  
-tags: ['legacy systems', 'technical debt', 'software rescue', 'delivery stabilisation']  
-image: 'https://images.unsplash.com/photo-1518779578993-ec3579fee39f'  
-featured: false  
+title: 'Legacy Rescue Is a Systems Problem, Not a Refactor'
+slug: 'legacy-rescue-is-a-systems-problem'
+date: '2026-01-24'
+description: 'Why most legacy rescues fail and how a systems approach stabilises complex software delivery.'
+category: 'Legacy Stabilisation'
+tags: ['legacy systems', 'technical debt', 'software rescue', 'delivery stabilisation']
+image: 'https://images.unsplash.com/photo-1518779578993-ec3579fee39f'
+featured: false
 author: 'Edward Whitehead, UNIVRS'
-
-# SEO and AEO metadata fields
-metaTitle: 'Legacy Rescue Is a Systems Problem'  
-metaDescription: 'Why legacy rescues fail and how a systems approach stabilises complex delivery.'  
+metaTitle: 'Legacy Rescue Is a Systems Problem'
+metaDescription: 'Why legacy rescues fail and how a systems approach stabilises complex delivery.'
 keywords:
-    - 'legacy code rescue'
-    - 'technical debt'
-    - 'software stabilisation'
-    - 'delivery governance'
-    - 'migration risk'  
-ogTitle: 'Legacy Rescue Is a Systems Problem'  
-ogDescription: 'Most legacy rescues fail because they treat symptoms, not systems.'  
-ogImage: 'https://images.unsplash.com/photo-1518779578993-ec3579fee39f'  
-twitterTitle: 'Legacy Rescue Is a Systems Problem'  
-twitterDescription: 'Why refactors fail and how stabilisation actually works.'  
-twitterImage: 'https://images.unsplash.com/photo-1518779578993-ec3579fee39f'  
-twitterCard: 'summary_large_image'  
+- 'legacy code rescue'
+- 'technical debt'
+- 'software stabilisation'
+- 'delivery governance'
+- 'migration risk'
+ogTitle: 'Legacy Rescue Is a Systems Problem'
+ogDescription: 'Most legacy rescues fail because they treat symptoms, not systems.'
+ogImage: 'https://images.unsplash.com/photo-1518779578993-ec3579fee39f'
+twitterTitle: 'Legacy Rescue Is a Systems Problem'
+twitterDescription: 'Why refactors fail and how stabilisation actually works.'
+twitterImage: 'https://images.unsplash.com/photo-1518779578993-ec3579fee39f'
+twitterCard: 'summary_large_image'
 canonicalUrl: 'https://edwardwhitehead.dev/blog/legacy-rescue-is-a-system-problem-not-a-refactor'
 
-structuredData:
-    "@context": "https://schema.org"  
-    "@type": "BlogPosting"  
-    "headline": "Legacy Rescue Is a Systems Problem"  
-    "description": "Why most legacy rescues fail and how a systems approach stabilises delivery."  
-    "author":  
-    "@type": "Person"  
-    "name": "Edward Whitehead"  
-    "url": "https://edwardwhitehead.dev/"  
-    "datePublished": "2026-01-24"  
-    "dateModified": "2026-01-24"  
-    "mainEntityOfPage":  
-    "@type": "WebPage"  
-    "@id": "https://edwardwhitehead.dev/blog/legacy-rescue-is-a-system-problem-not-a-refactor"  
-    "publisher":  
-    "@type": "Person"  
-    "name": "Edward Whitehead"  
-    "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f"  
-    "articleSection": "Legacy Stabilisation"  
-    "keywords": ['legacy systems', 'technical debt', 'software rescue']
+structuredData: |
+  {
+  "@context": "https://schema.org"
+  "@type": "BlogPosting"
+  "headline": "Legacy Rescue Is a Systems Problem"
+  "description": "Why most legacy rescues fail and how a systems approach stabilises delivery."
+  "author":
+    "@type": "Person"
+    "name": "Edward Whitehead"
+    "url": "https://edwardwhitehead.dev/"
+  "datePublished": "2026-01-24"
+  "dateModified": "2026-01-24"
+  "mainEntityOfPage":
+    "@type": "WebPage"
+    "@id": "https://edwardwhitehead.dev/blog/legacy-rescue-is-a-system-problem-not-a-refactor"
+  "publisher":
+    "@type": "Person"
+    "name": "Edward Whitehead"
+  "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f"
+  "articleSection": "Legacy Stabilisation"
+  "keywords": ['legacy systems', 'technical debt', 'software rescue']
+  }
 ---
 
 # Legacy Rescue Is a Systems Problem, Not a Refactor
@@ -74,10 +74,10 @@ const problem = 'legacy code';
 
 // What actually breaks delivery
 const system = {
-  ownership: 'unclear',
-  decisions: 'bottlenecked',
-  risk: 'invisible',
-  ai: 'ungoverned'
+ownership: 'unclear',
+decisions: 'bottlenecked',
+risk: 'invisible',
+ai: 'ungoverned'
 };
 
 ```
@@ -97,10 +97,10 @@ Ownership is explicit. The roadmap is realistic. AI is governed. Engineers stop 
 ```typescript
 // After stabilisation
 const system = {
-  ownership: 'explicit',
-  decisions: 'clear',
-  risk: 'managed',
-  ai: 'useful and safe'
+ownership: 'explicit',
+decisions: 'clear',
+risk: 'managed',
+ai: 'useful and safe'
 };
 
 ```
