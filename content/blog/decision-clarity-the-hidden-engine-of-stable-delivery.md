@@ -1,6 +1,6 @@
 ---
 title: 'Decision Clarity, The Hidden Engine of Stable Delivery'  
-slug: 'decision-clarity-stable-delivery'  
+slug: 'decision-clarity-the-hidden-engine-of-stable-delivery'  
 date: '2026-02-07'  
 description: 'How unclear decisions destroy delivery and how structured decision flow restores confidence and speed.'  
 category: 'Engineering Leadership'  

@@ -6,7 +6,7 @@ description: "How to introduce AI into complex delivery environments without inc
 category: "AI and Delivery"
 tags: ["ai governance", "software delivery", "engineering leadership", "automation"]
 image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c"
-featured: false
+featured: true
 author: "Edward Whitehead, UNIVRS"
 metaTitle: "AI Governance for Engineering Teams"
 metaDescription: "How to make AI safe, useful, and aligned with delivery outcomes."

@@ -1,7 +1,7 @@
 ---
 
 title: 'Legacy Rescue Is a Systems Problem, Not a Refactor'
-slug: 'legacy-rescue-is-a-systems-problem'
+slug: 'legacy-rescue-is-a-system-problem-not-a-refactor'
 date: '2026-01-24'
 description: 'Why most legacy rescues fail and how a systems approach stabilises complex software delivery.'
 category: 'Legacy Stabilisation'

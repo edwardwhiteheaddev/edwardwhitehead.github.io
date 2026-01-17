@@ -1,6 +1,6 @@
 ---
 title: 'Stability Before Speed, Why Busy Teams Stall and How to Fix It'
-slug: 'stability-before-speed'
+slug: 'stability-before-speed-why-busy-teams-stall-and-how-to-fix-it'
 date: '2026-01-17'
 description: 'Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed for engineering teams.'
 category: 'Delivery Stabilisation'
