@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-01-02T10:26:59.851Z",
-  "documentCount": 204,
+  "generatedAt": "2026-01-19T10:46:27.558Z",
+  "documentCount": 222,
   "source": "content",
   "embeddingModel": null,
   "documents": [
     {
       "id": "about-enhanced-1",
       "slug": "about-enhanced",
-      "title": "About Me - According to AI",
-      "excerpt": "## More About Me - According to AI\n\n### Identity & Personal Context\n\n- Preferred name: Ed; architect-level creator, systems thinker, and innovator.\n- Married wi",
-      "content": "## More About Me - According to AI\n\n### Identity & Personal Context\n\n- Preferred name: Ed; architect-level creator, systems thinker, and innovator.\n- Married with children; family is my anchor and motivation.\n- Rebuilt after relocations, loss, burnout; highly resilient and fairness-driven.\n- I perform best with sequential structure; reset habits: cycling, gym, learning, meditation, creative thinking, and helping those in need.\n\n### Health & Astrology (shared context)\n\n- Living with fibromyalgia and Kimerly anomaly.\n- Shared birth details for you, your wife, and your children for synastry/relocation analysis.\n\n### Professional Situation",
+      "title": "About Me - Enhanced Profile",
+      "excerpt": "## Enhanced Professional Profile\n\n### Professional Identity\n\n- **Title:** Visionary Technical Product Leader & AI Innovator\n- **Experience:** 20+ years architec",
+      "content": "## Enhanced Professional Profile\n\n### Professional Identity\n\n- **Title:** Visionary Technical Product Leader & AI Innovator\n- **Experience:** 20+ years architecting scalable systems, building AI-powered platforms, and leading distributed teams\n- **Current Focus:** Fractional CTO services, AI-driven software delivery, and product leadership\n- **Approach:** Systems thinker, architect-level creator focused on extensible, open-source-first solutions\n\n### Current Ventures (January 2026)\n\n**SubSeat – Co-Founder & CTO** (June 2025 – Present)\n\n- AI-enhanced subscription-based booking platform for beauty services\n- Leading all technical architecture, platform development, and product strategy\n- Building scalable SaaS infrastructure with AI-driven customer insights and scheduling optimization\n- Target launch: Early 2026",
       "embedding": null,
       "metadata": {
-        "title": "About Me - According to AI",
+        "title": "About Me - Enhanced Profile",
         "skillProgress": [
           {
             "label": "Leadership",
-            "value": 40
+            "value": 50
           },
           {
-            "label": "Coaching",
+            "label": "Product & GTM",
             "value": 20
           },
           {
-            "label": "Development",
-            "value": 20
+            "label": "Architecture",
+            "value": 15
           },
           {
-            "label": "Product Strategy",
-            "value": 20
+            "label": "AI Innovation",
+            "value": 15
           },
           {
             "label": "Total",
@@ -40,28 +40,28 @@
     {
       "id": "about-enhanced-2",
       "slug": "about-enhanced",
-      "title": "About Me - According to AI",
-      "excerpt": "- Senior software architect (20+ years), currently navigating a new world on the horizon, where my life will be ppositively affected by what I aim to achieve.\n-",
-      "content": "- Senior software architect (20+ years), currently navigating a new world on the horizon, where my life will be ppositively affected by what I aim to achieve.\n- Founder of Violt, Qirvo, Orby, SubSeat (co-founder); focused on open, extensible systems.\n- Lead with Next.js 16, React 19, TypeScript, Node.js, MongoDB, CI/CD, automation, and multi-agent AI workflows.\n- Pioneering adopter of AI and testing and creating with its capabilities.\n\n### Product & Startup Work",
+      "title": "About Me - Enhanced Profile",
+      "excerpt": "**Qirvo – Founder, Product Strategist & Lead Architect** (June 2025 – Present)\n\n- AI-powered command platform connecting apps, devices, and workflows with intel",
+      "content": "**Qirvo – Founder, Product Strategist & Lead Architect** (June 2025 – Present)\n\n- AI-powered command platform connecting apps, devices, and workflows with intelligent automation\n- Engineered plugin marketplace enabling developers to monetize via Qirvo SDK\n- Built Echo CLI: advanced AI-driven developer tool with autonomous execution, persistent memory, and GitHub integration\n- Implemented layered memory architecture in MongoDB supporting multi-agent AI systems\n- Executed full go-to-market strategy with strong community adoption\n\n**Orchestra-AI – Founder, Author & Product Strategist** (December 2025 – Present)\n\n- Creator of Unified Agentic Software Development Lifecycle (U-ASDLC) certification framework\n- Positioned as thought leader in AI-integrated software delivery\n- Defined certification governance model and monetization strategy for developers and architects",
       "embedding": null,
       "metadata": {
-        "title": "About Me - According to AI",
+        "title": "About Me - Enhanced Profile",
         "skillProgress": [
           {
             "label": "Leadership",
-            "value": 40
+            "value": 50
           },
           {
-            "label": "Coaching",
+            "label": "Product & GTM",
             "value": 20
           },
           {
-            "label": "Development",
-            "value": 20
+            "label": "Architecture",
+            "value": 15
           },
           {
-            "label": "Product Strategy",
-            "value": 20
+            "label": "AI Innovation",
+            "value": 15
           },
           {
             "label": "Total",
@@ -73,28 +73,28 @@
     {
       "id": "about-enhanced-3",
       "slug": "about-enhanced",
-      "title": "About Me - According to AI",
-      "excerpt": "- **SubSeat:** Turn every booking into a loyal customer.\n- **Violt Core & Violt AI:** AI-powered smart-home OS, robotics integrations, API-first.\n- **Qirvo:** A",
-      "content": "- **SubSeat:** Turn every booking into a loyal customer.\n- **Violt Core & Violt AI:** AI-powered smart-home OS, robotics integrations, API-first.\n- **Qirvo:** AI command platform with CLI/dashboard and advanced AI dev agent workflow.\n- **Echo AI Dev Agent:** Autonomous coding agent with PR creation, tests, semantic diffing, multi-agent orchestration, n8n integration.\n- **Personal Dashboard:** Firebase-hosted health, mood, tasks, voice input, AI feedback.\n- **Relocation Plans:** Exploring Portugal and Malaysia with detailed criteria.\n\n### Working Style\n\n- Prefer a step-by-step execution plan with clear structure, and reduced cognitive load.\n- Momentum from finishing one task before starting the next; realistic pacing around health, family, and time.\n\n### Emotional & Motivational Context",
+      "title": "About Me - Enhanced Profile",
+      "excerpt": "### Core Technical Competencies\n\n**Full-Stack Engineering:** TypeScript, React, Next.js, Node.js, Firebase, MongoDB, PostgreSQL, AWS, Azure, Docker, Kubernetes\n",
+      "content": "### Core Technical Competencies\n\n**Full-Stack Engineering:** TypeScript, React, Next.js, Node.js, Firebase, MongoDB, PostgreSQL, AWS, Azure, Docker, Kubernetes\n\n**AI & Systems Architecture:** Multi-agent AI systems, plugin ecosystems, modular microservices, autonomous agents, memory architectures, LLM integration\n\n**Product Leadership:** End-to-end SaaS development, go-to-market strategy, investor relations, team leadership, thought leadership positioning\n\n**Fractional CTO Services:** Technical vision, roadmap planning, architecture decisions, organizational scaling, vendor management\n\n### Professional Journey",
       "embedding": null,
       "metadata": {
-        "title": "About Me - According to AI",
+        "title": "About Me - Enhanced Profile",
         "skillProgress": [
           {
             "label": "Leadership",
-            "value": 40
+            "value": 50
           },
           {
-            "label": "Coaching",
+            "label": "Product & GTM",
             "value": 20
           },
           {
-            "label": "Development",
-            "value": 20
+            "label": "Architecture",
+            "value": 15
           },
           {
-            "label": "Product Strategy",
-            "value": 20
+            "label": "AI Innovation",
+            "value": 15
           },
           {
             "label": "Total",
@@ -106,28 +106,94 @@
     {
       "id": "about-enhanced-4",
       "slug": "about-enhanced",
-      "title": "About Me - According to AI",
-      "excerpt": "- Overwhelmed at times but committed to the end goal; driven by stability for wife and children.\n- I constantly bounce back stronger after setbacks; I value enc",
-      "content": "- Overwhelmed at times but committed to the end goal; driven by stability for wife and children.\n- I constantly bounce back stronger after setbacks; I value encouragement, structure, and clarity.",
+      "title": "About Me - Enhanced Profile",
+      "excerpt": "- **FedEx (2010-2018):** IT Lead for Mobility & Customs Clearance; 200% data transfer improvements\n- **Bumblebee (2019-2021):** Team Lead for cloud-based insura",
+      "content": "- **FedEx (2010-2018):** IT Lead for Mobility & Customs Clearance; 200% data transfer improvements\n- **Bumblebee (2019-2021):** Team Lead for cloud-based insurance solutions; Azure DevOps expertise; modernization strategies\n- **Payment Bee (2021-2025):** Founder pioneering crypto-payment processing with blockchain/Web3 integration\n- **SmartTask (2021-2025):** Led technical modernization of legacy systems; AI-powered mobile applications with facial recognition\n- **Multiple Ventures:** Built open-source SDKs, plugin frameworks, CLI tools supporting ecosystem growth\n\n### Personal Context",
       "embedding": null,
       "metadata": {
-        "title": "About Me - According to AI",
+        "title": "About Me - Enhanced Profile",
         "skillProgress": [
           {
             "label": "Leadership",
-            "value": 40
+            "value": 50
           },
           {
-            "label": "Coaching",
+            "label": "Product & GTM",
             "value": 20
           },
           {
-            "label": "Development",
+            "label": "Architecture",
+            "value": 15
+          },
+          {
+            "label": "AI Innovation",
+            "value": 15
+          },
+          {
+            "label": "Total",
+            "value": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "about-enhanced-5",
+      "slug": "about-enhanced",
+      "title": "About Me - Enhanced Profile",
+      "excerpt": "- Family-driven; married with children—stability and growth for family are core motivations\n- Resilient rebuilder; navigated relocations, burnout, and personal ",
+      "content": "- Family-driven; married with children—stability and growth for family are core motivations\n- Resilient rebuilder; navigated relocations, burnout, and personal challenges with consistent forward momentum\n- Health-conscious practitioner; cycling, gym, meditation, and learning fuel creativity and mental clarity\n- Fairness-driven leader; committed to transparent decision-making and ethical business practices\n- Visionary mindset: capable of holding long-term strategic vision while executing incremental progress\n\n### Working Philosophy",
+      "embedding": null,
+      "metadata": {
+        "title": "About Me - Enhanced Profile",
+        "skillProgress": [
+          {
+            "label": "Leadership",
+            "value": 50
+          },
+          {
+            "label": "Product & GTM",
             "value": 20
           },
           {
-            "label": "Product Strategy",
+            "label": "Architecture",
+            "value": 15
+          },
+          {
+            "label": "AI Innovation",
+            "value": 15
+          },
+          {
+            "label": "Total",
+            "value": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "about-enhanced-6",
+      "slug": "about-enhanced",
+      "title": "About Me - Enhanced Profile",
+      "excerpt": "- **Execution-Focused:** Sequential task completion with momentum; results over perfection\n- **Structure-Oriented:** Clear goals, realistic pacing, transparent ",
+      "content": "- **Execution-Focused:** Sequential task completion with momentum; results over perfection\n- **Structure-Oriented:** Clear goals, realistic pacing, transparent communication\n- **Resilience-Based:** Learn, adapt, and bounce back stronger from setbacks\n- **System-Driven:** Build extensible, maintainable architectures that empower teams\n- **AI-First Approach:** Pioneer emerging technologies; test, learn, and integrate AI capabilities into products\n\n### Vision\n\nBuilding the next generation of AI-powered platforms that bridge technical innovation with market adoption. Focused on creating scalable, extensible systems that empower developers and end-users alike. Positioned as a thought leader in agentic software delivery and AI-integrated product development.",
+      "embedding": null,
+      "metadata": {
+        "title": "About Me - Enhanced Profile",
+        "skillProgress": [
+          {
+            "label": "Leadership",
+            "value": 50
+          },
+          {
+            "label": "Product & GTM",
             "value": 20
+          },
+          {
+            "label": "Architecture",
+            "value": 15
+          },
+          {
+            "label": "AI Innovation",
+            "value": 15
           },
           {
             "label": "Total",
@@ -140,27 +206,27 @@
       "id": "about-1",
       "slug": "about",
       "title": "About Me",
-      "excerpt": "At SmartTask, I worked remotely on mobile software development, legacy code migration, UI design, and agile processes. I led two major codebase migrations: firs",
-      "content": "At SmartTask, I worked remotely on mobile software development, legacy code migration, UI design, and agile processes. I led two major codebase migrations: first from Xamarin Forms (WPF architecture) to Model-View-View Model (MVVM), enabling support for newer Android and iOS versions, and then to .NET MAUI to ensure ongoing compatibility with future platforms.\n\nI am a Full Stack Developer, Mobile Architect, and Entrepreneur with over 20 years of experience designing and scaling cross-platform applications, SaaS platforms, and AI-driven systems. I lead end-to-end product development and have expertise in Next.js, React, TypeScript, Node.js, MongoDB, Firebase, and cloud infrastructure, including Vercel, Azure, and Firebase Hosting.",
+      "excerpt": "Strategic Technical Leader with over 20 years of commercial experience bridging business strategy and engineering execution. Expert in directing complex legacy ",
+      "content": "Strategic Technical Leader with over 20 years of commercial experience bridging business strategy and engineering execution. Expert in directing complex legacy modernisations, defining enterprise product roadmaps, and architecting scalable AI-driven platforms.\n\n- proven track record of acting as a Fractional CTO and Lead Architect for high-growth startups and global enterprises (FedEx, Sanlam).\n- Specialist in AI & Cloud Architecture, including agentic orchestration, Azure/Firebase ecosystems, and cross-platform mobile frameworks.\n- Senior-level proficiency in Systems Architecture and Technical Strategy, offering two decades of hands-on leadership equivalent to a Master’s level qualification.\n\n**Core Expertise:**",
       "embedding": null,
       "metadata": {
         "title": "About Me",
         "skillProgress": [
           {
-            "label": "Leadership",
-            "value": 45
-          },
-          {
-            "label": "Coaching",
-            "value": 5
-          },
-          {
-            "label": "Development",
-            "value": 15
-          },
-          {
-            "label": "Product Strategy",
+            "label": "Team Leadership",
             "value": 35
+          },
+          {
+            "label": "Product & GTM",
+            "value": 30
+          },
+          {
+            "label": "Architecture",
+            "value": 25
+          },
+          {
+            "label": "AI Innovation",
+            "value": 10
           },
           {
             "label": "Total",
@@ -173,27 +239,60 @@
       "id": "about-2",
       "slug": "about",
       "title": "About Me",
-      "excerpt": "I have founded several ventures, including Qirvo (an AI-powered command platform with a plugin marketplace and CLI agent), Violt (an AI-driven smart home automa",
-      "content": "I have founded several ventures, including Qirvo (an AI-powered command platform with a plugin marketplace and CLI agent), Violt (an AI-driven smart home automation), and Orby (a modular command center for personal and business use). Each is built on open-source cores, extensible plugin systems, and premium cloud-based services.\n\nI have a proven record of building scalable architectures, multi-agent AI systems, automation workflows, and open-source SDKs. I also manage branding, go-to-market strategies, and investor pitches, and excel at leading distributed teams and integrating AI, robotics, IoT, and automation to support business growth.",
+      "excerpt": "- **Full-Stack Engineering:** TypeScript, React, Next.js 15, Node.js, Firebase, MongoDB, PostgreSQL, AWS, Azure, Docker, Kubernetes\n- **AI & Systems Architectur",
+      "content": "- **Full-Stack Engineering:** TypeScript, React, Next.js 15, Node.js, Firebase, MongoDB, PostgreSQL, AWS, Azure, Docker, Kubernetes\n- **AI & Systems Architecture:** Multi-agent AI systems, plugin ecosystems, modular microservices, and enterprise-scale automation\n- **Product Leadership:** End-to-end SaaS platform development, go-to-market strategy, team leadership, and thought leadership positioning\n- **Fractional CTO Services:** Technical vision, roadmap planning, investor relations, and organizational scaling\n\n**Notable Ventures:**\n\n- **SubSeat:** AI-enhanced subscription booking platform for beauty services (SaaS, early 2026 launch)\n- **Qirvo:** AI command platform with plugin marketplace and Echo CLI agent for developers\n- **Orchestra-AI:** Commercial certification framework for AI-integrated software delivery lifecycle (U-ASDLC)",
       "embedding": null,
       "metadata": {
         "title": "About Me",
         "skillProgress": [
           {
-            "label": "Leadership",
-            "value": 45
-          },
-          {
-            "label": "Coaching",
-            "value": 5
-          },
-          {
-            "label": "Development",
-            "value": 15
-          },
-          {
-            "label": "Product Strategy",
+            "label": "Team Leadership",
             "value": 35
+          },
+          {
+            "label": "Product & GTM",
+            "value": 30
+          },
+          {
+            "label": "Architecture",
+            "value": 25
+          },
+          {
+            "label": "AI Innovation",
+            "value": 10
+          },
+          {
+            "label": "Total",
+            "value": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "about-3",
+      "slug": "about",
+      "title": "About Me",
+      "excerpt": "I have a proven track record architecting scalable systems, building multi-agent AI workflows, publishing open-source SDKs, and managing investor relations. I e",
+      "content": "I have a proven track record architecting scalable systems, building multi-agent AI workflows, publishing open-source SDKs, and managing investor relations. I excel at leading distributed teams, integrating emerging technologies (AI, IoT, blockchain), and transforming product vision into market-ready solutions.",
+      "embedding": null,
+      "metadata": {
+        "title": "About Me",
+        "skillProgress": [
+          {
+            "label": "Team Leadership",
+            "value": 35
+          },
+          {
+            "label": "Product & GTM",
+            "value": 30
+          },
+          {
+            "label": "Architecture",
+            "value": 25
+          },
+          {
+            "label": "AI Innovation",
+            "value": 10
           },
           {
             "label": "Total",
@@ -728,6 +827,132 @@
       }
     },
     {
+      "id": "blog/ai-governance-for-engineering-teams-1",
+      "slug": "blog/ai-governance-for-engineering-teams",
+      "title": "AI Governance for Engineering Teams, Making Automation Safe and Useful",
+      "excerpt": "# AI Governance for Engineering Teams, Making Automation Safe and Useful\n\nAI is entering delivery systems faster than governance can keep up.\n\nTeams adopt copil",
+      "content": "# AI Governance for Engineering Teams, Making Automation Safe and Useful\n\nAI is entering delivery systems faster than governance can keep up.\n\nTeams adopt copilots, agents, and automation to go faster. Instead, complexity increases. Decisions become unclear. Risk becomes invisible. Delivery becomes more fragile.\n\nUNIVRS installs AI governance so automation strengthens delivery instead of breaking it.\n\n## Why AI Increases Risk Without Governance\n\nAI accelerates whatever system it is placed into.\n\nIn a fragile system it amplifies failure.\n\n### The Common Failure Pattern\n\n```typescript\nconst aiAdoption = {\ntools: [\"copilot\", \"agents\", \"automation\"],\ngovernance: null,\noutcomes: \"fragile\",\n};\n```\n\n## The UNIVRS AI Governance Model\n\nWe treat AI as a delivery system component, not a toy.",
+      "embedding": null,
+      "metadata": {
+        "title": "AI Governance for Engineering Teams, Making Automation Safe and Useful",
+        "slug": "ai-governance-for-engineering-teams",
+        "date": "2026-01-31",
+        "description": "How to introduce AI into complex delivery environments without increasing risk or chaos.",
+        "category": "AI and Delivery",
+        "tags": [
+          "ai governance",
+          "software delivery",
+          "engineering leadership",
+          "automation"
+        ],
+        "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+        "featured": true,
+        "author": "Edward Whitehead, UNIVRS",
+        "metaTitle": "AI Governance for Engineering Teams",
+        "metaDescription": "How to make AI safe, useful, and aligned with delivery outcomes.",
+        "keywords": [
+          "ai governance",
+          "software delivery",
+          "engineering leadership",
+          "automation risk",
+          "delivery stabilisation"
+        ],
+        "ogTitle": "AI Governance for Engineering Teams",
+        "ogDescription": "Make AI safe and useful for complex software delivery.",
+        "ogImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+        "twitterTitle": "AI Governance for Engineering Teams",
+        "twitterDescription": "How to avoid AI chaos and restore delivery confidence.",
+        "twitterImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://univrs.ai/blog/ai-governance-for-engineering-teams",
+        "structuredData": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BlogPosting\",\n  \"headline\": \"AI Governance for Engineering Teams\",\n  \"description\": \"How to introduce AI safely into complex delivery environments.\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Edward Whitehead\",\n    \"url\": \"https://edwardwhitehead.dev\"\n  },\n  \"datePublished\": \"2026-01-31\",\n  \"dateModified\": \"2026-01-31\",\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://edwardwhitehead.dev/blog/ai-governance-for-engineering-teams\"\n  },\n  \"publisher\": {\n    \"@type\": \"Person\",\n    \"name\": \"Edward Whitehead\",\n    \"image\": \"https://images.unsplash.com/photo-1555949963-aa79dcee981c\"\n  },\n  \"articleSection\": \"AI and Delivery\",\n  \"keywords\": [\"ai governance\", \"software delivery\", \"engineering leadership\"]\n}\n"
+      }
+    },
+    {
+      "id": "blog/ai-governance-for-engineering-teams-2",
+      "slug": "blog/ai-governance-for-engineering-teams",
+      "title": "AI Governance for Engineering Teams, Making Automation Safe and Useful",
+      "excerpt": "Ownership is explicit. Decision authority is defined. Risk boundaries are documented. Automation is aligned to delivery outcomes.\n\n### What Good Governance Look",
+      "content": "Ownership is explicit. Decision authority is defined. Risk boundaries are documented. Automation is aligned to delivery outcomes.\n\n### What Good Governance Looks Like\n\n```typescript\nconst aiGovernance = {\nownership: \"named\",\ndecisionAuthority: \"clear\",\nriskBoundaries: \"explicit\",\nusagePolicy: \"simple and enforced\",\noutcomes: \"stable delivery\",\n};\n```\n\nBest Practices\n\nAI in Delivery\n\n- Govern First: Install guardrails before scaling automation.\n- Align to Outcomes: Every AI workflow exists to reduce delivery risk.\n\nEngineering Leadership\n\n- Keep Humans Accountable: AI supports decisions, it does not own them.\n- Make Risk Visible: Automation must surface uncertainty, not hide it.\n\nConclusion\n\nAI becomes powerful when it is governed.\n\nIf automation is adding confusion instead of clarity, your system is asking for stabilisation.",
+      "embedding": null,
+      "metadata": {
+        "title": "AI Governance for Engineering Teams, Making Automation Safe and Useful",
+        "slug": "ai-governance-for-engineering-teams",
+        "date": "2026-01-31",
+        "description": "How to introduce AI into complex delivery environments without increasing risk or chaos.",
+        "category": "AI and Delivery",
+        "tags": [
+          "ai governance",
+          "software delivery",
+          "engineering leadership",
+          "automation"
+        ],
+        "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+        "featured": true,
+        "author": "Edward Whitehead, UNIVRS",
+        "metaTitle": "AI Governance for Engineering Teams",
+        "metaDescription": "How to make AI safe, useful, and aligned with delivery outcomes.",
+        "keywords": [
+          "ai governance",
+          "software delivery",
+          "engineering leadership",
+          "automation risk",
+          "delivery stabilisation"
+        ],
+        "ogTitle": "AI Governance for Engineering Teams",
+        "ogDescription": "Make AI safe and useful for complex software delivery.",
+        "ogImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+        "twitterTitle": "AI Governance for Engineering Teams",
+        "twitterDescription": "How to avoid AI chaos and restore delivery confidence.",
+        "twitterImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://univrs.ai/blog/ai-governance-for-engineering-teams",
+        "structuredData": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BlogPosting\",\n  \"headline\": \"AI Governance for Engineering Teams\",\n  \"description\": \"How to introduce AI safely into complex delivery environments.\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Edward Whitehead\",\n    \"url\": \"https://edwardwhitehead.dev\"\n  },\n  \"datePublished\": \"2026-01-31\",\n  \"dateModified\": \"2026-01-31\",\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://edwardwhitehead.dev/blog/ai-governance-for-engineering-teams\"\n  },\n  \"publisher\": {\n    \"@type\": \"Person\",\n    \"name\": \"Edward Whitehead\",\n    \"image\": \"https://images.unsplash.com/photo-1555949963-aa79dcee981c\"\n  },\n  \"articleSection\": \"AI and Delivery\",\n  \"keywords\": [\"ai governance\", \"software delivery\", \"engineering leadership\"]\n}\n"
+      }
+    },
+    {
+      "id": "blog/ai-governance-for-engineering-teams-3",
+      "slug": "blog/ai-governance-for-engineering-teams",
+      "title": "AI Governance for Engineering Teams, Making Automation Safe and Useful",
+      "excerpt": "Book a stabilisation call and we will design your AI governance model together.",
+      "content": "Book a stabilisation call and we will design your AI governance model together.",
+      "embedding": null,
+      "metadata": {
+        "title": "AI Governance for Engineering Teams, Making Automation Safe and Useful",
+        "slug": "ai-governance-for-engineering-teams",
+        "date": "2026-01-31",
+        "description": "How to introduce AI into complex delivery environments without increasing risk or chaos.",
+        "category": "AI and Delivery",
+        "tags": [
+          "ai governance",
+          "software delivery",
+          "engineering leadership",
+          "automation"
+        ],
+        "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+        "featured": true,
+        "author": "Edward Whitehead, UNIVRS",
+        "metaTitle": "AI Governance for Engineering Teams",
+        "metaDescription": "How to make AI safe, useful, and aligned with delivery outcomes.",
+        "keywords": [
+          "ai governance",
+          "software delivery",
+          "engineering leadership",
+          "automation risk",
+          "delivery stabilisation"
+        ],
+        "ogTitle": "AI Governance for Engineering Teams",
+        "ogDescription": "Make AI safe and useful for complex software delivery.",
+        "ogImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+        "twitterTitle": "AI Governance for Engineering Teams",
+        "twitterDescription": "How to avoid AI chaos and restore delivery confidence.",
+        "twitterImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://univrs.ai/blog/ai-governance-for-engineering-teams",
+        "structuredData": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BlogPosting\",\n  \"headline\": \"AI Governance for Engineering Teams\",\n  \"description\": \"How to introduce AI safely into complex delivery environments.\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Edward Whitehead\",\n    \"url\": \"https://edwardwhitehead.dev\"\n  },\n  \"datePublished\": \"2026-01-31\",\n  \"dateModified\": \"2026-01-31\",\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://edwardwhitehead.dev/blog/ai-governance-for-engineering-teams\"\n  },\n  \"publisher\": {\n    \"@type\": \"Person\",\n    \"name\": \"Edward Whitehead\",\n    \"image\": \"https://images.unsplash.com/photo-1555949963-aa79dcee981c\"\n  },\n  \"articleSection\": \"AI and Delivery\",\n  \"keywords\": [\"ai governance\", \"software delivery\", \"engineering leadership\"]\n}\n"
+      }
+    },
+    {
       "id": "blog/ai-native-software-delivery-systems-1",
       "slug": "blog/ai-native-software-delivery-systems",
       "title": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control",
@@ -749,7 +974,7 @@
           "U-ASDLC"
         ],
         "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control | Edward Whitehead",
         "metaDescription": "Learn how to design AI-native software delivery systems that scale responsibly. A senior guide to AI augmentation, system clarity, and sustainable engineering.",
@@ -770,35 +995,7 @@
         "twitterImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
         "twitterCard": "summary_large_image",
         "canonicalUrl": "https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems",
-        "structuredData": {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control",
-          "description": "A practical guide to AI-native software delivery focused on clarity, accountability, and long-term system health.",
-          "author": {
-            "@type": "Person",
-            "name": "Edward Whitehead",
-            "url": "https://edwardwhitehead.dev"
-          },
-          "datePublished": "2026-01-02",
-          "dateModified": "2026-01-02",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems"
-          },
-          "publisher": {
-            "@type": "Person",
-            "name": "Edward Whitehead"
-          },
-          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-          "articleSection": "Software Architecture",
-          "keywords": [
-            "AI-Native",
-            "Software Delivery",
-            "Systems Architecture",
-            "Engineering Leadership"
-          ]
-        }
+        "structuredData": "{\n\"@context\": \"https://schema.org\"\n\"@type\": \"BlogPosting\"\n\"headline\": \"AI-Native Software Delivery: Designing Systems That Scale Without Losing Control\"\n\"description\": \"A practical guide to AI-native software delivery focused on clarity, accountability, and long-term system health.\"\n\"author\":\n  \"@type\": \"Person\"\n  \"name\": \"Edward Whitehead\"\n  \"url\": \"https://edwardwhitehead.dev\"\n\"datePublished\": \"2026-01-02\"\n\"dateModified\": \"2026-01-02\"\n\"mainEntityOfPage\":\n  \"@type\": \"WebPage\"\n  \"@id\": \"https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems\"\n\"publisher\":\n  \"@type\": \"Person\"\n  \"name\": \"Edward Whitehead\"\n\"image\": \"https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80\"\n\"articleSection\": \"Software Architecture\"\n\"keywords\": [\"AI-Native\", \"Software Delivery\", \"Systems Architecture\", \"Engineering Leadership\"]\n}\n"
       }
     },
     {
@@ -823,7 +1020,7 @@
           "U-ASDLC"
         ],
         "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control | Edward Whitehead",
         "metaDescription": "Learn how to design AI-native software delivery systems that scale responsibly. A senior guide to AI augmentation, system clarity, and sustainable engineering.",
@@ -844,35 +1041,7 @@
         "twitterImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
         "twitterCard": "summary_large_image",
         "canonicalUrl": "https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems",
-        "structuredData": {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control",
-          "description": "A practical guide to AI-native software delivery focused on clarity, accountability, and long-term system health.",
-          "author": {
-            "@type": "Person",
-            "name": "Edward Whitehead",
-            "url": "https://edwardwhitehead.dev"
-          },
-          "datePublished": "2026-01-02",
-          "dateModified": "2026-01-02",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems"
-          },
-          "publisher": {
-            "@type": "Person",
-            "name": "Edward Whitehead"
-          },
-          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-          "articleSection": "Software Architecture",
-          "keywords": [
-            "AI-Native",
-            "Software Delivery",
-            "Systems Architecture",
-            "Engineering Leadership"
-          ]
-        }
+        "structuredData": "{\n\"@context\": \"https://schema.org\"\n\"@type\": \"BlogPosting\"\n\"headline\": \"AI-Native Software Delivery: Designing Systems That Scale Without Losing Control\"\n\"description\": \"A practical guide to AI-native software delivery focused on clarity, accountability, and long-term system health.\"\n\"author\":\n  \"@type\": \"Person\"\n  \"name\": \"Edward Whitehead\"\n  \"url\": \"https://edwardwhitehead.dev\"\n\"datePublished\": \"2026-01-02\"\n\"dateModified\": \"2026-01-02\"\n\"mainEntityOfPage\":\n  \"@type\": \"WebPage\"\n  \"@id\": \"https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems\"\n\"publisher\":\n  \"@type\": \"Person\"\n  \"name\": \"Edward Whitehead\"\n\"image\": \"https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80\"\n\"articleSection\": \"Software Architecture\"\n\"keywords\": [\"AI-Native\", \"Software Delivery\", \"Systems Architecture\", \"Engineering Leadership\"]\n}\n"
       }
     },
     {
@@ -897,7 +1066,7 @@
           "U-ASDLC"
         ],
         "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control | Edward Whitehead",
         "metaDescription": "Learn how to design AI-native software delivery systems that scale responsibly. A senior guide to AI augmentation, system clarity, and sustainable engineering.",
@@ -918,35 +1087,7 @@
         "twitterImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
         "twitterCard": "summary_large_image",
         "canonicalUrl": "https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems",
-        "structuredData": {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "AI-Native Software Delivery: Designing Systems That Scale Without Losing Control",
-          "description": "A practical guide to AI-native software delivery focused on clarity, accountability, and long-term system health.",
-          "author": {
-            "@type": "Person",
-            "name": "Edward Whitehead",
-            "url": "https://edwardwhitehead.dev"
-          },
-          "datePublished": "2026-01-02",
-          "dateModified": "2026-01-02",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems"
-          },
-          "publisher": {
-            "@type": "Person",
-            "name": "Edward Whitehead"
-          },
-          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-          "articleSection": "Software Architecture",
-          "keywords": [
-            "AI-Native",
-            "Software Delivery",
-            "Systems Architecture",
-            "Engineering Leadership"
-          ]
-        }
+        "structuredData": "{\n\"@context\": \"https://schema.org\"\n\"@type\": \"BlogPosting\"\n\"headline\": \"AI-Native Software Delivery: Designing Systems That Scale Without Losing Control\"\n\"description\": \"A practical guide to AI-native software delivery focused on clarity, accountability, and long-term system health.\"\n\"author\":\n  \"@type\": \"Person\"\n  \"name\": \"Edward Whitehead\"\n  \"url\": \"https://edwardwhitehead.dev\"\n\"datePublished\": \"2026-01-02\"\n\"dateModified\": \"2026-01-02\"\n\"mainEntityOfPage\":\n  \"@type\": \"WebPage\"\n  \"@id\": \"https://edwardwhitehead.dev/blog/ai-native-software-delivery-systems\"\n\"publisher\":\n  \"@type\": \"Person\"\n  \"name\": \"Edward Whitehead\"\n\"image\": \"https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80\"\n\"articleSection\": \"Software Architecture\"\n\"keywords\": [\"AI-Native\", \"Software Delivery\", \"Systems Architecture\", \"Engineering Leadership\"]\n}\n"
       }
     },
     {
@@ -2476,7 +2617,7 @@
           "Personal Development"
         ],
         "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Building Viola: Wellbeing App for Gratitude & Mindset | Edward Whitehead",
         "metaDescription": "Viola, a wellbeing app for daily gratitude journaling, motivational quotes, and mindful tracking, and more—designed to help you improve your mindset in 10 minutes a day.",
@@ -2552,7 +2693,7 @@
           "Personal Development"
         ],
         "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Building Viola: Wellbeing App for Gratitude & Mindset | Edward Whitehead",
         "metaDescription": "Viola, a wellbeing app for daily gratitude journaling, motivational quotes, and mindful tracking, and more—designed to help you improve your mindset in 10 minutes a day.",
@@ -2628,7 +2769,7 @@
           "Personal Development"
         ],
         "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Building Viola: Wellbeing App for Gratitude & Mindset | Edward Whitehead",
         "metaDescription": "Viola, a wellbeing app for daily gratitude journaling, motivational quotes, and mindful tracking, and more—designed to help you improve your mindset in 10 minutes a day.",
@@ -2704,7 +2845,7 @@
           "Personal Development"
         ],
         "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80",
-        "featured": true,
+        "featured": false,
         "author": "Edward Whitehead",
         "metaTitle": "Building Viola: Wellbeing App for Gratitude & Mindset | Edward Whitehead",
         "metaDescription": "Viola, a wellbeing app for daily gratitude journaling, motivational quotes, and mindful tracking, and more—designed to help you improve your mindset in 10 minutes a day.",
@@ -3654,6 +3795,144 @@
             "Scalable Databases",
             "SQL Patterns",
             "NoSQL Design"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/decision-clarity-the-hidden-engine-of-stable-delivery-1",
+      "slug": "blog/decision-clarity-the-hidden-engine-of-stable-delivery",
+      "title": "Decision Clarity, The Hidden Engine of Stable Delivery",
+      "excerpt": "# Decision Clarity, The Hidden Engine of Stable Delivery\n\nDelivery fails when decisions are unclear.\n\nNot because engineers lack skill. Not because tools are wr",
+      "content": "# Decision Clarity, The Hidden Engine of Stable Delivery\n\nDelivery fails when decisions are unclear.\n\nNot because engineers lack skill. Not because tools are wrong. But because authority, ownership, and risk boundaries are undefined.\n\nUNIVRS stabilises delivery by restoring decision clarity.\n\n## Why Decisions Break Delivery\n\nWhen decisions are ambiguous, teams stall or rush.\n\nBoth create fragility.\n\n### The Failure Pattern\n\n```typescript\nconst delivery = {\n  decisions: 'implicit',\n  ownership: 'blurred',\n  risk: 'invisible',\n  outcomes: 'fragile'\n};\n```\n\n## How Structured Decision Flow Restores Confidence\n\nWe install a simple, explicit decision model.\n\nWho decides. What requires escalation. How risk is evaluated. When AI is allowed to act.\n\n### The Stabilised Model\n\n```typescript\nconst delivery = {\n  decisions: 'explicit',\n  ownership: 'clear',\n  risk: 'visible',\n  outcomes: 'stable'\n};",
+      "embedding": null,
+      "metadata": {
+        "title": "Decision Clarity, The Hidden Engine of Stable Delivery",
+        "slug": "decision-clarity-the-hidden-engine-of-stable-delivery",
+        "date": "2026-02-07",
+        "description": "How unclear decisions destroy delivery and how structured decision flow restores confidence and speed.",
+        "category": "Engineering Leadership",
+        "tags": [
+          "decision making",
+          "engineering leadership",
+          "delivery governance",
+          "software strategy"
+        ],
+        "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+        "featured": false,
+        "author": "Edward Whitehead, UNIVRS",
+        "metaTitle": "Decision Clarity for Stable Software Delivery",
+        "metaDescription": "How structured decision flow stabilises complex engineering teams.",
+        "keywords": [
+          "decision clarity",
+          "delivery governance",
+          "engineering leadership",
+          "software strategy",
+          "stability"
+        ],
+        "ogTitle": "Decision Clarity for Stable Delivery",
+        "ogDescription": "How unclear decisions destroy delivery and how clarity restores confidence.",
+        "ogImage": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+        "twitterTitle": "Decision Clarity for Stable Delivery",
+        "twitterDescription": "Why delivery fails when decisions are unclear.",
+        "twitterImage": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/decision-clarity-the-hidden-engine-of-stable-delivery",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Decision Clarity, The Hidden Engine of Stable Delivery",
+          "description": "How structured decision flow stabilises complex engineering teams.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead on behalf of UNIVRS",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2026-01-19",
+          "dateModified": "2026-01-19",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/decision-clarity-the-hidden-engine-of-stable-delivery"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+          "articleSection": "Engineering Leadership",
+          "keywords": [
+            "decision clarity",
+            "delivery governance",
+            "engineering leadership"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blog/decision-clarity-the-hidden-engine-of-stable-delivery-2",
+      "slug": "blog/decision-clarity-the-hidden-engine-of-stable-delivery",
+      "title": "Decision Clarity, The Hidden Engine of Stable Delivery",
+      "excerpt": "```\n\nBest Practices\n\nDecision Governance\n\n- Name Owners: Every critical decision has a single accountable owner.\n- Define Boundaries: Teams know when to act and",
+      "content": "```\n\nBest Practices\n\nDecision Governance\n\n- Name Owners: Every critical decision has a single accountable owner.\n- Define Boundaries: Teams know when to act and when to escalate.\n\nEngineering Leadership\n\n- Reduce Cognitive Load: Clarity frees engineers to focus on building.\n- Protect Delivery: Decisions exist to make change safe.\n\nConclusion\n\nClarity is the engine of stability.\n\nIf your team feels busy but fragile, the system is asking for decision clarity.\n\nBook a stabilisation call and we will restore it together.",
+      "embedding": null,
+      "metadata": {
+        "title": "Decision Clarity, The Hidden Engine of Stable Delivery",
+        "slug": "decision-clarity-the-hidden-engine-of-stable-delivery",
+        "date": "2026-02-07",
+        "description": "How unclear decisions destroy delivery and how structured decision flow restores confidence and speed.",
+        "category": "Engineering Leadership",
+        "tags": [
+          "decision making",
+          "engineering leadership",
+          "delivery governance",
+          "software strategy"
+        ],
+        "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+        "featured": false,
+        "author": "Edward Whitehead, UNIVRS",
+        "metaTitle": "Decision Clarity for Stable Software Delivery",
+        "metaDescription": "How structured decision flow stabilises complex engineering teams.",
+        "keywords": [
+          "decision clarity",
+          "delivery governance",
+          "engineering leadership",
+          "software strategy",
+          "stability"
+        ],
+        "ogTitle": "Decision Clarity for Stable Delivery",
+        "ogDescription": "How unclear decisions destroy delivery and how clarity restores confidence.",
+        "ogImage": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+        "twitterTitle": "Decision Clarity for Stable Delivery",
+        "twitterDescription": "Why delivery fails when decisions are unclear.",
+        "twitterImage": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/decision-clarity-the-hidden-engine-of-stable-delivery",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Decision Clarity, The Hidden Engine of Stable Delivery",
+          "description": "How structured decision flow stabilises complex engineering teams.",
+          "author": {
+            "@type": "Person",
+            "name": "Edward Whitehead on behalf of UNIVRS",
+            "url": "https://edwardwhitehead.dev"
+          },
+          "datePublished": "2026-01-19",
+          "dateModified": "2026-01-19",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://edwardwhitehead.dev/blog/decision-clarity-the-hidden-engine-of-stable-delivery"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Edward Whitehead"
+          },
+          "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+          "articleSection": "Engineering Leadership",
+          "keywords": [
+            "decision clarity",
+            "delivery governance",
+            "engineering leadership"
           ]
         }
       }
@@ -4689,6 +4968,132 @@
             "Backend Development"
           ]
         }
+      }
+    },
+    {
+      "id": "blog/legacy-rescue-is-a-system-problem-not-a-refactor-1",
+      "slug": "blog/legacy-rescue-is-a-system-problem-not-a-refactor",
+      "title": "Legacy Rescue Is a Systems Problem, Not a Refactor",
+      "excerpt": "# Legacy Rescue Is a Systems Problem, Not a Refactor\n\nMost legacy rescues fail before the first line of code is changed.\n\nTeams rush into migrations, rewrites, ",
+      "content": "# Legacy Rescue Is a Systems Problem, Not a Refactor\n\nMost legacy rescues fail before the first line of code is changed.\n\nTeams rush into migrations, rewrites, and refactors without understanding why delivery is failing. The result is a bigger, more expensive version of the same fragile system.\n\nUNIVRS rescues legacy systems by stabilising the delivery system first.\n\n## Why Refactors Fail\n\nRefactors fail because they treat symptoms.\n\nBuild failures, runtime errors, and security gaps are signals of deeper systemic issues. Unclear ownership, broken decision flow, and invisible risk create an environment where any change is dangerous.\n\n### The Real Problem Behind Legacy Code\n\nLegacy code is rarely the root cause. It is the evidence.\n\n```typescript\n// What teams try to fix\nconst problem = 'legacy code';",
+      "embedding": null,
+      "metadata": {
+        "title": "Legacy Rescue Is a Systems Problem, Not a Refactor",
+        "slug": "legacy-rescue-is-a-system-problem-not-a-refactor",
+        "date": "2026-01-24",
+        "description": "Why most legacy rescues fail and how a systems approach stabilises complex software delivery.",
+        "category": "Legacy Stabilisation",
+        "tags": [
+          "legacy systems",
+          "technical debt",
+          "software rescue",
+          "delivery stabilisation"
+        ],
+        "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+        "featured": false,
+        "author": "Edward Whitehead, UNIVRS",
+        "metaTitle": "Legacy Rescue Is a Systems Problem",
+        "metaDescription": "Why legacy rescues fail and how a systems approach stabilises complex delivery.",
+        "keywords": [
+          "legacy code rescue",
+          "technical debt",
+          "software stabilisation",
+          "delivery governance",
+          "migration risk"
+        ],
+        "ogTitle": "Legacy Rescue Is a Systems Problem",
+        "ogDescription": "Most legacy rescues fail because they treat symptoms, not systems.",
+        "ogImage": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+        "twitterTitle": "Legacy Rescue Is a Systems Problem",
+        "twitterDescription": "Why refactors fail and how stabilisation actually works.",
+        "twitterImage": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/legacy-rescue-is-a-system-problem-not-a-refactor",
+        "structuredData": "{\n\"@context\": \"https://schema.org\"\n\"@type\": \"BlogPosting\"\n\"headline\": \"Legacy Rescue Is a Systems Problem\"\n\"description\": \"Why most legacy rescues fail and how a systems approach stabilises delivery.\"\n\"author\":\n  \"@type\": \"Person\"\n  \"name\": \"Edward Whitehead\"\n  \"url\": \"https://edwardwhitehead.dev/\"\n\"datePublished\": \"2026-01-24\"\n\"dateModified\": \"2026-01-24\"\n\"mainEntityOfPage\":\n  \"@type\": \"WebPage\"\n  \"@id\": \"https://edwardwhitehead.dev/blog/legacy-rescue-is-a-system-problem-not-a-refactor\"\n\"publisher\":\n  \"@type\": \"Person\"\n  \"name\": \"Edward Whitehead\"\n\"image\": \"https://images.unsplash.com/photo-1518779578993-ec3579fee39f\"\n\"articleSection\": \"Legacy Stabilisation\"\n\"keywords\": ['legacy systems', 'technical debt', 'software rescue']\n}\n"
+      }
+    },
+    {
+      "id": "blog/legacy-rescue-is-a-system-problem-not-a-refactor-2",
+      "slug": "blog/legacy-rescue-is-a-system-problem-not-a-refactor",
+      "title": "Legacy Rescue Is a Systems Problem, Not a Refactor",
+      "excerpt": "// What actually breaks delivery\nconst system = {\nownership: 'unclear',\ndecisions: 'bottlenecked',\nrisk: 'invisible',\nai: 'ungoverned'\n};\n\n```\n\n## The UNIVRS Le",
+      "content": "// What actually breaks delivery\nconst system = {\nownership: 'unclear',\ndecisions: 'bottlenecked',\nrisk: 'invisible',\nai: 'ungoverned'\n};\n\n```\n\n## The UNIVRS Legacy Rescue Model\n\nWe stabilise before we modernise.\n\nFirst we map the system. Then we restore decision clarity. Then we make risk visible. Only then do we change the code that matters.\n\n### What Changes First\n\nDelivery becomes calm.\n\nOwnership is explicit. The roadmap is realistic. AI is governed. Engineers stop firefighting and start building.\n\n```typescript\n// After stabilisation\nconst system = {\nownership: 'explicit',\ndecisions: 'clear',\nrisk: 'managed',\nai: 'useful and safe'\n};\n\n```\n\nBest Practices\n\nLegacy Stabilisation\n\n- Diagnose First: Map failure patterns before planning migrations.\n\n- Govern AI: Install guardrails so automation reduces risk instead of amplifying it.\n\nModernisation",
+      "embedding": null,
+      "metadata": {
+        "title": "Legacy Rescue Is a Systems Problem, Not a Refactor",
+        "slug": "legacy-rescue-is-a-system-problem-not-a-refactor",
+        "date": "2026-01-24",
+        "description": "Why most legacy rescues fail and how a systems approach stabilises complex software delivery.",
+        "category": "Legacy Stabilisation",
+        "tags": [
+          "legacy systems",
+          "technical debt",
+          "software rescue",
+          "delivery stabilisation"
+        ],
+        "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+        "featured": false,
+        "author": "Edward Whitehead, UNIVRS",
+        "metaTitle": "Legacy Rescue Is a Systems Problem",
+        "metaDescription": "Why legacy rescues fail and how a systems approach stabilises complex delivery.",
+        "keywords": [
+          "legacy code rescue",
+          "technical debt",
+          "software stabilisation",
+          "delivery governance",
+          "migration risk"
+        ],
+        "ogTitle": "Legacy Rescue Is a Systems Problem",
+        "ogDescription": "Most legacy rescues fail because they treat symptoms, not systems.",
+        "ogImage": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+        "twitterTitle": "Legacy Rescue Is a Systems Problem",
+        "twitterDescription": "Why refactors fail and how stabilisation actually works.",
+        "twitterImage": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/legacy-rescue-is-a-system-problem-not-a-refactor",
+        "structuredData": "{\n\"@context\": \"https://schema.org\"\n\"@type\": \"BlogPosting\"\n\"headline\": \"Legacy Rescue Is a Systems Problem\"\n\"description\": \"Why most legacy rescues fail and how a systems approach stabilises delivery.\"\n\"author\":\n  \"@type\": \"Person\"\n  \"name\": \"Edward Whitehead\"\n  \"url\": \"https://edwardwhitehead.dev/\"\n\"datePublished\": \"2026-01-24\"\n\"dateModified\": \"2026-01-24\"\n\"mainEntityOfPage\":\n  \"@type\": \"WebPage\"\n  \"@id\": \"https://edwardwhitehead.dev/blog/legacy-rescue-is-a-system-problem-not-a-refactor\"\n\"publisher\":\n  \"@type\": \"Person\"\n  \"name\": \"Edward Whitehead\"\n\"image\": \"https://images.unsplash.com/photo-1518779578993-ec3579fee39f\"\n\"articleSection\": \"Legacy Stabilisation\"\n\"keywords\": ['legacy systems', 'technical debt', 'software rescue']\n}\n"
+      }
+    },
+    {
+      "id": "blog/legacy-rescue-is-a-system-problem-not-a-refactor-3",
+      "slug": "blog/legacy-rescue-is-a-system-problem-not-a-refactor",
+      "title": "Legacy Rescue Is a Systems Problem, Not a Refactor",
+      "excerpt": "- Incremental Change: Small, safe steps beat heroic rewrites.\n\n- Risk Visibility: Every change is justified by explicit delivery risk reduction.\n\nConclusion\n\nLe",
+      "content": "- Incremental Change: Small, safe steps beat heroic rewrites.\n\n- Risk Visibility: Every change is justified by explicit delivery risk reduction.\n\nConclusion\n\nLegacy rescue succeeds when the system becomes stable.\n\nIf your codebase feels dangerous to touch, the problem is not the code. It is the delivery system around it.\n\nBook a stabilisation call and we will diagnose it together.",
+      "embedding": null,
+      "metadata": {
+        "title": "Legacy Rescue Is a Systems Problem, Not a Refactor",
+        "slug": "legacy-rescue-is-a-system-problem-not-a-refactor",
+        "date": "2026-01-24",
+        "description": "Why most legacy rescues fail and how a systems approach stabilises complex software delivery.",
+        "category": "Legacy Stabilisation",
+        "tags": [
+          "legacy systems",
+          "technical debt",
+          "software rescue",
+          "delivery stabilisation"
+        ],
+        "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+        "featured": false,
+        "author": "Edward Whitehead, UNIVRS",
+        "metaTitle": "Legacy Rescue Is a Systems Problem",
+        "metaDescription": "Why legacy rescues fail and how a systems approach stabilises complex delivery.",
+        "keywords": [
+          "legacy code rescue",
+          "technical debt",
+          "software stabilisation",
+          "delivery governance",
+          "migration risk"
+        ],
+        "ogTitle": "Legacy Rescue Is a Systems Problem",
+        "ogDescription": "Most legacy rescues fail because they treat symptoms, not systems.",
+        "ogImage": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+        "twitterTitle": "Legacy Rescue Is a Systems Problem",
+        "twitterDescription": "Why refactors fail and how stabilisation actually works.",
+        "twitterImage": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/legacy-rescue-is-a-system-problem-not-a-refactor",
+        "structuredData": "{\n\"@context\": \"https://schema.org\"\n\"@type\": \"BlogPosting\"\n\"headline\": \"Legacy Rescue Is a Systems Problem\"\n\"description\": \"Why most legacy rescues fail and how a systems approach stabilises delivery.\"\n\"author\":\n  \"@type\": \"Person\"\n  \"name\": \"Edward Whitehead\"\n  \"url\": \"https://edwardwhitehead.dev/\"\n\"datePublished\": \"2026-01-24\"\n\"dateModified\": \"2026-01-24\"\n\"mainEntityOfPage\":\n  \"@type\": \"WebPage\"\n  \"@id\": \"https://edwardwhitehead.dev/blog/legacy-rescue-is-a-system-problem-not-a-refactor\"\n\"publisher\":\n  \"@type\": \"Person\"\n  \"name\": \"Edward Whitehead\"\n\"image\": \"https://images.unsplash.com/photo-1518779578993-ec3579fee39f\"\n\"articleSection\": \"Legacy Stabilisation\"\n\"keywords\": ['legacy systems', 'technical debt', 'software rescue']\n}\n"
       }
     },
     {
@@ -9080,6 +9485,326 @@
       }
     },
     {
+      "id": "blog/self-taught-software-engineer-imposter-syndrome-1",
+      "slug": "blog/self-taught-software-engineer-imposter-syndrome",
+      "title": "I Am a Self-Taught Software Engineer — And That Is Not a Weakness",
+      "excerpt": "# I Am a Self-Taught Software Engineer — And That Is Not a Weakness\n\nI recently walked out of a technical interview early.\n\nNot because I lacked experience.\nNot",
+      "content": "# I Am a Self-Taught Software Engineer — And That Is Not a Weakness\n\nI recently walked out of a technical interview early.\n\nNot because I lacked experience.\nNot because I lied on my CV.\nBut because something familiar surfaced — the quiet, corrosive belief that maybe I don’t belong here at all.\n\nI’ve spent my entire career as a **self-taught software engineer**.\nNo formal degree.\nNo prestigious institution.\nJust years of building, breaking, fixing, shipping, and carrying responsibility for real systems used by real people.\n\nAnd yet, in interviews, that story often collapses into doubt.\n\n## The Unspoken Bias in Technical Interviews\n\nMany interviews reward **recall**, not **competence**.\n\n- Trivia over judgment\n- Perfect articulation over lived experience\n- Clean answers over battle-tested intuition",
+      "embedding": null,
+      "metadata": {
+        "title": "I Am a Self-Taught Software Engineer — And That Is Not a Weakness",
+        "slug": "self-taught-software-engineer-imposter-syndrome",
+        "date": "2026-01-14",
+        "description": "A candid reflection on impostor syndrome, self-taught engineering, and why building real systems matters more than perfect interviews.",
+        "category": "Career",
+        "tags": [
+          "Software Engineering",
+          "Imposter Syndrome",
+          "Self-Taught",
+          "Careers",
+          "Tech Interviews"
+        ],
+        "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Self-Taught Software Engineer and Impostor Syndrome | Edward Whitehead",
+        "metaDescription": "A senior software engineer reflects on impostor syndrome, interviews, and the reality of building software without formal education.",
+        "keywords": [
+          "Self-taught software engineer",
+          "Imposter syndrome tech",
+          "Software engineering interviews",
+          "Senior developer experience"
+        ],
+        "ogTitle": "I Am a Self-Taught Software Engineer — And That Is Not a Weakness",
+        "ogDescription": "A candid reflection on impostor syndrome, self-taught engineering, and why building real systems matters more than perfect interviews.",
+        "ogImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=720&q=80",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/self-taught-software-engineer-imposter-syndrome"
+      }
+    },
+    {
+      "id": "blog/self-taught-software-engineer-imposter-syndrome-2",
+      "slug": "blog/self-taught-software-engineer-imposter-syndrome",
+      "title": "I Am a Self-Taught Software Engineer — And That Is Not a Weakness",
+      "excerpt": "Self-taught engineers often don’t think in textbook phrasing.\nWe think in **systems**, **trade-offs**, **failure modes**, and **recovery paths**.\n\nThat doesn’t ",
+      "content": "Self-taught engineers often don’t think in textbook phrasing.\nWe think in **systems**, **trade-offs**, **failure modes**, and **recovery paths**.\n\nThat doesn’t always translate under pressure — especially when the room expects a specific vocabulary instead of a working mind.\n\n## Using Search Engines and AI Is Not Cheating\n\nI’ve used search engines my entire career.\nNow I use AI.\n\nSo does every competent engineer I know.\n\nModern software engineering is not about memorization.\nIt is about:\n\n- Knowing **what** to look for\n- Understanding **why** a solution works\n- Recognizing **when** it will fail\n- And owning the outcome when it does\n\nTools don’t replace skill.\nThey amplify it.\n\n## Why This Feels Like Failure (But Isn’t)\n\nWhen you’re self-taught, every setback feels existential.\n\nIf you fail an interview, it’s easy to think:\n> “This proves I was never good enough.”",
+      "embedding": null,
+      "metadata": {
+        "title": "I Am a Self-Taught Software Engineer — And That Is Not a Weakness",
+        "slug": "self-taught-software-engineer-imposter-syndrome",
+        "date": "2026-01-14",
+        "description": "A candid reflection on impostor syndrome, self-taught engineering, and why building real systems matters more than perfect interviews.",
+        "category": "Career",
+        "tags": [
+          "Software Engineering",
+          "Imposter Syndrome",
+          "Self-Taught",
+          "Careers",
+          "Tech Interviews"
+        ],
+        "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Self-Taught Software Engineer and Impostor Syndrome | Edward Whitehead",
+        "metaDescription": "A senior software engineer reflects on impostor syndrome, interviews, and the reality of building software without formal education.",
+        "keywords": [
+          "Self-taught software engineer",
+          "Imposter syndrome tech",
+          "Software engineering interviews",
+          "Senior developer experience"
+        ],
+        "ogTitle": "I Am a Self-Taught Software Engineer — And That Is Not a Weakness",
+        "ogDescription": "A candid reflection on impostor syndrome, self-taught engineering, and why building real systems matters more than perfect interviews.",
+        "ogImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=720&q=80",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/self-taught-software-engineer-imposter-syndrome"
+      }
+    },
+    {
+      "id": "blog/self-taught-software-engineer-imposter-syndrome-3",
+      "slug": "blog/self-taught-software-engineer-imposter-syndrome",
+      "title": "I Am a Self-Taught Software Engineer — And That Is Not a Weakness",
+      "excerpt": "If a startup doesn’t work:\n> “This confirms I’m a fraud.”\n\nBut here’s the uncomfortable truth:\n**Impostors don’t survive in production environments for years.**",
+      "content": "If a startup doesn’t work:\n> “This confirms I’m a fraud.”\n\nBut here’s the uncomfortable truth:\n**Impostors don’t survive in production environments for years.**\n\nThey don’t lead teams.\nThey don’t ship systems.\nThey don’t fix outages at 2am.\nThey don’t accumulate scar tissue.\n\nPeople who *don’t belong* don’t last this long.\n\n## What I’m Learning (Slowly)\n\n- Interviews are a narrow lens — not a verdict\n- Self-taught does not mean underqualified\n- Depth is often invisible until it’s needed\n- Building real things matters more than performing well\n\nAnd perhaps most importantly:\nWalking away from environments that trigger shame is not weakness.\nIt is self-respect.\n\n## If You’re Reading This and Feeling the Same\n\nYou’re not alone.\nYou’re not late.\nYou’re not a fraud.\n\nYou’re someone who learned by doing — and that kind of knowledge runs deep, even when it’s hard to explain under a spotlight.",
+      "embedding": null,
+      "metadata": {
+        "title": "I Am a Self-Taught Software Engineer — And That Is Not a Weakness",
+        "slug": "self-taught-software-engineer-imposter-syndrome",
+        "date": "2026-01-14",
+        "description": "A candid reflection on impostor syndrome, self-taught engineering, and why building real systems matters more than perfect interviews.",
+        "category": "Career",
+        "tags": [
+          "Software Engineering",
+          "Imposter Syndrome",
+          "Self-Taught",
+          "Careers",
+          "Tech Interviews"
+        ],
+        "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Self-Taught Software Engineer and Impostor Syndrome | Edward Whitehead",
+        "metaDescription": "A senior software engineer reflects on impostor syndrome, interviews, and the reality of building software without formal education.",
+        "keywords": [
+          "Self-taught software engineer",
+          "Imposter syndrome tech",
+          "Software engineering interviews",
+          "Senior developer experience"
+        ],
+        "ogTitle": "I Am a Self-Taught Software Engineer — And That Is Not a Weakness",
+        "ogDescription": "A candid reflection on impostor syndrome, self-taught engineering, and why building real systems matters more than perfect interviews.",
+        "ogImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=720&q=80",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/self-taught-software-engineer-imposter-syndrome"
+      }
+    },
+    {
+      "id": "blog/self-taught-software-engineer-imposter-syndrome-4",
+      "slug": "blog/self-taught-software-engineer-imposter-syndrome",
+      "title": "I Am a Self-Taught Software Engineer — And That Is Not a Weakness",
+      "excerpt": "I’m still here.\nStill building.\nStill learning.\n\nAnd that, quietly, is the opposite of failure.",
+      "content": "I’m still here.\nStill building.\nStill learning.\n\nAnd that, quietly, is the opposite of failure.",
+      "embedding": null,
+      "metadata": {
+        "title": "I Am a Self-Taught Software Engineer — And That Is Not a Weakness",
+        "slug": "self-taught-software-engineer-imposter-syndrome",
+        "date": "2026-01-14",
+        "description": "A candid reflection on impostor syndrome, self-taught engineering, and why building real systems matters more than perfect interviews.",
+        "category": "Career",
+        "tags": [
+          "Software Engineering",
+          "Imposter Syndrome",
+          "Self-Taught",
+          "Careers",
+          "Tech Interviews"
+        ],
+        "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=720&q=80",
+        "featured": true,
+        "author": "Edward Whitehead",
+        "metaTitle": "Self-Taught Software Engineer and Impostor Syndrome | Edward Whitehead",
+        "metaDescription": "A senior software engineer reflects on impostor syndrome, interviews, and the reality of building software without formal education.",
+        "keywords": [
+          "Self-taught software engineer",
+          "Imposter syndrome tech",
+          "Software engineering interviews",
+          "Senior developer experience"
+        ],
+        "ogTitle": "I Am a Self-Taught Software Engineer — And That Is Not a Weakness",
+        "ogDescription": "A candid reflection on impostor syndrome, self-taught engineering, and why building real systems matters more than perfect interviews.",
+        "ogImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=720&q=80",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/self-taught-software-engineer-imposter-syndrome"
+      }
+    },
+    {
+      "id": "blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it-1",
+      "slug": "blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it",
+      "title": "Stability Before Speed, Why Busy Teams Stall and How to Fix It",
+      "excerpt": "# Stability Before Speed, Why Busy Teams Stall and How to Fix It\n\nMost teams feel busy all the time. Standups are full. Backlogs are overflowing. Releases are c",
+      "content": "# Stability Before Speed, Why Busy Teams Stall and How to Fix It\n\nMost teams feel busy all the time. Standups are full. Backlogs are overflowing. Releases are constant. Yet progress feels fragile. One broken build can stop the week. One senior engineer on holiday can freeze delivery. One rushed decision can unravel months of work.\n\nThis is not a velocity problem. This is a stability problem.\n\nUNIVRS is brought in when teams realise that more effort is not producing better outcomes. We stabilise the system so delivery becomes calm, predictable, and fast again.\n\n## Why Velocity Collapses Under Complexity\n\nVelocity drops when complexity outpaces clarity.\n\nCommon patterns we see in failing delivery systems include unclear ownership, invisible technical debt, AI introduced without governance, and decision bottlenecks that force heroics instead of flow.\n\n### The Hidden Cost of Fragility",
+      "embedding": null,
+      "metadata": {
+        "title": "Stability Before Speed, Why Busy Teams Stall and How to Fix It",
+        "slug": "stability-before-speed-why-busy-teams-stall-and-how-to-fix-it",
+        "date": "2026-01-17",
+        "description": "Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed for engineering teams.",
+        "category": "Delivery Stabilisation",
+        "tags": [
+          "software delivery",
+          "stability",
+          "technical debt",
+          "engineering leadership",
+          "consulting"
+        ],
+        "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+        "featured": true,
+        "author": "Edward Whitehead, UNIVRS",
+        "metaTitle": "Stability Before Speed, How to Fix Fragile Software Delivery",
+        "metaDescription": "Why busy engineering teams stall and how delivery stabilisation unlocks sustainable velocity. Practical guidance from UNIVRS.",
+        "keywords": [
+          "software delivery stabilisation",
+          "engineering velocity",
+          "technical debt",
+          "delivery governance",
+          "legacy systems"
+        ],
+        "ogTitle": "Stability Before Speed",
+        "ogDescription": "Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed.",
+        "ogImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+        "twitterTitle": "Stability Before Speed",
+        "twitterDescription": "Why busy teams stall and how to fix fragile delivery with stabilisation.",
+        "twitterImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it",
+        "structuredData": "{\n\"@context\": \"https://schema.org\"\n\"@type\": \"BlogPosting\"\n\"headline\": \"Stability Before Speed\"\n\"description\": \"Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed.\"\n\"author\":\n    \"@type\": \"Person\"\n    \"name\": \"Edward Whitehead\"\n    \"url\": \"https://edwardwhitehead.dev\"\n\"datePublished\": \"2026-01-17\"\n\"dateModified\": \"2026-01-17\"\n    \"mainEntityOfPage\":\n    \"@type\": \"WebPage\"\n    \"@id\": \"https://edwardwhitehead.dev/blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it\"\n\"publisher\":\n    \"@type\": \"Person\"\n    \"name\": \"Edward Whitehead\"\n\"image\": \"https://images.unsplash.com/photo-1519389950473-47ba0277781c\"\n\"articleSection\": \"Delivery Stabilisation\"\n\"keywords\": ['software delivery', 'stability', 'technical debt', 'engineering leadership']\n}\n"
+      }
+    },
+    {
+      "id": "blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it-2",
+      "slug": "blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it",
+      "title": "Stability Before Speed, Why Busy Teams Stall and How to Fix It",
+      "excerpt": "Fragile systems look productive until they are stressed.\n\nUnder pressure they reveal the truth. Builds fail. Incidents spike. Teams stop shipping meaningful cha",
+      "content": "Fragile systems look productive until they are stressed.\n\nUnder pressure they reveal the truth. Builds fail. Incidents spike. Teams stop shipping meaningful change. Cognitive load rises and confidence falls.\n\n```typescript\n// A fragile delivery system often looks like this\nconst delivery = {\nownership: 'unclear',\ndecisions: 'bottlenecked',\ntechnicalDebt: 'invisible',\naiUsage: 'ungoverned',\nvelocity: 'fragile'\n};\n\n```\n\n## How Stabilisation Unlocks Sustainable Speed\n\nStabilisation is not a refactor project. It is a systems intervention.\n\nUNIVRS installs clarity before touching code. We map failure points, make risk explicit, and restore decision flow. Only then do we fix the technical problems that actually matter.\n\n### What Changes First\n\nWe start with the operating model, not the toolchain.",
+      "embedding": null,
+      "metadata": {
+        "title": "Stability Before Speed, Why Busy Teams Stall and How to Fix It",
+        "slug": "stability-before-speed-why-busy-teams-stall-and-how-to-fix-it",
+        "date": "2026-01-17",
+        "description": "Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed for engineering teams.",
+        "category": "Delivery Stabilisation",
+        "tags": [
+          "software delivery",
+          "stability",
+          "technical debt",
+          "engineering leadership",
+          "consulting"
+        ],
+        "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+        "featured": true,
+        "author": "Edward Whitehead, UNIVRS",
+        "metaTitle": "Stability Before Speed, How to Fix Fragile Software Delivery",
+        "metaDescription": "Why busy engineering teams stall and how delivery stabilisation unlocks sustainable velocity. Practical guidance from UNIVRS.",
+        "keywords": [
+          "software delivery stabilisation",
+          "engineering velocity",
+          "technical debt",
+          "delivery governance",
+          "legacy systems"
+        ],
+        "ogTitle": "Stability Before Speed",
+        "ogDescription": "Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed.",
+        "ogImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+        "twitterTitle": "Stability Before Speed",
+        "twitterDescription": "Why busy teams stall and how to fix fragile delivery with stabilisation.",
+        "twitterImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it",
+        "structuredData": "{\n\"@context\": \"https://schema.org\"\n\"@type\": \"BlogPosting\"\n\"headline\": \"Stability Before Speed\"\n\"description\": \"Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed.\"\n\"author\":\n    \"@type\": \"Person\"\n    \"name\": \"Edward Whitehead\"\n    \"url\": \"https://edwardwhitehead.dev\"\n\"datePublished\": \"2026-01-17\"\n\"dateModified\": \"2026-01-17\"\n    \"mainEntityOfPage\":\n    \"@type\": \"WebPage\"\n    \"@id\": \"https://edwardwhitehead.dev/blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it\"\n\"publisher\":\n    \"@type\": \"Person\"\n    \"name\": \"Edward Whitehead\"\n\"image\": \"https://images.unsplash.com/photo-1519389950473-47ba0277781c\"\n\"articleSection\": \"Delivery Stabilisation\"\n\"keywords\": ['software delivery', 'stability', 'technical debt', 'engineering leadership']\n}\n"
+      }
+    },
+    {
+      "id": "blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it-3",
+      "slug": "blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it",
+      "title": "Stability Before Speed, Why Busy Teams Stall and How to Fix It",
+      "excerpt": "Ownership becomes explicit. Decisions become structured. Risk becomes visible. AI becomes governed and useful.\n\n```typescript\n// After stabilisation\nconst deliv",
+      "content": "Ownership becomes explicit. Decisions become structured. Risk becomes visible. AI becomes governed and useful.\n\n```typescript\n// After stabilisation\nconst delivery = {\nownership: 'explicit',\ndecisions: 'clear and fast',\ntechnicalDebt: 'mapped and managed',\naiUsage: 'governed and safe',\nvelocity: 'sustainable'\n};\n\n```\n\n## What This Looks Like in Practice\n\nA typical engagement takes weeks, not months.\n\nDay 1 maps the system. We identify failure patterns, decision bottlenecks, and delivery risks. By week two the team has clarity. By week three the system is calmer. By week four velocity returns without burnout.\n\nBest Practices\n\nDelivery Governance\n\n- Ownership Clarity: Every critical system has a named owner and escalation path.\n\n- Decision Flow: Architecture and delivery decisions follow a simple, explicit process.\n\nTechnical Risk",
+      "embedding": null,
+      "metadata": {
+        "title": "Stability Before Speed, Why Busy Teams Stall and How to Fix It",
+        "slug": "stability-before-speed-why-busy-teams-stall-and-how-to-fix-it",
+        "date": "2026-01-17",
+        "description": "Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed for engineering teams.",
+        "category": "Delivery Stabilisation",
+        "tags": [
+          "software delivery",
+          "stability",
+          "technical debt",
+          "engineering leadership",
+          "consulting"
+        ],
+        "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+        "featured": true,
+        "author": "Edward Whitehead, UNIVRS",
+        "metaTitle": "Stability Before Speed, How to Fix Fragile Software Delivery",
+        "metaDescription": "Why busy engineering teams stall and how delivery stabilisation unlocks sustainable velocity. Practical guidance from UNIVRS.",
+        "keywords": [
+          "software delivery stabilisation",
+          "engineering velocity",
+          "technical debt",
+          "delivery governance",
+          "legacy systems"
+        ],
+        "ogTitle": "Stability Before Speed",
+        "ogDescription": "Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed.",
+        "ogImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+        "twitterTitle": "Stability Before Speed",
+        "twitterDescription": "Why busy teams stall and how to fix fragile delivery with stabilisation.",
+        "twitterImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it",
+        "structuredData": "{\n\"@context\": \"https://schema.org\"\n\"@type\": \"BlogPosting\"\n\"headline\": \"Stability Before Speed\"\n\"description\": \"Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed.\"\n\"author\":\n    \"@type\": \"Person\"\n    \"name\": \"Edward Whitehead\"\n    \"url\": \"https://edwardwhitehead.dev\"\n\"datePublished\": \"2026-01-17\"\n\"dateModified\": \"2026-01-17\"\n    \"mainEntityOfPage\":\n    \"@type\": \"WebPage\"\n    \"@id\": \"https://edwardwhitehead.dev/blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it\"\n\"publisher\":\n    \"@type\": \"Person\"\n    \"name\": \"Edward Whitehead\"\n\"image\": \"https://images.unsplash.com/photo-1519389950473-47ba0277781c\"\n\"articleSection\": \"Delivery Stabilisation\"\n\"keywords\": ['software delivery', 'stability', 'technical debt', 'engineering leadership']\n}\n"
+      }
+    },
+    {
+      "id": "blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it-4",
+      "slug": "blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it",
+      "title": "Stability Before Speed, Why Busy Teams Stall and How to Fix It",
+      "excerpt": "- Debt Mapping: Risk is visible, prioritised, and actively managed.\n\n- Build Stability: Pipelines are boring, predictable, and trusted.\n\nConclusion\n\nSpeed is an",
+      "content": "- Debt Mapping: Risk is visible, prioritised, and actively managed.\n\n- Build Stability: Pipelines are boring, predictable, and trusted.\n\nConclusion\n\nSpeed is an outcome of stability, not the other way around.\n\nIf delivery feels fragile, the system is asking to be stabilised. UNIVRS exists to do exactly that.\n\nBook a 30 minute stabilisation call and we will diagnose your delivery system together.",
+      "embedding": null,
+      "metadata": {
+        "title": "Stability Before Speed, Why Busy Teams Stall and How to Fix It",
+        "slug": "stability-before-speed-why-busy-teams-stall-and-how-to-fix-it",
+        "date": "2026-01-17",
+        "description": "Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed for engineering teams.",
+        "category": "Delivery Stabilisation",
+        "tags": [
+          "software delivery",
+          "stability",
+          "technical debt",
+          "engineering leadership",
+          "consulting"
+        ],
+        "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+        "featured": true,
+        "author": "Edward Whitehead, UNIVRS",
+        "metaTitle": "Stability Before Speed, How to Fix Fragile Software Delivery",
+        "metaDescription": "Why busy engineering teams stall and how delivery stabilisation unlocks sustainable velocity. Practical guidance from UNIVRS.",
+        "keywords": [
+          "software delivery stabilisation",
+          "engineering velocity",
+          "technical debt",
+          "delivery governance",
+          "legacy systems"
+        ],
+        "ogTitle": "Stability Before Speed",
+        "ogDescription": "Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed.",
+        "ogImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+        "twitterTitle": "Stability Before Speed",
+        "twitterDescription": "Why busy teams stall and how to fix fragile delivery with stabilisation.",
+        "twitterImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+        "twitterCard": "summary_large_image",
+        "canonicalUrl": "https://edwardwhitehead.dev/blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it",
+        "structuredData": "{\n\"@context\": \"https://schema.org\"\n\"@type\": \"BlogPosting\"\n\"headline\": \"Stability Before Speed\"\n\"description\": \"Why delivery velocity collapses under complexity and how stabilisation unlocks sustainable speed.\"\n\"author\":\n    \"@type\": \"Person\"\n    \"name\": \"Edward Whitehead\"\n    \"url\": \"https://edwardwhitehead.dev\"\n\"datePublished\": \"2026-01-17\"\n\"dateModified\": \"2026-01-17\"\n    \"mainEntityOfPage\":\n    \"@type\": \"WebPage\"\n    \"@id\": \"https://edwardwhitehead.dev/blog/stability-before-speed-why-busy-teams-stall-and-how-to-fix-it\"\n\"publisher\":\n    \"@type\": \"Person\"\n    \"name\": \"Edward Whitehead\"\n\"image\": \"https://images.unsplash.com/photo-1519389950473-47ba0277781c\"\n\"articleSection\": \"Delivery Stabilisation\"\n\"keywords\": ['software delivery', 'stability', 'technical debt', 'engineering leadership']\n}\n"
+      }
+    },
+    {
       "id": "blog/the-comeback-build-rebuilding-after-job-loss-1",
       "slug": "blog/the-comeback-build-rebuilding-after-job-loss",
       "title": "The Comeback Build — How I'm Rebuilding After Job Loss",
@@ -11509,15 +12234,15 @@
     {
       "id": "hero-1",
       "slug": "hero",
-      "title": "A SEASONED",
-      "excerpt": "A seasoned software developer and entrepreneur with two decades of experience, focused on AI, web, mobile, and leadership.",
-      "content": "A seasoned software developer and entrepreneur with two decades of experience, focused on AI, web, mobile, and leadership.",
+      "title": "CTO, Architect",
+      "excerpt": "Strategic Technical Leader with over 20 years of commercial experience bridging business strategy and engineering execution.",
+      "content": "Strategic Technical Leader with over 20 years of commercial experience bridging business strategy and engineering execution.",
       "embedding": null,
       "metadata": {
         "name": "Edward Whitehead",
-        "title": "A SEASONED",
-        "titleGradientText": "SOFTWARE DEVELOPER,",
-        "titleEndText": "AND ENTREPRENEUR.",
+        "title": "CTO, Architect",
+        "titleGradientText": "Product Leader,",
+        "titleEndText": "& Start-up Founder.",
         "btnGradientIsEnabled": true,
         "btnGradientHref": "/#projects",
         "btnGradientText": "View My Work",
@@ -11525,9 +12250,10 @@
         "btnDefaultHref": "/#contact",
         "btnDefaultText": "Get In Touch",
         "typedPhrases": [
-          "Software Architect",
+          "Fractional CTO",
           "AI Innovator",
-          "Startup Founder"
+          "Startup Founder",
+          "Product Manager"
         ],
         "locations": [
           {
@@ -11543,30 +12269,6 @@
             "description": "Cape Town"
           }
         ]
-      }
-    },
-    {
-      "id": "metadata-1",
-      "slug": "metadata",
-      "title": "Edward Whitehead | Senior Full Stack Developer & AI Innovator | 20+ Years Experience",
-      "excerpt": "This file contains the metadata configuration for the homepage.",
-      "content": "This file contains the metadata configuration for the homepage.",
-      "embedding": null,
-      "metadata": {
-        "title": "Edward Whitehead | Senior Full Stack Developer & AI Innovator | 20+ Years Experience",
-        "description": "Expert full stack developer and AI innovator with 20+ years specializing in React, Next.js, TypeScript, Flutter, .NET, and Azure. Founder of AI-powered platforms (Qirvo, PayBee). Remote developer available worldwide. Mobile architect, SaaS expert, startup founder.",
-        "keywords": "full stack developer, AI developer, mobile architect, software entrepreneur, React developer, Next.js expert, TypeScript specialist, Flutter developer, .NET MAUI, Xamarin Forms, Azure developer, Firebase expert, MongoDB architect, AI innovator, startup founder, remote developer, senior developer, technical leader, cross-platform developer, SaaS architect, FinTech developer, AI mobile apps, computer vision, facial recognition, NFC development, QR scanning, Next.js 15, React 19, Mantine UI, Node.js, Python FastAPI, Jetpack Compose, Kotlin, C#, .NET, Azure DevOps, Azure Cognitive Services, Vercel, GitHub, VSCode, Windsurf, Figma, Canva, Southeast Asia developer, South Africa developer, remote work specialist, AI Dev Agent, plugin marketplace, CLI tools, command platform, life dashboard, payment solution, car wash app, courier application, mobile modernization, legacy migration, MVVM architecture, microservices, API development, product development, SaaS platforms, open-source SDK, branding, go-to-market strategy, investor relations, distributed teams, AI robotics IoT automation",
-        "author": "Edward Whitehead",
-        "ogTitle": "Edward Whitehead | Senior Full Stack Developer & AI Innovator | React, Next.js, Flutter, .NET Expert",
-        "ogDescription": "20+ year veteran full stack developer and AI innovator. Founder of Qirvo (AI command platform), PayBee (FinTech), Violt (smart home), Orby (command center). Expert in React, Next.js, TypeScript, Flutter, .NET MAUI, Azure, Firebase. Mobile architect specializing in cross-platform development, AI/ML integration, SaaS platforms.",
-        "ogImage": "assets/images/og-image.png",
-        "twitterCard": "summary_large_image",
-        "twitterTitle": "Edward Whitehead | Senior Full Stack Developer & AI Innovator | 20+ Years",
-        "twitterDescription": "Expert full stack developer & AI innovator with 20+ years experience. React, Next.js, Flutter, .NET specialist. Founder of AI platforms (Qirvo, PayBee). Remote developer, mobile architect, startup founder, technical leader.",
-        "twitterImage": "assets/images/og-image.png",
-        "applicationName": "Edward Whitehead Portfolio",
-        "generator": "Next.js",
-        "locale": "en_US"
       }
     },
     {
@@ -13562,32 +14264,28 @@
       "id": "skills-1",
       "slug": "skills",
       "title": "Core Skills & Key Highlights",
-      "excerpt": "- **Product Development & SaaS:** Built multiple platforms (Qirvo, Violt, Orby) from the ground up, including dashboards, CLIs, mobile apps, and plugin marketpl",
-      "content": "- **Product Development & SaaS:** Built multiple platforms (Qirvo, Violt, Orby) from the ground up, including dashboards, CLIs, mobile apps, and plugin marketplaces. - **Full-Stack Engineering:** Expertise in Next.js 15, React 19, Mantine UI, Zustand, Node.js, Firebase, MongoDB Atlas, TypeScript, Docker, and cross-platform mobile development (Flutter, .NET MAUI, Kotlin). - **Systems Architecture:** Created production-ready modular architectures with separation of frontend, backend APIs, and databases, supporting extensibility and enterprise scaling. - **Open-Source Leadership:** Published SDKs, plugin frameworks, and CLI agents (e.g., Echo CLI for Qirvo) to support community growth and developer adoption. - **Business & Strategy:** Directed branding, pitch decks, investor relations, and GTM strategies. - **Creative & Marketing:** Produced branding, animated explainers, social media",
+      "excerpt": "- **Product Development & SaaS:** Strategic Technical Leader with over 20 years of commercial experience bridging business strategy and engineering execution. -",
+      "content": "- **Product Development & SaaS:** Strategic Technical Leader with over 20 years of commercial experience bridging business strategy and engineering execution. - **Full-Stack:** Expert in TypeScript, React, Next.js 15, Node.js, Firebase, MongoDB, PostgreSQL, AWS, Azure, Docker, Kubernetes, and cross-platform mobile development (Flutter, .NET MAUI, Kotlin). - **AI & Systems Architecture:** Architect AI-driven solutions with production-ready modular systems supporting microservices, extensibility, and enterprise-scale operations. - **Open-Source & Developer Advocacy:** Published SDKs, plugin frameworks, and CLI tools (e.g., Echo CLI) fostering community growth and developer adoption. - **Fractional CTO & Strategy:** Led technical vision, roadmap planning, investor relations, and go-to-market strategies for multiple startups and ventures. - **Creative & Marketing:** Crafted brand narratives,",
       "embedding": null,
       "metadata": {
         "title": "Core Skills & Key Highlights",
         "subtitle": "Core capabilities that drive real-world delivery",
         "skills": [
           {
-            "category": "Languages",
-            "list": "C#, .NET, .NET MAUI, Xamarin Forms, Jetpack Compose/Kotlin, React, Next.js, Flutter/Dart, TypeScript, HTML, CSS, Python (Basic – FastAPI), YAML"
+            "category": "Strategic Leadership",
+            "list": "Fractional CTO, Technical Due Diligence, Vendor Management, Remote Team Orchestration, Board-Level Reporting."
           },
           {
-            "category": "Cloud & DevOps",
-            "list": "Azure DevOps, Azure CI/CD Pipelines, Azure Cognitive Services, GitHub, Vercel, Firebase"
+            "category": "Architecture & Cloud",
+            "list": "Enterprise Modernisation, Domain-Driven Design (DDD), Microservices, Azure DevOps, Firebase, Serverless Architecture."
           },
           {
-            "category": "Architecture",
-            "list": "Mobile & Web Solution Architecture, SaaS, Microservices, API Development"
+            "category": "Product Strategy",
+            "list": "Product Lifecycle Management (PLM), MVP-to-Scale Roadmapping, Go-to-Market (GTM) Execution, Agile/Scrum Governance."
           },
           {
-            "category": "Tools",
-            "list": "Figma, Canva, VSCode, Windsurf, AI/LLM Tools (OpenAI, Gemini, OpenRouter, Ollma, LM Studio and Vibe Coding)"
-          },
-          {
-            "category": "Soft Skills",
-            "list": "Management, Leadership, Project Management, Mentoring, Vendor Management, Technical Documentation, HR & Performance Management"
+            "category": "Technical Stack",
+            "list": ".NET MAUI / Xamarin, C#, Next.js, React, Node.js, MongoDB, Postgres, Flutter, AI Agentic Workflows (LLM Integration)."
           }
         ]
       }
@@ -13596,32 +14294,28 @@
       "id": "skills-2",
       "slug": "skills",
       "title": "Core Skills & Key Highlights",
-      "excerpt": "campaigns, and landing pages to support product adoption and community growth.",
-      "content": "campaigns, and landing pages to support product adoption and community growth.",
+      "excerpt": "pitch decks, animated explainers, social media campaigns, and landing pages to drive product adoption and community engagement.",
+      "content": "pitch decks, animated explainers, social media campaigns, and landing pages to drive product adoption and community engagement.",
       "embedding": null,
       "metadata": {
         "title": "Core Skills & Key Highlights",
         "subtitle": "Core capabilities that drive real-world delivery",
         "skills": [
           {
-            "category": "Languages",
-            "list": "C#, .NET, .NET MAUI, Xamarin Forms, Jetpack Compose/Kotlin, React, Next.js, Flutter/Dart, TypeScript, HTML, CSS, Python (Basic – FastAPI), YAML"
+            "category": "Strategic Leadership",
+            "list": "Fractional CTO, Technical Due Diligence, Vendor Management, Remote Team Orchestration, Board-Level Reporting."
           },
           {
-            "category": "Cloud & DevOps",
-            "list": "Azure DevOps, Azure CI/CD Pipelines, Azure Cognitive Services, GitHub, Vercel, Firebase"
+            "category": "Architecture & Cloud",
+            "list": "Enterprise Modernisation, Domain-Driven Design (DDD), Microservices, Azure DevOps, Firebase, Serverless Architecture."
           },
           {
-            "category": "Architecture",
-            "list": "Mobile & Web Solution Architecture, SaaS, Microservices, API Development"
+            "category": "Product Strategy",
+            "list": "Product Lifecycle Management (PLM), MVP-to-Scale Roadmapping, Go-to-Market (GTM) Execution, Agile/Scrum Governance."
           },
           {
-            "category": "Tools",
-            "list": "Figma, Canva, VSCode, Windsurf, AI/LLM Tools (OpenAI, Gemini, OpenRouter, Ollma, LM Studio and Vibe Coding)"
-          },
-          {
-            "category": "Soft Skills",
-            "list": "Management, Leadership, Project Management, Mentoring, Vendor Management, Technical Documentation, HR & Performance Management"
+            "category": "Technical Stack",
+            "list": ".NET MAUI / Xamarin, C#, Next.js, React, Node.js, MongoDB, Postgres, Flutter, AI Agentic Workflows (LLM Integration)."
           }
         ]
       }
