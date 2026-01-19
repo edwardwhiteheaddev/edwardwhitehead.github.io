@@ -7,7 +7,7 @@ import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import visuallyHidden from '@mui/utils/visuallyHidden';
 import Aos from 'aos';
-import { useEffect, useRef, useState } from 'react';
+import { SetStateAction, useEffect, useRef, useState } from 'react';
 import Typed from 'typed.js';
 
 export interface HeroLocation {
@@ -163,7 +163,7 @@ export function HeroSection({
                                 useFlexGap
                                 sx={{ pt: 2, width: { xs: '100%', sm: '350px' } }}
                             >
-                                <InputLabel htmlFor="email-hero" sx={visuallyHidden}>
+                                <InputLabel htmlFor="email-hero" sx={{ ...visuallyHidden }}>
                                     Email
                                 </InputLabel>
                                 <TextField
@@ -177,7 +177,7 @@ export function HeroSection({
                                     placeholder="Your email address"
                                     fullWidth
                                     value={email}
-                                    onChange={(e) => setEmail(e.target.value)}
+                                    onChange={(e: { target: { value: SetStateAction<string>; }; }) => setEmail(e.target.value)}
                                     sx={{
                                         '& .MuiOutlinedInput-root': {
                                             color: '#fff',
