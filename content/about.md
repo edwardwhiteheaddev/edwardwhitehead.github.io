@@ -8,7 +8,11 @@ skillProgress:
   - { label: 'Total', value: 100 }
 ---
 
-I am a Visionary Technical Product Leader with 20+ years of experience bridging business strategy and engineering execution. Currently serving as **Co-Founder & CTO of SubSeat**, **Founder & Lead Architect of Qirvo** (AI-powered command platform), and **Founder, Author & Product Lead of Orchestr-ai** (AI-driven SDLC certification framework).
+Strategic Technical Leader with over 20 years of commercial experience bridging business strategy and engineering execution. Expert in directing complex legacy modernisations, defining enterprise product roadmaps, and architecting scalable AI-driven platforms.
+
+- proven track record of acting as a Fractional CTO and Lead Architect for high-growth startups and global enterprises (FedEx, Sanlam).
+- Specialist in AI & Cloud Architecture, including agentic orchestration, Azure/Firebase ecosystems, and cross-platform mobile frameworks.
+- Senior-level proficiency in Systems Architecture and Technical Strategy, offering two decades of hands-on leadership equivalent to a Master’s level qualification.
 
 **Core Expertise:**
 
@@ -21,6 +25,6 @@ I am a Visionary Technical Product Leader with 20+ years of experience bridging 
 
 - **SubSeat:** AI-enhanced subscription booking platform for beauty services (SaaS, early 2026 launch)
 - **Qirvo:** AI command platform with plugin marketplace and Echo CLI agent for developers
-- **Orchestr-ai:** Commercial certification framework for AI-integrated software delivery lifecycle (U-ASDLC)
+- **Orchestra-AI:** Commercial certification framework for AI-integrated software delivery lifecycle (U-ASDLC)
 
 I have a proven track record architecting scalable systems, building multi-agent AI workflows, publishing open-source SDKs, and managing investor relations. I excel at leading distributed teams, integrating emerging technologies (AI, IoT, blockchain), and transforming product vision into market-ready solutions.

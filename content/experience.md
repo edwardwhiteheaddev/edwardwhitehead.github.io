@@ -5,10 +5,8 @@ jobs:
     company: 'SubSeat – Remote'
     dates: 'June 2025 – Present'
     description: |
-      - Co-founder and CTO of SubSeat, an AI-enhanced subscription-based booking platform for beauty services—a Netflix-like experience for booking appointments.
-      - Leading all technical architecture, platform development, and product strategy from MVP to production launch (early 2026).
-      - Building scalable SaaS infrastructure with AI-driven features for customer insights, scheduling optimization, and supplier management.
-    skills: 'CTO · Lead Architect · Next.js · AI Integration · Product Lifecycle Management · PostgreSQL · Supabase · Vercel · Go-to-Market Strategy · Full Stack Developer'
+      - Executive Leadership: Serve as the chief technical decision-maker for an industry-first subscription health platform, translating business goals into a scalable engineering roadmap.
+      - Technical Governance: Orchestrate the entire technical lifecycle, managing resource allocation and enforcing architectural standards for platform launch.
     notableAchievements: |
       - Currently building out the MVP for launch in early 2026 with AI-powered booking optimization.
 
@@ -16,99 +14,69 @@ jobs:
     company: 'Qirvo – Remote'
     dates: 'June 2025 – Present'
     description: |
-      - Founded and architected Qirvo, an AI-powered command platform connecting apps, devices, and workflows with intelligent automation.
-      - Designed and built a plugin marketplace enabling developers to create and monetize plugins via the Qirvo SDK, fostering ecosystem growth.
-      - Engineered Echo CLI, an advanced AI-driven developer tool featuring autonomous task execution, contextual memory, and GitHub integration.
-      - Implemented layered memory architecture in MongoDB supporting multi-agent AI systems with persistent context and learning capabilities.
-      - Led full go-to-market execution: beta testing, community campaigns, LinkedIn outreach, and open-source initiatives.
-      - Designed product positioning, branding, pitch decks, and investor relations materials.
-    skills: 'Lead Architect · AI Innovation · Next.js · Node.js · MongoDB · Command Line Interface · Mantine · Go-to-Market Strategy · Full Stack Developer · Plugin Ecosystem'
+      - AI Command Strategy: Designed the product roadmap for a modular AI command centre, identifying key market gaps in workflow automation and agentic orchestration.
+      - Ecosystem Development: Launched a two-sided plugin marketplace and public SDK, driving third-party developer engagement.
+    skills: 'Lead Architect · AI Innovation'
     notableAchievements: |
       - Independently architected and deployed a fully functional AI platform MVP from concept to production.
       - Successfully executed go-to-market strategy with strong community adoption and developer engagement.
 
-  - role: 'Founder, Author & Product Lead'
-    company: 'Orchestr-ai – Remote'
+  - role: 'Founder & Product Strategist'
+    company: 'Orchestra-AI – Remote'
     dates: 'December 2025 – Present'
     description: |
-      - Founder and creator of Orchestr-ai, a commercial certification framework for AI-driven software delivery.
-      - Conceived and launched the Unified Agentic Software Development Lifecycle (U-ASDLC), a groundbreaking certification positioning you as a thought leader in AI-integrated SDLC.
-      - Owned end-to-end product backlog, defining user stories for learners, instructors, and assessors with comprehensive certification governance model.
-      - Developed monetization strategy including tiered pricing, certification positioning, and targeted audience segmentation for developers and architects.
+      - Thought Leadership: Created the "Unified Agentic Software Development Lifecycle" (U-ASDLC), a commercial certification framework establishing new standards for AI-driven delivery.
     skills: 'Product Leadership · AI Education · Certification Framework · Product Strategy · Content Creation · Thought Leadership · Instructional Design'
-    notableAchievements: |
-      - Authored the U-ASDLC, a proprietary certification framework addressing the intersection of AI agents and software delivery lifecycle management.
 
-  - role: 'Software Developer'
+  - role: 'Principal Mobile Software Architect'
     company: 'SmartTask – Remote'
     dates: 'December 2021 – November 2025'
     description: |
-      - Led technical modernization, upgrading legacy Xamarin Forms solution to .NET MAUI, enabling latest Android/iOS OS support.
-      - Spearheaded UI/UX overhaul with modern design patterns, significantly improving user adoption and engagement.
-      - Architected and delivered Sentinel, a native AI-powered mobile application using Jetpack Compose and Kotlin with Microsoft Cognitive Services for facial recognition.
-      - Implemented advanced mobile features: NFC scanning, biometric authentication (facial recognition), QR code integration across applications.
-      - Unblocked production deployments after prolonged system stagnation through critical platform modernization.
-    skills: 'Azure DevOps · C# · .NET MAUI · Xamarin Products · Microsoft Azure · Jetpack Compose · Kotlin · Mobile Developer · AI Integration'
+      - Legacy Modernisation Strategy: Spearheaded the high-risk migration of core mobile infrastructure from Xamarin to .NET MAUI, extending the product lifecycle by 5+ years and ensuring long-term OS compatibility.
+      - Product Innovation (AI/IoT): Conceptualised and delivered "Sentinel," a security product integrating Deep Learning (Facial Recognition) and NFC technology, opening new revenue streams in the security sector.
+      - Operational Excellence: Overhauled a stagnant release pipeline by implementing Azure CI/CD workflows, reducing deployment friction and ensuring consistent delivery to App Stores.
+      - Stakeholder Management: Served as the primary bridge between business stakeholders and engineering, translating complex operational requirements into executable technical specifications.
+
+    skills: 'Legacy Modernisation Strategy · •	Product Innovation (AI/IoT) · Operational Excellence · Stakeholder Management'
     notableAchievements: |
-      - Modernized the codebase enabling the company to target the latest iOS and Android platforms and support new feature development.
+      - Directed the technical roadmap for an enterprise mobile workforce management SaaS, focusing on legacy modernisation.
 
   - role: 'Founder & Lead Architect'
     company: 'Payment Bee Inc. – Remote'
     dates: 'August 2021 – June 2025'
     description: |
-      - Founded and led Payment Bee, a fintech platform for payment orchestration and digital wallet services targeting the restaurant and hospitality verticals.
-      - Architected full-stack application with Flutter for mobile UI, backend services, and payment processing infrastructure.
-      - Pioneered blockchain-integrated payment processing with Go, Python, Solidity, and Web3 technologies.
-      - Positioned Payment Bee as one of South Africa's first crypto-payment processing platforms with blockchain capabilities.
-      - Directed product strategy, brand development, and team leadership across all technical and business domains.
-    skills: 'Leadership · Ethereum · Blockchain · Programming · Web Development · Team Management · Smart Contracts · Flutter · Web3 · Startup Leadership · Full Stack Development'
-    notableAchievements: |
-      - Positioned PayBee to become one of South Africa's first Crypto-integrated payment processing platforms with blockchain capabilities.
+      - Strategic Pivot: Guided the product evolution from a simple gratuity app to a global payment gateway, incorporating Blockchain/Web3 capabilities to capture new market segments.
+    skills: 'Leadership · Strategic Pivot'
 
-  - role: 'Software Developer (Contract)'
-    company: 'Thinkology – Remote'
-    dates: 'October 2021 – November 2021'
-    description: |
-      - Took over the development of a mobile application project for a beauty industry client (IIAA).
-      - Implemented NFC features, refactored to MVVM architecture, and resolved critical performance bottlenecks.
-      - Improved UI responsiveness by implementing advanced asynchronous patterns, eliminating application hangs and crashes.
-    skills: 'Xamarin · Programming · Mobile Application Development · Xamarin Products · Agile Application Development · Software Development · Mobile Development'
-    notableAchievements: |
-      - Successfully refactored codebase to MVVM pattern and improved performance by 15-20% through advanced asynchronous patterns.
-
-  - role: 'Senior Software Developer (Contract)'
+  - role: 'Solutions Architect (Consultant)'
     company: 'AZ Consulting – Remote'
     dates: 'March 2021 – April 2022'
     description: |
-      - Led architectural reviews and solution modernization in Xamarin Forms for enterprise clients in UK and South Africa.
-      - Produced comprehensive technical assessments and participated in senior technical interviews.
-      - Advised on mobile application architecture best practices and migration strategies.
-    skills: 'Solution Architecture · Azure DevOps · C# · Programming · Mobile Application Development · Xamarin Products · Leadership · Software Development'
+      - Technical Due Diligence: Conducted comprehensive architectural reviews of client systems, producing expert reports on system health, scalability risks, and upgrade paths.
+      - Strategic Advisory: Advised corporate leadership on architectural patterns to mitigate technical debt and align IT infrastructure with long-term business goals.
+    skills: 'Solution Architecture · Technical Due Diligence · Strategic Advisory'
     notableAchievements: |
-      - Successfully conducted architectural assessments and delivered modernization strategies for multiple enterprise mobile solutions.
+      - Provided high-level architectural advisory and due diligence services for corporate clients in the UK and South Africa..
 
-  - role: 'Senior Software Developer'
+  - role: 'Senior Mobile Lead (Turnaround Consultant)'
+    company: 'Thinkology – Remote'
+    dates: 'October 2021 – November 2021'
+    description: |
+      - Project Turnaround: Diagnosed and resolved critical architectural bottlenecks in a client-facing application, eliminating frequent crashes and performance lags that were jeopardising the client relationship.
+      - Architectural Standardisation: Enforced MVVM design patterns and refactored legacy codebases to support complex features like NFC integration and AI-driven beauty recommendations.
+    skills: 'Project Turnaround · Architectural Standardisation'
+    notableAchievements: |
+      - Recruited to rescue a failing mobile initiative for a client in the beauty industry (IIAA).
+
+  - role: 'Technical Delivery Lead & Subject Matter Expert'
     company: 'Bumblebee Cape Town – Remote'
     dates: 'October 2019 – September 2021'
     description: |
-      - Team Lead for cloud-based insurance solution development (C#, .NET Core, Angular, Azure cloud infrastructure).
-      - Designed and implemented comprehensive Azure DevOps pipelines with YAML for CI/CD automation.
-      - Led technical modernization of MobeeWash mobile car wash booking system to Ionic framework.
-      - Served as Subject Matter Expert (SME) for architecture patterns, modernization strategies, and technology consulting.
-    skills: 'Azure DevOps · JavaScript · .NET Framework · C# · Programming · Mobile Development · AngularJS · Microsoft Azure · Leadership · Full Stack Development'
+      - Enterprise Architecture: Served as the Subject Matter Expert (SME) for cloud-based insurance solutions (Sanlam), designing scalable architectures for high-volume booking systems.
+      -	DevOps Transformation: Engineered Azure DevOps pipelines using YAML, automating build processes that significantly reduced manual deployment errors and increased release velocity.
+    skills: 'Enterprise Architecture · DevOps Transformation'
     notableAchievements: |
-      - Successfully led deployment of Sanlam insurance application to production after implementing critical architecture improvements.
-
-  - role: 'Senior Software Developer (Contract)'
-    company: 'iOCO – Cape Town, South Africa'
-    dates: 'April 2019 – October 2019'
-    description: |
-      - Led development of Sanlam mobile app (Progressive Web App deployed to Android/iOS via Capacitor framework).
-      - Delivered enterprise-grade mobile application within aggressive two-sprint timeline for new division.
-      - Designed scalable hybrid mobile architecture supporting responsive design across devices and platforms.
-    skills: 'Azure DevOps · JavaScript/TypeScript · .NET Framework · C# · Programming · Mobile Application Development · API Development · AngularJS · Microsoft Azure · Leadership · Full Stack Development'
-    notableAchievements: |
-      - Delivered first enterprise mobile app for division within compressed timeline while maintaining quality standards.
+      - Led technical delivery and cloud architecture for major insurance and on-demand service clients.
 
   - role: 'Career Break'
     company: ''
@@ -122,12 +90,12 @@ jobs:
     company: 'FedEx – Johannesburg, South Africa'
     dates: 'June 2010 – March 2018'
     description: |
-      - IT Lead for Mobility and Customs Clearance division (Southern Africa region, 8+ years).
-      - Architected migration of legacy customs clearance system to modern SaaS cloud solution, improving efficiency and compliance.
-      - Engineered and launched courier mobile application adopted nationally, enabling real-time tracking and delivery optimization.
-      - Achieved 200% improvement in data transfer speeds through client/server architecture redesign and optimization.
-      - Directed vendor engagement and technical oversight for legacy Windows Mobile app migration to modern Xamarin framework.
-    skills: '.NET Framework · C# · Programming · Mobile Application Development · API Development · Windows Mobile · Full Stack Development · System Architecture'
+      - Strategic Roadmapping: Oversaw the end-to-end product lifecycle for national logistics applications, prioritising features based on regulatory constraints and operational impact.
+      -	Performance Optimisation: Architected backend improvements that increased data transfer speeds by 200%, directly supporting rapid operational scaling.
+      - User Experience Impact: Delivered a comprehensive UX overhaul that resulted in a 70% increase in application adoption and usage.
+      - Vendor Management: Directed external vendors in the complex porting of legacy Windows Mobile applications to modern platforms, ensuring delivery within scope and budget.
+
+    skills: 'Strategic Roadmapping · Performance Optimisation · User Experience Impact · Vendor Management'
     notableAchievements: |
-      - Frontend UI enhancements increased application usage by 70% compared to legacy system. Backend optimizations improved data transfer speeds by 200% through advanced architecture patterns.
+      - Managed the product roadmap and technical execution for national courier applications.
 ---

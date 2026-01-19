@@ -6,7 +6,7 @@ description: 'A behind-the-scenes look at Viola (a project I own): daily gratitu
 category: 'Engineering'
 tags: ['Wellbeing', 'Gratitude Journal', 'Mental Health', 'Product Design', 'Mobile App', 'Personal Development']
 image: 'https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
-featured: true
+featured: false
 author: 'Edward Whitehead'
 
 # SEO and AEO metadata fields

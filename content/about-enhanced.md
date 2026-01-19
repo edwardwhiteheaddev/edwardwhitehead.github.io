@@ -1,10 +1,10 @@
 ---
 title: 'About Me - Enhanced Profile'
 skillProgress:
-  - { label: 'Team Leadership', value: 35 }
-  - { label: 'Product & GTM', value: 30 }
-  - { label: 'Architecture', value: 25 }
-  - { label: 'AI Innovation', value: 10 }
+  - { label: 'Leadership', value: 50 }
+  - { label: 'Product & GTM', value: 20 }
+  - { label: 'Architecture', value: 15 }
+  - { label: 'AI Innovation', value: 15 }
   - { label: 'Total', value: 100 }
 ---
 
@@ -26,7 +26,7 @@ skillProgress:
 - Building scalable SaaS infrastructure with AI-driven customer insights and scheduling optimization
 - Target launch: Early 2026
 
-**Qirvo – Founder & Lead Architect** (June 2025 – Present)
+**Qirvo – Founder, Product Strategist & Lead Architect** (June 2025 – Present)
 
 - AI-powered command platform connecting apps, devices, and workflows with intelligent automation
 - Engineered plugin marketplace enabling developers to monetize via Qirvo SDK
@@ -34,7 +34,7 @@ skillProgress:
 - Implemented layered memory architecture in MongoDB supporting multi-agent AI systems
 - Executed full go-to-market strategy with strong community adoption
 
-**Orchestr-ai – Founder, Author & Product Lead** (December 2025 – Present)
+**Orchestra-AI – Founder, Author & Product Strategist** (December 2025 – Present)
 
 - Creator of Unified Agentic Software Development Lifecycle (U-ASDLC) certification framework
 - Positioned as thought leader in AI-integrated software delivery

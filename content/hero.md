@@ -1,8 +1,8 @@
 ---
 name: "Edward Whitehead"
-title: "VISIONARY,"
-titleGradientText: "PRODUCT LEADER,"
-titleEndText: "AND START-UP FOUNDER."
+title: "CTO, Architect"
+titleGradientText: "Product Leader,"
+titleEndText: "& Start-up Founder."
 btnGradientIsEnabled: true
 btnGradientHref: "/#projects"
 btnGradientText: "View My Work"
@@ -23,4 +23,4 @@ locations:
     description: "Cape Town"
 ---
 
-Visionary Technical Product Leader and Architect with 20+ years of experience bridging the gap between business strategy and engineering execution.
+Strategic Technical Leader with over 20 years of commercial experience bridging business strategy and engineering execution.
