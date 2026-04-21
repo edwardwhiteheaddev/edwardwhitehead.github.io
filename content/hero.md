@@ -1,7 +1,7 @@
 ---
 name: "Edward Whitehead"
-title: "CTO, Architect"
-titleGradientText: "Product Leader,"
+title: "Architect, Developer"
+titleGradientText: "Leader,"
 titleEndText: "& Start-up Founder."
 btnGradientIsEnabled: true
 btnGradientHref: "/#projects"
@@ -10,17 +10,16 @@ btnDefaultIsEnabled: true
 btnDefaultHref: "/#contact"
 btnDefaultText: "Get In Touch"
 typedPhrases:
-  - "Fractional CTO"
-  - "AI Innovator"
+  - "Mobile Software Architect"
+  - "Mobile Software Developer"
   - "Startup Founder"
-  - "Product Manager"
 locations:
   - label: "Remote"
-    description: "Worldwide collaboration"
+    description: "Worldwide"
   - label: "South East Asia"
     description: "Thailand, Malaysia, Vietnam"
   - label: "South Africa"
     description: "Cape Town"
 ---
 
-Strategic Technical Leader with over 20 years of commercial experience bridging business strategy and engineering execution.
+Edward is a strategic technical leader with over 20 years of commercial experience bridging business strategy and engineering execution. Expert in directing complex legacy modernisations, defining enterprise product roadmaps, and architecting mobile applications.

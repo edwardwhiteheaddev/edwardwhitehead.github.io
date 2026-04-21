@@ -1,33 +1,6 @@
 ---
 title: 'Experience'
 jobs:
-  - role: 'Co-Founder & CTO'
-    company: 'SubSeat – Remote'
-    dates: 'June 2025 – Present'
-    description: |
-      - Executive Leadership: Serve as the chief technical decision-maker for an industry-first subscription health platform, translating business goals into a scalable engineering roadmap.
-      - Technical Governance: Orchestrate the entire technical lifecycle, managing resource allocation and enforcing architectural standards for platform launch.
-    notableAchievements: |
-      - Currently building out the MVP for launch in early 2026 with AI-powered booking optimization.
-
-  - role: 'Founder & Lead Architect'
-    company: 'Qirvo – Remote'
-    dates: 'June 2025 – Present'
-    description: |
-      - AI Command Strategy: Designed the product roadmap for a modular AI command centre, identifying key market gaps in workflow automation and agentic orchestration.
-      - Ecosystem Development: Launched a two-sided plugin marketplace and public SDK, driving third-party developer engagement.
-    skills: 'Lead Architect · AI Innovation'
-    notableAchievements: |
-      - Independently architected and deployed a fully functional AI platform MVP from concept to production.
-      - Successfully executed go-to-market strategy with strong community adoption and developer engagement.
-
-  - role: 'Founder & Product Strategist'
-    company: 'Orchestra-AI – Remote'
-    dates: 'December 2025 – Present'
-    description: |
-      - Thought Leadership: Created the "Unified Agentic Software Development Lifecycle" (U-ASDLC), a commercial certification framework establishing new standards for AI-driven delivery.
-    skills: 'Product Leadership · AI Education · Certification Framework · Product Strategy · Content Creation · Thought Leadership · Instructional Design'
-
   - role: 'Principal Mobile Software Architect'
     company: 'SmartTask – Remote'
     dates: 'December 2021 – November 2025'
@@ -37,28 +10,11 @@ jobs:
       - Operational Excellence: Overhauled a stagnant release pipeline by implementing Azure CI/CD workflows, reducing deployment friction and ensuring consistent delivery to App Stores.
       - Stakeholder Management: Served as the primary bridge between business stakeholders and engineering, translating complex operational requirements into executable technical specifications.
 
-    skills: 'Legacy Modernisation Strategy · •	Product Innovation (AI/IoT) · Operational Excellence · Stakeholder Management'
+    skills: 'Legacy Modernisation Strategy · Product Innovation (AI/IoT) · Operational Excellence · Stakeholder Management'
     notableAchievements: |
       - Directed the technical roadmap for an enterprise mobile workforce management SaaS, focusing on legacy modernisation.
 
-  - role: 'Founder & Lead Architect'
-    company: 'Payment Bee Inc. – Remote'
-    dates: 'August 2021 – June 2025'
-    description: |
-      - Strategic Pivot: Guided the product evolution from a simple gratuity app to a global payment gateway, incorporating Blockchain/Web3 capabilities to capture new market segments.
-    skills: 'Leadership · Strategic Pivot'
-
-  - role: 'Solutions Architect (Consultant)'
-    company: 'AZ Consulting – Remote'
-    dates: 'March 2021 – April 2022'
-    description: |
-      - Technical Due Diligence: Conducted comprehensive architectural reviews of client systems, producing expert reports on system health, scalability risks, and upgrade paths.
-      - Strategic Advisory: Advised corporate leadership on architectural patterns to mitigate technical debt and align IT infrastructure with long-term business goals.
-    skills: 'Solution Architecture · Technical Due Diligence · Strategic Advisory'
-    notableAchievements: |
-      - Provided high-level architectural advisory and due diligence services for corporate clients in the UK and South Africa..
-
-  - role: 'Senior Mobile Lead (Turnaround Consultant)'
+  - role: 'Senior Mobile Lead'
     company: 'Thinkology – Remote'
     dates: 'October 2021 – November 2021'
     description: |

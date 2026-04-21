@@ -8,11 +8,7 @@ skillProgress:
   - { label: 'Total', value: 100 }
 ---
 
-Strategic Technical Leader with over 20 years of commercial experience bridging business strategy and engineering execution. Expert in directing complex legacy modernisations, defining enterprise product roadmaps, and architecting scalable AI-driven platforms.
-
-- proven track record of acting as a Fractional CTO and Lead Architect for high-growth startups and global enterprises (FedEx, Sanlam).
-- Specialist in AI & Cloud Architecture, including agentic orchestration, Azure/Firebase ecosystems, and cross-platform mobile frameworks.
-- Senior-level proficiency in Systems Architecture and Technical Strategy, offering two decades of hands-on leadership equivalent to a Master’s level qualification.
+Edward is a strategic technical leader with over 20 years of commercial experience bridging business strategy and engineering execution. Expert in directing complex legacy modernisations, defining enterprise product roadmaps, and architecting mobile applications.
 
 **Core Expertise:**
 
@@ -27,4 +23,4 @@ Strategic Technical Leader with over 20 years of commercial experience bridging 
 - **Qirvo:** AI command platform with plugin marketplace and Echo CLI agent for developers
 - **Orchestra-AI:** Commercial certification framework for AI-integrated software delivery lifecycle (U-ASDLC)
 
-I have a proven track record architecting scalable systems, building multi-agent AI workflows, publishing open-source SDKs, and managing investor relations. I excel at leading distributed teams, integrating emerging technologies (AI, IoT, blockchain), and transforming product vision into market-ready solutions.
+I have a proven track record architecting scalable, and building multi-agent AI systems, publishing open-source SDKs, and managing investor relations. I excel at leading distributed teams, integrating emerging technologies (AI, IoT, blockchain), and transforming product vision into market-ready solutions.

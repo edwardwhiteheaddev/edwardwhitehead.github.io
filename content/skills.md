@@ -3,18 +3,18 @@ title: 'Core Skills & Key Highlights'
 subtitle: 'Core capabilities that drive real-world delivery'
 skills:
   - category: 'Strategic Leadership'
-    list: 'Fractional CTO, Technical Due Diligence, Vendor Management, Remote Team Orchestration, Board-Level Reporting.'
+    list: 'Technical Due Diligence, Vendor Management, Remote Orchestration, Board-Level Reporting.'
   - category: 'Architecture & Cloud'
-    list: 'Enterprise Modernisation, Domain-Driven Design (DDD), Microservices, Azure DevOps, Firebase, Serverless Architecture.'
+    list: 'Enterprise Modernisation, Microservices, Azure DevOps, Firebase, Serverless Architecture.'
   - category: 'Product Strategy'
-    list: 'Product Lifecycle Management (PLM), MVP-to-Scale Roadmapping, Go-to-Market (GTM) Execution, Agile/Scrum Governance.'
+    list: 'SaaS Products Developed, Dashboards, CLIs, Mobile Apps'
   - category: 'Technical Stack'
-    list: '.NET MAUI / Xamarin, C#, Next.js, React, Node.js, MongoDB, Postgres, Flutter, AI Agentic Workflows (LLM Integration).'
+    list: '.Net, C#, Next.js, React, Node.js, MongoDB, Postgres, Flutter'
 ---
 
-- **Product Development & SaaS:** Strategic Technical Leader with over 20 years of commercial experience bridging business strategy and engineering execution.
-- **Full-Stack:** Expert in TypeScript, React, Next.js 15, Node.js, Firebase, MongoDB, PostgreSQL, AWS, Azure, Docker, Kubernetes, and cross-platform mobile development (Flutter, .NET MAUI, Kotlin).
-- **AI & Systems Architecture:** Architect AI-driven solutions with production-ready modular systems supporting microservices, extensibility, and enterprise-scale operations.
-- **Open-Source & Developer Advocacy:** Published SDKs, plugin frameworks, and CLI tools (e.g., Echo CLI) fostering community growth and developer adoption.
-- **Fractional CTO & Strategy:** Led technical vision, roadmap planning, investor relations, and go-to-market strategies for multiple startups and ventures.
-- **Creative & Marketing:** Crafted brand narratives, pitch decks, animated explainers, social media campaigns, and landing pages to drive product adoption and community engagement.
+- **Product Development & SaaS:** Technical Leader with 20+ years of commercial experience turning ideas into scalable products. Founded and led ventures such as Qirvo, Violt, and PayBee while driving product strategy, roadmap execution, modernization programs, and end-to-end SaaS delivery across startups and enterprise environments.
+- **Full-Stack:** Hands-on Full-Stack Engineer with deep expertise in TypeScript, React, Next.js, Node.js, C#, .NET, Firebase, MongoDB, PostgreSQL, Azure, AWS, Docker, CI/CD, and cross-platform mobile development including .NET MAUI, Xamarin, Kotlin, Flutter, and Jetpack Compose. Proven record delivering production systems across web, cloud, and mobile.
+- **AI & Systems Architecture:** Architect and enterprise-grade systems design, with a strong focus on modular design, APIs, microservices, layered memory systems, and scalable cloud-native infrastructure. Experienced building command platforms, smart home ecosystems, fintech solutions, and high-performance operational systems.
+- **Open-Source & Developer Advocacy:** Builder of developer-first ecosystems including SDKs, plugin frameworks, automation tools, and CLI platforms such as Echo CLI. Strong communicator who creates technical documentation, onboarding assets, and product narratives that accelerate adoption and grow engaged communities.
+- **Fractional CTO & Strategy:** Led technical vision, architecture governance, hiring direction, delivery execution, investor materials, and go-to-market strategy for multiple ventures and consulting engagements. Trusted to align business goals with pragmatic engineering outcomes and sustainable growth.
+- **Creative & Marketing:** Combine technical depth with commercial storytelling through brand strategy, landing pages, product messaging, pitch decks, explainer campaigns, and growth-focused content. Experienced translating complex products into clear value propositions that attract users, clients, and investors.
