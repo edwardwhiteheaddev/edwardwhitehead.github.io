@@ -170,6 +170,7 @@ section {
 
 .kyros-navbar.scrolled {
     background: rgba(15, 17, 20, 0.92);
+    -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
@@ -181,6 +182,7 @@ section {
     gap: 32px;
     position: relative;
     background: rgba(15, 17, 20, 0.85);
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 50px;
@@ -272,6 +274,7 @@ section {
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.18);
     background: rgba(15, 17, 20, 0.85);
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     color: var(--kyros-primary);
     cursor: pointer;
@@ -310,6 +313,7 @@ section {
     font-size: 0.85rem;
     margin-bottom: 8px;
     background: rgba(15, 17, 20, 0.85);
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 50px;
@@ -340,6 +344,7 @@ section {
         position: static;
         opacity: 1;
         pointer-events: auto;
+        order: 2;
     }
 
     .kyros-navbar__menu {
@@ -380,10 +385,6 @@ section {
         height: 18px;
     }
 
-    .kyros-navbar__toggle {
-        order: 2;
-    }
-
     .kyros-navbar__inner {
         max-width: 100%;
         margin: 0 12px;
@@ -411,7 +412,7 @@ section {
     position: absolute;
     inset: 0;
     // background: radial-gradient(ellipse at top, #FFC542, transparent 60%),
-    //     linear-gradient(180deg, rgba(10, 10, 10, 0.4) 0%, rgba(23, 26, 29, 0.92) 75%);
+    // linear-gradient(180deg, rgba(10, 10, 10, 0.4) 0%, rgba(23, 26, 29, 0.92) 75%);
     z-index: 0;
 }
 
@@ -451,8 +452,14 @@ section {
 }
 
 .kyros-hero__headline {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     font-size: clamp(3rem, 6vw, 4.5rem);
+    line-height: 1.05;
+    text-transform: uppercase;
+}
+
+.kyros-hero__small {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     line-height: 1.05;
     text-transform: uppercase;
 }
@@ -464,7 +471,7 @@ section {
 .kyros-hero__typed {
     margin-top: 1.25rem;
     font-size: clamp(2.1rem, 5vw, 3.5rem);
-    font-weight: 700;
+    font-weight: 100;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--kyros-primary);
@@ -824,7 +831,6 @@ section {
 .kyros-contact {
     border-radius: 28px;
     padding: 48px;
-    // background: linear-gradient(135deg, rgba(207, 31, 31, 0.12), rgba(23, 26, 29, 1));
     border: 1px solid rgba(255, 255, 255, 0.12);
     box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
 }
@@ -920,7 +926,6 @@ section {
     background: #171a1d;
     color: #FF575F;
     cursor: pointer;
-    // box-shadow: 0 24px 40px rgba(0, 0, 0, 0.35);
 }
 
 #scroll-to-top button:hover {
@@ -949,6 +954,7 @@ section {
     border-radius: 20px;
     box-shadow: 0 28px 40px rgba(0, 0, 0, 0.45);
     overflow: hidden;
+    -webkit-backdrop-filter: blur(16px);
     backdrop-filter: blur(16px);
 }
 

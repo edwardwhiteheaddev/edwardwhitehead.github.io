@@ -1,8 +1,8 @@
 ---
 name: "Edward Whitehead"
-title: "Architect, Developer"
-titleGradientText: "Leader,"
-titleEndText: "& Start-up Founder."
+title: "Leader,"
+titleGradientText: "Father,"
+titleEndText: "Husband"
 btnGradientIsEnabled: true
 btnGradientHref: "/#projects"
 btnGradientText: "View My Work"
@@ -10,9 +10,9 @@ btnDefaultIsEnabled: true
 btnDefaultHref: "/#contact"
 btnDefaultText: "Get In Touch"
 typedPhrases:
-  - "Mobile Software Architect"
-  - "Mobile Software Developer"
-  - "Startup Founder"
+  - "Technical Delivery Lead"
+  - "Solutions Architect"
+  - "Cross-Functional Project Delivery"
 locations:
   - label: "Remote"
     description: "Worldwide"
@@ -22,4 +22,4 @@ locations:
     description: "Cape Town"
 ---
 
-Edward is a strategic technical leader with over 20 years of commercial experience bridging business strategy and engineering execution. Expert in directing complex legacy modernisations, defining enterprise product roadmaps, and architecting mobile applications.
+Technology, Operations and Delivery Leader with more than 20 years of experience successfully delivering complex technical solutions, large-scale public events, enterprise software platforms and business transformation initiatives.

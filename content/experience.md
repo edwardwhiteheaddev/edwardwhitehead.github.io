@@ -34,13 +34,22 @@ jobs:
     notableAchievements: |
       - Led technical delivery and cloud architecture for major insurance and on-demand service clients.
 
-  - role: 'Career Break'
-    company: ''
-    dates: 'January 2018 – March 2019'
+  - role: 'Founder'
+    company: 'We Heart Events'
+    dates: 'January 2017 – March 2019'
     description: |
-      - Took planned time off to start an events business and upskill in Angular, .NET Core and cloud technologies.
-    skills: ''
-    notableAchievements: ''
+      - Planned and delivered end-to-end public events, developing concepts, budgets, project plans and operational schedules.
+      - Managed all regulatory compliance including municipal approvals, temporary liquor licensing, health and safety, risk management and coordination with SAPS, EMS and private security providers where required.
+      - Negotiated and managed relationships with venues, sponsors, entertainers, production companies, food vendors and key suppliers.
+      - Led marketing campaigns, sponsorship activation, vendor recruitment and customer engagement to maximise attendance and commercial success.
+      - Directed all live event operations, coordinating multidisciplinary teams, contractors, logistics and operational delivery across build-up, event days and strike.
+      - Completed post-event financial reconciliation, supplier settlements, operational reviews and continuous improvement planning.
+    skills: 'Event Management, Live Event Operations, Hospitality Operations, Vendor & Supplier Management, Municipal Licensing & Regulatory Compliance, Crowd & Safety Management, Event Logistics, Sponsorship Activation, Budgeting & Financial Reconciliation, Risk Management'
+    notableAchievements: |
+      - Secured and delivered the primary food and beverage contract for the inaugural Comic Con Africa 2018 at Kyalami International Raceway, managing operations serving approximately 45,000 attendees across seven operational days.
+      - Coordinated Southern Africa's largest gathering of food trucks, managing over 50 independent vendors simultaneously[cite: 2].
+      - Conceptualised, produced, and operated high-volume recurring event IPs, including Food Truck Fridays, International Beer Day Music Festival, Avocado & Margarita Festival, Prawn & Beer Festival, and The Grande Parade[cite: 2].
+      - Managed multi-outlet hospitality and beverage operations, including flagship festival beer gardens, corporate product launches, brand activations, and private functions across Gauteng.
 
   - role: 'Mobile Software Architect / Senior Application Developer'
     company: 'FedEx – Johannesburg, South Africa'

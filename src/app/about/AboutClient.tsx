@@ -10,7 +10,7 @@ import {
   Stack,
   Text,
   Title,
-  TypographyStylesProvider,
+  Typography
 } from '@mantine/core';
 
 interface AboutData {
@@ -19,7 +19,7 @@ interface AboutData {
   skillProgress?: { label: string; value: number }[];
 }
 
-export function AboutClient({ data }: { data: AboutData }) {
+export function AboutClient({ data }: Readonly<{ data: AboutData }>) {
   const { title, contentHtml, skillProgress = [] } = data;
 
   return (
@@ -47,9 +47,9 @@ export function AboutClient({ data }: { data: AboutData }) {
               border: '1px solid rgba(255, 255, 255, 0.08)',
             }}
           >
-            <TypographyStylesProvider className="about-richtext">
+            <Typography className="about-richtext">
               <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
-            </TypographyStylesProvider>
+            </Typography>
           </Card>
 
           {skillProgress.length > 0 && (

@@ -71,13 +71,13 @@ export default async function HomePage() {
         contentHtml={aboutData.contentHtml}
         skillProgress={aboutData.skillProgress ?? []}
       />
-      <section className="about-cta">
+      {/* <section className="about-cta">
         <div className="container">
           <Link href="/about" className="about-ai-button">
             More About Me - According to AI
           </Link>
         </div>
-      </section>
+      </section> */}
       <ProjectsSection title="Featured Projects" projects={featuredProjects} />
       <FeaturedBlogsSection title="Featured Blog Posts" blogs={featuredBlogs} />
       <ContactSection
