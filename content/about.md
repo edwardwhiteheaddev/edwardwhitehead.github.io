@@ -8,19 +8,23 @@ skillProgress:
   - { label: 'Total', value: 100 }
 ---
 
-Edward is a strategic technical leader with over 20 years of commercial experience bridging business strategy and engineering execution. Expert in directing complex legacy modernisations, defining enterprise product roadmaps, and architecting mobile applications.
+Technology, Operations and Delivery Leader with more than 20 years of experience successfully delivering complex technical solutions, large-scale public events, enterprise software platforms and business transformation initiatives.
+
+Throughout my career I have combined deep technical expertise with strong commercial and operational leadership, allowing me to move comfortably between software architecture, project delivery, stakeholder management, business development and large-scale operational execution.
 
 **Core Expertise:**
 
-- **Full-Stack Engineering:** TypeScript, React, Next.js 15, Node.js, Firebase, MongoDB, PostgreSQL, AWS, Azure, Docker, Kubernetes
-- **AI & Systems Architecture:** Multi-agent AI systems, plugin ecosystems, modular microservices, and enterprise-scale automation
-- **Product Leadership:** End-to-end SaaS platform development, go-to-market strategy, team leadership, and thought leadership positioning
-- **Fractional CTO Services:** Technical vision, roadmap planning, investor relations, and organizational scaling
+- **Full-Stack Engineering:** .Net MAUI, Flutter, TypeScript, React, Next.js, Node.js, Firebase, MongoDB, PostgreSQL, AWS, Azure, Docker, Kubernetes
+- **Strategic & Technology Leadership:** Technical Due Diligence, Cross-Functional Team Leadership, Remote Orchestration, Risk & Budget Management, Product Strategy
+- **Architecture & Cloud:** Enterprise Modernisation, Edge AI & Vector Search, Microservices, Azure DevOps, PostgreSQL RLS, Serverless Architecture
+- **Event & Operational Leadership:** Large-Scale Event Management, Vendor Negotiation, Municipal Licensing, Health & Safety Compliance
 
 **Notable Ventures:**
 
-- **SubSeat:** AI-enhanced subscription booking platform for beauty services (SaaS, early 2026 launch)
-- **Qirvo:** AI command platform with plugin marketplace and Echo CLI agent for developers
-- **Orchestra-AI:** Commercial certification framework for AI-integrated software delivery lifecycle (U-ASDLC)
+- **Plinth** An automated property management platform for self-managing landlords, alongside DADO, its decoupled, headless AI maintenance and field-invoicing engine.
+- **Qirvo:** AI command platform with plugin marketplace and Echo CLI agent for developers.
+- **Orchestra-AI:** Commercial certification framework for AI-integrated software delivery lifecycle (U-ASDLC).
 
-I have a proven track record architecting scalable, and building multi-agent AI systems, publishing open-source SDKs, and managing investor relations. I excel at leading distributed teams, integrating emerging technologies (AI, IoT, blockchain), and transforming product vision into market-ready solutions.
+In addition to leading software projects across logistics, insurance, fintech and SaaS, I founded and operated a successful event management company responsible for planning and delivering major public festivals, corporate activations and hospitality operations across South Africa.
+
+My experience spans technical leadership, operations, vendor management, budgeting, customer experience, compliance, product strategy and end-to-end project execution, making me equally effective leading engineering teams or large multidisciplinary programmes.

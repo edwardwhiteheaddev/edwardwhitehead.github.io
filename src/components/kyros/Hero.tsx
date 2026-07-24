@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useMemo, useRef } from 'react';
 import Typed from 'typed.js';
-import me from '@/assets/me.png';
+import me from '@/assets/me-corporate.png';
 
 export interface HeroLocation {
     label: string;
@@ -39,7 +39,7 @@ export function HeroSection({
     typedPhrases,
     locations,
     buttons,
-}: HeroProps) {
+}: Readonly<HeroProps>) {
     const typedRef = useRef<HTMLSpanElement | null>(null);
 
     useEffect(() => {
@@ -85,7 +85,7 @@ export function HeroSection({
                         data-aos="fade-up"
                         data-aos-delay="0"
                     >
-                        I am {name}
+                        Hello, I am {name}
                     </p>
                     <h1
                         className="kyros-hero__headline"
@@ -96,7 +96,7 @@ export function HeroSection({
                             <>
                                 {title}{' '}
                                 <span>{titleGradientText}</span>{' '}
-                                {titleEndText}
+                                <div className='kyros-hero__small'>{titleEndText}</div>
                             </>
                         ) : (
                             title

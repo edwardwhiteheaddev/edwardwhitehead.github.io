@@ -9,7 +9,7 @@ import {
   AccordionItem,
   AccordionPanel,
   Text,
-  TypographyStylesProvider,
+  Typography
 } from "@mantine/core";
 import { FadeIn } from "@/components/FadeIn";
 
@@ -48,9 +48,9 @@ export function SkillsClient({ data }: { data: SkillsData }) {
           </Accordion>
 
           <Title order={2} mb="md" size="h3">Key Highlights</Title>
-          <TypographyStylesProvider>
+          <Typography>
             <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
-          </TypographyStylesProvider>
+          </Typography>
         </Paper>
       </Container>
     </FadeIn>
