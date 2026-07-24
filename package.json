@@ -10,8 +10,7 @@
     "start": "next start",
     "lint": "eslint",
     "test-email": "node test-email.js",
-    "build:knowledge": "node scripts/build-knowledge.mjs",
-    "postinstall": "npm run build:knowledge"
+    "build:knowledge": "node scripts/build-knowledge.mjs"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
