@@ -47,8 +47,8 @@ jobs:
     skills: 'Event Management, Live Event Operations, Hospitality Operations, Vendor & Supplier Management, Municipal Licensing & Regulatory Compliance, Crowd & Safety Management, Event Logistics, Sponsorship Activation, Budgeting & Financial Reconciliation, Risk Management'
     notableAchievements: |
       - Secured and delivered the primary food and beverage contract for the inaugural Comic Con Africa 2018 at Kyalami International Raceway, managing operations serving approximately 45,000 attendees across seven operational days.
-      - Coordinated Southern Africa's largest gathering of food trucks, managing over 50 independent vendors simultaneously[cite: 2].
-      - Conceptualised, produced, and operated high-volume recurring event IPs, including Food Truck Fridays, International Beer Day Music Festival, Avocado & Margarita Festival, Prawn & Beer Festival, and The Grande Parade[cite: 2].
+      - Coordinated Southern Africa's largest gathering of food trucks, managing over 50 independent vendors simultaneously.
+      - Conceptualised, produced, and operated high-volume recurring event IPs, including Food Truck Fridays, International Beer Day Music Festival, Avocado & Margarita Festival, Prawn & Beer Festival, and The Grande Parade.
       - Managed multi-outlet hospitality and beverage operations, including flagship festival beer gardens, corporate product launches, brand activations, and private functions across Gauteng.
 
   - role: 'Mobile Software Architect / Senior Application Developer'

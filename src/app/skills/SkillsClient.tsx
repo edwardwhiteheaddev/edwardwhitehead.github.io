@@ -48,7 +48,7 @@ export function SkillsClient({ data }: { data: SkillsData }) {
           </Accordion>
 
           <Title order={2} mb="md" size="h3">Key Highlights</Title>
-          <Typography className="skills-richtext">
+          <Typography>
             <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
           </Typography>
         </Paper>

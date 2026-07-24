@@ -96,7 +96,7 @@ export function HeroSection({
                             <>
                                 {title}{' '}
                                 <span>{titleGradientText}</span>{' '}
-                                <p className='kyros-hero__small'>{titleEndText}</p>
+                                <div className='kyros-hero__small'>{titleEndText}</div>
                             </>
                         ) : (
                             title
