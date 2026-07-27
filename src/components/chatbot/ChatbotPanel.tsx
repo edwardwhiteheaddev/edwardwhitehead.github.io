@@ -3,7 +3,7 @@
 import { useChatbot } from "@/components/chatbot/ChatbotProvider";
 import { IconLoader2, IconMessageCircle, IconRefresh, IconSend, IconX } from "@tabler/icons-react";
 import clsx from "clsx";
-import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
+import { SubmitEvent, useEffect, useMemo, useRef, useState } from "react";
 
 const KNOWLEDGE_URL = "/chatbot-knowledge.json";
 const DEFAULT_API_URL = process.env.NEXT_PUBLIC_CHATBOT_API_URL ?? "";
@@ -41,11 +41,33 @@ export default function ChatbotPanel() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [knowledge, setKnowledge] = useState<KnowledgeEntry[]>([]);
-  const [knowledgeStatus, setKnowledgeStatus] = useState<"idle" | "loading" | "ready" | "error">("idle");
+  const [knowledgeStatus, setKnowledgeStatus] = useState<"loading" | "ready" | "error">("loading");
   const [apiUrl, setApiUrl] = useState<string>(() => {
-    if (DEFAULT_API_URL) return DEFAULT_API_URL;
+    if (DEFAULT_API_URL && isValidApiUrl(DEFAULT_API_URL)) {
+      return DEFAULT_API_URL;
+    }
     if (typeof window === "undefined") return "";
+
     const origin = window.location.origin;
+    const stored = window.localStorage.getItem("chatbot.apiUrl")?.trim();
+
+    const isValidExternal = Boolean(
+      stored &&
+      stored.length > 0 &&
+      stored.startsWith("http") &&
+      isValidApiUrl(stored)
+    );
+
+    if (isValidExternal && stored) {
+      console.debug("[Chatbot] Using stored external URL:", stored);
+      return stored;
+    }
+
+    if (stored) {
+      console.debug("[Chatbot] Clearing invalid stored URL:", stored);
+      window.localStorage.removeItem("chatbot.apiUrl");
+    }
+
     return `${origin}/api/chatbot`;
   });
   const [errorMessage, setErrorMessage] = useState<string>("");
@@ -64,50 +86,33 @@ export default function ChatbotPanel() {
   }, [messages, isOpen]);
 
   useEffect(() => {
-    if (knowledgeStatus !== "idle") return;
-    setKnowledgeStatus("loading");
+    let cancelled = false;
+
     fetch(KNOWLEDGE_URL, { cache: "reload" })
       .then(async (response) => {
         if (!response.ok) throw new Error(`Failed to load knowledge (${response.status})`);
         const payload = (await response.json()) as KnowledgePayload;
-        console.log("[Chatbot] Loaded knowledge:", {
+        console.debug("[Chatbot] Loaded knowledge:", {
           documentCount: payload.documentCount,
           generatedAt: payload.generatedAt,
           hasEmbeddings: payload.documents.some(doc => doc.embedding && doc.embedding.length > 0)
         });
-        setKnowledge(payload.documents ?? []);
-        setKnowledgeStatus("ready");
+        if (!cancelled) {
+          setKnowledge(payload.documents ?? []);
+          setKnowledgeStatus("ready");
+        }
       })
       .catch((error) => {
-        console.error(error);
-        setKnowledgeStatus("error");
+        if (!cancelled) {
+          console.error(error);
+          setKnowledgeStatus("error");
+        }
       });
-  }, [knowledgeStatus]);
 
-  useEffect(() => {
-    if (!DEFAULT_API_URL) {
-      const origin = window.location.origin;
-      const stored = window.localStorage.getItem("chatbot.apiUrl")?.trim();
-
-      console.log("[Chatbot] Checking stored URL:", { stored, origin, currentApiUrl: apiUrl });
-
-      // Only use stored URL if it's a valid external URL
-      const isValidExternal = Boolean(
-        stored &&
-        stored.length > 0 &&
-        stored.startsWith("http") &&
-        !stored.startsWith(origin)
-      );
-
-      if (isValidExternal && stored) {
-        console.log("[Chatbot] Using stored external URL:", stored);
-        setApiUrl(stored);
-      } else if (stored && stored !== apiUrl) {
-        console.log("[Chatbot] Clearing invalid stored URL:", stored);
-        window.localStorage.removeItem("chatbot.apiUrl");
-      }
-    }
-  }, [apiUrl]);
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   useEffect(() => {
     if (apiUrl) {
@@ -117,7 +122,7 @@ export default function ChatbotPanel() {
 
   const canSend = useMemo(() => Boolean(input.trim()) && !loading && !!apiUrl, [apiUrl, input, loading]);
 
-  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: SubmitEvent<HTMLFormElement>) {
     event.preventDefault();
     const question = input.trim();
     if (!question || loading) return;
@@ -130,10 +135,10 @@ export default function ChatbotPanel() {
 
     try {
       const { context, topScore } = selectContext(question, knowledge, CONTEXT_COUNT);
-      console.log("[Chatbot] Selected context for question:", question);
-      console.log("[Chatbot] Context count:", context.length, "topScore:", topScore);
+      console.debug("[Chatbot] Selected context for question:", question);
+      console.debug("[Chatbot] Context count:", context.length, "topScore:", topScore);
       context.forEach((doc, i) => {
-        console.log(`[Chatbot] Context ${i + 1}: ${doc.title} (${doc.slug})`);
+        console.debug(`[Chatbot] Context ${i + 1}: ${doc.title} (${doc.slug})`);
       });
 
       // If we can't find any meaningful matches, avoid calling the LLM with irrelevant context.
@@ -153,7 +158,7 @@ export default function ChatbotPanel() {
       let targetUrl = apiUrl;
       const origin = window.location.origin;
 
-      console.log("[Chatbot] Debug validation:", {
+      console.debug("[Chatbot] Debug validation:", {
         DEFAULT_API_URL,
         apiUrl,
         origin,
@@ -161,14 +166,14 @@ export default function ChatbotPanel() {
         "includes /api/": apiUrl.includes("/api/")
       });
 
-      const isInvalidUrl = !DEFAULT_API_URL && (
+      const isInvalidUrl = (
         !targetUrl ||
         targetUrl === origin ||
         targetUrl === `${origin}/` ||
-        !targetUrl.includes("/api/")
+        !isValidApiUrl(targetUrl)
       );
 
-      console.log("[Chatbot] isInvalidUrl:", isInvalidUrl);
+      console.debug("[Chatbot] isInvalidUrl:", isInvalidUrl);
 
       if (isInvalidUrl) {
         targetUrl = `${origin}/api/chatbot`;
@@ -176,7 +181,7 @@ export default function ChatbotPanel() {
         setApiUrl(targetUrl);
       }
 
-      console.log("[Chatbot] Calling API:", targetUrl);
+      console.debug("[Chatbot] Calling API:", targetUrl);
       const response = await fetch(targetUrl, {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -186,24 +191,24 @@ export default function ChatbotPanel() {
         }),
       });
 
-      console.log("[Chatbot] Response status:", response.status, response.statusText);
-      console.log("[Chatbot] Response content-type:", response.headers.get("content-type"));
+      console.debug("[Chatbot] Response status:", response.status, response.statusText);
+      console.debug("[Chatbot] Response content-type:", response.headers.get("content-type"));
 
       if (!response.ok) {
         const text = await response.text();
-        console.error("[Chatbot] Error response body:", text.slice(0, 500));
+        console.debug("[Chatbot] Error response body:", text.slice(0, 500));
         throw new Error(`Request failed (${response.status}): ${text.slice(0, 100)}`);
       }
 
       const contentType = response.headers.get("content-type");
       if (!contentType?.includes("application/json")) {
         const text = await response.text();
-        console.error("[Chatbot] Non-JSON response:", text.slice(0, 500));
+        console.debug("[Chatbot] Non-JSON response:", text.slice(0, 500));
         throw new Error(`Expected JSON but got ${contentType}. Response starts with: ${text.slice(0, 100)}`);
       }
 
       const data = await response.json();
-      console.log("[Chatbot] Parsed response:", data);
+      console.debug("[Chatbot] Parsed response:", data);
       const reply: ChatMessage = {
         role: "assistant",
         content: typeof data.reply === "string" ? data.reply : "I encountered an unexpected response.",
@@ -345,9 +350,9 @@ function selectContext(question: string, documents: KnowledgeEntry[], limit: num
     score: scoreMatch(question, document),
   }));
   scored.sort((a, b) => b.score - a.score);
-  console.log("[Chatbot] Top 5 scores for question:", question);
+  console.debug("[Chatbot] Top 5 scores for question:", question);
   scored.slice(0, 5).forEach((item, index) => {
-    console.log(`[Chatbot] ${index + 1}. ${item.document.title} (${item.document.slug}) - Score: ${item.score}`);
+    console.debug(`[Chatbot] ${index + 1}. ${item.document.title} (${item.document.slug}) - Score: ${item.score}`);
   });
 
   const topScore = scored[0]?.score ?? 0;
@@ -394,4 +399,14 @@ function resolveSourceLink(source: string, documents: KnowledgeEntry[]) {
     href,
     label: match?.title ?? source,
   };
+}
+
+function isValidApiUrl(url: string): boolean {
+  if (!url || !url.startsWith("http")) return false;
+  try {
+    const parsed = new URL(url);
+    return parsed.origin === window.location.origin;
+  } catch {
+    return false;
+  }
 }

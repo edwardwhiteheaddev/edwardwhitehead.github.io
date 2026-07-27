@@ -8,7 +8,7 @@ type ChatbotRequestBody = {
   context?: ContextEntry[];
 };
 
-const DEFAULT_MODEL = "gpt-4o-mini";
+const DEFAULT_MODEL = "nvidia/llama-3.1-nemotron-70b-instruct:free";
 const DEFAULT_SYSTEM_PROMPT = `You are UNIVRS’s AI assistant, representing Edward Whitehead and UNIVRS Consulting.
 
 Your role is to provide clear, calm, and trustworthy answers about:
@@ -56,7 +56,7 @@ Primary Objective:
 Help users understand what UNIVRS is, how it thinks, and whether it is a good fit. Trust and clarity matter more than conversion.`;
 
 export async function POST(request: NextRequest) {
-  const apiKey = process.env.OPENAI_API_KEY;
+  const apiKey = process.env.OPENROUTER_API_KEY;
 
   if (!apiKey) {
     return NextResponse.json({ error: "Missing OpenAI API key" }, { status: 500 });
@@ -64,7 +64,7 @@ export async function POST(request: NextRequest) {
 
   const model = process.env.CHATBOT_MODEL ?? DEFAULT_MODEL;
   const systemPrompt = process.env.CHATBOT_SYSTEM_PROMPT ?? DEFAULT_SYSTEM_PROMPT;
-  const openai = new OpenAI({ apiKey });
+  const openai = new OpenAI({ apiKey, baseURL: "https://openrouter.ai/api/v1" });
 
   try {
     const body = (await request.json()) as ChatbotRequestBody;

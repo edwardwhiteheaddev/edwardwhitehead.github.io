@@ -1,17 +1,4 @@
-allowBuilds:
-  '@parcel/watcher': true
-  sharp: true
-  unrs-resolver: true
-
-minimumReleaseAgeExclude:
-  - openai@6.49.0
-  - sass@1.101.7
-
 onlyBuiltDependencies:
   - '@parcel/watcher'
   - sharp
   - unrs-resolver
-
-overrides:
-  '@smithy/config-resolver@<4.4.0': '>=4.4.0'
-  next@>=16.0.0-beta.0 <16.0.9: '>=16.0.9'

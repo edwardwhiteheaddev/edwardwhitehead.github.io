@@ -6,9 +6,15 @@ import OpenAI from 'openai';
 const root = process.cwd();
 const contentDir = path.join(root, 'content');
 const outputPath = path.join(root, 'public', 'chatbot-knowledge.json');
-const openaiKey = process.env.OPENAI_API_KEY;
-const embeddingModel = process.env.CHATBOT_EMBEDDING_MODEL ?? 'text-embedding-3-large';
-const openai = openaiKey ? new OpenAI({ apiKey: openaiKey }) : null;
+const openRouterKey = process.env.OPENROUTER_API_KEY;
+const embeddingModel = process.env.CHATBOT_EMBEDDING_MODEL ?? 'openrouter/free';
+const isOpenRouter = openRouterKey && !openRouterKey.startsWith('sk-or-');
+const openai = openRouterKey
+  ? new OpenAI({
+      apiKey: openRouterKey,
+      baseURL: isOpenRouter ? 'https://openrouter.ai/api/v1' : 'https://api.openai.com/v1',
+    })
+  : null;
 
 async function collectDocuments() {
   const entries = [];
@@ -22,7 +28,7 @@ async function collectDocuments() {
         const slug = [...segments, item.name.replace(/\.md$/i, '')];
         const raw = await fs.readFile(nextPath, 'utf8');
         const parsed = matter(raw);
-        const content = parsed.content.replace(/\r\n/g, '\n').trim();
+        const content = parsed.content.replaceAll('\r\n', '\n').trim();
         if (!content) continue;
         const chunks = chunkContent(content);
         for (let index = 0; index < chunks.length; index += 1) {
@@ -31,7 +37,7 @@ async function collectDocuments() {
           entries.push({
             id: `${slug.join('/')}-${index + 1}`,
             slug: slug.join('/'),
-            title: parsed.data?.title ?? slug[slug.length - 1],
+            title: parsed.data?.title ?? slug.at(-1),
             excerpt: fragment.slice(0, 160),
             content: fragment,
             embedding,
@@ -47,8 +53,13 @@ async function collectDocuments() {
 
 async function embedFragment(text) {
   if (!openai) return null;
-  const response = await openai.embeddings.create({ model: embeddingModel, input: text });
-  return response.data[0]?.embedding ?? null;
+  try {
+    const response = await openai.embeddings.create({ model: embeddingModel, input: text });
+    return response.data[0]?.embedding ?? null;
+  } catch (error) {
+    console.warn(`Failed to generate embedding: ${error.message}. Continuing without embeddings.`);
+    return null;
+  }
 }
 
 function chunkContent(text, size = 900) {
