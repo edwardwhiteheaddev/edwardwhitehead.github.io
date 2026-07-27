@@ -7,12 +7,12 @@ const root = process.cwd();
 const contentDir = path.join(root, 'content');
 const outputPath = path.join(root, 'public', 'chatbot-knowledge.json');
 const openRouterKey = process.env.OPENROUTER_API_KEY;
-const embeddingModel = process.env.CHATBOT_MODEL ?? 'openrouter/free';
-const isOpenRouter = openRouterKey && !openRouterKey.startsWith('sk-or-');
+const embeddingModel =
+  process.env.CHATBOT_EMBEDDING_MODEL ?? process.env.CHATBOT_MODEL ?? 'openai/text-embedding-3-small';
 const openai = openRouterKey
   ? new OpenAI({
       apiKey: openRouterKey,
-      baseURL: isOpenRouter ? 'https://openrouter.ai/api/v1' : 'https://api.openai.com/v1',
+      baseURL: 'https://openrouter.ai/api/v1',
     })
   : null;
 
@@ -54,10 +54,15 @@ async function collectDocuments() {
 async function embedFragment(text) {
   if (!openai) return null;
   try {
-    const response = await openai.embeddings.create({ model: embeddingModel, input: text });
-    return response.data[0]?.embedding ?? null;
+    const response = await openai.embeddings.create({ model: embeddingModel, input: text, encoding_format: 'float' });
+    const data = response.data;
+    if (!Array.isArray(data)) {
+      console.warn(`Failed to generate embedding: unexpected API response. Continuing without embeddings.`, JSON.stringify(response).slice(0, 500));
+      return null;
+    }
+    return data[0]?.embedding ?? null;
   } catch (error) {
-    console.warn(`Failed to generate embedding: ${error.message}. Continuing without embeddings.`);
+    console.warn(`Failed to generate embedding: ${error.message}. Continuing without embeddings.`, JSON.stringify(error, null, 2).slice(0, 1000));
     return null;
   }
 }
