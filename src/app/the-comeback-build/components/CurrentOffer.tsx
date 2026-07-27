@@ -5,7 +5,7 @@ export function CurrentOfferSection({ title, description, offers, offerIncludes 
     return (
         <div className="current-offer wrapper kyros-section__alt">
             <div className="current-offer__container">
-                <Grid gutter={80}>
+                <Grid gap={80}>
                     <GridCol span={{ base: 12, md: 5 }}>
                         <div data-aos="fade-up" data-aos-delay="0">
                             <Title className="current-offer__title" order={2}>

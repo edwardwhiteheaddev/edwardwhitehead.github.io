@@ -8,7 +8,7 @@ type ChatbotRequestBody = {
     context?: ContextEntry[];
 };
 
-const DEFAULT_MODEL = "gpt-5-nano-2025-08-07";
+const DEFAULT_MODEL = "nvidia/llama-3.1-nemotron-70b-instruct:free";
 const DEFAULT_SYSTEM_PROMPT = `You are the AI assistant for Edward Whitehead.
 
 Your purpose is to help visitors understand who Edward is, how he works, what he has built, and whether he is the right person to help solve their technical or business challenges.
@@ -228,10 +228,10 @@ export const handler: Handler = async (event) => {
         return createResponse(405, JSON.stringify({ error: 'Method not allowed' }));
     }
 
-    const apiKey = process.env.OPENAI_API_KEY;
+    const apiKey = process.env.OPENROUTER_API_KEY;
 
     if (!apiKey) {
-        return createResponse(500, JSON.stringify({ error: 'Missing OpenAI API key' }));
+        return createResponse(500, JSON.stringify({ error: 'Missing OpenRouter API key' }));
     }
 
     const model = process.env.CHATBOT_MODEL ?? DEFAULT_MODEL;

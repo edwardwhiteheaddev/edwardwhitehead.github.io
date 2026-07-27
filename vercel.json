@@ -11,7 +11,7 @@
     }
   },
   "env": {
-    "OPENAI_API_KEY": "@openai_api_key",
+    "OPENROUTER_API_KEY": "@openrouter_api_key",
     "CHATBOT_MODEL": "@chatbot_model",
     "CHATBOT_SYSTEM_PROMPT": "@chatbot_system_prompt"
   }

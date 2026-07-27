@@ -52,15 +52,15 @@ structuredData:
   "keywords": ["Microservices Architecture", "Resilient Systems", "Service Discovery", "Circuit Breaker"]
 ---
 
-# Building Resilient Microservices Architecture
+## Building Resilient Microservices Architecture
 
 Microservices architecture offers many benefits, but it also introduces complexity in terms of service communication, failure handling, and operational monitoring. Building resilient microservices requires careful consideration of fault tolerance, observability, and graceful degradation.
 
-## Service Discovery
+### Service Discovery
 
 Service discovery allows services to find and communicate with each other dynamically.
 
-### Consul Service Discovery
+#### Consul Service Discovery
 
 ```javascript
 // Service registration with Consul
@@ -90,7 +90,7 @@ async function findService(serviceName) {
 }
 ```
 
-### Kubernetes Service Discovery
+#### Kubernetes Service Discovery
 
 ```yaml
 # Kubernetes service definition
@@ -108,11 +108,11 @@ spec:
   type: ClusterIP
 ```
 
-## Circuit Breaker Pattern
+### Circuit Breaker Pattern
 
 Circuit breakers prevent cascading failures by failing fast when services are unhealthy.
 
-### Implementation with HystrixJS
+#### Implementation with HystrixJS
 
 ```javascript
 // Circuit breaker configuration
@@ -141,7 +141,7 @@ async function callUserService(userId) {
 }
 ```
 
-### Circuit Breaker States
+#### Circuit Breaker States
 
 ```typescript
 enum CircuitState {
@@ -190,11 +190,11 @@ class CircuitBreaker {
 }
 ```
 
-## Distributed Tracing
+### Distributed Tracing
 
 Track requests across multiple services to understand system behavior and identify bottlenecks.
 
-### OpenTelemetry Implementation
+#### OpenTelemetry Implementation
 
 ```typescript
 // Initialize tracing
@@ -234,11 +234,11 @@ async function processUserOrder(userId: string, orderId: string) {
 }
 ```
 
-## API Gateway Pattern
+### API Gateway Pattern
 
 Centralize cross-cutting concerns like authentication, rate limiting, and request routing.
 
-### Express Gateway Implementation
+#### Express Gateway Implementation
 
 ```javascript
 // Gateway configuration
@@ -294,11 +294,11 @@ pipelines:
           target: 'http://order-service:3002'
 ```
 
-## Service Mesh with Istio
+### Service Mesh with Istio
 
 For complex microservices deployments, service meshes provide advanced traffic management and observability.
 
-### Istio Configuration
+#### Istio Configuration
 
 ```yaml
 # Destination Rule for traffic policy
@@ -336,9 +336,9 @@ spec:
       weight: 10
 ```
 
-## Fault Tolerance Patterns
+### Fault Tolerance Patterns
 
-### Retry Logic with Exponential Backoff
+#### Retry Logic with Exponential Backoff
 
 ```typescript
 class RetryService {
@@ -374,7 +374,7 @@ class RetryService {
 }
 ```
 
-### Bulkhead Pattern
+#### Bulkhead Pattern
 
 Isolate failures to prevent them from affecting the entire system:
 
@@ -399,9 +399,9 @@ class BulkheadService {
 }
 ```
 
-## Monitoring and Observability
+### Monitoring and Observability
 
-### Metrics Collection
+#### Metrics Collection
 
 ```typescript
 // Prometheus metrics
@@ -450,7 +450,7 @@ app.get('/metrics', async (req, res) => {
 });
 ```
 
-### Health Checks
+#### Health Checks
 
 ```typescript
 // Comprehensive health check
@@ -473,9 +473,9 @@ app.get('/health', async (req, res) => {
 });
 ```
 
-## Deployment Strategies
+### Deployment Strategies
 
-### Blue-Green Deployment
+#### Blue-Green Deployment
 
 ```yaml
 # Kubernetes blue-green deployment
@@ -505,7 +505,7 @@ spec:
         - containerPort: 3001
 ```
 
-### Canary Release
+#### Canary Release
 
 ```typescript
 // Traffic splitting for canary releases
@@ -527,33 +527,33 @@ app.use('/api/users', (req, res, next) => {
 });
 ```
 
-## Best Practices
+### Best Practices
 
-### 1. Design for Failure
+#### 1. Design for Failure
 
 - Assume services will fail and design accordingly
 - Implement proper error handling and fallback mechanisms
 - Use timeouts for all external calls
 
-### 2. Implement Observability
+#### 2. Implement Observability
 
 - Log structured data with correlation IDs
 - Implement distributed tracing
 - Monitor key metrics and set up alerting
 
-### 3. Use Appropriate Patterns
+#### 3. Use Appropriate Patterns
 
 - Apply circuit breakers for external dependencies
 - Use bulkheads to isolate failures
 - Implement retry logic with exponential backoff
 
-### 4. Test Thoroughly
+#### 4. Test Thoroughly
 
 - Test failure scenarios in integration tests
 - Implement chaos engineering practices
 - Monitor and alert on service health
 
-## Conclusion
+### Conclusion
 
 Building resilient microservices requires a comprehensive approach that addresses service discovery, failure handling, observability, and operational concerns. The patterns and techniques discussed here provide a solid foundation for creating systems that can handle failures gracefully and maintain high availability.
 

@@ -37,7 +37,7 @@ export function ExperienceClient({ data }: { data: ExperienceData }) {
         <Stack gap="xl">
           {jobs.map((job, index) => (
             <div key={index}>
-              <Grid gutter="xl">
+              <Grid gap="xl">
                 <Grid.Col span={{ base: 12, sm: 4 }}>
                   <Stack gap={0}>
                     <Title order={4}>{job.company || 'Career Development'}</Title>

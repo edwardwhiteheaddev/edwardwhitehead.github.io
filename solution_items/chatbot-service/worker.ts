@@ -1,7 +1,7 @@
 import OpenAI from "openai";
 
 export interface Env {
-    OPENAI_API_KEY: string;
+    OPENROUTER_API_KEY: string;
     CHATBOT_SYSTEM_PROMPT?: string;
     CHATBOT_MODEL?: string;
 }
@@ -59,7 +59,7 @@ const worker = {
             return new Response("Method Not Allowed", { status: 405, headers: { Allow: "POST" } });
         }
 
-        const openai = new OpenAI({ apiKey: env.OPENAI_API_KEY });
+        const openai = new OpenAI({ apiKey: env.OPENROUTER_API_KEY });
         const model = env.CHATBOT_MODEL ?? DEFAULT_MODEL;
         const systemPrompt = env.CHATBOT_SYSTEM_PROMPT ?? DEFAULT_SYSTEM_PROMPT;
 

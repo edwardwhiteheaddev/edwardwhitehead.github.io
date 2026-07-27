@@ -43,7 +43,7 @@ export const handler: Handler = async (event) => {
     const { email } = JSON.parse(event.body);
 
     // Basic email validation
-    if (!email || !email.includes('@')) {
+    if (!email?.includes('@')) {
       return createResponse(400, JSON.stringify({
         error: 'Please provide a valid email address'
       }));
