@@ -8,7 +8,7 @@ type ChatbotRequestBody = {
   context?: ContextEntry[];
 };
 
-const DEFAULT_MODEL = "openrouter/free";
+const DEFAULT_MODEL = "google/gemma-4-26b-a4b-it:free";
 const DEFAULT_SYSTEM_PROMPT = `You are the AI assistant for Edward Whitehead.
 
 Your purpose is to help visitors understand who Edward is, how he works, what he has built, and whether he is the right person to help solve their technical or business challenges.

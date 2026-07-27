@@ -12,7 +12,7 @@ export class ClientChatbot {
   private readonly model: string;
   private readonly systemPrompt: string;
 
-  constructor(apiKey: string, model = "openrouter/free") {
+  constructor(apiKey: string, model = "google/gemma-4-26b-a4b-it:free") {
     this.openai = new OpenAI({
       baseURL: "https://openrouter.ai/api/v1",
       apiKey,
