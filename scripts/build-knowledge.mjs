@@ -8,11 +8,10 @@ const contentDir = path.join(root, 'content');
 const outputPath = path.join(root, 'public', 'chatbot-knowledge.json');
 const openRouterKey = process.env.OPENROUTER_API_KEY;
 const embeddingModel = process.env.CHATBOT_MODEL ?? 'openrouter/free';
-const isOpenRouter = openRouterKey && !openRouterKey.startsWith('sk-or-');
 const openai = openRouterKey
   ? new OpenAI({
       apiKey: openRouterKey,
-      baseURL: isOpenRouter ? 'https://openrouter.ai/api/v1' : 'https://api.openai.com/v1',
+      baseURL: 'https://openrouter.ai/api/v1',
     })
   : null;
 

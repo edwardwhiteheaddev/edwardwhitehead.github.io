@@ -14,6 +14,7 @@ export class ClientChatbot {
 
   constructor(apiKey: string, model = "openrouter/free") {
     this.openai = new OpenAI({
+      baseURL: "https://openrouter.ai/api/v1",
       apiKey,
       dangerouslyAllowBrowser: true // Required for client-side usage
     });
