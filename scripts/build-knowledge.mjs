@@ -57,12 +57,12 @@ async function embedFragment(text) {
     const response = await openai.embeddings.create({ model: embeddingModel, input: text });
     const data = response.data;
     if (!Array.isArray(data)) {
-      console.warn(`Failed to generate embedding: unexpected API response. Continuing without embeddings.`);
+      console.warn(`Failed to generate embedding: unexpected API response. Continuing without embeddings.`, JSON.stringify(response).slice(0, 500));
       return null;
     }
     return data[0]?.embedding ?? null;
   } catch (error) {
-    console.warn(`Failed to generate embedding: ${error.message}. Continuing without embeddings.`);
+    console.warn(`Failed to generate embedding: ${error.message}. Continuing without embeddings.`, JSON.stringify(error, null, 2).slice(0, 1000));
     return null;
   }
 }
