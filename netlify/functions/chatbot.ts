@@ -236,7 +236,7 @@ export const handler: Handler = async (event) => {
 
     const model = process.env.CHATBOT_MODEL ?? DEFAULT_MODEL;
     const systemPrompt = process.env.CHATBOT_SYSTEM_PROMPT ?? DEFAULT_SYSTEM_PROMPT;
-    const openai = new OpenAI({ apiKey });
+    const openai = new OpenAI({ apiKey, baseURL: 'https://openrouter.ai/api/v1' });
 
     try {
         if (!event.body) {
