@@ -7,7 +7,8 @@ const root = process.cwd();
 const contentDir = path.join(root, 'content');
 const outputPath = path.join(root, 'public', 'chatbot-knowledge.json');
 const openRouterKey = process.env.OPENROUTER_API_KEY;
-const embeddingModel = process.env.CHATBOT_MODEL ?? 'google/gemma-4-26b-a4b-it:free';
+const embeddingModel =
+  process.env.CHATBOT_EMBEDDING_MODEL ?? process.env.CHATBOT_MODEL ?? 'openai/text-embedding-3-small';
 const openai = openRouterKey
   ? new OpenAI({
       apiKey: openRouterKey,
