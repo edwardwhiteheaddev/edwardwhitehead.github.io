@@ -54,7 +54,7 @@ async function collectDocuments() {
 async function embedFragment(text) {
   if (!openai) return null;
   try {
-    const response = await openai.embeddings.create({ model: embeddingModel, input: text });
+    const response = await openai.embeddings.create({ model: embeddingModel, input: text, encoding_format: 'float' });
     const data = response.data;
     if (!Array.isArray(data)) {
       console.warn(`Failed to generate embedding: unexpected API response. Continuing without embeddings.`, JSON.stringify(response).slice(0, 500));
