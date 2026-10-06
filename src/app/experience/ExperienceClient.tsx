@@ -2,72 +2,108 @@
 
 import {
   Title,
-  Container,
-  Text,
-  Badge,
-  Group,
-  Grid,
-  Stack,
-  Divider,
+  Container, Stack, Card
 } from "@mantine/core";
 import { FadeIn } from "@/components/FadeIn";
+import { ExperienceMarkdownData } from "@/schemas";
+import React from "react";
 
-interface Job {
-  role: string;
-  company: string;
-  dates: string;
-  description: string;
-  skills: string;
+function renderDescription(description: string) {
+  if (!description || description.trim().length === 0) {
+    return null;
+  }
+
+  const lines = description
+    .split('\n')
+    .map((line) => line.trim())
+    .filter((line) => line.length > 0);
+
+  const bulletLines = lines.filter((line) => line.startsWith('-'));
+
+  if (bulletLines.length === 0) {
+    return <p className="text-muted">{description}</p>;
+  }
+
+  return (
+    <ul className="text-muted">
+      {bulletLines.map((line) => (
+        <li key={line}>{line.replace(/^[-•]\s*/, '')}</li>
+      ))}
+    </ul>
+  );
 }
 
-interface ExperienceData {
-  title: string;
-  jobs: Job[];
-}
-
-export function ExperienceClient({ data }: { data: ExperienceData }) {
-  const { title, jobs } = data;
+export function ExperienceClient({ title, experience }: Readonly<{ title: string, experience: ExperienceMarkdownData }>) {
 
   return (
     <FadeIn>
-      <Container size="md">
-        <Title order={1} ta="center" mb="xl">
-          {title}
-        </Title>
+      <div className="experience-hero">
+        <div className="experience-hero__overlay" />
+        <div className="experience-hero__content">
+          <Title order={1} size="h1" c="white" mb="sm">
+            {title}
+          </Title>
+        </div>
+      </div>
+
+      <Container size="lg" py="xl">
         <Stack gap="xl">
-          {jobs.map((job, index) => (
-            <div key={index}>
-              <Grid gap="xl">
-                <Grid.Col span={{ base: 12, sm: 4 }}>
-                  <Stack gap={0}>
-                    <Title order={4}>{job.company || 'Career Development'}</Title>
-                    <Text c="dimmed" size="sm">{job.dates}</Text>
-                  </Stack>
-                </Grid.Col>
-                <Grid.Col span={{ base: 12, sm: 8 }}>
-                  <Stack gap="sm">
-                    <Title order={3}>{job.role}</Title>
-                    <Text
-                        dangerouslySetInnerHTML={{
-                        __html: job.description.replace(/- /g, '• '),
-                        }}
-                        lh={1.7}
-                    />
-                    {job.skills && (
-                        <Group gap="xs" mt="sm">
-                            {job.skills.split('·').map((skill) => (
-                            <Badge key={skill.trim()} variant="light" radius="sm">
-                                {skill.trim()}
-                            </Badge>
-                            ))}
-                        </Group>
-                    )}
-                  </Stack>
-                </Grid.Col>
-              </Grid>
-              {index < jobs.length - 1 && <Divider my="xl" />}
+          <Card
+            shadow="md"
+            padding="xl"
+            radius="lg"
+            style={{
+              background: 'rgba(255, 255, 255, 0.04)',
+              border: '1px solid rgba(255, 255, 255, 0.08)',
+            }}
+          >
+            <div className="container">
+              <div className="kyros-resume">
+                {experience.jobs.map((item, index) => (
+                  <div
+                    key={`${item.role}-${item.company}-${index}`}
+                    className="kyros-resume__item"
+                    data-aos="fade-up"
+                    data-aos-delay={index * 120}
+                  >
+                    <h3 className="kyros-resume__title">{item.role}</h3>
+                    <div className="kyros-resume__meta">
+                      <span>{item.company}</span>
+                      <span>•</span>
+                      <span>{item.dates}</span>
+                    </div>
+                    <div className="kyros-resume__description">
+                      {item.overview && item.overview.trim().length > 0 && (
+                        <p className="text-muted" style={{ marginTop: '0.75rem' }}>
+                          <strong>Overview:</strong> {item.overview}
+                        </p>
+                      )}
+                      {renderDescription(item.description)}
+                      {item.skills && item.skills.trim().length > 0 && (
+                        <p className="text-muted" style={{ marginTop: '0.75rem' }}>
+                          <strong>Skills:</strong> {item.skills}
+                        </p>
+                      )}
+                      {item.notableAchievements && item.notableAchievements.trim().length > 0 && (
+                        <div className="text-muted" style={{ marginTop: '0.75rem' }}>
+                          <strong>Notable Achievements:</strong>
+                          <ul>
+                            {item.notableAchievements
+                              .split('\n')
+                              .map((achievement) => achievement.trim())
+                              .filter((achievement) => achievement.length > 0)
+                              .map((achievement, index) => (
+                                <li key={`${achievement}-${index}`}>{achievement}</li>
+                              ))}
+                          </ul>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
-          ))}
+          </Card>
         </Stack>
       </Container>
     </FadeIn>

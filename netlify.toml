@@ -32,3 +32,6 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+[dev]
+  targetPort = 4001

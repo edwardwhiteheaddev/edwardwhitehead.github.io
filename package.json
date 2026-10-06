@@ -62,17 +62,6 @@
     "typescript": "6.0.3"
   },
   "packageManager": "pnpm@10.29.3",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@parcel/watcher",
-      "sharp",
-      "unrs-resolver"
-    ],
-    "overrides": {
-      "sharp": ">=0.35.0",
-      "postcss": ">=8.5.12"
-    }
-  },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
     "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"

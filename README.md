@@ -306,7 +306,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 - 🌐 **Website**: [edwardwhitehead.dev](https://edwardwhitehead.dev)
 - 💼 **LinkedIn**: [edward-whitehead](https://www.linkedin.com/in/edwardwhiteheaddev)
-- 📧 **Email**: [ed.surreal@gmail.com](mailto:ed.surreal@gmail.com)
+- 📧 **Email**: [hello@edwardwhitehead.dev](mailto:hello@edwardwhitehead.dev)
 - 📱 **Phone**: [+27 61-760-9568](tel:+27617609568)
 
 ---

@@ -76,8 +76,10 @@ interface ExperienceMarkdownData {
         role: string;
         company: string;
         dates: string;
+        overview?: string;
         description: string;
         skills?: string;
+        notableAchievements?: string;
     }[];
 }
 
@@ -148,6 +150,17 @@ interface ContactMarkdownData {
     contentHtml: string;
 }
 
+interface ServicesMarkdownData {
+    title: string;
+    subtitle?: string;
+    introHtml: string;
+    services: { title: string; description: string; includes: string }[];
+    engagementModels: { model: string; bestFor: string; structure: string }[];
+    processSteps: { step: string; description: string }[];
+    ctaText?: string;
+    ctaHref?: string;
+}
+
 export type {
     AboutMarkdownData,
     TbcAboutMarkdownData,
@@ -160,5 +173,6 @@ export type {
     ExperienceMarkdownData,
     ProjectsMarkdownData,
     BlogPostMarkdownData,
-    ContactMarkdownData
+    ContactMarkdownData,
+    ServicesMarkdownData
 };

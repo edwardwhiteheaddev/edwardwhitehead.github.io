@@ -10,7 +10,7 @@ interface ProjectContentClientProps {
     structuredDataJson?: string;
 }
 
-export function ProjectContentClient({ projectData, structuredDataJson }: ProjectContentClientProps) {
+export function ProjectContentClient({ projectData, structuredDataJson }: Readonly<ProjectContentClientProps>) {
     const router = useRouter();
 
     const handleLinkClick = (href: string) => {
@@ -34,48 +34,20 @@ export function ProjectContentClient({ projectData, structuredDataJson }: Projec
             )}
 
             <FadeIn>
-                <Container py="xl">
-                    {/* Page Header */}
-                    <div
-                        style={{
-                            position: 'relative',
-                            width: '100%',
-                            height: '300px',
-                            backgroundImage: `url(${projectData.image})`,
-                            backgroundColor: '#1a1b1e',
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center',
-                            backgroundRepeat: 'no-repeat',
-                            borderRadius: '12px',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            marginBottom: '3rem',
-                            border: '1px solid rgba(220, 38, 38, 0.2)',
-                            overflow: 'hidden',
-                        }}
-                    >
-                        {/* Dark overlay for text readability */}
-                        <div
-                            style={{
-                                position: 'absolute',
-                                top: 0,
-                                left: 0,
-                                right: 0,
-                                bottom: 0,
-                                background: 'linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%)',
-                                zIndex: 1,
-                            }}
-                        />
-                        <div style={{ textAlign: 'center', padding: '2rem', position: 'relative', zIndex: 2 }}>
-                            <Title order={1} size="h1" c="white" mb="md" style={{ fontSize: '2.5rem' }}>
-                                {projectData.title}
-                            </Title>
-                            <Text c="gray.2" size="xl" maw={800} mx="auto">
-                                {projectData.overview}
-                            </Text>
-                        </div>
+                {/* Page Header */}
+                <div className="projects-content-hero">
+                    <div className="projects-content__overlay" />
+                    <div className="projects-content__content">
+                        <Title order={1} size="h1" c="white" mb="sm">
+                            {projectData.title}
+                        </Title>
+                        <Text c="gray.2" size="xl" maw={800} mx="auto">
+                            {projectData.overview}
+                        </Text>
                     </div>
+                </div>
+
+                <Container py="xl">
                     <Stack gap="xl">
                         {/* Back Button */}
                         <Button

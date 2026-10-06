@@ -35,14 +35,14 @@ function renderDescription(description: string) {
 
     return (
         <ul className="text-muted">
-            {bulletLines.map((line, index) => (
-                <li key={index}>{line.replace(/^[-•]\s*/, '')}</li>
+            {bulletLines.map((line) => (
+                <li key={line}>{line.replace(/^[-•]\s*/, '')}</li>
             ))}
         </ul>
     );
 }
 
-export function ExperienceSection({ title, experience }: ExperienceSectionProps) {
+export function ExperienceSection({ title, experience }: Readonly<ExperienceSectionProps>) {
     useEffect(() => {
         Aos.init({ easing: 'ease-out-cubic', once: true, offset: 50 });
     }, []);

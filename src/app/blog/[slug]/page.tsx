@@ -1,14 +1,16 @@
-import { getAllBlogSlugs, getBlogPostBySlug } from '@/lib/markdown';
-import { BlogPostMarkdownData } from '@/schemas';
+import { getAllBlogSlugs, getBlogPostBySlug, getMarkdownData } from '@/lib/markdown';
+import { BlogPostMarkdownData, ContactMarkdownData } from '@/schemas';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { BlogContentClient } from './BlogContentClient';
+import { ContactSection } from '@/components/kyros/Contact';
+import { ScrollToTop } from '@/components/kyros/ScrollToTop';
 
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
 }
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   const blogSlugs = getAllBlogSlugs();
   return blogSlugs.map((slug) => ({
     slug,
@@ -46,7 +48,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
 }
 
-export default async function BlogPostPage({ params }: BlogPostPageProps) {
+export default async function BlogPostPage({ params }: Readonly<BlogPostPageProps>) {
   const resolvedParams = await params;
   let postData: BlogPostMarkdownData;
 
@@ -59,11 +61,24 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   // Extract structured data and serialize it separately to avoid serialization issues
   const { structuredData, ...cleanPostData } = postData;
   const structuredDataJson = structuredData ? JSON.stringify(structuredData) : undefined;
+  const contactData = await getMarkdownData<ContactMarkdownData>('contact');
 
   return (
-    <BlogContentClient
-      postData={cleanPostData as Omit<BlogPostMarkdownData, 'structuredData'>}
-      structuredDataJson={structuredDataJson}
-    />
+    <>
+      <BlogContentClient
+        postData={cleanPostData as Omit<BlogPostMarkdownData, 'structuredData'>}
+        structuredDataJson={structuredDataJson}
+      />
+      <ContactSection
+        title={contactData.title}
+        subtitle={contactData.subtitle}
+        email={contactData.email}
+        phone={contactData.phone}
+        location={contactData.location}
+        socials={contactData.socials ?? []}
+        bodyHtml={contactData.contentHtml}
+      />
+      <ScrollToTop />
+    </>
   );
 }

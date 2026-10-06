@@ -1,7 +1,7 @@
 import { BlogPostMarkdownData, ProjectsMarkdownData } from "@/schemas";
-import fs from "fs";
+import fs from "node:fs";
 import matter from "gray-matter";
-import path from "path";
+import path from "node:path";
 import { remark } from "remark";
 import html from "remark-html";
 
@@ -49,14 +49,7 @@ export async function getProjectData<T>(projectId: string): Promise<{ contentHtm
   };
 }
 
-export function getAllProjectIds(): string[] {
-  const fileNames = fs.readdirSync(projectsDirectory);
-  return fileNames
-    .filter((fileName) => fileName.endsWith('.md'))
-    .map((fileName) => fileName.replace(/\.md$/, ''));
-}
-
-export async function getAllProjects(): Promise<ProjectsMarkdownData[]> {
+export function getAllProjects(): Promise<ProjectsMarkdownData[]> {
   const fileNames = fs.readdirSync(projectsDirectory);
   const allProjectsData: ProjectsMarkdownData[] = [];
 
@@ -79,7 +72,7 @@ export async function getAllProjects(): Promise<ProjectsMarkdownData[]> {
   }
 
   // Sort projects by id
-  return allProjectsData.sort((a, b) => a.id - b.id);
+  return Promise.resolve(allProjectsData.toSorted((a, b) => a.id - b.id));
 }
 
 export async function getFeaturedProjects(): Promise<ProjectsMarkdownData[]> {
@@ -87,11 +80,21 @@ export async function getFeaturedProjects(): Promise<ProjectsMarkdownData[]> {
   return allProjects.filter(project => project.featured === true);
 }
 
-export function getAllProjectSlugs(): string[] {
+export function getAllProjectSlugs(): Promise<string[]> {
+  return listProjectIdentifiers();
+}
+
+export function getAllProjectIds(): Promise<string[]> {
+  return listProjectIdentifiers();
+}
+
+function listProjectIdentifiers() {
   const fileNames = fs.readdirSync(projectsDirectory);
-  return fileNames
-    .filter((fileName) => fileName.endsWith('.md'))
-    .map((fileName) => fileName.replace(/\.md$/, ''));
+  return Promise.resolve(
+    fileNames
+      .filter((fileName) => fileName.endsWith('.md'))
+      .map((fileName) => fileName.replace(/\.md$/, ''))
+  );
 }
 
 export async function getBlogPostBySlug<T>(slug: string): Promise<{ contentHtml: string } & T> {
@@ -115,7 +118,7 @@ export async function getBlogPostBySlug<T>(slug: string): Promise<{ contentHtml:
   };
 }
 
-export async function getAllBlogPosts(): Promise<BlogPostMarkdownData[]> {
+export function getAllBlogPosts(): Promise<BlogPostMarkdownData[]> {
   const fileNames = fs.readdirSync(blogDirectory);
   const allPostsData: BlogPostMarkdownData[] = [];
 
@@ -138,9 +141,9 @@ export async function getAllBlogPosts(): Promise<BlogPostMarkdownData[]> {
   }
 
   // Sort posts by date (newest first)
-  return allPostsData.sort((a, b) => {
+  return Promise.resolve(allPostsData.toSorted((a, b) => {
     return new Date(b.date).getTime() - new Date(a.date).getTime();
-  });
+  }));
 }
 
 export async function getFeaturedBlogs(): Promise<BlogPostMarkdownData[]> {
