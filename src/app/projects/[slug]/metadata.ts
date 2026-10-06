@@ -7,7 +7,7 @@ interface ProjectPageProps {
 }
 
 export async function generateStaticParams() {
-    const projectSlugs = getAllProjectSlugs();
+    const projectSlugs = await getAllProjectSlugs();
     return projectSlugs.map((slug) => ({
         slug,
     }));

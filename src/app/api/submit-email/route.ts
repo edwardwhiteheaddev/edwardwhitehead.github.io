@@ -49,7 +49,7 @@ export async function POST(request: NextRequest) {
         // Send notification email to yourself
         const adminEmailResult = await resend.emails.send({
             from: 'The Comeback Build <noreply@edwardwhitehead.dev>',
-            to: 'ed.surreal@gmail.com', // Your email address
+            to: 'hello@edwardwhitehead.dev', // Your email address
             subject: 'New Email Submission - The Comeback Build',
             html: `
                 <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">

@@ -6,6 +6,7 @@ const FOOTER_LINKS = [
     { label: 'X', href: 'https://x.com/edwhiteheaddev' },
     { label: 'Instagram', href: 'https://www.instagram.com/edwardwhiteheaddev' },
     { label: 'Facebook', href: 'https://www.facebook.com/edwardwhiteheaddev' },
+    { label: 'WhatsApp', href: 'https://wa.me/+27617609568' }
 ];
 
 export function KyrosFooter() {

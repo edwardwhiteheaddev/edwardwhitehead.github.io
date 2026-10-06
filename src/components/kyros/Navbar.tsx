@@ -12,12 +12,13 @@ import Topbar from './Topbar';
 
 const NAV_ITEMS = [
     { label: 'Home', target: '/' },
-    { label: 'About', target: '/#about' },
+    { label: 'About', target: '/about' },
     { label: 'Expertise', target: '/#skills' },
-    { label: 'Experience', target: '/#experience' },
-    { label: 'Projects', target: '/#projects' },
-    { label: 'Contact', target: '/#contact' },
-    { label: 'Blog', target: '/blog' }
+    { label: 'Experience', target: '/experience' },
+    { label: 'Projects', target: '/projects' },
+    { label: 'Services', target: '/services' },
+    { label: 'Blog', target: '/blog' },
+    { label: 'Contact', target: '/#contact' }
 ];
 
 export function KyrosNavbar() {

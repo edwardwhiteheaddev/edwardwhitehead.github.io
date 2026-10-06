@@ -25,7 +25,7 @@ export async function POST(request: NextRequest) {
   // Email content
   const mailOptions = {
     from: `"Website Contact Form" <${process.env.SMTP_USER}>`, // Sender address
-    to: "ed.surreal@gmail.com", // Edward's email address
+    to: "hello@edwardwhitehead.dev", // Edward's email address
     replyTo: email,
     subject: `New message from ${name}`,
     text: message,

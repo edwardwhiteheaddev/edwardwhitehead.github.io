@@ -22,7 +22,7 @@ export interface ProjectsSectionProps {
     projects: ProjectItem[];
 }
 
-export function ProjectsSection({ title, projects }: ProjectsSectionProps) {
+export function ProjectsSection({ title, projects }: Readonly<ProjectsSectionProps>) {
     useEffect(() => {
         Aos.init({ easing: 'ease-out-cubic', once: true, offset: 50 });
     }, []);

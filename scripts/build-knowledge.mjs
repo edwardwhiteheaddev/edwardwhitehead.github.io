@@ -1,18 +1,20 @@
-import { promises as fs } from 'node:fs';
-import path from 'node:path';
-import matter from 'gray-matter';
-import OpenAI from 'openai';
+import { promises as fs } from "node:fs";
+import path from "node:path";
+import matter from "gray-matter";
+import OpenAI from "openai";
 
 const root = process.cwd();
-const contentDir = path.join(root, 'content');
-const outputPath = path.join(root, 'public', 'chatbot-knowledge.json');
+const contentDir = path.join(root, "content");
+const outputPath = path.join(root, "public", "chatbot-knowledge.json");
 const openRouterKey = process.env.OPENROUTER_API_KEY;
 const embeddingModel =
-  process.env.CHATBOT_EMBEDDING_MODEL ?? process.env.CHATBOT_MODEL ?? 'openai/text-embedding-3-small';
+  process.env.CHATBOT_EMBEDDING_MODEL ??
+  process.env.CHATBOT_MODEL ??
+  "google/gemma-4-26b-a4b-it:free";
 const openai = openRouterKey
   ? new OpenAI({
       apiKey: openRouterKey,
-      baseURL: 'https://openrouter.ai/api/v1',
+      baseURL: "https://openrouter.ai/api/v1",
     })
   : null;
 
@@ -20,32 +22,44 @@ async function collectDocuments() {
   const entries = [];
   async function walk(dir, segments = []) {
     const items = await fs.readdir(dir, { withFileTypes: true });
-    for (const item of items) {
-      const nextPath = path.join(dir, item.name);
-      if (item.isDirectory()) {
-        await walk(nextPath, [...segments, item.name]);
-      } else if (item.name.endsWith('.md')) {
-        const slug = [...segments, item.name.replace(/\.md$/i, '')];
-        const raw = await fs.readFile(nextPath, 'utf8');
-        const parsed = matter(raw);
-        const content = parsed.content.replaceAll('\r\n', '\n').trim();
-        if (!content) continue;
-        const chunks = chunkContent(content);
-        for (let index = 0; index < chunks.length; index += 1) {
-          const fragment = chunks[index];
-          const embedding = await embedFragment(fragment);
-          entries.push({
-            id: `${slug.join('/')}-${index + 1}`,
-            slug: slug.join('/'),
-            title: parsed.data?.title ?? slug.at(-1),
-            excerpt: fragment.slice(0, 160),
-            content: fragment,
-            embedding,
-            metadata: parsed.data ?? {},
+    const localEntries = [];
+    const results = await Promise.all(
+      items.map(async (item) => {
+        const nextPath = path.join(dir, item.name);
+        if (item.isDirectory()) {
+          // Recursively collect documents from subdirectory
+          const subEntries = await walk(nextPath, [...segments, item.name]);
+          return subEntries;
+        } else if (item.name.endsWith(".md")) {
+          const slug = [...segments, item.name.replace(/\.md$/i, "")];
+          const raw = await fs.readFile(nextPath, "utf8");
+          const parsed = matter(raw);
+          const content = parsed.content.replaceAll("\r\n", "\n").trim();
+          if (!content) return [];
+          const chunks = chunkContent(content);
+          const docPromises = chunks.map(async (fragment, index) => {
+            const embedding = await embedFragment(fragment);
+            return {
+              id: `${slug.join("/")}-${index + 1}`,
+              slug: slug.join("/"),
+              title: parsed.data?.title ?? slug.at(-1),
+              excerpt: fragment.slice(0, 160),
+              content: fragment,
+              embedding,
+              metadata: parsed.data ?? {},
+            };
           });
+          return Promise.all(docPromises);
         }
-      }
-    }
+        return [];
+      }),
+    );
+    // Flatten results and add to local entries
+    const flatResults = results.flat(Infinity);
+    localEntries.push(...flatResults);
+    // Also add to global entries
+    entries.push(...flatResults);
+    return localEntries;
   }
   await walk(contentDir);
   return entries;
@@ -54,23 +68,36 @@ async function collectDocuments() {
 async function embedFragment(text) {
   if (!openai) return null;
   try {
-    const response = await openai.embeddings.create({ model: embeddingModel, input: text, encoding_format: 'float' });
+    const response = await openai.embeddings.create({
+      model: embeddingModel,
+      input: text,
+      encoding_format: "float",
+    });
     const data = response.data;
     if (!Array.isArray(data)) {
-      console.warn(`Failed to generate embedding: unexpected API response. Continuing without embeddings.`, JSON.stringify(response).slice(0, 500));
+      console.warn(
+        `Failed to generate embedding: unexpected API response. Continuing without embeddings.`,
+        JSON.stringify(response).slice(0, 500),
+      );
       return null;
     }
     return data[0]?.embedding ?? null;
   } catch (error) {
-    console.warn(`Failed to generate embedding: ${error.message}. Continuing without embeddings.`, JSON.stringify(error, null, 2).slice(0, 1000));
+    console.warn(
+      `Failed to generate embedding: ${error.message}. Continuing without embeddings.`,
+      JSON.stringify(error, null, 2).slice(0, 1000),
+    );
     return null;
   }
 }
 
 function chunkContent(text, size = 900) {
-  const paragraphs = text.split(/\n{2,}/).map((paragraph) => paragraph.trim()).filter(Boolean);
+  const paragraphs = text
+    .split(/\n{2,}/)
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean);
   const chunks = [];
-  let current = '';
+  let current = "";
   for (const paragraph of paragraphs) {
     const candidate = current ? `${current}\n\n${paragraph}` : paragraph;
     if (candidate.length <= size) {
@@ -80,7 +107,7 @@ function chunkContent(text, size = 900) {
       if (paragraph.length > size) {
         const parts = splitLongParagraph(paragraph, size);
         parts.slice(0, -1).forEach((part) => chunks.push(part));
-        current = parts.at(-1) ?? '';
+        current = parts.at(-1) ?? "";
       } else {
         current = paragraph;
       }
@@ -93,7 +120,7 @@ function chunkContent(text, size = 900) {
 function splitLongParagraph(paragraph, size) {
   const words = paragraph.split(/\s+/);
   const segments = [];
-  let current = '';
+  let current = "";
   for (const word of words) {
     const candidate = current ? `${current} ${word}` : word;
     if (candidate.length <= size) {
@@ -112,16 +139,20 @@ async function main() {
   const payload = {
     generatedAt: new Date().toISOString(),
     documentCount: documents.length,
-    source: 'content',
+    source: "content",
     embeddingModel: openai ? embeddingModel : null,
     documents,
   };
   await fs.mkdir(path.dirname(outputPath), { recursive: true });
-  await fs.writeFile(outputPath, JSON.stringify(payload, null, 2), 'utf8');
-  console.log(`Knowledge base saved to ${path.relative(root, outputPath)} with ${documents.length} segments.`);
+  await fs.writeFile(outputPath, JSON.stringify(payload, null, 2), "utf8");
+  console.log(
+    `Knowledge base saved to ${path.relative(root, outputPath)} with ${documents.length} segments.`,
+  );
 }
 
-main().catch((error) => {
+try {
+  await main();
+} catch (error) {
   console.error(error);
   process.exit(1);
-});
+}

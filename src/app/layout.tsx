@@ -1,16 +1,24 @@
-import { Providers } from '@/components/Providers';
-import { SiteShell } from '@/components/SiteShell';
-import { ColorSchemeScript } from '@mantine/core';
+import { Providers } from "@/components/Providers";
+import { SiteShell } from "@/components/SiteShell";
+import { ColorSchemeScript } from "@mantine/core";
 import "@mantine/core/styles.css";
-import 'aos/dist/aos.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import type { Viewport } from 'next';
-import { Roboto, Saira } from 'next/font/google';
-import React from 'react';
-import './globals.scss';
+import "aos/dist/aos.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import type { Viewport } from "next";
+import { Roboto, Saira } from "next/font/google";
+import React from "react";
+import "./globals.scss";
 
-const saira = Saira({ subsets: ['latin'], variable: '--font-saira', weight: ['400', '500', '600', '700', '800'] });
-const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto', weight: ['300', '400', '500', '700'] });
+const saira = Saira({
+  subsets: ["latin"],
+  variable: "--font-saira",
+  weight: ["400", "500", "600", "700", "800"],
+});
+const roboto = Roboto({
+  subsets: ["latin"],
+  variable: "--font-roboto",
+  weight: ["300", "400", "500", "700"],
+});
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -21,23 +29,37 @@ export const viewport: Viewport = {
   minimumScale: 1,
   themeColor: {
     color: "#000000",
-    media: "(prefers-color-scheme: dark)"
+    media: "(prefers-color-scheme: dark)",
   },
   colorScheme: "dark",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${saira.variable} ${roboto.variable}`} suppressHydrationWarning data-scroll-behavior="smooth">
+    <html
+      lang="en"
+      className={`${saira.variable} ${roboto.variable}`}
+      suppressHydrationWarning
+      data-scroll-behavior="smooth"
+    >
       <head>
         <ColorSchemeScript />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link href="https://googleapis.com" rel="stylesheet" />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
           integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
-          precedence='preload'
+          precedence="preload"
         />
       </head>
       <body>

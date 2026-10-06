@@ -20,7 +20,7 @@ export interface ContactSectionProps {
     bodyHtml: string;
 }
 
-export function ContactSection({ title, subtitle, email, phone, location, socials, bodyHtml }: ContactSectionProps) {
+export function ContactSection({ title, subtitle, email, phone, location, socials, bodyHtml }: Readonly<ContactSectionProps>) {
     useEffect(() => {
         Aos.init({ easing: 'ease-out-cubic', once: true, offset: 50 });
     }, []);

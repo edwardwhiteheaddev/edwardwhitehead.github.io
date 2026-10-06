@@ -7,6 +7,19 @@ export async function generateMetadata({ metaDataFile, projectData }: { metaData
     if (projectData) {
         const allowedTwitterCards = ['summary', 'summary_large_image', 'app', 'player'] as const;
         const twitterCard = allowedTwitterCards.find((card) => card === projectData.twitterCard) ?? 'summary_large_image';
+        let images: { url: string }[] | undefined;
+        if (projectData.ogImage) {
+            images = [{ url: projectData.ogImage }];
+        } else if (projectData.image) {
+            images = [{ url: projectData.image }];
+        }
+
+        let twitterImages: string[] | undefined;
+        if (projectData.twitterImage) {
+            twitterImages = [projectData.twitterImage];
+        } else if (projectData.image) {
+            twitterImages = [projectData.image];
+        }
 
         return {
             metadataBase: new URL('https://edwardwhitehead.dev'),
@@ -19,14 +32,14 @@ export async function generateMetadata({ metaDataFile, projectData }: { metaData
                 type: 'website',
                 title: projectData.ogTitle || projectData.title,
                 description: projectData.ogDescription || projectData.description,
-                images: projectData.ogImage ? [{ url: projectData.ogImage }] : projectData.image ? [{ url: projectData.image }] : undefined,
+                images,
                 url: projectData.canonicalUrl || `https://edwardwhitehead.dev/projects/${projectData.slug}`,
             },
             twitter: {
                 card: twitterCard,
                 title: projectData.twitterTitle || projectData.title,
                 description: projectData.twitterDescription || projectData.description,
-                images: projectData.twitterImage ? [projectData.twitterImage] : projectData.image ? [projectData.image] : undefined,
+                images: twitterImages,
             },
             icons: {
                 icon: '/favicon.ico',
@@ -90,7 +103,7 @@ export async function generateMetadata({ metaDataFile, projectData }: { metaData
             return {
                 title: 'Edward Whitehead | Seasoned Software Developer',
                 description:
-                    "Welcome to the personal resume website of Edward Whitehead, a software developer specializing in AI, web, and mobile projects.",
+                    "Welcome to the personal resume website of Edward Whitehead, a technology leader specializing in AI, web, and mobile projects.",
             };
         }
     }
@@ -99,6 +112,6 @@ export async function generateMetadata({ metaDataFile, projectData }: { metaData
     return {
         title: 'Edward Whitehead | Seasoned Software Developer',
         description:
-            "Welcome to the personal resume website of Edward Whitehead, a software developer specializing in AI, web, and mobile projects.",
+            "Welcome to the personal resume website of Edward Whitehead, a technology leader specializing in AI, web, and mobile projects.",
     };
 }

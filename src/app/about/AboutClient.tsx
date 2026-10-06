@@ -30,9 +30,6 @@ export function AboutClient({ data }: Readonly<{ data: AboutData }>) {
           <Title order={1} size="h1" c="white" mb="sm">
             {title}
           </Title>
-          <Text c="gray.2" size="lg" maw={720} ta="center">
-            A candid, AI-shaped snapshot of who I am right now.
-          </Text>
         </div>
       </div>
 

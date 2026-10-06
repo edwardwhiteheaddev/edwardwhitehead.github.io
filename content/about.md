@@ -1,23 +1,21 @@
 ---
-title: 'About Me'
-skillProgress:
-  - { label: 'Team Leadership', value: 35 }
-  - { label: 'Product & GTM', value: 30 }
-  - { label: 'Architecture', value: 25 }
-  - { label: 'AI Innovation', value: 10 }
-  - { label: 'Total', value: 100 }
+title: 'ABOUT'
 ---
 
 Technology, Operations and Delivery Leader with more than 20 years of experience successfully delivering complex technical solutions, large-scale public events, enterprise software platforms and business transformation initiatives.
 
 Throughout my career I have combined deep technical expertise with strong commercial and operational leadership, allowing me to move comfortably between software architecture, project delivery, stakeholder management, business development and large-scale operational execution.
 
-**Core Expertise:**
+**What I Do:**
 
-- **Full-Stack Engineering:** .Net MAUI, Flutter, TypeScript, React, Next.js, Node.js, Firebase, MongoDB, PostgreSQL, AWS, Azure, Docker, Kubernetes
-- **Strategic & Technology Leadership:** Technical Due Diligence, Cross-Functional Team Leadership, Remote Orchestration, Risk & Budget Management, Product Strategy
-- **Architecture & Cloud:** Enterprise Modernisation, Edge AI & Vector Search, Microservices, Azure DevOps, PostgreSQL RLS, Serverless Architecture
+- **Technical Delivery:** Turn complex technical initiatives into structured delivery plans, coordinating teams, stakeholders, vendors and releases.
+- **Digital Transformation:** Modernise legacy platforms, remove technical constraints and establish practical migration paths.
+- **Software Architecture:** Design pragmatic architectures across cloud, mobile, SaaS, APIs and AI-enabled systems.
+- **Product & Technology Strategy:** Translate business objectives into product direction, technical priorities and executable roadmaps.
+- **AI & Automation:** Evaluate and implement practical AI and automation where it improves operational efficiency.
+- **Technology Operations:** Bring structure to environments suffering from technical debt, unclear ownership, delivery friction or operational complexity.
 - **Event & Operational Leadership:** Large-Scale Event Management, Vendor Negotiation, Municipal Licensing, Health & Safety Compliance
+- **Technical Skills:** .Net MAUI, Flutter, TypeScript, React, Next.js, Node.js, Firebase, MongoDB, PostgreSQL, Azure, Docker
 
 **Notable Ventures:**
 

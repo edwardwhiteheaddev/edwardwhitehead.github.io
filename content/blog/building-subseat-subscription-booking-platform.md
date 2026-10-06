@@ -6,7 +6,7 @@ description: 'A behind-the-scenes look at the product and engineering work I’m
 category: 'Engineering'
 tags: ['Startups', 'Product Strategy', 'Subscriptions', 'Booking', 'Beauty & Wellness', 'B2B SaaS', 'Marketplace']
 image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&q=80'
-featured: true
+featured: false
 author: 'Edward Whitehead'
 
 # SEO and AEO metadata fields

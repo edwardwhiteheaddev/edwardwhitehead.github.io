@@ -15,7 +15,7 @@ export interface SkillsSectionProps {
     contentHtml?: string;
 }
 
-export function SkillsSection({ title, subtitle, skills, contentHtml }: SkillsSectionProps) {
+export function SkillsSection({ title, subtitle, skills, contentHtml }: Readonly<SkillsSectionProps>) {
     useEffect(() => {
         Aos.init({ easing: 'ease-out-cubic', once: true, offset: 50 });
     }, []);
@@ -45,7 +45,7 @@ export function SkillsSection({ title, subtitle, skills, contentHtml }: SkillsSe
                 {contentHtml && (
                     <div className="kyros-skills-highlights" data-aos="fade-up" data-aos-delay={(skills.length * 100) + 100}>
                         <div className="section-heading">
-                            <h3>Key Highlights</h3>
+                            <h3>WHAT I DO</h3>
                             <div className="divider" />
                         </div>
                         <div

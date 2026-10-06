@@ -61,7 +61,7 @@ export const handler: Handler = async (event) => {
         // Email content
         const mailOptions = {
             from: `"Website Contact Form" <${process.env.SMTP_USER}>`,
-            to: "ed.surreal@gmail.com",
+            to: "hello@edwardwhitehead.dev",
             replyTo: email,
             subject: `New message from ${name}`,
             text: message,

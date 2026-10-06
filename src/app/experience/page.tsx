@@ -1,18 +1,8 @@
 import { getMarkdownData } from "@/lib/markdown";
 import { ExperienceClient } from "./ExperienceClient";
-
-interface Job {
-  role: string;
-  company: string;
-  dates: string;
-  description: string;
-  skills: string;
-}
-
-interface ExperienceData {
-  title: string;
-  jobs: Job[];
-}
+import { ContactSection } from "@/components/kyros/Contact";
+import { ContactMarkdownData, ExperienceMarkdownData } from '@/schemas';
+import { ScrollToTop } from "@/components/kyros/ScrollToTop";
 
 export const metadata = {
   title: "Professional Experience | Edward Whitehead",
@@ -20,6 +10,23 @@ export const metadata = {
 };
 
 export default async function ExperiencePage() {
-  const experienceData = await getMarkdownData<ExperienceData>("experience");
-  return <ExperienceClient data={experienceData} />;
+  const [experienceData, contactData] = await Promise.all([
+    getMarkdownData<ExperienceMarkdownData>("experience"),
+    getMarkdownData<ContactMarkdownData>("contact")
+  ]);
+  return (
+    <>
+      <ExperienceClient experience={experienceData} title={experienceData.title} />
+      <ContactSection
+        title={contactData.title}
+        subtitle={contactData.subtitle}
+        email={contactData.email}
+        phone={contactData.phone}
+        location={contactData.location}
+        socials={contactData.socials ?? []}
+        bodyHtml={contactData.contentHtml}
+      />
+      <ScrollToTop />
+    </>
+  );
 }
