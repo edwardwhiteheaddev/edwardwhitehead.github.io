@@ -5,22 +5,30 @@ import { getMarkdownData } from '@/lib/markdown';
 import { ServicesMarkdownData } from '@/schemas';
 import { Metadata, Viewport } from 'next';
 import { ScrollToTop } from '@/components/kyros/ScrollToTop';
+import { headers } from 'next/headers';
 
-export const metadata: Metadata = {
-    title: 'Services | Edward Whitehead',
-    description: 'Straightforward, no-fuss AI-native and technical delivery services. AI product development, legacy modernisation, SaaS architecture, fractional CTO, and more.',
-    openGraph: {
+export async function generateMetadata(): Promise<Metadata> {
+    const requestHeaders = await headers();
+    const host = (requestHeaders.get('x-forwarded-host') ?? requestHeaders.get('host') ?? 'localhost:3000').split(',')[0].trim();
+    const protocol = (requestHeaders.get('x-forwarded-proto') ?? (host.startsWith('localhost') ? 'http' : 'https')).split(',')[0].trim();
+    const imageUrl = new URL('/assets/images/og-image.png', `${protocol}://${host}`).toString();
+
+    return {
         title: 'Services | Edward Whitehead',
-        description: 'Straightforward, no-fuss AI-native and technical delivery services.',
-        type: 'website',
-        images: ['/assets/images/og-image.png'],
-    },
-    twitter: {
-        images: ['/assets/images/og-image.png'],
-        title: 'Services | Edward Whitehead',
-        description: 'Straightforward, no-fuss AI-native and technical delivery services.',
-    },
-};
+        description: 'Straightforward, no-fuss AI-native and technical delivery services. AI product development, legacy modernisation, SaaS architecture, fractional CTO, and more.',
+        openGraph: {
+            title: 'Services | Edward Whitehead',
+            description: 'Straightforward, no-fuss AI-native and technical delivery services.',
+            type: 'website',
+            images: imageUrl,
+        },
+        twitter: {
+            images: [imageUrl],
+            title: 'Services | Edward Whitehead',
+            description: 'Straightforward, no-fuss AI-native and technical delivery services.',
+        },
+    };
+}
 
 export const viewport: Viewport = {
     width: 'device-width',
